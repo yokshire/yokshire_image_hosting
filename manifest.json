@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "source": "Notion page image sync",
+  "notion_pages": [
+    {
+      "page_id": "3524c48e-4da3-81b5-8d22-c7d73ae6e455",
+      "page_title": "paper",
+      "page_url": "https://app.notion.com/p/3524c48e4da381b58d22c7d73ae6e455"
+    }
+  ],
+  "assets": [
+    {
+      "id": "best_kl_reps_8_16_24",
+      "status": "active",
+      "origin": "notion_upload",
+      "notion_filename": "best_kl_reps_8_16_24.png",
+      "github_path": "figures/best_kl_reps_8_16_24.png",
+      "raw_url": "https://raw.githubusercontent.com/yokshire/yokshire_image_hosting/main/figures/best_kl_reps_8_16_24.png",
+      "sha256": "ffad72f2296990a5b8545d7385c77ea17ad24922045a325aac12d9d24dc2479e",
+      "bytes": 54632,
+      "synced_at": "2026-04-30T16:25:00+09:00"
+    }
+  ]
+}
