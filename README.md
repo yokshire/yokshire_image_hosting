@@ -1,6 +1,24 @@
-# Notion GitHub Hosted Figures
+# Research Figure Hosting Assets
 
-These SVG files wrap the original local raster figures as UTF-8 text so they can be uploaded through the GitHub connector and served through raw.githubusercontent.com.
+This repository hosts figure assets for research documentation and manuscript
+drafting. The `figures/` directory contains the original PNG/JPG assets used by
+Notion and manuscript pages through raw.githubusercontent.com URLs.
+
+The `notion_github_hosted_figures/` directory contains SVG wrappers generated
+from the same local raster figures. These wrappers were kept as a fallback for
+text-based upload workflows.
+
+## Copyright and reuse
+
+This repository intentionally has no open-source or open-content license. Public
+visibility is used only for figure rendering in research documents and academic
+review workflows.
+
+Unless explicit written permission is granted by the repository owner, the
+images and derived assets may not be copied, redistributed, modified, published,
+or reused outside the associated research/manuscript context.
+
+See [NOTICE.md](NOTICE.md) for the full reuse notice.
 
 | slug | source | status | upload path |
 | --- | --- | --- | --- |
