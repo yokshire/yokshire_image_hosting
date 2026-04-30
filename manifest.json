@@ -11,14 +11,17 @@
   "assets": [
     {
       "id": "best_kl_reps_8_16_24",
-      "status": "active",
+      "status": "archived",
       "origin": "notion_upload",
       "notion_filename": "best_kl_reps_8_16_24.png",
-      "github_path": "figures/best_kl_reps_8_16_24.png",
-      "raw_url": "https://raw.githubusercontent.com/yokshire/yokshire_image_hosting/main/figures/best_kl_reps_8_16_24.png",
+      "github_path": "figures/archive/2026-04-30/best_kl_reps_8_16_24.png",
+      "raw_url": "https://raw.githubusercontent.com/yokshire/yokshire_image_hosting/main/figures/archive/2026-04-30/best_kl_reps_8_16_24.png",
+      "previous_github_path": "figures/best_kl_reps_8_16_24.png",
       "sha256": "ffad72f2296990a5b8545d7385c77ea17ad24922045a325aac12d9d24dc2479e",
       "bytes": 54632,
-      "synced_at": "2026-04-30T16:25:00+09:00"
+      "synced_at": "2026-04-30T16:25:00+09:00",
+      "archived_at": "2026-04-30T16:35:00+09:00",
+      "archive_reason": "Removed from Notion paper page"
     }
   ]
 }
