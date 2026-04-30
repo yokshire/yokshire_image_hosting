@@ -8,18 +8,6 @@ The `notion_github_hosted_figures/` directory contains SVG wrappers generated
 from the same local raster figures. These wrappers were kept as a fallback for
 text-based upload workflows.
 
-## Copyright and reuse
-
-This repository intentionally has no open-source or open-content license. Public
-visibility is used only for figure rendering in research documents and academic
-review workflows.
-
-Unless explicit written permission is granted by the repository owner, the
-images and derived assets may not be copied, redistributed, modified, published,
-or reused outside the associated research/manuscript context.
-
-See [NOTICE.md](NOTICE.md) for the full reuse notice.
-
 | slug | source | status | upload path |
 | --- | --- | --- | --- |
 | `fig_3_1_scattering_path_Dl_notation` | `final_figure/refer_pre_paper/notation_context/scattering_path_Dl_notation.jpg` | OK | `notion_github_hosted_figures/fig_3_1_scattering_path_Dl_notation.svg` |
@@ -59,3 +47,15 @@ See [NOTICE.md](NOTICE.md) for the full reuse notice.
 | `fig_4_7_q66_fft_best_profile` | `final_figure/qmci_qae_curated/2d_best_representatives/q66_fft_best_profile_z0p5_reps24.png` | OK | `notion_github_hosted_figures/fig_4_7_q66_fft_best_profile.svg` |
 | `fig_4_8_kl_threshold_rmse_norm_convergence` | `final_figure/kl_ladder_q60/figures/kl_threshold_rmse_norm_convergence.png` | OK | `notion_github_hosted_figures/fig_4_8_kl_threshold_rmse_norm_convergence.svg` |
 | `fig_4_9_kl_threshold_mse_norm_vs_invshots` | `final_figure/kl_ladder_q60/figures/kl_threshold_mse_norm_vs_invshots.png` | OK | `notion_github_hosted_figures/fig_4_9_kl_threshold_mse_norm_vs_invshots.svg` |
+
+## Copyright and reuse
+
+This repository intentionally has no open-source or open-content license. Public
+visibility is used only for figure rendering in research documents and academic
+review workflows.
+
+Unless explicit written permission is granted by the repository owner, the
+images and derived assets may not be copied, redistributed, modified, published,
+or reused outside the associated research/manuscript context.
+
+See [NOTICE.md](NOTICE.md) for the full reuse notice.
