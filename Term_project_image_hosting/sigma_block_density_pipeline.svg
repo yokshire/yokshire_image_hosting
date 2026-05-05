@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="760" viewBox="0 0 2200 760">
+  <rect width="2200" height="760" fill="#fbfbf8"/>
+  <text x="1100" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#1f2933">Block-density decoding pipeline</text>
+  <text x="1100" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#52606d">Raw sigma blocks depend on the coset representative; the column density removes that dependence.</text>
+  <defs>
+    <marker id="arrow" markerWidth="13" markerHeight="13" refX="10" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L11,4 z" fill="#334e68"/></marker>
+    <style>
+      .box{fill:white;stroke:#1f2933;stroke-width:3;rx:15;}
+      .hi{fill:#eff6ff;stroke:#2563eb;stroke-width:4;rx:15;}
+      .txt{font-family:Arial, Helvetica, sans-serif;font-size:24px;font-weight:700;fill:#102a43;}
+      .small{font-family:Arial, Helvetica, sans-serif;font-size:19px;fill:#486581;}
+      .mono{font-family:Consolas, Menlo, monospace;font-size:25px;fill:#1f2933;}
+      .arr{stroke:#334e68;stroke-width:4;fill:none;marker-end:url(#arrow);}
+    </style>
+  </defs>
+  <g transform="translate(55 165)">
+    <rect class="box" x="0" y="0" width="185" height="105"/><text class="mono" x="92" y="62" text-anchor="middle">|gH_c&gt;</text>
+    <path class="arr" d="M195 52 L255 52"/>
+    <rect class="box" x="265" y="0" width="230" height="105"/><text class="txt" x="380" y="45" text-anchor="middle">Non-Abelian</text><text class="txt" x="380" y="76" text-anchor="middle">QFT</text>
+    <path class="arr" d="M505 52 L565 52"/>
+    <rect class="box" x="575" y="0" width="250" height="105"/><text class="mono" x="700" y="63" text-anchor="middle">A_sigma(gH_c)</text>
+    <path class="arr" d="M835 52 L895 52"/>
+    <rect class="hi" x="905" y="0" width="295" height="105"/><text class="mono" x="1052" y="46" text-anchor="middle">A_sigma^dagger</text><text class="mono" x="1052" y="76" text-anchor="middle">A_sigma</text>
+    <path class="arr" d="M1210 52 L1270 52"/>
+    <rect class="hi" x="1280" y="0" width="300" height="105"/><text class="mono" x="1430" y="46" text-anchor="middle">(4/5)|u_c&gt;</text><text class="mono" x="1430" y="76" text-anchor="middle">&lt;u_c|</text>
+    <path class="arr" d="M1590 52 L1650 52"/>
+    <rect class="box" x="1660" y="0" width="185" height="105"/><text class="txt" x="1752" y="63" text-anchor="middle">normalize</text>
+    <path class="arr" d="M1855 52 L1915 52"/>
+    <rect class="hi" x="1925" y="0" width="215" height="105"/><text class="mono" x="2032" y="48" text-anchor="middle">|u_c&gt;</text><text class="mono" x="2032" y="78" text-anchor="middle">&lt;u_c|</text>
+  </g>
+  <g transform="translate(520 380)">
+    <rect class="box" x="0" y="0" width="260" height="105"/><text class="txt" x="130" y="45" text-anchor="middle">top</text><text class="txt" x="130" y="76" text-anchor="middle">eigenvector</text>
+    <path class="arr" d="M270 52 L340 52"/>
+    <rect class="box" x="350" y="0" width="315" height="105"/><text class="txt" x="507" y="45" text-anchor="middle">inverse-Fourier</text><text class="txt" x="507" y="76" text-anchor="middle">decoding</text>
+    <path class="arr" d="M675 52 L745 52"/>
+    <rect class="hi" x="755" y="0" width="255" height="105"/><text class="mono" x="882" y="64" text-anchor="middle">argmax = c</text>
+    <path d="M1510 -210 C1510 -95 130  -95 130 -10" fill="none" stroke="#334e68" stroke-width="4" marker-end="url(#arrow)"/>
+  </g>
+  <g transform="translate(290 590)">
+    <rect x="0" y="0" width="1620" height="88" rx="16" fill="#fff7ed" stroke="#fb923c" stroke-width="3"/>
+    <text x="810" y="35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#7c2d12">Representative dependence is row-side ambiguity.</text>
+    <text x="810" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#9a3412">A_sigma(gH_c) changes with g, but A_sigma(gH_c)^dagger A_sigma(gH_c) = A_sigma(H_c)^dagger A_sigma(H_c).</text>
+  </g>
+</svg>
