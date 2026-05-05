@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="800" viewBox="0 0 1700 800">
+  <rect width="1700" height="800" fill="#fbfbf8"/>
+  <text x="850" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#1f2933">Weak sampling versus block-density decoding</text>
+  <text x="850" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#52606d">Weak Fourier sampling chooses an irrep label; the hidden point is in the internal sigma_4d phase vector.</text>
+  <defs>
+    <style>
+      .title{font-family:Arial, Helvetica, sans-serif;font-size:30px;font-weight:700;fill:#102a43;}
+      .axis{stroke:#334e68;stroke-width:3;}
+      .tick{font-family:Arial, Helvetica, sans-serif;font-size:20px;fill:#334e68;}
+      .note{font-family:Arial, Helvetica, sans-serif;font-size:24px;fill:#334e68;}
+      .mono{font-family:Consolas, Menlo, monospace;font-size:25px;fill:#1f2933;}
+    </style>
+  </defs>
+  <g transform="translate(70 150)">
+    <rect x="0" y="0" width="735" height="560" rx="18" fill="white" stroke="#cbd5e1" stroke-width="2"/>
+    <text class="title" x="367" y="52" text-anchor="middle">Weak sampling: irrep label only</text>
+    <line class="axis" x1="105" y1="455" x2="665" y2="455"/>
+    <line class="axis" x1="105" y1="110" x2="105" y2="455"/>
+    <text class="tick" x="82" y="462" text-anchor="end">0</text>
+    <text class="tick" x="82" y="289" text-anchor="end">0.4</text>
+    <text class="tick" x="82" y="116" text-anchor="end">0.8</text>
+    <rect x="132" y="369" width="78" height="86" fill="#60a5fa"/><text class="tick" x="171" y="490" text-anchor="middle">chi_0</text><text class="tick" x="171" y="350" text-anchor="middle">0.2</text>
+    <rect x="240" y="455" width="78" height="0" fill="#cbd5e1"/><text class="tick" x="279" y="490" text-anchor="middle">chi_1</text><text class="tick" x="279" y="435" text-anchor="middle">0</text>
+    <rect x="348" y="455" width="78" height="0" fill="#cbd5e1"/><text class="tick" x="387" y="490" text-anchor="middle">chi_2</text><text class="tick" x="387" y="435" text-anchor="middle">0</text>
+    <rect x="456" y="455" width="78" height="0" fill="#cbd5e1"/><text class="tick" x="495" y="490" text-anchor="middle">chi_3</text><text class="tick" x="495" y="435" text-anchor="middle">0</text>
+    <rect x="564" y="110" width="78" height="345" fill="#2563eb"/><text class="tick" x="603" y="490" text-anchor="middle">sigma_4d</text><text class="tick" x="603" y="92" text-anchor="middle">0.8</text>
+  </g>
+  <g transform="translate(895 150)">
+    <rect x="0" y="0" width="735" height="560" rx="18" fill="white" stroke="#cbd5e1" stroke-width="2"/>
+    <text class="title" x="367" y="52" text-anchor="middle">Block density decoding: phase vector u_c</text>
+    <text class="mono" x="367" y="105" text-anchor="middle">A_sigma(gH_c)^dagger A_sigma(gH_c)</text>
+    <text class="mono" x="367" y="145" text-anchor="middle">= (4/5) |u_c&gt;&lt;u_c|</text>
+    <g transform="translate(185 185)">
+      <rect x="0" y="0" width="280" height="280" rx="10" fill="#f8fafc" stroke="#1f2933" stroke-width="3"/>
+      <g stroke="#94a3b8" stroke-width="1.5">
+        <line x1="70" y1="0" x2="70" y2="280"/><line x1="140" y1="0" x2="140" y2="280"/><line x1="210" y1="0" x2="210" y2="280"/>
+        <line x1="0" y1="70" x2="280" y2="70"/><line x1="0" y1="140" x2="280" y2="140"/><line x1="0" y1="210" x2="280" y2="210"/>
+      </g>
+      <rect x="0" y="0" width="280" height="70" fill="#bfdbfe" opacity="0.80"/>
+      <rect x="0" y="70" width="280" height="70" fill="#93c5fd" opacity="0.72"/>
+      <rect x="0" y="140" width="280" height="70" fill="#60a5fa" opacity="0.62"/>
+      <rect x="0" y="210" width="280" height="70" fill="#3b82f6" opacity="0.52"/>
+      <text class="mono" x="140" y="152" text-anchor="middle">|u_c&gt;&lt;u_c|</text>
+    </g>
+    <g transform="translate(525 230)">
+      <circle cx="0" cy="0" r="11" fill="#2563eb"/><circle cx="0" cy="75" r="11" fill="#1d4ed8"/><circle cx="0" cy="150" r="11" fill="#1e40af"/><circle cx="0" cy="225" r="11" fill="#172554"/>
+      <text class="mono" x="45" y="8">u_c phases</text>
+      <path d="M0 0 C36 55 36 95 0 150 C-36 195 -36 225 0 225" fill="none" stroke="#2563eb" stroke-width="4"/>
+    </g>
+    <text class="note" x="367" y="520" text-anchor="middle">Normalize, take top eigenvector, then inverse-Fourier score.</text>
+  </g>
+</svg>
