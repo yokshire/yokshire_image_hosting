@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="760" viewBox="0 0 1800 760">
+  <rect width="1800" height="760" fill="#fbfbf8"/>
+  <text x="900" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#1f2933">Decoded distributions for all hidden points</text>
+  <text x="900" y="100" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#52606d">For each c in F_5, inverse-Fourier decoding gives a unique 0.8 peak at x=c and 0.05 elsewhere.</text>
+  <defs>
+    <style>
+      .panel{fill:white;stroke:#cbd5e1;stroke-width:2;rx:14;}
+      .title{font-family:Arial, Helvetica, sans-serif;font-size:28px;font-weight:700;fill:#102a43;}
+      .tick{font-family:Arial, Helvetica, sans-serif;font-size:18px;fill:#334e68;}
+      .prob{font-family:Arial, Helvetica, sans-serif;font-size:18px;font-weight:700;fill:#1f2933;}
+      .axis{stroke:#334e68;stroke-width:2.5;}
+      .bar0{fill:#bfdbfe;}.peak{fill:#2563eb;}
+    </style>
+  </defs>
+  <g transform="translate(50 150)">
+    <g transform="translate(0 0)">
+      <rect class="panel" x="0" y="0" width="320" height="500"/><text class="title" x="160" y="44" text-anchor="middle">c=0</text><line class="axis" x1="55" y1="420" x2="285" y2="420"/><line class="axis" x1="55" y1="110" x2="55" y2="420"/>
+      <rect class="peak" x="74" y="120" width="28" height="300"/><rect class="bar0" x="116" y="401" width="28" height="19"/><rect class="bar0" x="158" y="401" width="28" height="19"/><rect class="bar0" x="200" y="401" width="28" height="19"/><rect class="bar0" x="242" y="401" width="28" height="19"/>
+      <text class="prob" x="88" y="105" text-anchor="middle">0.8</text><text class="tick" x="88" y="450" text-anchor="middle">0</text><text class="tick" x="130" y="450" text-anchor="middle">1</text><text class="tick" x="172" y="450" text-anchor="middle">2</text><text class="tick" x="214" y="450" text-anchor="middle">3</text><text class="tick" x="256" y="450" text-anchor="middle">4</text>
+    </g>
+    <g transform="translate(345 0)">
+      <rect class="panel" x="0" y="0" width="320" height="500"/><text class="title" x="160" y="44" text-anchor="middle">c=1</text><line class="axis" x1="55" y1="420" x2="285" y2="420"/><line class="axis" x1="55" y1="110" x2="55" y2="420"/>
+      <rect class="bar0" x="74" y="401" width="28" height="19"/><rect class="peak" x="116" y="120" width="28" height="300"/><rect class="bar0" x="158" y="401" width="28" height="19"/><rect class="bar0" x="200" y="401" width="28" height="19"/><rect class="bar0" x="242" y="401" width="28" height="19"/>
+      <text class="prob" x="130" y="105" text-anchor="middle">0.8</text><text class="tick" x="88" y="450" text-anchor="middle">0</text><text class="tick" x="130" y="450" text-anchor="middle">1</text><text class="tick" x="172" y="450" text-anchor="middle">2</text><text class="tick" x="214" y="450" text-anchor="middle">3</text><text class="tick" x="256" y="450" text-anchor="middle">4</text>
+    </g>
+    <g transform="translate(690 0)">
+      <rect class="panel" x="0" y="0" width="320" height="500"/><text class="title" x="160" y="44" text-anchor="middle">c=2</text><line class="axis" x1="55" y1="420" x2="285" y2="420"/><line class="axis" x1="55" y1="110" x2="55" y2="420"/>
+      <rect class="bar0" x="74" y="401" width="28" height="19"/><rect class="bar0" x="116" y="401" width="28" height="19"/><rect class="peak" x="158" y="120" width="28" height="300"/><rect class="bar0" x="200" y="401" width="28" height="19"/><rect class="bar0" x="242" y="401" width="28" height="19"/>
+      <text class="prob" x="172" y="105" text-anchor="middle">0.8</text><text class="tick" x="88" y="450" text-anchor="middle">0</text><text class="tick" x="130" y="450" text-anchor="middle">1</text><text class="tick" x="172" y="450" text-anchor="middle">2</text><text class="tick" x="214" y="450" text-anchor="middle">3</text><text class="tick" x="256" y="450" text-anchor="middle">4</text>
+    </g>
+    <g transform="translate(1035 0)">
+      <rect class="panel" x="0" y="0" width="320" height="500"/><text class="title" x="160" y="44" text-anchor="middle">c=3</text><line class="axis" x1="55" y1="420" x2="285" y2="420"/><line class="axis" x1="55" y1="110" x2="55" y2="420"/>
+      <rect class="bar0" x="74" y="401" width="28" height="19"/><rect class="bar0" x="116" y="401" width="28" height="19"/><rect class="bar0" x="158" y="401" width="28" height="19"/><rect class="peak" x="200" y="120" width="28" height="300"/><rect class="bar0" x="242" y="401" width="28" height="19"/>
+      <text class="prob" x="214" y="105" text-anchor="middle">0.8</text><text class="tick" x="88" y="450" text-anchor="middle">0</text><text class="tick" x="130" y="450" text-anchor="middle">1</text><text class="tick" x="172" y="450" text-anchor="middle">2</text><text class="tick" x="214" y="450" text-anchor="middle">3</text><text class="tick" x="256" y="450" text-anchor="middle">4</text>
+    </g>
+    <g transform="translate(1380 0)">
+      <rect class="panel" x="0" y="0" width="320" height="500"/><text class="title" x="160" y="44" text-anchor="middle">c=4</text><line class="axis" x1="55" y1="420" x2="285" y2="420"/><line class="axis" x1="55" y1="110" x2="55" y2="420"/>
+      <rect class="bar0" x="74" y="401" width="28" height="19"/><rect class="bar0" x="116" y="401" width="28" height="19"/><rect class="bar0" x="158" y="401" width="28" height="19"/><rect class="bar0" x="200" y="401" width="28" height="19"/><rect class="peak" x="242" y="120" width="28" height="300"/>
+      <text class="prob" x="256" y="105" text-anchor="middle">0.8</text><text class="tick" x="88" y="450" text-anchor="middle">0</text><text class="tick" x="130" y="450" text-anchor="middle">1</text><text class="tick" x="172" y="450" text-anchor="middle">2</text><text class="tick" x="214" y="450" text-anchor="middle">3</text><text class="tick" x="256" y="450" text-anchor="middle">4</text>
+    </g>
+  </g>
+  <text x="900" y="707" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#334e68">All 5 x 5 hidden-point/coset cases pass the noiseless argmax recovery test.</text>
+</svg>
