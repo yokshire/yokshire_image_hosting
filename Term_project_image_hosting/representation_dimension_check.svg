@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+  <rect width="1600" height="760" fill="#fbfbf8"/>
+  <text x="800" y="62" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#1f2933">Fourier block decomposition of AGL(1,5)</text>
+  <text x="800" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#334e68">1^2 + 1^2 + 1^2 + 1^2 + 4^2 = 20 = |G|</text>
+  <defs>
+    <style>
+      .label{font-family:Arial, Helvetica, sans-serif;font-size:26px;font-weight:700;fill:#102a43;}
+      .small{font-family:Arial, Helvetica, sans-serif;font-size:21px;fill:#486581;}
+      .cell{stroke:#1f2933;stroke-width:3;rx:6;}
+    </style>
+  </defs>
+  <g transform="translate(90 205)">
+    <text class="label" x="260" y="-36" text-anchor="middle">Scalar character blocks</text>
+    <rect class="cell" x="0" y="0" width="118" height="118" fill="#dbeafe"/><text class="label" x="59" y="70" text-anchor="middle">chi_0</text>
+    <rect class="cell" x="142" y="0" width="118" height="118" fill="#dcfce7"/><text class="label" x="201" y="70" text-anchor="middle">chi_1</text>
+    <rect class="cell" x="284" y="0" width="118" height="118" fill="#fef3c7"/><text class="label" x="343" y="70" text-anchor="middle">chi_2</text>
+    <rect class="cell" x="426" y="0" width="118" height="118" fill="#ffe4e6"/><text class="label" x="485" y="70" text-anchor="middle">chi_3</text>
+    <text class="small" x="272" y="168" text-anchor="middle">four 1 x 1 labels</text>
+    <text class="small" x="272" y="200" text-anchor="middle">not enough to reveal c</text>
+  </g>
+  <g transform="translate(880 168)">
+    <text class="label" x="280" y="0" text-anchor="middle">Matrix-valued irrep block</text>
+    <rect x="60" y="54" width="440" height="440" rx="10" fill="#f8fafc" stroke="#1f2933" stroke-width="4"/>
+    <g stroke="#64748b" stroke-width="2">
+      <line x1="170" y1="54" x2="170" y2="494"/><line x1="280" y1="54" x2="280" y2="494"/><line x1="390" y1="54" x2="390" y2="494"/>
+      <line x1="60" y1="164" x2="500" y2="164"/><line x1="60" y1="274" x2="500" y2="274"/><line x1="60" y1="384" x2="500" y2="384"/>
+    </g>
+    <rect x="60" y="54" width="440" height="440" rx="10" fill="none" stroke="#2563eb" stroke-width="7"/>
+    <text class="label" x="280" y="285" text-anchor="middle" font-size="36">sigma_4d</text>
+    <text class="small" x="280" y="535" text-anchor="middle">hidden point phase information lives in this 4 x 4 block</text>
+  </g>
+  <path d="M685 340 C755 340 795 340 850 340" fill="none" stroke="#52606d" stroke-width="4" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#52606d"/></marker></defs>
+  <text x="800" y="690" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#334e68">The dimension-square check exhausts the 20-dimensional group algebra.</text>
+</svg>
