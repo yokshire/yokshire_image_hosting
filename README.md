@@ -2,7 +2,12 @@
 
 This repository hosts figure assets for research documentation and manuscript
 drafting. The `figures/` directory contains the original PNG/JPG assets used by
-Notion and manuscript pages through raw.githubusercontent.com URLs.
+Notion and manuscript pages.
+
+Preferred delivery URLs:
+
+- GitHub Pages: `https://yokshire.github.io/yokshire_image_hosting/figures/...`
+- GitHub raw fallback: `https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/...`
 
 The `notion_github_hosted_figures/` directory contains SVG wrappers generated
 from the same local raster figures. These wrappers were kept as a fallback for

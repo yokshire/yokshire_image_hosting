@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research Figure Hosting Assets</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7fb;
+      --panel: #ffffff;
+      --ink: #111827;
+      --muted: #5b6474;
+      --line: #d8deea;
+      --accent: #1f6feb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+      color: var(--ink);
+    }
+
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+
+    h1,
+    h2,
+    p {
+      margin: 0;
+    }
+
+    .hero {
+      padding: 28px 0 24px;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      max-width: 720px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-top: 28px;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px 18px 20px;
+    }
+
+    .panel h2 {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    .panel p,
+    .panel li {
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .panel ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    code,
+    a {
+      color: var(--accent);
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>Research Figure Hosting Assets</h1>
+      <p>
+        This repository serves manuscript and Notion figures as static assets.
+        The canonical raster files live in <code>/figures/</code>, and page
+        content should reference those hosted files directly so GitHub remains
+        the source of truth for edits and history.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="panel">
+        <h2>Primary Assets</h2>
+        <p>
+          Hosted figure files are published under
+          <a href="./figures/">/figures/</a>.
+        </p>
+      </article>
+      <article class="panel">
+        <h2>Notion Wrappers</h2>
+        <p>
+          Legacy SVG wrappers remain available under
+          <a href="./notion_github_hosted_figures/">/notion_github_hosted_figures/</a>
+          for compatibility workflows.
+        </p>
+      </article>
+      <article class="panel">
+        <h2>Operating Rule</h2>
+        <ul>
+          <li>Edit the GitHub repository contents when figures change.</li>
+          <li>Keep Notion and manuscript links pointed at hosted GitHub assets.</li>
+          <li>Treat this site as delivery only, not as a separate content source.</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer>
+      Repository:
+      <a href="https://github.com/yokshire/yokshire_image_hosting">yokshire/yokshire_image_hosting</a>
+    </footer>
+  </main>
+</body>
+</html>

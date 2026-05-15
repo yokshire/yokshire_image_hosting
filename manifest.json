@@ -1,6 +1,10 @@
 {
   "schema_version": 1,
   "source": "Notion page image sync",
+  "delivery": {
+    "canonical_base_url": "https://yokshire.github.io/yokshire_image_hosting/figures/",
+    "github_raw_fallback_base_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/"
+  },
   "notion_pages": [
     {
       "page_id": "3524c48e-4da3-81b5-8d22-c7d73ae6e455",
