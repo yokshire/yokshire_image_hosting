@@ -64,8 +64,9 @@ Notion `Research / Quantum_Algorithm / Quantum Monte Carlo / Role Up` page.
 | `role_up_fig_2_2d_dose_mae_by_reps` | `final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_2_2d_dose_mae_by_reps.png` |
 | `role_up_fig_3_stateprep_exact_kl` | `final_data_analysis/summaries/stateprep_comparison_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_3_stateprep_exact_kl.png` |
 | `role_up_fig_4_1d_qmci_mae_distribution` | `final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_4_1d_qmci_mae_distribution.png` |
-| `role_up_fig_5_representative_dose_curves` | `raw/2d/chebyshev/q66/theta/reps_12/dose_curve.csv`; `raw/2d/fft/q44/cos_q/reps_12/dose_curve.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_5_representative_dose_curves.png` |
+| `role_up_fig_5_representative_dose_curves` | `raw/2d/chebyshev/q66/theta/reps_24/dose_curve.csv`; `raw/2d/fft/q66/cos_q/reps_24/dose_curve.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_5_representative_dose_curves.png` |
 | `role_up_fig_6_representative_profile_z0p5` | `raw/2d/chebyshev/q66/theta/reps_24/profile_comparison_all_z.csv`; `raw/2d/fft/q66/cos_q/reps_24/profile_comparison_all_z.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_6_representative_profile_z0p5.png` |
+| `role_up_fig_7_2d_matched_pair_delta` | `final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` matched by q-resolution and reps | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_7_2d_matched_pair_delta.png` |
 
 ## Copyright and reuse
 

@@ -90,15 +90,15 @@
       "status": "active",
       "origin": "role_up_csv_regeneration",
       "source_data": [
-        "final_data_analysis/qmci_actual_all_reps/raw/2d/chebyshev/q66/theta/reps_12/dose_curve.csv",
-        "final_data_analysis/qmci_actual_all_reps/raw/2d/fft/q44/cos_q/reps_12/dose_curve.csv"
+        "final_data_analysis/qmci_actual_all_reps/raw/2d/chebyshev/q66/theta/reps_24/dose_curve.csv",
+        "final_data_analysis/qmci_actual_all_reps/raw/2d/fft/q66/cos_q/reps_24/dose_curve.csv"
       ],
       "github_path": "figures/role_up_fig_5_representative_dose_curves.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_5_representative_dose_curves.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/role_up_fig_5_representative_dose_curves.png",
-      "sha256": "cab444dc46b65143fb4747d0d39e8a0833c097349f4a8e2504eebc4ec9d8e794",
-      "bytes": 125614,
-      "synced_at": "2026-06-01T14:46:27+09:00"
+      "sha256": "b15658cee36410daa4eaf8383372dd3d350fc875a6e2a01171300a83d2411ea8",
+      "bytes": 117876,
+      "synced_at": "2026-06-01T14:55:51+09:00"
     },
     {
       "id": "role_up_fig_6_representative_profile_z0p5",
@@ -114,6 +114,20 @@
       "sha256": "d746285404e361a94e84e59197010f7746b03fcdb9dfbc333f12b62e183e0672",
       "bytes": 93708,
       "synced_at": "2026-06-01T14:46:27+09:00"
+    },
+    {
+      "id": "role_up_fig_7_2d_matched_pair_delta",
+      "status": "active",
+      "origin": "role_up_csv_regeneration",
+      "source_data": "final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv",
+      "comparison_protocol": "Matched 2D strict pairs: chebyshev/theta and fft/cos_q compared at the same q-resolution and repetition count.",
+      "derived_table": "final_figure/role_up/role_up_2d_matched_pair_summary.csv",
+      "github_path": "figures/role_up_fig_7_2d_matched_pair_delta.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_7_2d_matched_pair_delta.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/role_up_fig_7_2d_matched_pair_delta.png",
+      "sha256": "67c9246a54040bb7a7ece88316faed1f05ca042018f4ec8e426176681c01c00f",
+      "bytes": 122375,
+      "synced_at": "2026-06-01T14:55:52+09:00"
     }
   ]
 }
