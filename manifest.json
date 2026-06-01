@@ -10,6 +10,16 @@
       "page_id": "3524c48e-4da3-81b5-8d22-c7d73ae6e455",
       "page_title": "paper",
       "page_url": "https://app.notion.com/p/3524c48e4da381b58d22c7d73ae6e455"
+    },
+    {
+      "page_id": "3524c48e-4da3-8042-8b8a-e6e5db2310dc",
+      "page_title": "sub_ref",
+      "page_url": "https://app.notion.com/p/3524c48e4da380428b8ae6e5db2310dc"
+    },
+    {
+      "page_id": "3724c48e-4da3-80c7-b432-ebb8f8717754",
+      "page_title": "Role Up",
+      "page_url": "https://app.notion.com/p/3724c48e4da380c7b432ebb8f8717754"
     }
   ],
   "assets": [
@@ -26,6 +36,84 @@
       "synced_at": "2026-04-30T16:25:00+09:00",
       "archived_at": "2026-04-30T16:35:00+09:00",
       "archive_reason": "Removed from Notion paper page"
+    },
+    {
+      "id": "role_up_fig_1_2d_family_average_mae",
+      "status": "active",
+      "origin": "role_up_csv_regeneration",
+      "source_data": "final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv",
+      "github_path": "figures/role_up_fig_1_2d_family_average_mae.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_1_2d_family_average_mae.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/role_up_fig_1_2d_family_average_mae.png",
+      "sha256": "ef157d56357ecf05c2cd014ff21aa83bf369088c8f957ca50c8bfa6edf1fac0f",
+      "bytes": 69532,
+      "synced_at": "2026-06-01T14:46:25+09:00"
+    },
+    {
+      "id": "role_up_fig_2_2d_dose_mae_by_reps",
+      "status": "active",
+      "origin": "role_up_csv_regeneration",
+      "source_data": "final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv",
+      "github_path": "figures/role_up_fig_2_2d_dose_mae_by_reps.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_2_2d_dose_mae_by_reps.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/role_up_fig_2_2d_dose_mae_by_reps.png",
+      "sha256": "1da54499a13d61cda08347bdecc1933e7c3690b587757ff1ea419dc6bc7e2aba",
+      "bytes": 156174,
+      "synced_at": "2026-06-01T14:46:25+09:00"
+    },
+    {
+      "id": "role_up_fig_3_stateprep_exact_kl",
+      "status": "active",
+      "origin": "role_up_csv_regeneration",
+      "source_data": "final_data_analysis/summaries/stateprep_comparison_summary.csv",
+      "github_path": "figures/role_up_fig_3_stateprep_exact_kl.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_3_stateprep_exact_kl.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/role_up_fig_3_stateprep_exact_kl.png",
+      "sha256": "d5c4e30f2e158ef02935b117996e7248c887ee314208fd13cacbb591bb042b3d",
+      "bytes": 59828,
+      "synced_at": "2026-06-01T14:46:26+09:00"
+    },
+    {
+      "id": "role_up_fig_4_1d_qmci_mae_distribution",
+      "status": "active",
+      "origin": "role_up_csv_regeneration",
+      "source_data": "final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv",
+      "github_path": "figures/role_up_fig_4_1d_qmci_mae_distribution.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_4_1d_qmci_mae_distribution.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/role_up_fig_4_1d_qmci_mae_distribution.png",
+      "sha256": "d5339995950e3387e028e6806a06d6132151e03b63830fe7674669b890e376e0",
+      "bytes": 58372,
+      "synced_at": "2026-06-01T14:46:27+09:00"
+    },
+    {
+      "id": "role_up_fig_5_representative_dose_curves",
+      "status": "active",
+      "origin": "role_up_csv_regeneration",
+      "source_data": [
+        "final_data_analysis/qmci_actual_all_reps/raw/2d/chebyshev/q66/theta/reps_12/dose_curve.csv",
+        "final_data_analysis/qmci_actual_all_reps/raw/2d/fft/q44/cos_q/reps_12/dose_curve.csv"
+      ],
+      "github_path": "figures/role_up_fig_5_representative_dose_curves.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_5_representative_dose_curves.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/role_up_fig_5_representative_dose_curves.png",
+      "sha256": "cab444dc46b65143fb4747d0d39e8a0833c097349f4a8e2504eebc4ec9d8e794",
+      "bytes": 125614,
+      "synced_at": "2026-06-01T14:46:27+09:00"
+    },
+    {
+      "id": "role_up_fig_6_representative_profile_z0p5",
+      "status": "active",
+      "origin": "role_up_csv_regeneration",
+      "source_data": [
+        "final_data_analysis/qmci_actual_all_reps/raw/2d/chebyshev/q66/theta/reps_24/profile_comparison_all_z.csv",
+        "final_data_analysis/qmci_actual_all_reps/raw/2d/fft/q66/cos_q/reps_24/profile_comparison_all_z.csv"
+      ],
+      "github_path": "figures/role_up_fig_6_representative_profile_z0p5.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_6_representative_profile_z0p5.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/role_up_fig_6_representative_profile_z0p5.png",
+      "sha256": "d746285404e361a94e84e59197010f7746b03fcdb9dfbc333f12b62e183e0672",
+      "bytes": 93708,
+      "synced_at": "2026-06-01T14:46:27+09:00"
     }
   ]
 }

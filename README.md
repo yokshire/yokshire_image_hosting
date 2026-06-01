@@ -53,6 +53,20 @@ text-based upload workflows.
 | `fig_4_8_kl_threshold_rmse_norm_convergence` | `final_figure/kl_ladder_q60/figures/kl_threshold_rmse_norm_convergence.png` | OK | `notion_github_hosted_figures/fig_4_8_kl_threshold_rmse_norm_convergence.svg` |
 | `fig_4_9_kl_threshold_mse_norm_vs_invshots` | `final_figure/kl_ladder_q60/figures/kl_threshold_mse_norm_vs_invshots.png` | OK | `notion_github_hosted_figures/fig_4_9_kl_threshold_mse_norm_vs_invshots.svg` |
 
+## Role Up Figures (2026-06-01)
+
+These figures were regenerated from the project CSV/raw evidence for the
+Notion `Research / Quantum_Algorithm / Quantum Monte Carlo / Role Up` page.
+
+| slug | source data | status | canonical URL |
+| --- | --- | --- | --- |
+| `role_up_fig_1_2d_family_average_mae` | `final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_1_2d_family_average_mae.png` |
+| `role_up_fig_2_2d_dose_mae_by_reps` | `final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_2_2d_dose_mae_by_reps.png` |
+| `role_up_fig_3_stateprep_exact_kl` | `final_data_analysis/summaries/stateprep_comparison_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_3_stateprep_exact_kl.png` |
+| `role_up_fig_4_1d_qmci_mae_distribution` | `final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_4_1d_qmci_mae_distribution.png` |
+| `role_up_fig_5_representative_dose_curves` | `raw/2d/chebyshev/q66/theta/reps_12/dose_curve.csv`; `raw/2d/fft/q44/cos_q/reps_12/dose_curve.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_5_representative_dose_curves.png` |
+| `role_up_fig_6_representative_profile_z0p5` | `raw/2d/chebyshev/q66/theta/reps_24/profile_comparison_all_z.csv`; `raw/2d/fft/q66/cos_q/reps_24/profile_comparison_all_z.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_6_representative_profile_z0p5.png` |
+
 ## Copyright and reuse
 
 This repository intentionally has no open-source or open-content license. Public
