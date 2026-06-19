@@ -62,6 +62,7 @@ paper figures until a human editor applies the corresponding page edit.
 | slug | source data | status | canonical URL |
 | --- | --- | --- | --- |
 | `cross_check_fig_4_10_q60_floor_vs_observed_kl` | `final_data_analysis/q60_1d_qae_kl_thresholds_reps8/summaries/fit_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_10_q60_floor_vs_observed_kl.png` |
+| `cross_check_fig_3_2_stateprep_status_kl` | `final_data_analysis/summaries/stateprep_comparison_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_2_stateprep_status_kl.png` |
 
 ## Role Up Figures (2026-06-01)
 
