@@ -53,6 +53,16 @@ text-based upload workflows.
 | `fig_4_8_kl_threshold_rmse_norm_convergence` | `final_figure/kl_ladder_q60/figures/kl_threshold_rmse_norm_convergence.png` | OK | `notion_github_hosted_figures/fig_4_8_kl_threshold_rmse_norm_convergence.svg` |
 | `fig_4_9_kl_threshold_mse_norm_vs_invshots` | `final_figure/kl_ladder_q60/figures/kl_threshold_mse_norm_vs_invshots.png` | OK | `notion_github_hosted_figures/fig_4_9_kl_threshold_mse_norm_vs_invshots.svg` |
 
+## Cross Check Figures (2026-06-19)
+
+These figures are candidate additions proposed through `cross_check` Notion
+comments. They are hosted for review and should not be treated as accepted
+paper figures until a human editor applies the corresponding page edit.
+
+| slug | source data | status | canonical URL |
+| --- | --- | --- | --- |
+| `cross_check_fig_4_10_q60_floor_vs_observed_kl` | `final_data_analysis/q60_1d_qae_kl_thresholds_reps8/summaries/fit_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_10_q60_floor_vs_observed_kl.png` |
+
 ## Role Up Figures (2026-06-01)
 
 These figures were regenerated from the project CSV/raw evidence for the

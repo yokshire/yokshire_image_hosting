@@ -128,6 +128,19 @@
       "sha256": "67c9246a54040bb7a7ece88316faed1f05ca042018f4ec8e426176681c01c00f",
       "bytes": 122375,
       "synced_at": "2026-06-01T14:55:52+09:00"
+    },
+    {
+      "id": "cross_check_fig_4_10_q60_floor_vs_observed_kl",
+      "status": "active",
+      "origin": "cross_check_regeneration",
+      "source_data": "final_data_analysis/q60_1d_qae_kl_thresholds_reps8/summaries/fit_summary.csv",
+      "github_path": "figures/cross_check_fig_4_10_q60_floor_vs_observed_kl.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_10_q60_floor_vs_observed_kl.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/cross_check_fig_4_10_q60_floor_vs_observed_kl.png",
+      "sha256": "10b748b76bedba1141b0c4fdcf94bf86fb192f76812c73727887c86ba3609a9e",
+      "bytes": 113143,
+      "synced_at": "2026-06-19T00:00:00+09:00",
+      "note": "Candidate figure for Notion paper section 4.5 cross_check review; illustrates fitted RMSE floor versus observed KL for q60 reps=8."
     }
   ]
 }
