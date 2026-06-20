@@ -143,6 +143,21 @@
       "note": "Candidate figure for Notion paper section 4.5 cross_check review; illustrates fitted RMSE floor versus observed KL for q60 reps=8."
     },
     {
+      "id": "cross_check_fig_4_11_2d_matched_pair_scatter",
+      "status": "active",
+      "origin": "cross_check_regeneration",
+      "source_data": "final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv",
+      "comparison_protocol": "Matched 2D strict pairs: chebyshev/theta and fft/cos_q compared at the same q-resolution and repetition count.",
+      "derived_table": "final_figure/role_up/role_up_2d_matched_pair_summary.csv",
+      "github_path": "figures/cross_check_fig_4_11_2d_matched_pair_scatter.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_11_2d_matched_pair_scatter.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/cross_check_fig_4_11_2d_matched_pair_scatter.png",
+      "sha256": "d2743c42c5202c4b32f91b1c0a2dc57778381b976bf2badb33d5beac3a3fdfba",
+      "bytes": 230205,
+      "synced_at": "2026-06-19T20:06:15+09:00",
+      "note": "Candidate figure for Notion paper section 4.4 cross_check review; compares matched Chebyshev/theta and FFT/cos_q 2D configurations."
+    },
+    {
       "id": "cross_check_fig_3_2_stateprep_status_kl",
       "status": "active",
       "origin": "cross_check_regeneration",
