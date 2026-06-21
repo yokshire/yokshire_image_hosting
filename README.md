@@ -67,6 +67,7 @@ paper figures until a human editor applies the corresponding page edit.
 | `cross_check_fig_3_9_initialize_vs_hea_depth_complexity` | `final_data_analysis/transpiled_stateprep_complexity/summaries/complexity_summary_best_opt1.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_9_initialize_vs_hea_depth_complexity.png` |
 | `cross_check_fig_4_4_1d_point_fft_scope` | `final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_4_1d_point_fft_scope.png` |
 | `cross_check_fig_4_11_2d_matched_pair_scatter` | `final_figure/role_up/role_up_2d_matched_pair_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_11_2d_matched_pair_scatter.png` |
+| `cross_check_fig_4_12_figure19_missing_representatives` | `final_figure/qmci_qae_curated/2d_best_representatives/*` selected missing panels | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_12_figure19_missing_representatives.png` |
 
 ## Role Up Figures (2026-06-01)
 

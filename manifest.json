@@ -212,6 +212,26 @@
       "bytes": 145066,
       "synced_at": "2026-06-21T01:35:21+09:00",
       "note": "Candidate figure for Notion paper section 4.4 cross_check review; separates the 1D Point-FFT diagnostic baseline from the FFT/Chebyshev strict downstream comparison."
+    },
+    {
+      "id": "cross_check_fig_4_12_figure19_missing_representatives",
+      "status": "active",
+      "origin": "cross_check_file_indexing",
+      "source_data": [
+        "final_figure/qmci_qae_curated/2d_best_representatives/q44_chebyshev_best_profile_z0p5_reps20.png",
+        "final_figure/qmci_qae_curated/2d_best_representatives/q44_fft_best_profile_z0p5_reps20.png",
+        "final_figure/qmci_qae_curated/2d_best_representatives/q55_chebyshev_best_dose_reps24.png",
+        "final_figure/qmci_qae_curated/2d_best_representatives/q55_fft_best_dose_reps20.png",
+        "final_figure/qmci_qae_curated/2d_best_representatives/q66_chebyshev_best_dose_reps12.png",
+        "final_figure/qmci_qae_curated/2d_best_representatives/q66_fft_best_dose_reps12.png"
+      ],
+      "github_path": "figures/cross_check_fig_4_12_figure19_missing_representatives.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_12_figure19_missing_representatives.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/cross_check_fig_4_12_figure19_missing_representatives.png",
+      "sha256": "02b3a1c6e4a528c4cb424ab31146117cd24a55d01f779055dc1ea64ffe3f11e8",
+      "bytes": 253323,
+      "synced_at": "2026-06-21T00:00:00+09:00",
+      "note": "Candidate figure for Notion paper Figure 19 cross_check review; indexes curated representative panels that are available locally but not shown in the current 6-panel Figure 19 subset."
     }
   ]
 }
