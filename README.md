@@ -61,11 +61,11 @@ paper figures until a human editor applies the corresponding page edit.
 
 | slug | source data | status | canonical URL |
 | --- | --- | --- | --- |
-| `cross_check_fig_4_10_q60_floor_vs_observed_kl` | `final_data_analysis/q60_1d_qae_kl_thresholds_reps8/summaries/fit_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_10_q60_floor_vs_observed_kl.png` |
-| `cross_check_fig_3_2_stateprep_status_kl` | `final_data_analysis/summaries/stateprep_comparison_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_2_stateprep_status_kl.png` |
+| `cross_check_fig_4_10_q60_floor_vs_observed_kl` | `최종데이터/final_data_analysis/q60_1d_qae_kl_thresholds_reps8/summaries/fit_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_10_q60_floor_vs_observed_kl.png` |
+| `cross_check_fig_3_2_stateprep_status_kl` | `최종데이터/final_data_analysis/summaries/stateprep_comparison_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_2_stateprep_status_kl.png` |
 | `cross_check_fig_3_5_qgan_qubit_kl_scope` | `final_figure/qgan_baseline/README.md`; `final_figure/qgan_baseline/learned_distributions/*` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_5_qgan_qubit_kl_scope.png` |
-| `cross_check_fig_3_9_initialize_vs_hea_depth_complexity` | `final_data_analysis/transpiled_stateprep_complexity/summaries/complexity_summary_best_opt1.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_9_initialize_vs_hea_depth_complexity.png` |
-| `cross_check_fig_4_4_1d_point_fft_scope` | `final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_4_1d_point_fft_scope.png` |
+| `cross_check_fig_3_9_initialize_vs_hea_depth_complexity` | `최종데이터/final_data_analysis/transpiled_stateprep_complexity/summaries/complexity_summary_best_opt1.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_9_initialize_vs_hea_depth_complexity.png` |
+| `cross_check_fig_4_4_1d_point_fft_scope` | `최종데이터/final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_4_1d_point_fft_scope.png` |
 | `cross_check_fig_4_11_2d_matched_pair_scatter` | `final_figure/role_up/role_up_2d_matched_pair_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_11_2d_matched_pair_scatter.png` |
 | `cross_check_fig_4_12_figure19_missing_representatives` | `final_figure/qmci_qae_curated/2d_best_representatives/*` selected missing panels | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_12_figure19_missing_representatives.png` |
 
@@ -76,13 +76,13 @@ Notion `Research / Quantum_Algorithm / Quantum Monte Carlo / Role Up` page.
 
 | slug | source data | status | canonical URL |
 | --- | --- | --- | --- |
-| `role_up_fig_1_2d_family_average_mae` | `final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_1_2d_family_average_mae.png` |
-| `role_up_fig_2_2d_dose_mae_by_reps` | `final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_2_2d_dose_mae_by_reps.png` |
-| `role_up_fig_3_stateprep_exact_kl` | `final_data_analysis/summaries/stateprep_comparison_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_3_stateprep_exact_kl.png` |
-| `role_up_fig_4_1d_qmci_mae_distribution` | `final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_4_1d_qmci_mae_distribution.png` |
-| `role_up_fig_5_representative_dose_curves` | `raw/2d/chebyshev/q66/theta/reps_24/dose_curve.csv`; `raw/2d/fft/q66/cos_q/reps_24/dose_curve.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_5_representative_dose_curves.png` |
-| `role_up_fig_6_representative_profile_z0p5` | `raw/2d/chebyshev/q66/theta/reps_24/profile_comparison_all_z.csv`; `raw/2d/fft/q66/cos_q/reps_24/profile_comparison_all_z.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_6_representative_profile_z0p5.png` |
-| `role_up_fig_7_2d_matched_pair_delta` | `final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` matched by q-resolution and reps | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_7_2d_matched_pair_delta.png` |
+| `role_up_fig_1_2d_family_average_mae` | `최종데이터/final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_1_2d_family_average_mae.png` |
+| `role_up_fig_2_2d_dose_mae_by_reps` | `최종데이터/final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_2_2d_dose_mae_by_reps.png` |
+| `role_up_fig_3_stateprep_exact_kl` | `최종데이터/final_data_analysis/summaries/stateprep_comparison_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_3_stateprep_exact_kl.png` |
+| `role_up_fig_4_1d_qmci_mae_distribution` | `최종데이터/final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_4_1d_qmci_mae_distribution.png` |
+| `role_up_fig_5_representative_dose_curves` | `최종데이터/final_data_analysis/qmci_actual_all_reps/raw/2d/chebyshev/q66/theta/reps_24/dose_curve.csv`; `최종데이터/final_data_analysis/qmci_actual_all_reps/raw/2d/fft/q66/cos_q/reps_24/dose_curve.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_5_representative_dose_curves.png` |
+| `role_up_fig_6_representative_profile_z0p5` | `최종데이터/final_data_analysis/qmci_actual_all_reps/raw/2d/chebyshev/q66/theta/reps_24/profile_comparison_all_z.csv`; `최종데이터/final_data_analysis/qmci_actual_all_reps/raw/2d/fft/q66/cos_q/reps_24/profile_comparison_all_z.csv` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_6_representative_profile_z0p5.png` |
+| `role_up_fig_7_2d_matched_pair_delta` | `최종데이터/final_data_analysis/qmci_actual_all_reps/summaries/two_d_summary.csv` matched by q-resolution and reps | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/role_up_fig_7_2d_matched_pair_delta.png` |
 
 ## Copyright and reuse
 
