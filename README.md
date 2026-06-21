@@ -22,12 +22,12 @@ text-based upload workflows.
 | `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
 | `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |
 | `fig_3_6_hea_ryrz_circular_reps2_ansatz` | `final_figure/method_circuits/hea_ryrz_circular_reps2_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_6_hea_ryrz_circular_reps2_ansatz.svg` |
-| `fig_3_7_hn_zero_shot_kl_bar` | `final_figure/stateprep_hn/zero_shot_kl_bar.png` | OK | `notion_github_hosted_figures/fig_3_7_hn_zero_shot_kl_bar.svg` |
-| `fig_3_7_hn_finetune_curves_kl` | `final_figure/stateprep_hn/finetune_curves_kl.png` | OK | `notion_github_hosted_figures/fig_3_7_hn_finetune_curves_kl.svg` |
-| `fig_3_7_hn_median_kl_vs_reps` | `final_figure/stateprep_hn/median_kl_vs_reps_hea_hn.png` | OK | `notion_github_hosted_figures/fig_3_7_hn_median_kl_vs_reps.svg` |
-| `fig_3_8_hn_target_pos` | `final_figure/stateprep_hn/target_pos.png` | OK | `notion_github_hosted_figures/fig_3_8_hn_target_pos.svg` |
-| `fig_3_8_hn_zero_shot_pos` | `final_figure/stateprep_hn/hn_zero_shot_pos.png` | OK | `notion_github_hosted_figures/fig_3_8_hn_zero_shot_pos.svg` |
-| `fig_3_8_hn_zero_shot_diff_pos` | `final_figure/stateprep_hn/hn_zero_shot_diff_pos.png` | OK | `notion_github_hosted_figures/fig_3_8_hn_zero_shot_diff_pos.svg` |
+| `fig_3_9_cos_q_joint_probability_heatmaps` | `final_figure/stateprep_distribution_curated/2d_q66/cos_q_joint_probability_heatmaps.png` | OK | `figures/fig_3_9_cos_q_joint_probability_heatmaps.png` |
+| `fig_3_9_cos_q_joint_probability_error_heatmaps` | `final_figure/stateprep_distribution_curated/2d_q66/cos_q_joint_probability_error_heatmaps.png` | OK | `figures/fig_3_9_cos_q_joint_probability_error_heatmaps.png` |
+| `fig_3_9_cos_q_joint_probability_marginals` | `final_figure/stateprep_distribution_curated/2d_q66/cos_q_joint_probability_marginals.png` | OK | `figures/fig_3_9_cos_q_joint_probability_marginals.png` |
+| `fig_3_9_theta_joint_probability_heatmaps` | `final_figure/stateprep_distribution_curated/2d_q66/theta_joint_probability_heatmaps.png` | OK | `figures/fig_3_9_theta_joint_probability_heatmaps.png` |
+| `fig_3_9_theta_joint_probability_error_heatmaps` | `final_figure/stateprep_distribution_curated/2d_q66/theta_joint_probability_error_heatmaps.png` | OK | `figures/fig_3_9_theta_joint_probability_error_heatmaps.png` |
+| `fig_3_9_theta_joint_probability_marginals` | `final_figure/stateprep_distribution_curated/2d_q66/theta_joint_probability_marginals.png` | OK | `figures/fig_3_9_theta_joint_probability_marginals.png` |
 | `fig_3_10_qae_qmci_mode_estimator_block` | `final_figure/method_circuits/qae_qmci_mode_estimator_block.png` | OK | `notion_github_hosted_figures/fig_3_10_qae_qmci_mode_estimator_block.svg` |
 | `fig_3_11_qae_qmci_mode_estimator_decomposed` | `final_figure/method_circuits/qae_qmci_mode_estimator_decomposed.png` | OK | `notion_github_hosted_figures/fig_3_11_qae_qmci_mode_estimator_decomposed.svg` |
 | `fig_3_12_fft_reconstruction_Gu` | `final_figure/refer_pre_paper/qae_fft_1d_context/fft_reconstruction_Gu.png` | OK | `notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.svg` |
@@ -61,6 +61,12 @@ part of the currently rendered Notion paper figure set.
 | slug | source | status | upload path | note |
 | --- | --- | --- | --- | --- |
 | `fig_3_5_qgan_training_diagram` | `final_figure/qgan_baseline/qgan_training_diagram.pdf` | auxiliary | `notion_github_hosted_figures/fig_3_5_qgan_training_diagram.svg` | Available qGAN training-loop support asset; not part of the currently rendered Notion Figure 5 two-panel composition. |
+| `fig_3_7_hn_zero_shot_kl_bar` | `final_figure/stateprep_hn/zero_shot_kl_bar.png` | legacy | `notion_github_hosted_figures/fig_3_7_hn_zero_shot_kl_bar.svg` | Legacy HN/state-preparation support asset; not part of the currently rendered Notion paper figure set. |
+| `fig_3_7_hn_finetune_curves_kl` | `final_figure/stateprep_hn/finetune_curves_kl.png` | legacy | `notion_github_hosted_figures/fig_3_7_hn_finetune_curves_kl.svg` | Legacy HN/state-preparation support asset; not part of the currently rendered Notion paper figure set. |
+| `fig_3_7_hn_median_kl_vs_reps` | `final_figure/stateprep_hn/median_kl_vs_reps_hea_hn.png` | legacy | `notion_github_hosted_figures/fig_3_7_hn_median_kl_vs_reps.svg` | Legacy HN/state-preparation support asset; not part of the currently rendered Notion paper figure set. |
+| `fig_3_8_hn_target_pos` | `final_figure/stateprep_hn/target_pos.png` | legacy | `notion_github_hosted_figures/fig_3_8_hn_target_pos.svg` | Legacy HN/state-preparation support asset; not part of the currently rendered Notion paper figure set. |
+| `fig_3_8_hn_zero_shot_pos` | `final_figure/stateprep_hn/hn_zero_shot_pos.png` | legacy | `notion_github_hosted_figures/fig_3_8_hn_zero_shot_pos.svg` | Legacy HN/state-preparation support asset; not part of the currently rendered Notion paper figure set. |
+| `fig_3_8_hn_zero_shot_diff_pos` | `final_figure/stateprep_hn/hn_zero_shot_diff_pos.png` | legacy | `notion_github_hosted_figures/fig_3_8_hn_zero_shot_diff_pos.svg` | Legacy HN/state-preparation support asset; not part of the currently rendered Notion paper figure set. |
 
 ## Cross Check Figures (2026-06-19)
 
