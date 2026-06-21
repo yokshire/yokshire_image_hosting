@@ -63,6 +63,9 @@ paper figures until a human editor applies the corresponding page edit.
 | --- | --- | --- | --- |
 | `cross_check_fig_4_10_q60_floor_vs_observed_kl` | `final_data_analysis/q60_1d_qae_kl_thresholds_reps8/summaries/fit_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_10_q60_floor_vs_observed_kl.png` |
 | `cross_check_fig_3_2_stateprep_status_kl` | `final_data_analysis/summaries/stateprep_comparison_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_2_stateprep_status_kl.png` |
+| `cross_check_fig_3_5_qgan_qubit_kl_scope` | `final_figure/qgan_baseline/README.md`; `final_figure/qgan_baseline/learned_distributions/*` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_5_qgan_qubit_kl_scope.png` |
+| `cross_check_fig_3_9_initialize_vs_hea_depth_complexity` | `final_data_analysis/transpiled_stateprep_complexity/summaries/complexity_summary_best_opt1.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_9_initialize_vs_hea_depth_complexity.png` |
+| `cross_check_fig_4_4_1d_point_fft_scope` | `final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_4_1d_point_fft_scope.png` |
 | `cross_check_fig_4_11_2d_matched_pair_scatter` | `final_figure/role_up/role_up_2d_matched_pair_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_11_2d_matched_pair_scatter.png` |
 
 ## Role Up Figures (2026-06-01)

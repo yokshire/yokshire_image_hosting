@@ -169,6 +169,49 @@
       "bytes": 168890,
       "synced_at": "2026-06-19T00:00:00+09:00",
       "note": "Candidate figure for Notion paper section 3.2 cross_check review; separates target-vs-exact KL, 20,000-shot sampled KL, and target_hit/completed status."
+    },
+    {
+      "id": "cross_check_fig_3_5_qgan_qubit_kl_scope",
+      "status": "active",
+      "origin": "cross_check_regeneration",
+      "source_data": [
+        "final_figure/qgan_baseline/README.md",
+        "final_figure/qgan_baseline/learned_distributions"
+      ],
+      "github_path": "figures/cross_check_fig_3_5_qgan_qubit_kl_scope.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_5_qgan_qubit_kl_scope.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/cross_check_fig_3_5_qgan_qubit_kl_scope.png",
+      "sha256": "0cef392ec7caed14e250a6b26c10490a2762d62979a220c4385404c34124165d",
+      "bytes": 224365,
+      "synced_at": "2026-06-21T01:15:35+09:00",
+      "note": "Candidate figure for Notion paper section 3.2/figure 5 cross_check review; limits qGAN evidence to the small-qubit learned-distribution scope."
+    },
+    {
+      "id": "cross_check_fig_3_9_initialize_vs_hea_depth_complexity",
+      "status": "active",
+      "origin": "cross_check_file_indexing",
+      "source_data": "final_data_analysis/transpiled_stateprep_complexity/summaries/complexity_summary_best_opt1.csv",
+      "source_figure": "final_data_analysis/transpiled_stateprep_complexity/figures/depth_best_opt1.png",
+      "github_path": "figures/cross_check_fig_3_9_initialize_vs_hea_depth_complexity.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_3_9_initialize_vs_hea_depth_complexity.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/cross_check_fig_3_9_initialize_vs_hea_depth_complexity.png",
+      "sha256": "4a6b06362d59c048647b6ddad6e4fd20568c78b8adaac792dbbb9c85b761af8f",
+      "bytes": 66865,
+      "synced_at": "2026-06-21T00:00:00+09:00",
+      "note": "Candidate figure for Notion paper section 3.2 cross_check review; illustrates that initialize is an exact-loading reference and not a scalable state-preparation baseline."
+    },
+    {
+      "id": "cross_check_fig_4_4_1d_point_fft_scope",
+      "status": "active",
+      "origin": "cross_check_regeneration",
+      "source_data": "final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv",
+      "github_path": "figures/cross_check_fig_4_4_1d_point_fft_scope.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_4_1d_point_fft_scope.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/cross_check_fig_4_4_1d_point_fft_scope.png",
+      "sha256": "b731caf49dcc56cb62979a257fc8be59dbda0d1420e48ed47aa4885f82d07d33",
+      "bytes": 145066,
+      "synced_at": "2026-06-21T01:35:21+09:00",
+      "note": "Candidate figure for Notion paper section 4.4 cross_check review; separates the 1D Point-FFT diagnostic baseline from the FFT/Chebyshev strict downstream comparison."
     }
   ]
 }
