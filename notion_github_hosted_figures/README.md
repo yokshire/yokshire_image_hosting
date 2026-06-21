@@ -8,6 +8,7 @@ These SVG files wrap the original local raster figures as UTF-8 text so they can
 | `fig_3_2_depth_dose_analytic_vs_mc` | `final_figure/refer_pre_paper/notation_context/depth_dose_Dz_analytic_vs_MC.jpg` | OK | `notion_github_hosted_figures/fig_3_2_depth_dose_analytic_vs_mc.svg` |
 | `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | OK | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
 | `fig_3_4_qgan_twolocal_ansatz` | `final_figure/qgan_baseline/qgan_twolocal_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_4_qgan_twolocal_ansatz.svg` |
+| `fig_3_5_qgan_training_diagram` | `final_figure/qgan_baseline/qgan_training_diagram.pdf` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_diagram.svg` |
 | `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
 | `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |
 | `fig_3_6_hea_ryrz_circular_reps2_ansatz` | `final_figure/method_circuits/hea_ryrz_circular_reps2_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_6_hea_ryrz_circular_reps2_ansatz.svg` |
