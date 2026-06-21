@@ -8,7 +8,6 @@ These SVG files wrap the original local raster figures as UTF-8 text so they can
 | `fig_3_2_depth_dose_analytic_vs_mc` | `final_figure/refer_pre_paper/notation_context/depth_dose_Dz_analytic_vs_MC.jpg` | OK | `notion_github_hosted_figures/fig_3_2_depth_dose_analytic_vs_mc.svg` |
 | `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | OK | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
 | `fig_3_4_qgan_twolocal_ansatz` | `final_figure/qgan_baseline/qgan_twolocal_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_4_qgan_twolocal_ansatz.svg` |
-| `fig_3_5_qgan_training_diagram` | `final_figure/qgan_baseline/qgan_training_diagram.pdf` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_diagram.svg` |
 | `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
 | `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |
 | `fig_3_6_hea_ryrz_circular_reps2_ansatz` | `final_figure/method_circuits/hea_ryrz_circular_reps2_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_6_hea_ryrz_circular_reps2_ansatz.svg` |
@@ -42,3 +41,12 @@ These SVG files wrap the original local raster figures as UTF-8 text so they can
 | `fig_4_7_q66_fft_best_profile` | `final_figure/qmci_qae_curated/2d_best_representatives/q66_fft_best_profile_z0p5_reps24.png` | OK | `notion_github_hosted_figures/fig_4_7_q66_fft_best_profile.svg` |
 | `fig_4_8_kl_threshold_rmse_norm_convergence` | `final_figure/kl_ladder_q60/figures/kl_threshold_rmse_norm_convergence.png` | OK | `notion_github_hosted_figures/fig_4_8_kl_threshold_rmse_norm_convergence.svg` |
 | `fig_4_9_kl_threshold_mse_norm_vs_invshots` | `final_figure/kl_ladder_q60/figures/kl_threshold_mse_norm_vs_invshots.png` | OK | `notion_github_hosted_figures/fig_4_9_kl_threshold_mse_norm_vs_invshots.svg` |
+
+## Auxiliary Hosted Assets
+
+These hosted assets are available for support or future editing, but are not
+part of the currently rendered Notion paper figure set.
+
+| slug | source | status | upload path | note |
+| --- | --- | --- | --- | --- |
+| `fig_3_5_qgan_training_diagram` | `final_figure/qgan_baseline/qgan_training_diagram.pdf` | auxiliary | `notion_github_hosted_figures/fig_3_5_qgan_training_diagram.svg` | Available qGAN training-loop support asset; not part of the currently rendered Notion Figure 5 two-panel composition. |
