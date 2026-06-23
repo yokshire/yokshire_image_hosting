@@ -286,6 +286,23 @@
       "note": "Accepted Figure 2-c asset for the Notion paper; visualizes the matched qGAN/HN-MLP state-preparation ansatz unit with Qiskit mpl output. The composite rendering preserves the Qiskit top-to-bottom qubit order, with enlarged panel labels for paper readability."
     },
     {
+      "id": "fig_3_3_second_collision_joint_probability_maps",
+      "status": "active",
+      "origin": "manual_regeneration",
+      "source_data": [
+        "*/final_data_analysis/raw/2d/q66/cos_q/target_joint.npy",
+        "*/final_data_analysis/raw/2d/q66/theta/target_joint.npy"
+      ],
+      "comparison_protocol": "Figure 3 target-structure visualization for the second-collision conditional joint distribution. The left panel shows the same target on the uniform q=cos(theta) grid, and the right panel shows the theta-space target used for Chebyshev representation.",
+      "github_path": "figures/fig_3_3_second_collision_joint_probability_maps.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_3_second_collision_joint_probability_maps.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_3_second_collision_joint_probability_maps.png",
+      "sha256": "eb3bd36ea2b4f14b261a4a9fdfb8f6852a7a8f10446dc609a3b7ea4f62581426",
+      "bytes": 259862,
+      "synced_at": "2026-06-23T21:01:04+09:00",
+      "note": "Replaces the earlier 3D bar-style joint-probability figure whose z-axis label intruded into the plot. The new two-panel heatmap removes the z-axis and makes the q-space/theta-space target structure readable."
+    },
+    {
       "id": "cross_check_fig_3_5_qgan_qubit_kl_scope",
       "status": "active",
       "origin": "cross_check_regeneration",

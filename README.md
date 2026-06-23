@@ -24,7 +24,8 @@ text-based upload workflows.
 | `fig_3_2b_stateprep_kl_comparison_q5` | earlier mixed qGAN/HN/initialize 5-qubit comparison | superseded | `figures/fig_3_2b_stateprep_kl_comparison_q5.png` |
 | `fig_3_2b_stateprep_matched_reps_q5` | `experiments/matched_stateprep_reps/final_qgan_ansatz_runs/*/matched_reps_summary.csv`; `최종데이터/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy` | OK | `figures/fig_3_2b_stateprep_matched_reps_q5.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit` | Qiskit `mpl` rendering of the matched H + TwoLocal(rx, rz, ry; full CZ) reps-unit ansatz used for qGAN and HN-MLP | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit.png` |
-| `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | OK | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
+| `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | superseded | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
+| `fig_3_3_second_collision_joint_probability_maps` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps.png` | OK | `figures/fig_3_3_second_collision_joint_probability_maps.png` |
 | `fig_3_4_qgan_twolocal_ansatz` | `final_figure/qgan_baseline/qgan_twolocal_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_4_qgan_twolocal_ansatz.svg` |
 | `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
 | `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |
