@@ -320,6 +320,26 @@
       "note": "Accepted Figure 5 asset for the Notion paper state-preparation section; replaces the earlier qGAN-only training/distribution evidence with a matched reps=8 qGAN versus HN-MLP learning and histogram comparison."
     },
     {
+      "id": "fig_3_6_theta_matched_reps8_learning_histograms",
+      "status": "active",
+      "origin": "matched_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/hn/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/qgan/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/hn/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/qgan/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/combined/matched_theta_reps8_summary.csv"
+      ],
+      "comparison_protocol": "Matched reps=8 diagnostic for the q50 5-qubit theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over three seeds; panels (b) and (c) compare the seed-median best prepared distribution with the same theta-bin target histogram.",
+      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms.png",
+      "sha256": "6a48910039606dec7eb1f3607f58d0bfda05f1b00fa192ac12af6a79191bafcb",
+      "bytes": 478196,
+      "synced_at": "2026-06-23T22:42:00+09:00",
+      "note": "Accepted Figure 6 asset for the Notion paper state-preparation section; extends the matched reps=8 qGAN versus HN-MLP learning and histogram comparison from the direct q-space target to the Chebyshev theta-space loading target."
+    },
+    {
       "id": "fig_3_3_second_collision_joint_probability_maps",
       "status": "superseded",
       "origin": "manual_regeneration",
