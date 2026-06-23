@@ -293,15 +293,15 @@
         "*/final_data_analysis/raw/2d/q66/cos_q/target_joint.npy",
         "*/final_data_analysis/raw/2d/q66/theta/target_joint.npy"
       ],
-      "comparison_protocol": "Figure 3 target-structure visualization for the second-collision conditional joint distribution. The left panel shows the same target on the uniform q=cos(theta) grid, and the right panel shows the theta-space target used for Chebyshev representation.",
+        "comparison_protocol": "Figure 3 target-structure visualization for the second-collision conditional joint distribution. The left panel shows the same target on a sparse-labeled uniform q=cos(theta) grid, and the right panel shows the theta-space target used for Chebyshev representation. The figure body keeps only panel headers; interpretation is carried by the paper text and caption.",
       "github_path": "figures/fig_3_3_second_collision_joint_probability_maps.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_3_second_collision_joint_probability_maps.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_3_second_collision_joint_probability_maps.png",
-      "sha256": "eb3bd36ea2b4f14b261a4a9fdfb8f6852a7a8f10446dc609a3b7ea4f62581426",
-      "bytes": 259862,
-      "synced_at": "2026-06-23T21:01:04+09:00",
-      "note": "Replaces the earlier 3D bar-style joint-probability figure whose z-axis label intruded into the plot. The new two-panel heatmap removes the z-axis and makes the q-space/theta-space target structure readable."
-    },
+        "sha256": "28dd956e4c216f98971ef97047d068ca61bf1149d375bf7805f076c6c6eb0a8f",
+        "bytes": 108051,
+        "synced_at": "2026-06-23T21:13:32+09:00",
+        "note": "Replaces the earlier 3D bar-style joint-probability figure whose z-axis label intruded into the plot. The updated two-panel heatmap removes the z-axis and top-level title block, keeps only compact panel markers, and restores descriptive axis labels for the q-space/theta-space target comparison."
+      },
     {
       "id": "cross_check_fig_3_5_qgan_qubit_kl_scope",
       "status": "active",
