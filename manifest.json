@@ -269,6 +269,23 @@
       "note": "Accepted Figure 2-b asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training."
     },
     {
+      "id": "fig_3_2c_matched_stateprep_ansatz_unit",
+      "status": "active",
+      "origin": "qiskit_mpl_rendering",
+      "source_data": [
+        "experiments/matched_stateprep_reps/render_figure_2c_ansatz.py",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/combined/fig_3_2c_matched_stateprep_ansatz_unit.png"
+      ],
+      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 2-b matched q50 state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 2-b repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
+      "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
+      "sha256": "53fa79562245ea074e9a4c04fb602a8863bb767fcd1d6b56adc2fdba5d1fd480",
+      "bytes": 282571,
+      "synced_at": "2026-06-23T20:15:31+09:00",
+      "note": "Accepted Figure 2-c asset for the Notion paper; visualizes the matched qGAN/HN-MLP state-preparation ansatz unit with Qiskit mpl output."
+    },
+    {
       "id": "cross_check_fig_3_5_qgan_qubit_kl_scope",
       "status": "active",
       "origin": "cross_check_regeneration",
