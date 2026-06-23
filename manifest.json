@@ -203,17 +203,31 @@
     },
     {
       "id": "fig_3_2a_depth_dose_benchmark_exact_q5",
-      "status": "active",
+      "status": "superseded",
       "origin": "manual_regeneration",
       "source_data": "*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv",
-      "comparison_protocol": "Adds exact initialize z-plot to connect the depth-dose benchmark with the matched 5-qubit state-preparation comparison in Figure 2-b.",
+      "comparison_protocol": "Adds exact initialize z-plot to connect the depth-dose benchmark with the matched 5-qubit state-preparation comparison. Superseded by the high-resolution Figure 2 asset.",
       "github_path": "figures/fig_3_2a_depth_dose_benchmark_exact_q5.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2a_depth_dose_benchmark_exact_q5.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2a_depth_dose_benchmark_exact_q5.png",
       "sha256": "fb7303980f0ee28ec39fd2f1515b558265a23e10f08d8948f49ff51e9d37fd18",
       "bytes": 126644,
       "synced_at": "2026-06-23T20:29:33+09:00",
-      "note": "Accepted Figure 2-a asset for the Notion paper; compares continuous analytic D1(z), Geant4-based sampled points, and exact initialize z-plot. Figure label text was enlarged for paper readability while keeping graph axes modest."
+      "note": "Superseded Figure 2-a asset. The accepted Figure 2 asset uses a high-resolution exact initialize D1(z) curve and no subfigure label."
+    },
+    {
+      "id": "fig_3_2_depth_dose_benchmark_exact_q5_highres",
+      "status": "active",
+      "origin": "manual_regeneration",
+      "source_data": "*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv",
+      "comparison_protocol": "Figure 2 first-order Compton depth-dose benchmark. Compares continuous analytic D1(z), Geant4-based sampled reference points, and a high-resolution exact initialize D1(z) curve generated on an 801-point z grid at the matched 5-qubit loading scale.",
+      "github_path": "figures/fig_3_2_depth_dose_benchmark_exact_q5_highres.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2_depth_dose_benchmark_exact_q5_highres.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2_depth_dose_benchmark_exact_q5_highres.png",
+      "sha256": "fbe939fa4283bd5dff691e5e8e19b63309df68c125ec4dd715246093886216c4",
+      "bytes": 126388,
+      "synced_at": "2026-06-23T21:41:53+09:00",
+      "note": "Accepted Figure 2 asset for the Notion paper. It replaces Figure 2-a, uses a high-resolution exact initialize D1(z) curve, and keeps Geant4 reference points as sampled markers."
     },
     {
       "id": "fig_3_2b_stateprep_kl_comparison",

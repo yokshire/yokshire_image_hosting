@@ -19,7 +19,8 @@ text-based upload workflows.
 | `fig_3_2_depth_dose_analytic_vs_mc` | `final_figure/refer_pre_paper/notation_context/depth_dose_Dz_analytic_vs_MC.jpg` | OK | `notion_github_hosted_figures/fig_3_2_depth_dose_analytic_vs_mc.svg` |
 | `fig_3_2_depth_dose_stateprep_comparison` | combined draft from Figure 2-a/2-b sources | superseded | `figures/fig_3_2_depth_dose_stateprep_comparison.png` |
 | `fig_3_2a_depth_dose_benchmark` | analytic/sample-only draft | superseded | `figures/fig_3_2a_depth_dose_benchmark.png` |
-| `fig_3_2a_depth_dose_benchmark_exact_q5` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | OK | `figures/fig_3_2a_depth_dose_benchmark_exact_q5.png` |
+| `fig_3_2a_depth_dose_benchmark_exact_q5` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | superseded | `figures/fig_3_2a_depth_dose_benchmark_exact_q5.png` |
+| `fig_3_2_depth_dose_benchmark_exact_q5_highres` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | OK | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres.png` |
 | `fig_3_2b_stateprep_kl_comparison` | mixed q5/q60 comparison draft | superseded | `figures/fig_3_2b_stateprep_kl_comparison.png` |
 | `fig_3_2b_stateprep_kl_comparison_q5` | earlier mixed qGAN/HN/initialize 5-qubit comparison | superseded | `figures/fig_3_2b_stateprep_kl_comparison_q5.png` |
 | `fig_3_2b_stateprep_matched_reps_q5` | `experiments/matched_stateprep_reps/final_qgan_ansatz_runs/*/matched_reps_summary.csv`; `최종데이터/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy` | OK | `figures/fig_3_2b_stateprep_matched_reps_q5.png` |
