@@ -287,21 +287,38 @@
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps",
+      "status": "superseded",
+      "origin": "manual_regeneration",
+      "source_data": [
+        "*/final_data_analysis/raw/2d/q66/cos_q/target_joint.npy",
+        "*/final_data_analysis/raw/2d/q66/theta/target_joint.npy"
+      ],
+      "comparison_protocol": "Figure 3 target-structure visualization for the second-collision conditional joint distribution. The left panel shows the same target on the uniform q=cos(theta) grid, and the right panel shows the theta-space target used for Chebyshev representation. Superseded by the title-only variant to avoid cached title/subtitle revisions.",
+      "github_path": "figures/fig_3_3_second_collision_joint_probability_maps.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_3_second_collision_joint_probability_maps.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_3_second_collision_joint_probability_maps.png",
+      "sha256": "eafd280c44dbc63f27fa42b9a50bca22ee440bef8b85a2bb020b95eb68765703",
+      "bytes": 230990,
+      "synced_at": "2026-06-23T21:13:32+09:00",
+      "note": "Superseded by fig_3_3_second_collision_joint_probability_maps_title_only, which removes the subtitle, enlarges the global title, and restores panel headings."
+    },
+    {
+      "id": "fig_3_3_second_collision_joint_probability_maps_title_only",
       "status": "active",
       "origin": "manual_regeneration",
       "source_data": [
         "*/final_data_analysis/raw/2d/q66/cos_q/target_joint.npy",
         "*/final_data_analysis/raw/2d/q66/theta/target_joint.npy"
       ],
-        "comparison_protocol": "Figure 3 target-structure visualization for the second-collision conditional joint distribution. The left panel shows the same target on the uniform q=cos(theta) grid, and the right panel shows the theta-space target used for Chebyshev representation. The global title/subtitle are shortened while the original axis and colorbar labeling is retained.",
-      "github_path": "figures/fig_3_3_second_collision_joint_probability_maps.png",
-      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_3_second_collision_joint_probability_maps.png",
-      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_3_second_collision_joint_probability_maps.png",
-        "sha256": "eafd280c44dbc63f27fa42b9a50bca22ee440bef8b85a2bb020b95eb68765703",
-        "bytes": 230990,
-        "synced_at": "2026-06-23T21:13:32+09:00",
-        "note": "Replaces the earlier 3D bar-style joint-probability figure whose z-axis label intruded into the plot. The updated two-panel heatmap removes the z-axis, retains the original axis/colorbar detail, and shortens only the global title/subtitle."
-      },
+      "comparison_protocol": "Figure 3 target-structure visualization for the second-collision conditional joint distribution. The left panel shows the same target on the uniform q=cos(theta) grid, and the right panel shows the theta-space target used for Chebyshev representation. The figure uses a single enlarged global title, no subtitle, restored panel headings, and the original axis/colorbar labeling.",
+      "github_path": "figures/fig_3_3_second_collision_joint_probability_maps_title_only.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_3_second_collision_joint_probability_maps_title_only.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_3_second_collision_joint_probability_maps_title_only.png",
+      "sha256": "6ff8cd00d037fa9703fb125201fb5ecd8db5deb9bc7b8010a37248001c772283",
+      "bytes": 227878,
+      "synced_at": "2026-06-23T21:18:31+09:00",
+      "note": "Replaces the earlier 3D bar-style joint-probability figure and subsequent cached title/subtitle variants. Uses a title-only header while preserving panel labels and axes."
+    },
     {
       "id": "cross_check_fig_3_5_qgan_qubit_kl_scope",
       "status": "active",
