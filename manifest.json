@@ -210,10 +210,10 @@
       "github_path": "figures/fig_3_2a_depth_dose_benchmark_exact_q5.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2a_depth_dose_benchmark_exact_q5.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2a_depth_dose_benchmark_exact_q5.png",
-      "sha256": "0f268bca55946799d7e128d44f7ed329d501225adfa7b11e0a6911364c50613e",
-      "bytes": 111585,
-      "synced_at": "2026-06-23T19:05:01+09:00",
-      "note": "Accepted Figure 2-a asset for the Notion paper; compares continuous analytic D1(z), Geant4-based sampled points, and exact initialize z-plot."
+      "sha256": "fb7303980f0ee28ec39fd2f1515b558265a23e10f08d8948f49ff51e9d37fd18",
+      "bytes": 126644,
+      "synced_at": "2026-06-23T20:29:33+09:00",
+      "note": "Accepted Figure 2-a asset for the Notion paper; compares continuous analytic D1(z), Geant4-based sampled points, and exact initialize z-plot. Figure label text was enlarged for paper readability while keeping graph axes modest."
     },
     {
       "id": "fig_3_2b_stateprep_kl_comparison",
@@ -263,10 +263,10 @@
       "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5.png",
-      "sha256": "7c27f6a99be0b82fe8dfa30d2d2dafbaf74300e735d6b8e7441fa12ceae2e2c0",
-      "bytes": 100309,
-      "synced_at": "2026-06-23T20:09:33+09:00",
-      "note": "Accepted Figure 2-b asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training."
+      "sha256": "783633c1742d17e8b500a5d0b5b0892db96e75d92aff961e43d6f02c2b8483a8",
+      "bytes": 135698,
+      "synced_at": "2026-06-23T20:29:33+09:00",
+      "note": "Accepted Figure 2-b asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training. Figure label text was enlarged for paper readability while keeping graph axes modest."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit",
@@ -280,10 +280,10 @@
       "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
-      "sha256": "bf9d45424146933ab23f69502c2fd71a078440e8f0b0b6bf63a3cfcde03f4883",
-      "bytes": 282901,
-      "synced_at": "2026-06-23T20:23:26+09:00",
-      "note": "Accepted Figure 2-c asset for the Notion paper; visualizes the matched qGAN/HN-MLP state-preparation ansatz unit with Qiskit mpl output. The composite rendering preserves the Qiskit top-to-bottom qubit order."
+      "sha256": "0350c0dfe299515c2891ff047161210818ee1e33c21b6c538f86784498c5e785",
+      "bytes": 515319,
+      "synced_at": "2026-06-23T20:29:33+09:00",
+      "note": "Accepted Figure 2-c asset for the Notion paper; visualizes the matched qGAN/HN-MLP state-preparation ansatz unit with Qiskit mpl output. The composite rendering preserves the Qiskit top-to-bottom qubit order, with enlarged panel labels for paper readability."
     },
     {
       "id": "cross_check_fig_3_5_qgan_qubit_kl_scope",
