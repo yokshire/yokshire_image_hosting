@@ -234,7 +234,7 @@
     },
     {
       "id": "fig_3_2b_stateprep_kl_comparison_q5",
-      "status": "active",
+      "status": "superseded",
       "origin": "manual_regeneration",
       "source_data": [
         "final_figure/qgan_baseline/README.md",
@@ -248,7 +248,25 @@
       "sha256": "7eecc966b5ffcba605401265c98a6960d6b469a0a46c3ad155cc728abd757671",
       "bytes": 65402,
       "synced_at": "2026-06-23T19:01:39+09:00",
-      "note": "Accepted Figure 2-b asset for the Notion paper; compares qGAN, HN-MLP, and exact initialize loading at matched 5-qubit scale."
+      "note": "Superseded by the matched-reps q50 full-target Figure 2-b. This asset mixed earlier qGAN/HN evidence and should be retained only for traceability."
+    },
+    {
+      "id": "fig_3_2b_stateprep_matched_reps_q5",
+      "status": "active",
+      "origin": "matched_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/hn/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/qgan/matched_reps_summary.csv",
+        "최종데이터/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
+      ],
+      "comparison_protocol": "Matched 5-qubit q50 full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over three seeds; exact initialize is shown as a zero-KL reference.",
+      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5.png",
+      "sha256": "7c27f6a99be0b82fe8dfa30d2d2dafbaf74300e735d6b8e7441fa12ceae2e2c0",
+      "bytes": 100309,
+      "synced_at": "2026-06-23T20:09:33+09:00",
+      "note": "Accepted Figure 2-b asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training."
     },
     {
       "id": "cross_check_fig_3_5_qgan_qubit_kl_scope",

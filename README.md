@@ -21,7 +21,8 @@ text-based upload workflows.
 | `fig_3_2a_depth_dose_benchmark` | analytic/sample-only draft | superseded | `figures/fig_3_2a_depth_dose_benchmark.png` |
 | `fig_3_2a_depth_dose_benchmark_exact_q5` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | OK | `figures/fig_3_2a_depth_dose_benchmark_exact_q5.png` |
 | `fig_3_2b_stateprep_kl_comparison` | mixed q5/q60 comparison draft | superseded | `figures/fig_3_2b_stateprep_kl_comparison.png` |
-| `fig_3_2b_stateprep_kl_comparison_q5` | `final_figure/qgan_baseline/README.md`; `state_prep_fix/module_20260415/module/knowledge_data/training_results/q50__reps8__standard_old_hn/round_summary.csv`; `*/final_data_analysis/transpiled_stateprep_complexity/summaries/complexity_summary_best_opt1.csv` | OK | `figures/fig_3_2b_stateprep_kl_comparison_q5.png` |
+| `fig_3_2b_stateprep_kl_comparison_q5` | earlier mixed qGAN/HN/initialize 5-qubit comparison | superseded | `figures/fig_3_2b_stateprep_kl_comparison_q5.png` |
+| `fig_3_2b_stateprep_matched_reps_q5` | `experiments/matched_stateprep_reps/final_qgan_ansatz_runs/*/matched_reps_summary.csv`; `최종데이터/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy` | OK | `figures/fig_3_2b_stateprep_matched_reps_q5.png` |
 | `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | OK | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
 | `fig_3_4_qgan_twolocal_ansatz` | `final_figure/qgan_baseline/qgan_twolocal_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_4_qgan_twolocal_ansatz.svg` |
 | `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
