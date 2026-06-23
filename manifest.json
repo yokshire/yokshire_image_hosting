@@ -277,9 +277,9 @@
       "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5.png",
-      "sha256": "783633c1742d17e8b500a5d0b5b0892db96e75d92aff961e43d6f02c2b8483a8",
-      "bytes": 135698,
-      "synced_at": "2026-06-23T20:29:33+09:00",
+      "sha256": "592707abf07c52dc240736b40a7ce162b25214ca9c8a304efe6eb572a973f170",
+      "bytes": 135039,
+      "synced_at": "2026-06-23T21:49:25+09:00",
       "note": "Accepted Figure 4-a asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training. Figure label text was enlarged for paper readability while keeping graph axes modest."
     },
     {
