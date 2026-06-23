@@ -23,8 +23,8 @@ text-based upload workflows.
 | `fig_3_2_depth_dose_benchmark_exact_q5_highres` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | OK | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres.png` |
 | `fig_3_2b_stateprep_kl_comparison` | mixed q5/q60 comparison draft | superseded | `figures/fig_3_2b_stateprep_kl_comparison.png` |
 | `fig_3_2b_stateprep_kl_comparison_q5` | earlier mixed qGAN/HN/initialize 5-qubit comparison | superseded | `figures/fig_3_2b_stateprep_kl_comparison_q5.png` |
-| `fig_3_2b_stateprep_matched_reps_q5` | `experiments/matched_stateprep_reps/final_qgan_ansatz_runs/*/matched_reps_summary.csv`; `최종데이터/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy` | OK | `figures/fig_3_2b_stateprep_matched_reps_q5.png` |
-| `fig_3_2c_matched_stateprep_ansatz_unit` | Qiskit `mpl` rendering of the matched H + TwoLocal(rx, rz, ry; full CZ) reps-unit ansatz used for qGAN and HN-MLP | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit.png` |
+| `fig_3_2b_stateprep_matched_reps_q5` | Figure 4-a matched q50 reps diagnostic from `experiments/matched_stateprep_reps/final_qgan_ansatz_runs/*/matched_reps_summary.csv`; `최종데이터/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy` | OK | `figures/fig_3_2b_stateprep_matched_reps_q5.png` |
+| `fig_3_2c_matched_stateprep_ansatz_unit` | Figure 4-b Qiskit `mpl` rendering of the matched H + TwoLocal(rx, rz, ry; full CZ) reps-unit ansatz used for qGAN and HN-MLP | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit.png` |
 | `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | superseded | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
 | `fig_3_3_second_collision_joint_probability_maps` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps.png` | superseded | `figures/fig_3_3_second_collision_joint_probability_maps.png` |
 | `fig_3_3_second_collision_joint_probability_maps_title_only` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps_title_only.png` | OK | `figures/fig_3_3_second_collision_joint_probability_maps_title_only.png` |

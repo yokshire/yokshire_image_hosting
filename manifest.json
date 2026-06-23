@@ -280,7 +280,7 @@
       "sha256": "783633c1742d17e8b500a5d0b5b0892db96e75d92aff961e43d6f02c2b8483a8",
       "bytes": 135698,
       "synced_at": "2026-06-23T20:29:33+09:00",
-      "note": "Accepted Figure 2-b asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training. Figure label text was enlarged for paper readability while keeping graph axes modest."
+      "note": "Accepted Figure 4-a asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training. Figure label text was enlarged for paper readability while keeping graph axes modest."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit",
@@ -290,14 +290,14 @@
         "experiments/matched_stateprep_reps/render_figure_2c_ansatz.py",
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/combined/fig_3_2c_matched_stateprep_ansatz_unit.png"
       ],
-      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 2-b matched q50 state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 2-b repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
+      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 4-a matched q50 state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 4-a repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
       "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
-      "sha256": "0350c0dfe299515c2891ff047161210818ee1e33c21b6c538f86784498c5e785",
-      "bytes": 515319,
-      "synced_at": "2026-06-23T20:29:33+09:00",
-      "note": "Accepted Figure 2-c asset for the Notion paper; visualizes the matched qGAN/HN-MLP state-preparation ansatz unit with Qiskit mpl output. The composite rendering preserves the Qiskit top-to-bottom qubit order, with enlarged panel labels for paper readability."
+      "sha256": "5576cc2eece8773f232d96c3f5fac36fdad8bc561a68637849294bcb5729bc17",
+      "bytes": 368802,
+      "synced_at": "2026-06-23T21:46:04+09:00",
+      "note": "Accepted Figure 4-b asset for the Notion paper; visualizes the matched qGAN/HN-MLP state-preparation ansatz unit with Qiskit mpl output. The composite rendering preserves the Qiskit top-to-bottom qubit order, removes the in-image figure title/subtitle, and keeps only the method panel labels for paper readability."
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps",
