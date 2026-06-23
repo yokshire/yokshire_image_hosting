@@ -190,7 +190,7 @@
     },
     {
       "id": "fig_3_2a_depth_dose_benchmark",
-      "status": "active",
+      "status": "superseded",
       "origin": "manual_regeneration",
       "source_data": "*/final_data_analysis/observables/raw/1d/q60/theta/dose_curve.csv",
       "github_path": "figures/fig_3_2a_depth_dose_benchmark.png",
@@ -199,7 +199,21 @@
       "sha256": "94380d0a97f6891e613ef98ce90d2fe76d89bdd18782f79b2f07658d334bb4c2",
       "bytes": 97251,
       "synced_at": "2026-06-23T18:56:31+09:00",
-      "note": "Accepted Figure 2-a asset for the Notion paper; compares continuous analytic D1(z) with Geant4-based sampled reference points."
+      "note": "Superseded analytic/sample-only draft. The accepted Figure 2-a now includes exact initialize z-plot at matched 5-qubit scale."
+    },
+    {
+      "id": "fig_3_2a_depth_dose_benchmark_exact_q5",
+      "status": "active",
+      "origin": "manual_regeneration",
+      "source_data": "*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv",
+      "comparison_protocol": "Adds exact initialize z-plot to connect the depth-dose benchmark with the matched 5-qubit state-preparation comparison in Figure 2-b.",
+      "github_path": "figures/fig_3_2a_depth_dose_benchmark_exact_q5.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2a_depth_dose_benchmark_exact_q5.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2a_depth_dose_benchmark_exact_q5.png",
+      "sha256": "0f268bca55946799d7e128d44f7ed329d501225adfa7b11e0a6911364c50613e",
+      "bytes": 111585,
+      "synced_at": "2026-06-23T19:05:01+09:00",
+      "note": "Accepted Figure 2-a asset for the Notion paper; compares continuous analytic D1(z), Geant4-based sampled points, and exact initialize z-plot."
     },
     {
       "id": "fig_3_2b_stateprep_kl_comparison",
