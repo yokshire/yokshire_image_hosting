@@ -17,7 +17,9 @@ text-based upload workflows.
 | --- | --- | --- | --- |
 | `fig_3_1_scattering_path_Dl_notation` | `final_figure/refer_pre_paper/notation_context/scattering_path_Dl_notation.jpg` | OK | `notion_github_hosted_figures/fig_3_1_scattering_path_Dl_notation.svg` |
 | `fig_3_2_depth_dose_analytic_vs_mc` | `final_figure/refer_pre_paper/notation_context/depth_dose_Dz_analytic_vs_MC.jpg` | OK | `notion_github_hosted_figures/fig_3_2_depth_dose_analytic_vs_mc.svg` |
-| `fig_3_2_depth_dose_stateprep_comparison` | `*/final_data_analysis/observables/raw/1d/q60/theta/dose_curve.csv`; `final_figure/qgan_baseline/README.md`; `state_prep_fix/module_20260415/module/knowledge_data/training_results/q60__reps8__standard_old_hn/round_summary.csv`; `*/final_data_analysis/transpiled_stateprep_complexity/summaries/complexity_summary_best_opt1.csv` | OK | `figures/fig_3_2_depth_dose_stateprep_comparison.png` |
+| `fig_3_2_depth_dose_stateprep_comparison` | combined draft from Figure 2-a/2-b sources | superseded | `figures/fig_3_2_depth_dose_stateprep_comparison.png` |
+| `fig_3_2a_depth_dose_benchmark` | `*/final_data_analysis/observables/raw/1d/q60/theta/dose_curve.csv` | OK | `figures/fig_3_2a_depth_dose_benchmark.png` |
+| `fig_3_2b_stateprep_kl_comparison` | `final_figure/qgan_baseline/README.md`; `state_prep_fix/module_20260415/module/knowledge_data/training_results/q60__reps8__standard_old_hn/round_summary.csv`; `*/final_data_analysis/transpiled_stateprep_complexity/summaries/complexity_summary_best_opt1.csv` | OK | `figures/fig_3_2b_stateprep_kl_comparison.png` |
 | `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | OK | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
 | `fig_3_4_qgan_twolocal_ansatz` | `final_figure/qgan_baseline/qgan_twolocal_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_4_qgan_twolocal_ansatz.svg` |
 | `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
