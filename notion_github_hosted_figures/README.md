@@ -1,7 +1,7 @@
 # Notion GitHub Hosted Figures
 
 These SVG files wrap the original local raster figures as UTF-8 text so they can be uploaded through the GitHub connector and served through raw.githubusercontent.com.
-The currently rendered state-preparation Figure 7 uses direct PNG assets under `figures/fig_3_9_*`; no SVG wrappers for those PNG-delivered panels are stored in this directory.
+The currently rendered state-preparation diagnostic uses direct PNG assets for Figure 4-a, Figure 4-b, and Figure 5. Older qGAN-only, HN-only, and joint-distribution diagnostic panels are kept only as legacy support assets.
 
 | slug | source | status | upload path |
 | --- | --- | --- | --- |
@@ -11,27 +11,35 @@ The currently rendered state-preparation Figure 7 uses direct PNG assets under `
 | `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | superseded | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
 | `fig_3_3_second_collision_joint_probability_maps` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps.png` | superseded | `figures/fig_3_3_second_collision_joint_probability_maps.png` |
 | `fig_3_3_second_collision_joint_probability_maps_title_only` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps_title_only.png` | OK | `figures/fig_3_3_second_collision_joint_probability_maps_title_only.png` |
+| `fig_3_2b_stateprep_matched_reps_q5` | Figure 4-a matched q50 reps diagnostic | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5.png` |
 | `fig_3_2b_stateprep_matched_reps_q5_label_v2` | Figure 4-a cache-busting asset with label box below the plot area | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png` |
 | `fig_3_2b_stateprep_matched_reps_q5_seed10` | Figure 4-a seed10 matched q50 reps diagnostic with lower method label and reduced full-width info label | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png` |
 | `fig_3_2b_stateprep_matched_reps_q5_seed10_v2` | Figure 4-a seed10 matched q50 reps diagnostic with a two-line full-width info label | OK | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png` |
+| `fig_3_2c_matched_stateprep_ansatz_unit` | Figure 4-b Qiskit `mpl` rendering of the common H + TwoLocal reps-unit ansatz | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit_upright_v3` | Figure 4-b cache-busting Qiskit `mpl` rendering with no old in-image title/subtitle | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png` |
+| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence` | Matched q50 reps=8 qGAN/HN-MLP distributions coarse-grained by data-qubit resolution | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence.png` |
+| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2` | Figure 9 two-panel qGAN/HN-MLP data-qubit convergence with target-midpoint baseline and ten-seed min-max error ranges | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2.png` |
+| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3` | Current Figure 9 two-panel qGAN/HN-MLP data-qubit convergence; no in-image title, lower legend, and log-scale visibility floor for the target-midpoint zero-error point | OK | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3.png` |
+| `fig_3_5_matched_reps8_learning_histograms` | Figure 5 matched reps=8 qGAN/HN-MLP KL learning trace and target-distribution histogram diagnostic | superseded | `figures/fig_3_5_matched_reps8_learning_histograms.png` |
 | `fig_3_5_matched_reps8_learning_histograms_seed10` | Figure 5 seed10 matched reps=8 qGAN/HN-MLP learning and histogram diagnostic with selected seed bars plus 10-seed range | OK | `figures/fig_3_5_matched_reps8_learning_histograms_seed10.png` |
+| `fig_3_6_theta_matched_reps8_learning_histograms` | Figure 6 matched reps=8 qGAN/HN-MLP KL learning trace and theta-target histogram diagnostic for Chebyshev loading | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms.png` |
 | `fig_3_6_theta_matched_reps8_learning_histograms_legend_v2` | Figure 6 cache-busting asset with lower-panel labels moved out of the histogram plots | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png` |
 | `fig_3_6_theta_matched_reps8_learning_histograms_seed10` | Figure 6 seed10 theta-space matched reps=8 diagnostic with selected seed bars plus 10-seed range | OK | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png` |
-| `fig_3_4_qgan_twolocal_ansatz` | `final_figure/qgan_baseline/qgan_twolocal_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_4_qgan_twolocal_ansatz.svg` |
-| `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
-| `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |
-| `fig_3_6_hea_ryrz_circular_reps2_ansatz` | `final_figure/method_circuits/hea_ryrz_circular_reps2_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_6_hea_ryrz_circular_reps2_ansatz.svg` |
-| `fig_3_10_qae_qmci_mode_estimator_block` | `final_figure/method_circuits/qae_qmci_mode_estimator_block.png` | OK | `notion_github_hosted_figures/fig_3_10_qae_qmci_mode_estimator_block.svg` |
-| `fig_3_11_qae_qmci_mode_estimator_decomposed` | `final_figure/method_circuits/qae_qmci_mode_estimator_decomposed.png` | OK | `notion_github_hosted_figures/fig_3_11_qae_qmci_mode_estimator_decomposed.svg` |
-| `fig_3_12_fft_reconstruction_Gu` | `final_figure/refer_pre_paper/qae_fft_1d_context/fft_reconstruction_Gu.png` | OK | `notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.svg` |
-| `fig_3_12_qae_vs_nonqae_std_loglog` | `final_figure/refer_pre_paper/qae_fft_1d_context/qae_vs_nonqae_std_loglog.png` | OK | `notion_github_hosted_figures/fig_3_12_qae_vs_nonqae_std_loglog.svg` |
-| `fig_3_13_chebyshev_dose_heatmap_z0p5_x10` | `final_figure/method_support/chebyshev_dose_heatmap_z0p5_x10.png` | OK | `notion_github_hosted_figures/fig_3_13_chebyshev_dose_heatmap_z0p5_x10.svg` |
-| `fig_3_13_fft_dose_heatmap_z0p5_x10` | `final_figure/method_support/fft_dose_heatmap_z0p5_x10.png` | OK | `notion_github_hosted_figures/fig_3_13_fft_dose_heatmap_z0p5_x10.svg` |
-| `fig_3_13_chebyshev_profile_z0p5` | `final_figure/method_support/chebyshev_profile_z0p5.png` | OK | `notion_github_hosted_figures/fig_3_13_chebyshev_profile_z0p5.svg` |
-| `fig_3_13_fft_profile_z0p5` | `final_figure/method_support/fft_profile_z0p5.png` | OK | `notion_github_hosted_figures/fig_3_13_fft_profile_z0p5.svg` |
-| `fig_3_14_chebyshev_q60_dose` | `final_figure/qmci_qae_curated/1d_reps8/chebyshev_q60_dose.png` | OK | `notion_github_hosted_figures/fig_3_14_chebyshev_q60_dose.svg` |
-| `fig_3_14_fft_q60_dose` | `final_figure/qmci_qae_curated/1d_reps8/fft_q60_dose.png` | OK | `notion_github_hosted_figures/fig_3_14_fft_q60_dose.svg` |
+| `fig_3_4_qgan_twolocal_ansatz` | `final_figure/qgan_baseline/qgan_twolocal_ansatz.png` | legacy | `notion_github_hosted_figures/fig_3_4_qgan_twolocal_ansatz.svg` |
+| `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | superseded | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
+| `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | superseded | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |
+| `fig_3_6_hea_ryrz_circular_reps2_ansatz` | `final_figure/method_circuits/hea_ryrz_circular_reps2_ansatz.png` | legacy | `notion_github_hosted_figures/fig_3_6_hea_ryrz_circular_reps2_ansatz.svg` |
+| `fig_3_10_qae_qmci_mode_estimator_block` | `final_figure/method_circuits/qae_qmci_mode_estimator_block.png` | superseded | `notion_github_hosted_figures/fig_3_10_qae_qmci_mode_estimator_block.svg` |
+| `fig_3_10_qae_qmci_mode_estimator_block_v2` | Current Figure 8 three-panel QMCI/QAE schematic: QMCI operator A, Grover operator Q, and QPE-based QAE controlled-Q powers | OK | `figures/fig_3_10_qae_qmci_mode_estimator_block_v2.png` |
+| `fig_3_11_qae_qmci_mode_estimator_decomposed` | Current Figure 10 QAE/QMCI mode-estimator gate-level decomposition | OK | `notion_github_hosted_figures/fig_3_11_qae_qmci_mode_estimator_decomposed.svg` |
+| `fig_3_12_fft_reconstruction_Gu` | Current Figure 11-a FFT reconstruction context for the first-order QMCI workflow | OK | `notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.svg` |
+| `fig_3_12_qae_vs_nonqae_std_loglog` | Current Figure 11-b QAE versus non-QAE estimator scaling context | OK | `notion_github_hosted_figures/fig_3_12_qae_vs_nonqae_std_loglog.svg` |
+| `fig_3_13_chebyshev_dose_heatmap_z0p5_x10` | Current Figure 12-a Chebyshev second-collision dose-map reconstruction panel | OK | `notion_github_hosted_figures/fig_3_13_chebyshev_dose_heatmap_z0p5_x10.svg` |
+| `fig_3_13_fft_dose_heatmap_z0p5_x10` | Current Figure 12-b FFT second-collision dose-map reconstruction panel | OK | `notion_github_hosted_figures/fig_3_13_fft_dose_heatmap_z0p5_x10.svg` |
+| `fig_3_13_chebyshev_profile_z0p5` | Current Figure 12-c Chebyshev profile reconstruction panel | OK | `notion_github_hosted_figures/fig_3_13_chebyshev_profile_z0p5.svg` |
+| `fig_3_13_fft_profile_z0p5` | Current Figure 12-d FFT profile reconstruction panel | OK | `notion_github_hosted_figures/fig_3_13_fft_profile_z0p5.svg` |
+| `fig_3_14_chebyshev_q60_dose` | Current Figure 13-a Chebyshev 1D dose reconstruction representative | OK | `notion_github_hosted_figures/fig_3_14_chebyshev_q60_dose.svg` |
+| `fig_3_14_fft_q60_dose` | Current Figure 13-b FFT 1D dose reconstruction representative | OK | `notion_github_hosted_figures/fig_3_14_fft_q60_dose.svg` |
 | `fig_4_1_depth_dose_analytic_vs_mc` | `final_figure/refer_pre_paper/notation_context/depth_dose_Dz_analytic_vs_MC.jpg` | OK | `notion_github_hosted_figures/fig_4_1_depth_dose_analytic_vs_mc.svg` |
 | `fig_4_2_single_compton_D1_qmci` | `final_figure/refer_pre_paper/qae_fft_1d_context/single_compton_D1_qmci.png` | OK | `notion_github_hosted_figures/fig_4_2_single_compton_D1_qmci.svg` |
 | `fig_4_3_qae_vs_nonqae_std_loglog` | `final_figure/refer_pre_paper/qae_fft_1d_context/qae_vs_nonqae_std_loglog.png` | OK | `notion_github_hosted_figures/fig_4_3_qae_vs_nonqae_std_loglog.svg` |
@@ -54,7 +62,7 @@ part of the currently rendered Notion paper figure set.
 
 | slug | source | status | upload path | note |
 | --- | --- | --- | --- | --- |
-| `fig_3_5_qgan_training_diagram` | `final_figure/qgan_baseline/qgan_training_diagram.pdf` | auxiliary | `notion_github_hosted_figures/fig_3_5_qgan_training_diagram.svg` | Available qGAN training-loop support asset; not part of the currently rendered Notion Figure 5 two-panel composition. |
+| `fig_3_5_qgan_training_diagram` | `final_figure/qgan_baseline/qgan_training_diagram.pdf` | auxiliary | `notion_github_hosted_figures/fig_3_5_qgan_training_diagram.svg` | Available qGAN training-loop support asset; superseded in the paper by the matched reps=8 Figure 5 diagnostic. |
 | `fig_3_7_hn_zero_shot_kl_bar` | `final_figure/stateprep_hn/zero_shot_kl_bar.png` | legacy | `notion_github_hosted_figures/fig_3_7_hn_zero_shot_kl_bar.svg` | Legacy HN/state-preparation support wrapper; not part of the currently rendered Notion paper figure set. |
 | `fig_3_7_hn_finetune_curves_kl` | `final_figure/stateprep_hn/finetune_curves_kl.png` | legacy | `notion_github_hosted_figures/fig_3_7_hn_finetune_curves_kl.svg` | Legacy HN/state-preparation support wrapper; not part of the currently rendered Notion paper figure set. |
 | `fig_3_7_hn_median_kl_vs_reps` | `final_figure/stateprep_hn/median_kl_vs_reps_hea_hn.png` | legacy | `notion_github_hosted_figures/fig_3_7_hn_median_kl_vs_reps.svg` | Legacy HN/state-preparation support wrapper; not part of the currently rendered Notion paper figure set. |
