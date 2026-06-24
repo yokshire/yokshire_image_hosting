@@ -11,6 +11,9 @@ The currently rendered state-preparation Figure 7 uses direct PNG assets under `
 | `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | superseded | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
 | `fig_3_3_second_collision_joint_probability_maps` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps.png` | superseded | `figures/fig_3_3_second_collision_joint_probability_maps.png` |
 | `fig_3_3_second_collision_joint_probability_maps_title_only` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps_title_only.png` | OK | `figures/fig_3_3_second_collision_joint_probability_maps_title_only.png` |
+| `fig_3_2b_stateprep_matched_reps_q5_label_v2` | Figure 4-a cache-busting asset with label box below the plot area | OK | `figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png` |
+| `fig_3_2c_matched_stateprep_ansatz_unit_upright_v3` | Figure 4-b cache-busting Qiskit `mpl` rendering with no old in-image title/subtitle | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png` |
+| `fig_3_6_theta_matched_reps8_learning_histograms_legend_v2` | Figure 6 cache-busting asset with lower-panel labels moved out of the histogram plots | OK | `figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png` |
 | `fig_3_4_qgan_twolocal_ansatz` | `final_figure/qgan_baseline/qgan_twolocal_ansatz.png` | OK | `notion_github_hosted_figures/fig_3_4_qgan_twolocal_ansatz.svg` |
 | `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
 | `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | OK | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |

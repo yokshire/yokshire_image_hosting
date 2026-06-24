@@ -266,7 +266,7 @@
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/hn/matched_reps_summary.csv",
@@ -280,11 +280,29 @@
       "sha256": "eeb831ed107a11e9972d4d647ad908ad0b000d534bb1b5e3ec60630bf85e75d3",
       "bytes": 133055,
       "synced_at": "2026-06-24T11:42:29+09:00",
-      "note": "Accepted Figure 4-a asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training. Figure label text was enlarged and moved below the plot area so it no longer occludes the KL curves."
+      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_label_v2 to avoid stale Notion/browser caching and to keep the target/ansatz label box outside the plot area."
+    },
+    {
+      "id": "fig_3_2b_stateprep_matched_reps_q5_label_v2",
+      "status": "active",
+      "origin": "matched_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/hn/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/qgan/matched_reps_summary.csv",
+        "理쒖쥌?곗씠??final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
+      ],
+      "comparison_protocol": "Matched 5-qubit q50 full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over three seeds; exact initialize is shown as a zero-KL reference.",
+      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png",
+      "sha256": "8fbb8847de5bd82416fe215ce29f30bd7cf8bb1a7cd41e67d0e08d84cd7db554",
+      "bytes": 139552,
+      "synced_at": "2026-06-24T12:10:14+09:00",
+      "note": "Active Figure 4-a asset for the Notion paper. The target/ansatz label box is placed below the plotting area with enlarged text so it no longer covers the KL curves."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit",
-      "status": "active",
+      "status": "superseded",
       "origin": "qiskit_mpl_rendering",
       "source_data": [
         "experiments/matched_stateprep_reps/render_figure_2c_ansatz.py",
@@ -297,7 +315,24 @@
       "sha256": "5576cc2eece8773f232d96c3f5fac36fdad8bc561a68637849294bcb5729bc17",
       "bytes": 368802,
       "synced_at": "2026-06-23T21:46:04+09:00",
-      "note": "Accepted Figure 4-b asset for the Notion paper; visualizes the matched qGAN/HN-MLP state-preparation ansatz unit with Qiskit mpl output. The composite rendering preserves the Qiskit top-to-bottom qubit order, removes the in-image figure title/subtitle, and keeps only the method panel labels for paper readability."
+      "note": "Superseded by fig_3_2c_matched_stateprep_ansatz_unit_upright_v3 to avoid stale Notion/browser caching while preserving the Qiskit top-to-bottom qubit order and omitting the old in-image title/subtitle."
+    },
+    {
+      "id": "fig_3_2c_matched_stateprep_ansatz_unit_upright_v3",
+      "status": "active",
+      "origin": "qiskit_mpl_rendering",
+      "source_data": [
+        "experiments/matched_stateprep_reps/render_figure_2c_ansatz.py",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/combined/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png"
+      ],
+      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 4-a matched q50 state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 4-a repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
+      "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png",
+      "sha256": "5576cc2eece8773f232d96c3f5fac36fdad8bc561a68637849294bcb5729bc17",
+      "bytes": 368802,
+      "synced_at": "2026-06-24T12:10:14+09:00",
+      "note": "Active Figure 4-b asset for the Notion paper. The circuit panels keep the original Qiskit q0-to-q4 order, remove the old Figure 2-c title/subtitle, and retain only the qGAN/HN-MLP method labels."
     },
     {
       "id": "fig_3_5_matched_reps8_learning_histograms",
@@ -321,7 +356,7 @@
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs/hn/matched_histories.csv",
@@ -337,7 +372,27 @@
       "sha256": "85bc260fbd2ba6028905efc780f791d6c94d9f88b16e1e33ab420e77830f7f48",
       "bytes": 478814,
       "synced_at": "2026-06-24T11:42:29+09:00",
-      "note": "Accepted Figure 6 asset for the Notion paper state-preparation section; extends the matched reps=8 qGAN versus HN-MLP learning and histogram comparison from the direct q-space target to the Chebyshev theta-space loading target. Histogram legends were moved away from the high-probability bins to avoid overlap."
+      "note": "Superseded by fig_3_6_theta_matched_reps8_learning_histograms_legend_v2 to avoid stale Notion/browser caching and to move histogram labels away from the plot panels."
+    },
+    {
+      "id": "fig_3_6_theta_matched_reps8_learning_histograms_legend_v2",
+      "status": "active",
+      "origin": "matched_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/hn/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/qgan/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/hn/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/qgan/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs/combined/matched_theta_reps8_summary.csv"
+      ],
+      "comparison_protocol": "Matched reps=8 diagnostic for the q50 5-qubit theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over three seeds; panels (b) and (c) compare the seed-median best prepared distribution with the same theta-bin target histogram.",
+      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png",
+      "sha256": "92a2fdd6e04a1d2f1cbe2231423a84cb35ab1f2fe2142ed8d09a07c5e49babee",
+      "bytes": 461793,
+      "synced_at": "2026-06-24T12:10:14+09:00",
+      "note": "Active Figure 6 asset for the Notion paper. The lower histogram panels use concise titles and a shared bottom legend so labels no longer overlap the histogram plots."
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps",
