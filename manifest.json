@@ -284,7 +284,7 @@
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5_label_v2",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/hn/matched_reps_summary.csv",
@@ -298,7 +298,26 @@
       "sha256": "8fbb8847de5bd82416fe215ce29f30bd7cf8bb1a7cd41e67d0e08d84cd7db554",
       "bytes": 139552,
       "synced_at": "2026-06-24T12:10:14+09:00",
-      "note": "Active Figure 4-a asset for the Notion paper. The target/ansatz label box is placed below the plotting area with enlarged text so it no longer covers the KL curves."
+      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_seed10 after extending the matched q50 comparison from three seeds to ten seeds and moving the method label below the axis."
+    },
+    {
+      "id": "fig_3_2b_stateprep_matched_reps_q5_seed10",
+      "status": "active",
+      "origin": "matched_retraining_seed10",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/qgan/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_qgan_ansatz_aggregate.csv",
+        "*/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
+      ],
+      "comparison_protocol": "Matched 5-qubit q50 full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over ten seeds; the plotted band shows the min-max seed range and exact initialize is shown as a zero-KL reference.",
+      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png",
+      "sha256": "911745f0c6b6126aff3cec136c5a46049e6f8186462c2e774c26422f7a6c1aae",
+      "bytes": 131081,
+      "synced_at": "2026-06-24T13:31:41+09:00",
+      "note": "Active Figure 4-a asset for the Notion paper. The information label is reduced and spans the plot width, while qGAN/HN-MLP labels sit below the x-axis."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit",
@@ -336,7 +355,7 @@
     },
     {
       "id": "fig_3_5_matched_reps8_learning_histograms",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/hn/matched_histories.csv",
@@ -352,7 +371,27 @@
       "sha256": "efbf1a151f0692f255a12830f0f0d4dcd7c7245b677a3c5c9e38d9644a83be81",
       "bytes": 360425,
       "synced_at": "2026-06-23T21:57:02+09:00",
-      "note": "Accepted Figure 5 asset for the Notion paper state-preparation section; replaces the earlier qGAN-only training/distribution evidence with a matched reps=8 qGAN versus HN-MLP learning and histogram comparison."
+      "note": "Superseded by fig_3_5_matched_reps8_learning_histograms_seed10 after extending the q-space reps=8 diagnostic from three seeds to ten seeds and adding histogram seed-range bands."
+    },
+    {
+      "id": "fig_3_5_matched_reps8_learning_histograms_seed10",
+      "status": "active",
+      "origin": "matched_retraining_seed10",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/qgan/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/qgan/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_qgan_ansatz_summary.csv"
+      ],
+      "comparison_protocol": "Matched reps=8 diagnostic for the q50 5-qubit full 32-bin cos(q) target. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
+      "github_path": "figures/fig_3_5_matched_reps8_learning_histograms_seed10.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_5_matched_reps8_learning_histograms_seed10.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_5_matched_reps8_learning_histograms_seed10.png",
+      "sha256": "4ad8e75c1b407b864a47402abff5dd5bbd00376233832131a197c156909363a1",
+      "bytes": 403384,
+      "synced_at": "2026-06-24T13:31:41+09:00",
+      "note": "Active Figure 5 asset for the Notion paper. The lower-panel titles are concise and spaced away from the upper x-axis label, with a shared legend explaining selected seeds and ten-seed ranges."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms",
@@ -376,7 +415,7 @@
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_legend_v2",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs/hn/matched_histories.csv",
@@ -392,7 +431,27 @@
       "sha256": "92a2fdd6e04a1d2f1cbe2231423a84cb35ab1f2fe2142ed8d09a07c5e49babee",
       "bytes": 461793,
       "synced_at": "2026-06-24T12:10:14+09:00",
-      "note": "Active Figure 6 asset for the Notion paper. The lower histogram panels use concise titles and a shared bottom legend so labels no longer overlap the histogram plots."
+      "note": "Superseded by fig_3_6_theta_matched_reps8_learning_histograms_seed10 after extending the theta-space reps=8 diagnostic from three seeds to ten seeds and adding histogram seed-range bands."
+    },
+    {
+      "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10",
+      "status": "active",
+      "origin": "matched_retraining_seed10",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/hn/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/qgan/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/hn/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/qgan/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/combined/matched_theta_reps8_summary.csv"
+      ],
+      "comparison_protocol": "Matched reps=8 diagnostic for the q50 5-qubit theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
+      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png",
+      "sha256": "927ba1d88787dcdccbe1d14845f4fe01de4f877b78f13cec659d5041717bebe7",
+      "bytes": 450777,
+      "synced_at": "2026-06-24T13:31:41+09:00",
+      "note": "Active Figure 6 asset for the Notion paper. The lower histogram labels and shared legend have additional spacing while preserving concise b/c panel titles."
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps",
