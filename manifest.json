@@ -302,7 +302,7 @@
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5_seed10",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_retraining_seed10",
       "source_data": [
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_reps_summary.csv",
@@ -317,7 +317,26 @@
       "sha256": "911745f0c6b6126aff3cec136c5a46049e6f8186462c2e774c26422f7a6c1aae",
       "bytes": 131081,
       "synced_at": "2026-06-24T13:31:41+09:00",
-      "note": "Active Figure 4-a asset for the Notion paper. The information label is reduced and spans the plot width, while qGAN/HN-MLP labels sit below the x-axis."
+      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_seed10_v2, which keeps the same ten-seed data and moves the iteration/seed label onto the ansatz line."
+    },
+    {
+      "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_v2",
+      "status": "active",
+      "origin": "matched_retraining_seed10",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/qgan/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_qgan_ansatz_aggregate.csv",
+        "*/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
+      ],
+      "comparison_protocol": "Matched 5-qubit q50 full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over ten seeds; the plotted band shows the min-max seed range and exact initialize is shown as a zero-KL reference.",
+      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png",
+      "sha256": "bbee499865a5e7ca483caed8d7a78c95be9fcc85abf2a66e033b416c22be5fea",
+      "bytes": 127841,
+      "synced_at": "2026-06-24T14:07:46+09:00",
+      "note": "Active Figure 4-a asset for the Notion paper. The lower information label is reduced to two lines by placing the iteration/seed description on the ansatz line."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit",
