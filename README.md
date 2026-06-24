@@ -52,7 +52,8 @@ text-based upload workflows.
 | `fig_3_9_theta_joint_probability_marginals` | `final_figure/stateprep_distribution_curated/2d_q66/theta_joint_probability_marginals.png` | legacy | `figures/fig_3_9_theta_joint_probability_marginals.png` |
 | `fig_3_10_qae_qmci_mode_estimator_block` | `final_figure/method_circuits/qae_qmci_mode_estimator_block.png` | superseded | `notion_github_hosted_figures/fig_3_10_qae_qmci_mode_estimator_block.svg` |
 | `fig_3_10_qae_qmci_mode_estimator_block_v2` | Manual three-panel QMCI/QAE schematic draft; superseded because Figure 8 must use Qiskit `mpl` circuit rendering | superseded | `figures/fig_3_10_qae_qmci_mode_estimator_block_v2.png` |
-| `fig_3_10_qae_qmci_mode_estimator_block_v3` | Current Figure 8 Qiskit `mpl` rendering of QMCI operator A, Grover operator Q, and QPE-based QAE controlled-Q powers | OK | `figures/fig_3_10_qae_qmci_mode_estimator_block_v3.png` |
+| `fig_3_10_qae_qmci_mode_estimator_block_v3` | Qiskit `mpl` Figure 8 draft before removing the basis block and restoring iQFT as a compact block | superseded | `figures/fig_3_10_qae_qmci_mode_estimator_block_v3.png` |
+| `fig_3_10_qae_qmci_mode_estimator_block_v4` | Current Figure 8 Qiskit `mpl` rendering with no basis block in panel (a), compact iQFT block in panel (c), and shortened internal labels for readability | OK | `figures/fig_3_10_qae_qmci_mode_estimator_block_v4.png` |
 | `fig_3_11_qae_qmci_mode_estimator_decomposed` | Current Figure 10 QAE/QMCI mode-estimator gate-level decomposition | OK | `notion_github_hosted_figures/fig_3_11_qae_qmci_mode_estimator_decomposed.svg` |
 | `fig_3_12_fft_reconstruction_Gu` | Current Figure 11-a FFT reconstruction context for the first-order QMCI workflow | OK | `notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.svg` |
 | `fig_3_12_qae_vs_nonqae_std_loglog` | Current Figure 11-b QAE versus non-QAE estimator scaling context | OK | `notion_github_hosted_figures/fig_3_12_qae_vs_nonqae_std_loglog.svg` |
