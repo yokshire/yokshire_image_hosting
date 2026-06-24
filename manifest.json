@@ -277,10 +277,10 @@
       "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5.png",
-      "sha256": "592707abf07c52dc240736b40a7ce162b25214ca9c8a304efe6eb572a973f170",
-      "bytes": 135039,
-      "synced_at": "2026-06-23T21:49:25+09:00",
-      "note": "Accepted Figure 4-a asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training. Figure label text was enlarged for paper readability while keeping graph axes modest."
+      "sha256": "eeb831ed107a11e9972d4d647ad908ad0b000d534bb1b5e3ec60630bf85e75d3",
+      "bytes": 133055,
+      "synced_at": "2026-06-24T11:42:29+09:00",
+      "note": "Accepted Figure 4-a asset for the Notion paper after matched q50 5-qubit retraining; shows HN-MLP improving with reps while qGAN remains near 1e-1 KL under adversarial training. Figure label text was enlarged and moved below the plot area so it no longer occludes the KL curves."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit",
@@ -334,10 +334,10 @@
       "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms.png",
-      "sha256": "6a48910039606dec7eb1f3607f58d0bfda05f1b00fa192ac12af6a79191bafcb",
-      "bytes": 478196,
-      "synced_at": "2026-06-23T22:42:00+09:00",
-      "note": "Accepted Figure 6 asset for the Notion paper state-preparation section; extends the matched reps=8 qGAN versus HN-MLP learning and histogram comparison from the direct q-space target to the Chebyshev theta-space loading target."
+      "sha256": "85bc260fbd2ba6028905efc780f791d6c94d9f88b16e1e33ab420e77830f7f48",
+      "bytes": 478814,
+      "synced_at": "2026-06-24T11:42:29+09:00",
+      "note": "Accepted Figure 6 asset for the Notion paper state-preparation section; extends the matched reps=8 qGAN versus HN-MLP learning and histogram comparison from the direct q-space target to the Chebyshev theta-space loading target. Histogram legends were moved away from the high-probability bins to avoid overlap."
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps",
