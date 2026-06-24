@@ -30,7 +30,8 @@ The currently rendered state-preparation diagnostic uses direct PNG assets for F
 | `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | superseded | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |
 | `fig_3_6_hea_ryrz_circular_reps2_ansatz` | `final_figure/method_circuits/hea_ryrz_circular_reps2_ansatz.png` | legacy | `notion_github_hosted_figures/fig_3_6_hea_ryrz_circular_reps2_ansatz.svg` |
 | `fig_3_10_qae_qmci_mode_estimator_block` | `final_figure/method_circuits/qae_qmci_mode_estimator_block.png` | superseded | `notion_github_hosted_figures/fig_3_10_qae_qmci_mode_estimator_block.svg` |
-| `fig_3_10_qae_qmci_mode_estimator_block_v2` | Current Figure 8 three-panel QMCI/QAE schematic: QMCI operator A, Grover operator Q, and QPE-based QAE controlled-Q powers | OK | `figures/fig_3_10_qae_qmci_mode_estimator_block_v2.png` |
+| `fig_3_10_qae_qmci_mode_estimator_block_v2` | Manual three-panel QMCI/QAE schematic draft; superseded because Figure 8 must use Qiskit `mpl` circuit rendering | superseded | `figures/fig_3_10_qae_qmci_mode_estimator_block_v2.png` |
+| `fig_3_10_qae_qmci_mode_estimator_block_v3` | Current Figure 8 Qiskit `mpl` rendering of QMCI operator A, Grover operator Q, and QPE-based QAE controlled-Q powers | OK | `figures/fig_3_10_qae_qmci_mode_estimator_block_v3.png` |
 | `fig_3_11_qae_qmci_mode_estimator_decomposed` | Current Figure 10 QAE/QMCI mode-estimator gate-level decomposition | OK | `notion_github_hosted_figures/fig_3_11_qae_qmci_mode_estimator_decomposed.svg` |
 | `fig_3_12_fft_reconstruction_Gu` | Current Figure 11-a FFT reconstruction context for the first-order QMCI workflow | OK | `notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.svg` |
 | `fig_3_12_qae_vs_nonqae_std_loglog` | Current Figure 11-b QAE versus non-QAE estimator scaling context | OK | `notion_github_hosted_figures/fig_3_12_qae_vs_nonqae_std_loglog.svg` |
