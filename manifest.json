@@ -636,6 +636,24 @@
       "bytes": 165890,
       "synced_at": "2026-06-25T13:40:00+09:00",
       "note": "Current Figure 14-b asset using the same paper-wide plot style as Figure 14-a: no top title/subtitle and a bottom panel label. It shows the lambda_1=lambda_0 fixed-lambda Geant4 second-Compton benchmark against analytic D2(z)."
+    },
+    {
+      "id": "fig_4_1c_second_compton_profile_z0p5_geant4_6mev_water_500k",
+      "status": "active",
+      "origin": "geant4_depthdose_fig14",
+      "source_data": [
+        "experiments/geant4_depthdose_fig14/second_compton_profile_z0p5_500k_outputs/geant4_second_compton_profile_z0p5_6mev_water.csv",
+        "experiments/geant4_depthdose_fig14/second_compton_profile_z0p5_500k_outputs/metadata.json",
+        "experiments/geant4_depthdose_fig14/run_geant4_second_compton_profile.py"
+      ],
+      "comparison_protocol": "Figure 14-c second-Compton fixed-z radial profile generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in a wide G4_WATER phantom, G4EmLivermorePhysics with only gamma compt active, 500000 histories, actual primary gamma first and second Compton interactions, E_pre - E_post scored at the actual second Compton position, secondary tracks killed, z/lambda0=0.5 slice with 2.0 cm width, and radial annular dose density binned to r/lambda0 <= 1.",
+      "github_path": "figures/fig_4_1c_second_compton_profile_z0p5_geant4_6mev_water_500k.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_1c_second_compton_profile_z0p5_geant4_6mev_water_500k.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_1c_second_compton_profile_z0p5_geant4_6mev_water_500k.png",
+      "sha256": "388a88e6c561c0fd8b99838c1a653b759ca1a83390b1b48feec53b77242ee770",
+      "bytes": 159171,
+      "synced_at": "2026-06-25T16:37:55+09:00",
+      "note": "Current Figure 14-c asset. It extends the Geant4 benchmark from depth-dose curves to a fixed-z radial profile using actual second-Compton positions."
     }
   ]
 }
