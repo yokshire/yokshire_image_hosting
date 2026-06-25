@@ -571,7 +571,7 @@
     },
     {
       "id": "fig_4_1_depth_dose_geant4_6mev_water_500k_depth170",
-      "status": "active",
+      "status": "superseded",
       "origin": "geant4_depthdose_fig14",
       "source_data": [
         "experiments/geant4_depthdose_fig14/final_500k_depth170_outputs/geant4_depth_dose_6mev_water.csv",
@@ -584,7 +584,24 @@
       "sha256": "fed76963a9101c257dcfa2354f85d9cd13441c795b791479f37f84977eaa4692",
       "bytes": 166420,
       "synced_at": "2026-06-25T11:36:00+09:00",
-      "note": "Replaces the previous Figure 14 analytic-vs-MC placeholder with an actual Geant4 depth-dose run under the paper's water-phantom benchmark condition."
+      "note": "Superseded because it used full step-energy deposition scoring rather than the paper's first-Compton local-deposition analytic D1 condition."
+    },
+    {
+      "id": "fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170",
+      "status": "active",
+      "origin": "geant4_depthdose_fig14",
+      "source_data": [
+        "experiments/geant4_depthdose_fig14/first_compton_500k_depth170_outputs/geant4_first_compton_depth_dose_6mev_water.csv",
+        "experiments/geant4_depthdose_fig14/first_compton_500k_depth170_outputs/metadata.json"
+      ],
+      "comparison_protocol": "Figure 14 first-Compton local-deposition benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active, 500000 histories, primary gamma first Compton interaction only, E_pre - E_post scored at the interaction position, secondary tracks killed, and x-y laterally integrated into z bins. This matches the analytic D1(z) condition.",
+      "github_path": "figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170.png",
+      "sha256": "689ae276a6efa9673bdcf86ac3bda078a8a8b057ba2a739bab4e2ad3e78242d0",
+      "bytes": 146410,
+      "synced_at": "2026-06-25T11:57:00+09:00",
+      "note": "Current Figure 14 asset. It intentionally excludes the full step-energy scoring curve."
     }
   ]
 }
