@@ -568,6 +568,23 @@
       "bytes": 253323,
       "synced_at": "2026-06-21T00:00:00+09:00",
       "note": "Candidate figure for Notion paper Figure 19 cross_check review; indexes curated representative panels that are available locally but not shown in the current 6-panel Figure 19 subset."
+    },
+    {
+      "id": "fig_4_1_depth_dose_geant4_6mev_water_500k_depth170",
+      "status": "active",
+      "origin": "geant4_depthdose_fig14",
+      "source_data": [
+        "experiments/geant4_depthdose_fig14/final_500k_depth170_outputs/geant4_depth_dose_6mev_water.csv",
+        "experiments/geant4_depthdose_fig14/final_500k_depth170_outputs/metadata.json"
+      ],
+      "comparison_protocol": "Figure 14 depth-dose benchmark generated from a Geant4 11.04.p01 gamma simulation: 6 MeV pencil beam, G4_WATER phantom, FTFP_BERT physics, 500000 histories, z-bin total energy deposition normalized to the Geant4 maximum, and an attenuation reference using the G4EmCalculator Compton mean free path.",
+      "github_path": "figures/fig_4_1_depth_dose_geant4_6mev_water_500k_depth170.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_1_depth_dose_geant4_6mev_water_500k_depth170.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_1_depth_dose_geant4_6mev_water_500k_depth170.png",
+      "sha256": "fed76963a9101c257dcfa2354f85d9cd13441c795b791479f37f84977eaa4692",
+      "bytes": 166420,
+      "synced_at": "2026-06-25T11:36:00+09:00",
+      "note": "Replaces the previous Figure 14 analytic-vs-MC placeholder with an actual Geant4 depth-dose run under the paper's water-phantom benchmark condition."
     }
   ]
 }

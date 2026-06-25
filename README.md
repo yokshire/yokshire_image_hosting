@@ -66,7 +66,8 @@ text-based upload workflows.
 | `fig_3_13_fft_profile_z0p5` | Current Figure 12-d FFT profile reconstruction panel | OK | `notion_github_hosted_figures/fig_3_13_fft_profile_z0p5.svg` |
 | `fig_3_14_chebyshev_q60_dose` | Current Figure 13-a Chebyshev 1D dose reconstruction representative | OK | `notion_github_hosted_figures/fig_3_14_chebyshev_q60_dose.svg` |
 | `fig_3_14_fft_q60_dose` | Current Figure 13-b FFT 1D dose reconstruction representative | OK | `notion_github_hosted_figures/fig_3_14_fft_q60_dose.svg` |
-| `fig_4_1_depth_dose_analytic_vs_mc` | `final_figure/refer_pre_paper/notation_context/depth_dose_Dz_analytic_vs_MC.jpg` | OK | `notion_github_hosted_figures/fig_4_1_depth_dose_analytic_vs_mc.svg` |
+| `fig_4_1_depth_dose_analytic_vs_mc` | `final_figure/refer_pre_paper/notation_context/depth_dose_Dz_analytic_vs_MC.jpg` | superseded | `notion_github_hosted_figures/fig_4_1_depth_dose_analytic_vs_mc.svg` |
+| `fig_4_1_depth_dose_geant4_6mev_water_500k_depth170` | `experiments/geant4_depthdose_fig14/final_500k_depth170_outputs/fig_4_1_depth_dose_geant4_6mev_water.png` | OK | `figures/fig_4_1_depth_dose_geant4_6mev_water_500k_depth170.png` |
 | `fig_4_2_single_compton_D1_qmci` | `final_figure/refer_pre_paper/qae_fft_1d_context/single_compton_D1_qmci.png` | OK | `notion_github_hosted_figures/fig_4_2_single_compton_D1_qmci.svg` |
 | `fig_4_3_qae_vs_nonqae_std_loglog` | `final_figure/refer_pre_paper/qae_fft_1d_context/qae_vs_nonqae_std_loglog.png` | OK | `notion_github_hosted_figures/fig_4_3_qae_vs_nonqae_std_loglog.svg` |
 | `fig_4_4_2d_dose_mae_vs_reps` | `final_figure/qmci_qae_curated/trends/2d_dose_mae_vs_reps.png` | OK | `notion_github_hosted_figures/fig_4_4_2d_dose_mae_vs_reps.svg` |
