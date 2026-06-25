@@ -619,6 +619,23 @@
       "bytes": 124023,
       "synced_at": "2026-06-25T12:10:00+09:00",
       "note": "Current Figure 14 asset using the paper-wide plot style: no top title/subtitle and a bottom panel label. It intentionally excludes the full step-energy scoring curve."
+    },
+    {
+      "id": "fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170",
+      "status": "active",
+      "origin": "geant4_depthdose_fig14",
+      "source_data": [
+        "experiments/geant4_depthdose_fig14/second_compton_geant4_fixed_lambda_500k_depth170_outputs/geant4_fixed_lambda_second_compton_depth_dose_6mev_water.csv",
+        "experiments/geant4_depthdose_fig14/second_compton_geant4_fixed_lambda_500k_depth170_outputs/metadata.json"
+      ],
+      "comparison_protocol": "Figure 14-b second-Compton fixed-lambda benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active for the first Compton interaction, 500000 histories, lambda_1 forced to lambda_0=40.873208246386504 cm after the first Compton interaction, second Compton energy transfer sampled from Klein-Nishina at the post-first-collision energy, local deposition scored at the forced second-collision depth, and x-y laterally integrated into z bins. This matches the constant-lambda analytic D2(z) condition.",
+      "github_path": "figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170.png",
+      "sha256": "7856e283141e98cd2e4574745586d9af7779d7992670a2e016ba2c130c3de2a2",
+      "bytes": 165890,
+      "synced_at": "2026-06-25T13:40:00+09:00",
+      "note": "Current Figure 14-b asset using the same paper-wide plot style as Figure 14-a: no top title/subtitle and a bottom panel label. It shows the lambda_1=lambda_0 fixed-lambda Geant4 second-Compton benchmark against analytic D2(z)."
     }
   ]
 }
