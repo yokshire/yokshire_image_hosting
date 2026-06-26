@@ -13,6 +13,9 @@ The `notion_github_hosted_figures/` directory contains SVG wrappers generated
 from the same local raster figures. These wrappers were kept as a fallback for
 text-based upload workflows.
 
+First-order target note: `q50` is an internal data-layout compatibility tag for
+the 5-qubit first-order target; manuscript-visible labels use `5-qubit`.
+
 | slug | source | status | upload path |
 | --- | --- | --- | --- |
 | `fig_3_1_scattering_path_Dl_notation` | `final_figure/refer_pre_paper/notation_context/scattering_path_Dl_notation.jpg` | OK | `notion_github_hosted_figures/fig_3_1_scattering_path_Dl_notation.svg` |
@@ -20,25 +23,30 @@ text-based upload workflows.
 | `fig_3_2_depth_dose_stateprep_comparison` | combined draft from Figure 2-a/2-b sources | superseded | `figures/fig_3_2_depth_dose_stateprep_comparison.png` |
 | `fig_3_2a_depth_dose_benchmark` | analytic/sample-only draft | superseded | `figures/fig_3_2a_depth_dose_benchmark.png` |
 | `fig_3_2a_depth_dose_benchmark_exact_q5` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | superseded | `figures/fig_3_2a_depth_dose_benchmark_exact_q5.png` |
-| `fig_3_2_depth_dose_benchmark_exact_q5_highres` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | OK | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres.png` |
+| `fig_3_2_depth_dose_benchmark_exact_q5_highres` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | superseded | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres.png` |
+| `fig_3_2_depth_dose_benchmark_exact_q5_highres_v2` | Figure 2 first-order Compton depth-dose benchmark from `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv`; manuscript-visible title uses 5-qubit exact loading | OK | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v2.png` |
 | `fig_3_2b_stateprep_kl_comparison` | mixed q5/q60 comparison draft | superseded | `figures/fig_3_2b_stateprep_kl_comparison.png` |
 | `fig_3_2b_stateprep_kl_comparison_q5` | earlier mixed qGAN/HN/initialize 5-qubit comparison | superseded | `figures/fig_3_2b_stateprep_kl_comparison_q5.png` |
-| `fig_3_2b_stateprep_matched_reps_q5` | Figure 4-a matched q50 reps diagnostic from `experiments/matched_stateprep_reps/final_qgan_ansatz_runs/*/matched_reps_summary.csv`; `최종데이터/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy` | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5.png` |
+| `fig_3_2b_stateprep_matched_reps_q5` | Figure 4-a matched 5-qubit first-order q-space reps diagnostic from `experiments/matched_stateprep_reps/final_qgan_ansatz_runs/*/matched_reps_summary.csv`; `*/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy` | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5.png` |
 | `fig_3_2b_stateprep_matched_reps_q5_label_v2` | Figure 4-a cache-busting asset with the target/ansatz label box below the plot area | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png` |
-| `fig_3_2b_stateprep_matched_reps_q5_seed10` | Figure 4-a seed10 matched q50 reps diagnostic with lower method label and reduced full-width info label | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png` |
-| `fig_3_2b_stateprep_matched_reps_q5_seed10_v2` | Figure 4-a seed10 matched q50 reps diagnostic with a two-line full-width info label | OK | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png` |
+| `fig_3_2b_stateprep_matched_reps_q5_seed10` | Figure 4-a seed10 matched 5-qubit first-order q-space reps diagnostic with lower method label and reduced full-width info label | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png` |
+| `fig_3_2b_stateprep_matched_reps_q5_seed10_v2` | Figure 4-a seed10 matched 5-qubit first-order q-space reps diagnostic with a two-line full-width info label | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png` |
+| `fig_3_2b_stateprep_matched_reps_q5_seed10_v3` | Figure 4-a seed10 matched 5-qubit first-order q-space reps diagnostic with manuscript-visible 5-qubit labeling | OK | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v3.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit` | Figure 4-b Qiskit `mpl` rendering of the matched H + TwoLocal(rx, rz, ry; full CZ) reps-unit ansatz used for qGAN and HN-MLP | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit_upright_v3` | Figure 4-b cache-busting Qiskit `mpl` rendering with q0-to-q4 order preserved and no old in-image title/subtitle | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png` |
-| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence` | Matched q50 reps=8 qGAN/HN-MLP distributions coarse-grained by data-qubit resolution | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence.png` |
+| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence` | Matched 5-qubit first-order reps=8 qGAN/HN-MLP distributions coarse-grained by data-qubit resolution | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2` | Figure 9 two-panel qGAN/HN-MLP data-qubit convergence with target-midpoint baseline and ten-seed min-max error ranges | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3` | Figure 9 draft qGAN/HN-MLP data-qubit convergence using the superseded target-midpoint baseline | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3.png` |
-| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4` | Current Figure 9 original two-panel qGAN/HN-MLP data-qubit convergence with the checked continuous integral reference `I_ref=0.289768` and recomputed error panel | OK | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4.png` |
+| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4` | Figure 9 original two-panel qGAN/HN-MLP data-qubit convergence with the checked continuous integral reference `I_ref=0.289768` and recomputed error panel | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4.png` |
+| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v5` | Current Figure 9 data-qubit convergence for the first-order Compton integral with manuscript-visible 5-qubit wording | OK | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v5.png` |
 | `fig_3_9_qae_fft_data_qubit_convergence_v1` | Temporary QAE-cell-derived diagnostic; not used as the current Notion Figure 9 | superseded | `figures/fig_3_9_qae_fft_data_qubit_convergence_v1.png` |
 | `fig_3_5_matched_reps8_learning_histograms` | Figure 5 matched reps=8 qGAN/HN-MLP KL learning trace and target-distribution histogram diagnostic | superseded | `figures/fig_3_5_matched_reps8_learning_histograms.png` |
-| `fig_3_5_matched_reps8_learning_histograms_seed10` | Figure 5 seed10 matched reps=8 qGAN/HN-MLP learning and histogram diagnostic with selected seed bars plus 10-seed range | OK | `figures/fig_3_5_matched_reps8_learning_histograms_seed10.png` |
+| `fig_3_5_matched_reps8_learning_histograms_seed10` | Figure 5 seed10 matched reps=8 qGAN/HN-MLP learning and histogram diagnostic with selected seed bars plus 10-seed range | superseded | `figures/fig_3_5_matched_reps8_learning_histograms_seed10.png` |
+| `fig_3_5_matched_reps8_learning_histograms_seed10_v2` | Figure 5 matched 5-qubit q-space learning and distribution diagnostic with selected seed bars plus 10-seed range | OK | `figures/fig_3_5_matched_reps8_learning_histograms_seed10_v2.png` |
 | `fig_3_6_theta_matched_reps8_learning_histograms` | Figure 6 matched reps=8 qGAN/HN-MLP KL learning trace and theta-target histogram diagnostic for Chebyshev loading | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms.png` |
 | `fig_3_6_theta_matched_reps8_learning_histograms_legend_v2` | Figure 6 cache-busting asset with lower-panel labels moved out of the histogram plots | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png` |
-| `fig_3_6_theta_matched_reps8_learning_histograms_seed10` | Figure 6 seed10 theta-space matched reps=8 diagnostic with selected seed bars plus 10-seed range | OK | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png` |
+| `fig_3_6_theta_matched_reps8_learning_histograms_seed10` | Figure 6 seed10 theta-space matched reps=8 diagnostic with selected seed bars plus 10-seed range | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png` |
+| `fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2` | Figure 6 matched 5-qubit theta-space learning and distribution diagnostic with selected seed bars plus 10-seed range | OK | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2.png` |
 | `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | superseded | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
 | `fig_3_3_second_collision_joint_probability_maps` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps.png` | superseded | `figures/fig_3_3_second_collision_joint_probability_maps.png` |
 | `fig_3_3_second_collision_joint_probability_maps_title_only` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps_title_only.png` | OK | `figures/fig_3_3_second_collision_joint_probability_maps_title_only.png` |

@@ -217,7 +217,7 @@
     },
     {
       "id": "fig_3_2_depth_dose_benchmark_exact_q5_highres",
-      "status": "active",
+      "status": "superseded",
       "origin": "manual_regeneration",
       "source_data": "*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv",
       "comparison_protocol": "Figure 2 first-order Compton depth-dose benchmark. Compares continuous analytic D1(z), Geant4-based sampled reference points, and a high-resolution exact initialize D1(z) curve generated on an 801-point z grid at the matched 5-qubit loading scale.",
@@ -227,7 +227,21 @@
       "sha256": "fbe939fa4283bd5dff691e5e8e19b63309df68c125ec4dd715246093886216c4",
       "bytes": 126388,
       "synced_at": "2026-06-23T21:41:53+09:00",
-      "note": "Accepted Figure 2 asset for the Notion paper. It replaces Figure 2-a, uses a high-resolution exact initialize D1(z) curve, and keeps Geant4 reference points as sampled markers."
+      "note": "Superseded by fig_3_2_depth_dose_benchmark_exact_q5_highres_v2 after verified removal of internal first-order data-tag wording from manuscript-visible labels."
+    },
+    {
+      "id": "fig_3_2_depth_dose_benchmark_exact_q5_highres_v2",
+      "status": "active",
+      "origin": "manual_regeneration",
+      "source_data": "*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv",
+      "comparison_protocol": "Figure 2 first-order Compton depth-dose benchmark. Compares continuous analytic D1(z), Geant4-based sampled reference points, and a high-resolution exact initialize D1(z) curve generated on an 801-point z grid at the matched 5-qubit angular discretization.",
+      "github_path": "figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v2.png",
+      "sha256": "8b21d298d27c1a1dc239baf10b713a0ab79e6df076d9b05b28094e60206b5d39",
+      "bytes": 129934,
+      "synced_at": "2026-06-26T18:07:05+09:00",
+      "note": "Active Figure 2 replacement. Manuscript-visible labels use 5-qubit exact loading while preserving the original source-data provenance."
     },
     {
       "id": "fig_3_2b_stateprep_kl_comparison",
@@ -255,14 +269,14 @@
         "state_prep_fix/module_20260415/module/knowledge_data/training_results/q50__reps8__standard_old_hn/round_summary.csv",
         "*/final_data_analysis/transpiled_stateprep_complexity/summaries/complexity_summary_best_opt1.csv"
       ],
-      "comparison_protocol": "Matched 5-qubit scale: qGAN q5, HN-MLP q50, and initialize q50 exact loading baseline.",
+      "comparison_protocol": "Matched 5-qubit scale: qGAN q5, HN-MLP 5-qubit first-order, and initialize 5-qubit first-order exact loading baseline.",
       "github_path": "figures/fig_3_2b_stateprep_kl_comparison_q5.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_kl_comparison_q5.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_kl_comparison_q5.png",
       "sha256": "7eecc966b5ffcba605401265c98a6960d6b469a0a46c3ad155cc728abd757671",
       "bytes": 65402,
       "synced_at": "2026-06-23T19:01:39+09:00",
-      "note": "Superseded by the matched-reps q50 full-target Figure 2-b. This asset mixed earlier qGAN/HN evidence and should be retained only for traceability."
+      "note": "Superseded by the matched-reps 5-qubit first-order full-target Figure 2-b. This asset mixed earlier qGAN/HN evidence and should be retained only for traceability."
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5",
@@ -273,7 +287,7 @@
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/qgan/matched_reps_summary.csv",
         "최종데이터/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
       ],
-      "comparison_protocol": "Matched 5-qubit q50 full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over three seeds; exact initialize is shown as a zero-KL reference.",
+      "comparison_protocol": "Matched 5-qubit first-order full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over three seeds; exact initialize is shown as a zero-KL reference.",
       "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5.png",
@@ -291,14 +305,14 @@
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/qgan/matched_reps_summary.csv",
         "理쒖쥌?곗씠??final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
       ],
-      "comparison_protocol": "Matched 5-qubit q50 full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over three seeds; exact initialize is shown as a zero-KL reference.",
+      "comparison_protocol": "Matched 5-qubit first-order full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over three seeds; exact initialize is shown as a zero-KL reference.",
       "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png",
       "sha256": "8fbb8847de5bd82416fe215ce29f30bd7cf8bb1a7cd41e67d0e08d84cd7db554",
       "bytes": 139552,
       "synced_at": "2026-06-24T12:10:14+09:00",
-      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_seed10 after extending the matched q50 comparison from three seeds to ten seeds and moving the method label below the axis."
+      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_seed10 after extending the matched 5-qubit first-order comparison from three seeds to ten seeds and moving the method label below the axis."
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5_seed10",
@@ -310,7 +324,7 @@
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_qgan_ansatz_aggregate.csv",
         "*/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
       ],
-      "comparison_protocol": "Matched 5-qubit q50 full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over ten seeds; the plotted band shows the min-max seed range and exact initialize is shown as a zero-KL reference.",
+      "comparison_protocol": "Matched 5-qubit first-order full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over ten seeds; the plotted band shows the min-max seed range and exact initialize is shown as a zero-KL reference.",
       "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png",
@@ -321,6 +335,25 @@
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_v2",
+      "status": "superseded",
+      "origin": "matched_retraining_seed10",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/qgan/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_qgan_ansatz_aggregate.csv",
+        "*/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
+      ],
+      "comparison_protocol": "Matched 5-qubit first-order full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over ten seeds; the plotted band shows the min-max seed range and exact initialize is shown as a zero-KL reference.",
+      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png",
+      "sha256": "bbee499865a5e7ca483caed8d7a78c95be9fcc85abf2a66e033b416c22be5fea",
+      "bytes": 127841,
+      "synced_at": "2026-06-24T14:07:46+09:00",
+      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_seed10_v3 after verified removal of internal first-order data-tag wording from manuscript-visible labels."
+    },
+    {
+      "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_v3",
       "status": "active",
       "origin": "matched_retraining_seed10",
       "source_data": [
@@ -329,14 +362,48 @@
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_qgan_ansatz_aggregate.csv",
         "*/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
       ],
-      "comparison_protocol": "Matched 5-qubit q50 full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over ten seeds; the plotted band shows the min-max seed range and exact initialize is shown as a zero-KL reference.",
-      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png",
-      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png",
-      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png",
-      "sha256": "bbee499865a5e7ca483caed8d7a78c95be9fcc85abf2a66e033b416c22be5fea",
-      "bytes": 127841,
-      "synced_at": "2026-06-24T14:07:46+09:00",
-      "note": "Active Figure 4-a asset for the Notion paper. The lower information label is reduced to two lines by placing the iteration/seed description on the ansatz line."
+      "comparison_protocol": "Matched 5-qubit first-order full 32-bin cos(q) target. HN-MLP and qGAN use the same H + TwoLocal(rx, rz, ry; full CZ) state-preparation ansatz with reps 1, 2, 4, and 8. Each method was run for 6000 iterations over ten seeds; the plotted band shows the min-max seed range and exact initialize is shown as a zero-KL reference.",
+      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v3.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v3.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v3.png",
+      "sha256": "f8b81fe83bb6b9fe6882055bcb4f6f1bd5ed3444801496cc746514445588cbbd",
+      "bytes": 134676,
+      "synced_at": "2026-06-26T18:07:05+09:00",
+      "note": "Active Figure 4-a replacement with manuscript-visible 5-qubit first-order target labeling."
+    },
+    {
+      "id": "fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4",
+      "status": "superseded",
+      "origin": "matched_stateprep_reps_integral_convergence",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/qubit_integral_convergence/qgan_hn_mlp_qubit_integral_convergence.csv"
+      ],
+      "comparison_protocol": "Figure 9 original two-panel qGAN/HN-MLP data-qubit convergence with the checked continuous integral reference I_ref=0.289768 and recomputed error panel.",
+      "github_path": "figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4.png",
+      "sha256": "b934b160df275ce229122208bf98d9c8da330dfb90805a6c8bbc923a0afe32fb",
+      "bytes": 226593,
+      "synced_at": "2026-06-24T18:14:30+09:00",
+      "note": "Superseded by fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v5 after adding manuscript-visible first-order Compton integral wording."
+    },
+    {
+      "id": "fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v5",
+      "status": "active",
+      "origin": "matched_stateprep_reps_integral_convergence",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/qubit_integral_convergence/qgan_hn_mlp_qubit_integral_convergence.csv"
+      ],
+      "comparison_protocol": "Figure 9 data-qubit convergence for the first-order Compton integral. Compares target midpoint, qGAN, and HN-MLP estimates against the checked continuous integral reference I_ref=0.289768 with the recomputed error panel.",
+      "github_path": "figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v5.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v5.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v5.png",
+      "sha256": "abf9adc1dfe3bfabd2875f450efc327a1614077cbd30c5dc3f86bc8846fb33bc",
+      "bytes": 246040,
+      "synced_at": "2026-06-26T18:07:05+09:00",
+      "note": "Active Figure 9 replacement with manuscript-visible first-order Compton integral wording."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit",
@@ -346,7 +413,7 @@
         "experiments/matched_stateprep_reps/render_figure_2c_ansatz.py",
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/combined/fig_3_2c_matched_stateprep_ansatz_unit.png"
       ],
-      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 4-a matched q50 state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 4-a repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
+      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 4-a matched 5-qubit first-order state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 4-a repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
       "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
@@ -363,7 +430,7 @@
         "experiments/matched_stateprep_reps/render_figure_2c_ansatz.py",
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/combined/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png"
       ],
-      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 4-a matched q50 state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 4-a repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
+      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 4-a matched 5-qubit first-order state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 4-a repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
       "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png",
@@ -383,7 +450,7 @@
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/qgan/matched_distributions.csv",
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/combined/matched_qgan_ansatz_summary.csv"
       ],
-      "comparison_protocol": "Matched reps=8 diagnostic for the q50 5-qubit full 32-bin cos(q) target. Panel (a) compares qGAN and HN-MLP KL learning traces over three seeds; panels (b) and (c) compare the seed-median best prepared distribution with the same target histogram.",
+      "comparison_protocol": "Matched reps=8 diagnostic for the 5-qubit first-order full 32-bin cos(q) target. Panel (a) compares qGAN and HN-MLP KL learning traces over three seeds; panels (b) and (c) compare the seed-median best prepared distribution with the same target histogram.",
       "github_path": "figures/fig_3_5_matched_reps8_learning_histograms.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_5_matched_reps8_learning_histograms.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_5_matched_reps8_learning_histograms.png",
@@ -394,6 +461,26 @@
     },
     {
       "id": "fig_3_5_matched_reps8_learning_histograms_seed10",
+      "status": "superseded",
+      "origin": "matched_retraining_seed10",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/qgan/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/qgan/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_qgan_ansatz_summary.csv"
+      ],
+      "comparison_protocol": "Matched reps=8 diagnostic for the 5-qubit first-order full 32-bin cos(q) target. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
+      "github_path": "figures/fig_3_5_matched_reps8_learning_histograms_seed10.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_5_matched_reps8_learning_histograms_seed10.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_5_matched_reps8_learning_histograms_seed10.png",
+      "sha256": "4ad8e75c1b407b864a47402abff5dd5bbd00376233832131a197c156909363a1",
+      "bytes": 403384,
+      "synced_at": "2026-06-24T13:31:41+09:00",
+      "note": "Superseded by fig_3_5_matched_reps8_learning_histograms_seed10_v2 after verified removal of internal first-order data-tag wording from manuscript-visible labels."
+    },
+    {
+      "id": "fig_3_5_matched_reps8_learning_histograms_seed10_v2",
       "status": "active",
       "origin": "matched_retraining_seed10",
       "source_data": [
@@ -403,14 +490,14 @@
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/qgan/matched_distributions.csv",
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_qgan_ansatz_summary.csv"
       ],
-      "comparison_protocol": "Matched reps=8 diagnostic for the q50 5-qubit full 32-bin cos(q) target. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
-      "github_path": "figures/fig_3_5_matched_reps8_learning_histograms_seed10.png",
-      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_5_matched_reps8_learning_histograms_seed10.png",
-      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_5_matched_reps8_learning_histograms_seed10.png",
-      "sha256": "4ad8e75c1b407b864a47402abff5dd5bbd00376233832131a197c156909363a1",
-      "bytes": 403384,
-      "synced_at": "2026-06-24T13:31:41+09:00",
-      "note": "Active Figure 5 asset for the Notion paper. The lower-panel titles are concise and spaced away from the upper x-axis label, with a shared legend explaining selected seeds and ten-seed ranges."
+      "comparison_protocol": "Matched reps=8 diagnostic for the 5-qubit first-order full 32-bin cos(q) target. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
+      "github_path": "figures/fig_3_5_matched_reps8_learning_histograms_seed10_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_5_matched_reps8_learning_histograms_seed10_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_5_matched_reps8_learning_histograms_seed10_v2.png",
+      "sha256": "c01cf2df2c327a69e72237a9ec650d59ad26395ef733fa116da7e4d9847d91de",
+      "bytes": 411820,
+      "synced_at": "2026-06-26T18:07:05+09:00",
+      "note": "Active Figure 5 replacement with manuscript-visible 5-qubit q-space wording."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms",
@@ -423,7 +510,7 @@
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs/qgan/matched_distributions.csv",
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs/combined/matched_theta_reps8_summary.csv"
       ],
-      "comparison_protocol": "Matched reps=8 diagnostic for the q50 5-qubit theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over three seeds; panels (b) and (c) compare the seed-median best prepared distribution with the same theta-bin target histogram.",
+      "comparison_protocol": "Matched reps=8 diagnostic for the 5-qubit first-order theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over three seeds; panels (b) and (c) compare the seed-median best prepared distribution with the same theta-bin target histogram.",
       "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms.png",
@@ -443,7 +530,7 @@
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs/qgan/matched_distributions.csv",
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs/combined/matched_theta_reps8_summary.csv"
       ],
-      "comparison_protocol": "Matched reps=8 diagnostic for the q50 5-qubit theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over three seeds; panels (b) and (c) compare the seed-median best prepared distribution with the same theta-bin target histogram.",
+      "comparison_protocol": "Matched reps=8 diagnostic for the 5-qubit first-order theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over three seeds; panels (b) and (c) compare the seed-median best prepared distribution with the same theta-bin target histogram.",
       "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png",
@@ -454,6 +541,26 @@
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10",
+      "status": "superseded",
+      "origin": "matched_retraining_seed10",
+      "source_data": [
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/hn/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/qgan/matched_histories.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/hn/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/qgan/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/combined/matched_theta_reps8_summary.csv"
+      ],
+      "comparison_protocol": "Matched reps=8 diagnostic for the 5-qubit first-order theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
+      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png",
+      "sha256": "927ba1d88787dcdccbe1d14845f4fe01de4f877b78f13cec659d5041717bebe7",
+      "bytes": 450777,
+      "synced_at": "2026-06-24T13:31:41+09:00",
+      "note": "Superseded by fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2 after verified removal of internal first-order data-tag wording from manuscript-visible labels."
+    },
+    {
+      "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2",
       "status": "active",
       "origin": "matched_retraining_seed10",
       "source_data": [
@@ -463,14 +570,14 @@
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/qgan/matched_distributions.csv",
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/combined/matched_theta_reps8_summary.csv"
       ],
-      "comparison_protocol": "Matched reps=8 diagnostic for the q50 5-qubit theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
-      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png",
-      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png",
-      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png",
-      "sha256": "927ba1d88787dcdccbe1d14845f4fe01de4f877b78f13cec659d5041717bebe7",
-      "bytes": 450777,
-      "synced_at": "2026-06-24T13:31:41+09:00",
-      "note": "Active Figure 6 asset for the Notion paper. The lower histogram labels and shared legend have additional spacing while preserving concise b/c panel titles."
+      "comparison_protocol": "Matched reps=8 diagnostic for the 5-qubit first-order theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
+      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2.png",
+      "sha256": "c7a054420a3ba0588c11c605c03053128d28a8d2fedf4192b9273f3cef51af48",
+      "bytes": 451873,
+      "synced_at": "2026-06-26T18:07:05+09:00",
+      "note": "Active Figure 6 replacement with manuscript-visible 5-qubit theta-space wording."
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps",
@@ -674,5 +781,8 @@
       "synced_at": "2026-06-26T15:22:17+09:00",
       "note": "Candidate asset only; Notion insertion requires separate approval. Validation passed: finite non-negative coefficients, 6.000000 MeV row exists, incoherent scattering is the largest listed partial coefficient at 6 MeV, and total attenuation with coherent scattering matches the rounded partial sum within tolerance. 6 MeV values in cm^2/g: coherent=1.564e-06, incoherent=0.02454, photoelectric=2.484e-07, pair_nuclear=0.002987, pair_electron=0.0001685, total_with_coherent=0.0277."
     }
+  ],
+  "notes": [
+    "`q50` is an internal data-layout compatibility tag for the 5-qubit first-order target; manuscript-visible labels use `5-qubit`."
   ]
 }
