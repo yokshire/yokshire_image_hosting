@@ -354,7 +354,7 @@
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_v3",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_retraining_seed10",
       "source_data": [
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_reps_summary.csv",
@@ -369,7 +369,7 @@
       "sha256": "f8b81fe83bb6b9fe6882055bcb4f6f1bd5ed3444801496cc746514445588cbbd",
       "bytes": 134676,
       "synced_at": "2026-06-26T18:07:05+09:00",
-      "note": "Active Figure 4-a replacement with manuscript-visible 5-qubit first-order target labeling."
+      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1 after ansatz-only replacement to H + TwoLocal(ry, rz; circular CX)."
     },
     {
       "id": "fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4",
@@ -390,7 +390,7 @@
     },
     {
       "id": "fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v5",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_stateprep_reps_integral_convergence",
       "source_data": [
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_distributions.csv",
@@ -403,7 +403,7 @@
       "sha256": "abf9adc1dfe3bfabd2875f450efc327a1614077cbd30c5dc3f86bc8846fb33bc",
       "bytes": 246040,
       "synced_at": "2026-06-26T18:07:05+09:00",
-      "note": "Active Figure 9 replacement with manuscript-visible first-order Compton integral wording."
+      "note": "Superseded by fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1 after replacing the earlier q50 coarse-grained convergence panel with n=2..8 common-ansatz qubit scaling."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit",
@@ -424,7 +424,7 @@
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit_upright_v3",
-      "status": "active",
+      "status": "superseded",
       "origin": "qiskit_mpl_rendering",
       "source_data": [
         "experiments/matched_stateprep_reps/render_figure_2c_ansatz.py",
@@ -437,7 +437,7 @@
       "sha256": "5576cc2eece8773f232d96c3f5fac36fdad8bc561a68637849294bcb5729bc17",
       "bytes": 368802,
       "synced_at": "2026-06-24T12:10:14+09:00",
-      "note": "Active Figure 4-b asset for the Notion paper. The circuit panels keep the original Qiskit q0-to-q4 order, remove the old Figure 2-c title/subtitle, and retain only the qGAN/HN-MLP method labels."
+      "note": "Superseded by fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1 after replacing the old rx/rz/ry full-CZ unit with H + TwoLocal(ry, rz; circular CX)."
     },
     {
       "id": "fig_3_5_matched_reps8_learning_histograms",
@@ -481,7 +481,7 @@
     },
     {
       "id": "fig_3_5_matched_reps8_learning_histograms_seed10_v2",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_retraining_seed10",
       "source_data": [
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_histories.csv",
@@ -497,7 +497,7 @@
       "sha256": "c01cf2df2c327a69e72237a9ec650d59ad26395ef733fa116da7e4d9847d91de",
       "bytes": 411820,
       "synced_at": "2026-06-26T18:07:05+09:00",
-      "note": "Active Figure 5 replacement with manuscript-visible 5-qubit q-space wording."
+      "note": "Superseded by fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1 after ansatz-only replacement under the same q-space q50, 5-qubit, reps=8, ten-seed condition."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms",
@@ -561,7 +561,7 @@
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2",
-      "status": "active",
+      "status": "superseded",
       "origin": "matched_retraining_seed10",
       "source_data": [
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/hn/matched_histories.csv",
@@ -577,7 +577,7 @@
       "sha256": "c7a054420a3ba0588c11c605c03053128d28a8d2fedf4192b9273f3cef51af48",
       "bytes": 451873,
       "synced_at": "2026-06-26T18:07:05+09:00",
-      "note": "Active Figure 6 replacement with manuscript-visible 5-qubit theta-space wording."
+      "note": "Superseded by fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1 after ansatz-only replacement under the same theta-space q50, 5-qubit, reps=8, ten-seed condition."
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps",
@@ -780,6 +780,97 @@
       "bytes": 269920,
       "synced_at": "2026-06-26T15:22:17+09:00",
       "note": "Candidate asset only; Notion insertion requires separate approval. Validation passed: finite non-negative coefficients, 6.000000 MeV row exists, incoherent scattering is the largest listed partial coefficient at 6 MeV, and total attenuation with coherent scattering matches the rounded partial sum within tolerance. 6 MeV values in cm^2/g: coherent=1.564e-06, incoherent=0.02454, photoelectric=2.484e-07, pair_nuclear=0.002987, pair_electron=0.0001685, total_with_coherent=0.0277."
+    },
+    {
+      "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1",
+      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1.png",
+      "sha256": "412f5b330702645f50c3d6cbc92a2ddd9433ccbc38209c7b043c87b80d3c97dc",
+      "bytes": 96142,
+      "synced_at": "2026-06-26T20:07:40+09:00",
+      "status": "active",
+      "origin": "mainstream_ansatz_hadamard_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/hn/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/qgan/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_aggregate.csv",
+        "experiments/matched_stateprep_reps/ansatz_readjustment_source_conditions.md"
+      ],
+      "comparison_protocol": "Figure 4-a ansatz-only replacement for the matched 5-qubit q50 cos(q) reps sweep. qGAN and HN-MLP keep the same seeds, reps 1/2/4/8, 6000 iterations, and target distribution; only the state-preparation circuit family is replaced with H + TwoLocal(ry, rz; circular CX).",
+      "note": "Active Figure 4-a replacement: same condition, ansatz replaced."
+    },
+    {
+      "id": "fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1",
+      "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png",
+      "sha256": "94ce63784b78b97dfd9dc342d8406877439a80660f9f2b6b6dd72734edcdef20",
+      "bytes": 148761,
+      "synced_at": "2026-06-26T20:07:40+09:00",
+      "status": "active",
+      "origin": "qiskit_mpl_rendering",
+      "source_data": [
+        "experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png"
+      ],
+      "comparison_protocol": "Figure 4-b Qiskit mpl rendering of the shared reps=1 ansatz unit. Both qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), with only the parameter source differing between direct qGAN optimization and HN-MLP generated parameters.",
+      "note": "Active Figure 4-b replacement: Qiskit mpl circuit for the new ansatz family."
+    },
+    {
+      "id": "fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1",
+      "github_path": "figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png",
+      "sha256": "bd6482276994739e7dab85d77e0e08ec3660b7bfbba6deec8f37a5506a9f223a",
+      "bytes": 364904,
+      "synced_at": "2026-06-26T20:07:40+09:00",
+      "status": "active",
+      "origin": "mainstream_ansatz_hadamard_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_histories.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_summary.csv"
+      ],
+      "comparison_protocol": "Figure 5 ansatz-only replacement for the q-space q50 reps=8 diagnostic. The qGAN/HN-MLP methods, 5-qubit target, 6000 iterations, and ten-seed range are preserved; the ansatz is H + TwoLocal(ry, rz; circular CX).",
+      "note": "Active Figure 5 replacement: same condition, ansatz replaced."
+    },
+    {
+      "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1",
+      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png",
+      "sha256": "ee33b849535d5c797f4fb8624c832c30c9a62185b440ba6a1c135b42e321bad5",
+      "bytes": 389041,
+      "synced_at": "2026-06-26T20:07:40+09:00",
+      "status": "active",
+      "origin": "mainstream_ansatz_hadamard_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_histories.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_theta_reps8_summary.csv"
+      ],
+      "comparison_protocol": "Figure 6 ansatz-only replacement for the theta-space q50 reps=8 diagnostic. The qGAN/HN-MLP methods, 5-qubit target, 6000 iterations, and ten-seed range are preserved; the ansatz is H + TwoLocal(ry, rz; circular CX).",
+      "note": "Active Figure 6 replacement: same condition, ansatz replaced."
+    },
+    {
+      "id": "fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1",
+      "github_path": "figures/fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1.png",
+      "sha256": "cbdf8c3a3107d1131ba97426ec63bf5232def30778efd2f8892d2ebc5d3f22c0",
+      "bytes": 855801,
+      "synced_at": "2026-06-26T20:07:40+09:00",
+      "status": "active",
+      "origin": "stateprep_qubit_scaling_figure9",
+      "source_data": [
+        "experiments/stateprep_qubit_scaling_figure9/figure9_pipeline.py",
+        "experiments/stateprep_qubit_scaling_figure9/results/figure9_manifest.json",
+        "experiments/stateprep_qubit_scaling_figure9/results/figure9_integral_detail.csv",
+        "experiments/stateprep_qubit_scaling_figure9/results/figure9_integral_summary.csv"
+      ],
+      "comparison_protocol": "Figure 9 qubit-scaling replacement under a common RY/RZ circular-CX ansatz. Data qubits n=2..8 are evaluated for qGAN and HN-MLP at reps=8 using the corresponding target distribution for each n; panels show depth-dose reconstruction plus integral/error medians with ten-seed min-max ranges.",
+      "note": "Active Figure 9 replacement: n=2..8 qubit scaling under common ansatz."
     }
   ],
   "notes": [
