@@ -116,6 +116,7 @@ paper figures until a human editor applies the corresponding page edit.
 | `cross_check_fig_4_4_1d_point_fft_scope` | `최종데이터/final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_4_1d_point_fft_scope.png` |
 | `cross_check_fig_4_11_2d_matched_pair_scatter` | `final_figure/role_up/role_up_2d_matched_pair_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_11_2d_matched_pair_scatter.png` |
 | `cross_check_fig_4_12_figure19_missing_representatives` | `final_figure/qmci_qae_curated/2d_best_representatives/*` selected missing panels | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_12_figure19_missing_representatives.png` |
+| `cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev` | `final_figure/method_support/xcom_h2o_6mev/`; NIST XCOM H2O tabular data | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev_v1.png` |
 
 ## Role Up Figures (2026-06-01)
 
