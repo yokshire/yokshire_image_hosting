@@ -1,0 +1,9 @@
+﻿panel,title,file
+panel_a,"qGAN depth-dose, FFT / q-space target",panel_a_qgan_depthdose_fft_cosq.png
+panel_b,"qGAN depth-dose, Chebyshev / theta-space target",panel_b_qgan_depthdose_chebyshev_theta.png
+panel_c,"HN-MLP depth-dose, FFT / q-space target",panel_c_hn_mlp_depthdose_fft_cosq.png
+panel_d,"HN-MLP depth-dose, Chebyshev / theta-space target",panel_d_hn_mlp_depthdose_chebyshev_theta.png
+panel_e,"Integral estimate, FFT / q-space target",panel_e_integral_fft_cosq.png
+panel_f,"Integral estimate, Chebyshev / theta-space target",panel_f_integral_chebyshev_theta.png
+panel_g,"Absolute integral error, FFT / q-space target",panel_g_error_fft_cosq.png
+panel_h,"Absolute integral error, Chebyshev / theta-space target",panel_h_error_chebyshev_theta.png
