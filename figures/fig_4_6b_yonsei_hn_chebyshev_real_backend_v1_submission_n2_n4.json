@@ -1,0 +1,86 @@
+{
+  "submitted_at_utc": "20260627T173934Z",
+  "job_id": "d900llg6c68s73ahft4g",
+  "backend": "ibm_yonsei",
+  "backend_status": {
+    "operational": true,
+    "pending_jobs": 27,
+    "status_msg": "active"
+  },
+  "shots": 4096,
+  "optimization_level": 3,
+  "ansatz": {
+    "reps": 8,
+    "rotations": [
+      "ry",
+      "rz"
+    ],
+    "entanglement": "circular",
+    "entanglement_gate": "cx",
+    "init": "hadamard"
+  },
+  "circuits": [
+    {
+      "n": 2,
+      "seed": 0,
+      "param_file": "D:\\Cloud_Quantum_Simul_Lab\\연구자료\\양자몬테카를로기반_Dose계산연구\\experiments\\real_backend_yonsei\\hn_chebyshev_stateprep\\params\\hn_chebyshev_q20_seed00_reps8.npz",
+      "ideal_order": "bit_reverse",
+      "best_kl": 4.475341643149508e-15,
+      "best_tvd": 4.368381308766933e-08,
+      "sim_integral": 8.416502510381147,
+      "sim_abs_error": 0.8548039664413905,
+      "logical_depth": 36,
+      "logical_size": 56,
+      "transpiled_depth": 21,
+      "transpiled_size": 37,
+      "transpiled_ops": {
+        "rz": 18,
+        "sx": 14,
+        "ecr": 3,
+        "measure": 2
+      }
+    },
+    {
+      "n": 3,
+      "seed": 9,
+      "param_file": "D:\\Cloud_Quantum_Simul_Lab\\연구자료\\양자몬테카를로기반_Dose계산연구\\experiments\\real_backend_yonsei\\hn_chebyshev_stateprep\\params\\hn_chebyshev_q30_seed09_reps8.npz",
+      "ideal_order": "bit_reverse",
+      "best_kl": 5.4150212906254175e-14,
+      "best_tvd": 1.4906539845625094e-07,
+      "sim_integral": 7.559426128662751,
+      "sim_abs_error": 0.0022724152770052797,
+      "logical_depth": 44,
+      "logical_size": 84,
+      "transpiled_depth": 237,
+      "transpiled_size": 394,
+      "transpiled_ops": {
+        "rz": 206,
+        "sx": 127,
+        "ecr": 56,
+        "measure": 3,
+        "x": 2
+      }
+    },
+    {
+      "n": 4,
+      "seed": 9,
+      "param_file": "D:\\Cloud_Quantum_Simul_Lab\\연구자료\\양자몬테카를로기반_Dose계산연구\\experiments\\real_backend_yonsei\\hn_chebyshev_stateprep\\params\\hn_chebyshev_q40_seed09_reps8.npz",
+      "ideal_order": "bit_reverse",
+      "best_kl": 1.1101627971415354e-13,
+      "best_tvd": 1.736502841965127e-07,
+      "sim_integral": 7.555687756715849,
+      "sim_abs_error": 0.0060107872239072435,
+      "logical_depth": 52,
+      "logical_size": 112,
+      "transpiled_depth": 308,
+      "transpiled_size": 521,
+      "transpiled_ops": {
+        "rz": 268,
+        "sx": 169,
+        "ecr": 78,
+        "measure": 4,
+        "x": 2
+      }
+    }
+  ]
+}

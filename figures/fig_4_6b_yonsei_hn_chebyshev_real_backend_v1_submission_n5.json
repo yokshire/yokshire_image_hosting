@@ -1,0 +1,45 @@
+{
+  "submitted_at_utc": "20260627T174447Z",
+  "job_id": "d900o3propqc738d5cj0",
+  "backend": "ibm_yonsei",
+  "backend_status": {
+    "operational": true,
+    "pending_jobs": 4,
+    "status_msg": "active"
+  },
+  "shots": 4096,
+  "optimization_level": 3,
+  "ansatz": {
+    "reps": 8,
+    "rotations": [
+      "ry",
+      "rz"
+    ],
+    "entanglement": "circular",
+    "entanglement_gate": "cx",
+    "init": "hadamard"
+  },
+  "circuits": [
+    {
+      "n": 5,
+      "seed": 5,
+      "param_file": "D:\\Cloud_Quantum_Simul_Lab\\연구자료\\양자몬테카를로기반_Dose계산연구\\experiments\\real_backend_yonsei\\hn_chebyshev_stateprep\\params\\hn_chebyshev_q50_seed05_reps8.npz",
+      "ideal_order": "bit_reverse",
+      "best_kl": 3.0430389985488923e-13,
+      "best_tvd": 3.122599486013065e-07,
+      "sim_integral": 7.5619757929857565,
+      "sim_abs_error": 0.0002772490460003496,
+      "logical_depth": 60,
+      "logical_size": 140,
+      "transpiled_depth": 359,
+      "transpiled_size": 766,
+      "transpiled_ops": {
+        "rz": 396,
+        "sx": 246,
+        "ecr": 117,
+        "measure": 5,
+        "x": 2
+      }
+    }
+  ]
+}
