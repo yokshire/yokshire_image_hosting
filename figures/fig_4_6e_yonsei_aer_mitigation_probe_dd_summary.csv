@@ -1,0 +1,17 @@
+condition,mitigation_family,n,abs_error,kl,tvd,transpiled_depth,ecr_count,x_count,delay_count,note
+baseline_full_noise,baseline,5,1.6402254496774509,0.25972589711955124,0.2892224458690698,375,116,7,0,No explicit mitigation; optimization-level-3 transpilation only.
+baseline_readout_mitigated,readout_mitigation,5,1.6185721392068961,0.25181717102070855,0.28557780491560913,375,116,7,0,Classical inverse assignment-matrix readout mitigation on the same noisy counts.
+dd_inserted_full_noise,dynamical_decoupling,5,1.6497300204155527,0.262191241688731,0.2926404146190698,381,116,131,334,X-X DD inserted; evaluated with the same calibrated gate/readout/thermal noise model.
+ideal_exact,reference,5,0.0002772490460003496,3.0430389985488923e-13,3.122599486013065e-07,375,116,7,0,Noiseless learned-state expectation.
+layout_best_aer_error,layout_selection,5,1.613681680873106,0.26389666855275834,0.29710662374859664,401,119,4,0,Best transpiler seed by Aer-observed integral error. selected seed_transpiler=3.
+layout_min_ecr_depth,layout_selection,5,1.6628238054556386,0.26515912117746493,0.2938869485178074,308,112,3,0,"Best transpiler seed by ECR count, then depth and size. selected seed_transpiler=0."
+zne_poly1,zne_proxy,5,1.4731001225384057,,,375,116,7,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+zne_poly2,zne_proxy,5,1.0957596900547264,,,375,116,7,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+baseline_full_noise,baseline,6,1.7061213514168623,0.2996620835632551,0.31917704307965183,482,159,9,0,No explicit mitigation; optimization-level-3 transpilation only.
+baseline_readout_mitigated,readout_mitigation,6,1.7185499352663482,0.30733802109705455,0.3240920279418304,482,159,9,0,Classical inverse assignment-matrix readout mitigation on the same noisy counts.
+dd_inserted_full_noise,dynamical_decoupling,6,1.7166792702599443,0.30175450858521746,0.32088602745465183,490,159,171,402,X-X DD inserted; evaluated with the same calibrated gate/readout/thermal noise model.
+ideal_exact,reference,6,0.00013681101844209564,7.357936795787465e-13,4.1227093921134233e-07,482,159,9,0,Noiseless learned-state expectation.
+layout_best_aer_error,layout_selection,6,1.624378231725923,0.2656675817122144,0.2999044419191976,428,138,9,0,Best transpiler seed by Aer-observed integral error. selected seed_transpiler=1.
+layout_min_ecr_depth,layout_selection,6,1.624378231725923,0.2656675817122144,0.2999044419191976,428,138,9,0,"Best transpiler seed by ECR count, then depth and size. selected seed_transpiler=1."
+zne_poly1,zne_proxy,6,1.6129847560055657,,,482,159,9,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+zne_poly2,zne_proxy,6,1.3956927126481657,,,482,159,9,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.

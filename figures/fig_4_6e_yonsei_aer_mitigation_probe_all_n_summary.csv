@@ -1,0 +1,43 @@
+condition,mitigation_family,n,abs_error,kl,tvd,transpiled_depth,ecr_count,x_count,delay_count,note
+baseline_full_noise,baseline,3,1.8141773873597193,0.19125851922147935,0.24863650054222192,240,57,1,0,No explicit mitigation; optimization-level-3 transpilation only.
+baseline_readout_mitigated,readout_mitigation,3,1.8083886493911132,0.19030797614739586,0.248038438299021,240,57,1,0,Classical inverse assignment-matrix readout mitigation on the same noisy counts.
+ideal_exact,reference,3,0.0022724152770052797,5.4150212906254175e-14,1.4906539845625094e-07,240,57,1,0,Noiseless learned-state expectation.
+layout_best_aer_error,layout_selection,3,1.6732881264140262,0.18163295320517697,0.24912478179222192,240,57,1,0,Best transpiler seed by Aer-observed integral error. selected seed_transpiler=2.
+layout_min_ecr_depth,layout_selection,3,1.8141773873597193,0.19125851922147935,0.24863650054222192,240,57,1,0,"Best transpiler seed by ECR count, then depth and size. selected seed_transpiler=0."
+zne_poly1,zne_proxy,3,1.3898154028838183,,,240,57,1,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+zne_poly2,zne_proxy,3,0.896408650232126,,,240,57,1,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+baseline_full_noise,baseline,4,1.6029144420776182,0.22069964363236375,0.27671683677548325,307,78,3,0,No explicit mitigation; optimization-level-3 transpilation only.
+baseline_readout_mitigated,readout_mitigation,4,1.607619425584521,0.21915037887055364,0.27597492925792355,307,78,3,0,Classical inverse assignment-matrix readout mitigation on the same noisy counts.
+ideal_exact,reference,4,0.0060107872239072435,1.1101627971415354e-13,1.736502841965127e-07,307,78,3,0,Noiseless learned-state expectation.
+layout_best_aer_error,layout_selection,4,1.4959011630664358,0.19884082075326115,0.25376761802548325,313,76,2,0,Best transpiler seed by Aer-observed integral error. selected seed_transpiler=2.
+layout_min_ecr_depth,layout_selection,4,1.574320272522086,0.2233382136864109,0.27525199302548325,304,76,1,0,"Best transpiler seed by ECR count, then depth and size. selected seed_transpiler=3."
+zne_poly1,zne_proxy,4,1.4112431125914222,,,307,78,3,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+zne_poly2,zne_proxy,4,1.262849866016583,,,307,78,3,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+baseline_full_noise,baseline,5,1.5730948869031076,0.2530381793717858,0.2920109020642402,343,115,9,0,No explicit mitigation; optimization-level-3 transpilation only.
+baseline_readout_mitigated,readout_mitigation,5,1.5448232634880972,0.24284865298697386,0.2840476481690962,343,115,9,0,Classical inverse assignment-matrix readout mitigation on the same noisy counts.
+ideal_exact,reference,5,0.0002772490460003496,3.0430389985488923e-13,3.122599486013065e-07,343,115,9,0,Noiseless learned-state expectation.
+layout_best_aer_error,layout_selection,5,1.5805171259058204,0.23994051138961076,0.2793320502231168,351,113,5,0,Best transpiler seed by Aer-observed integral error. selected seed_transpiler=1.
+layout_min_ecr_depth,layout_selection,5,1.6393041952692,0.2629952731443165,0.2877834328928074,308,112,3,0,"Best transpiler seed by ECR count, then depth and size. selected seed_transpiler=0."
+zne_poly1,zne_proxy,5,1.3474863458424808,,,343,115,9,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+zne_poly2,zne_proxy,5,0.7570322158956655,,,343,115,9,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+baseline_full_noise,baseline,6,1.6831142611323626,0.296820454140513,0.32111911326248377,484,160,12,0,No explicit mitigation; optimization-level-3 transpilation only.
+baseline_readout_mitigated,readout_mitigation,6,1.6859598228500383,0.29891822143858426,0.32031970226330714,484,160,12,0,Classical inverse assignment-matrix readout mitigation on the same noisy counts.
+ideal_exact,reference,6,0.00013681101844209564,7.357936795787465e-13,4.1227093921134233e-07,484,160,12,0,Noiseless learned-state expectation.
+layout_best_aer_error,layout_selection,6,1.6311149903682614,0.2563137465047765,0.3007382828040233,428,138,9,0,Best transpiler seed by Aer-observed integral error. selected seed_transpiler=3.
+layout_min_ecr_depth,layout_selection,6,1.651369477184402,0.26548028804144536,0.2990661672779951,428,138,9,0,"Best transpiler seed by ECR count, then depth and size. selected seed_transpiler=1."
+zne_poly1,zne_proxy,6,1.6642460162559933,,,484,160,12,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+zne_poly2,zne_proxy,6,1.0004708678017264,,,484,160,12,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+baseline_full_noise,baseline,7,1.6545090643736797,0.28650510100762105,0.31304313068121126,595,168,9,0,No explicit mitigation; optimization-level-3 transpilation only.
+baseline_readout_mitigated,readout_mitigation,7,1.6764994307137249,0.2983476236529462,0.3199956257225605,595,168,9,0,Classical inverse assignment-matrix readout mitigation on the same noisy counts.
+ideal_exact,reference,7,0.004406033978259671,0.00011458589309412725,0.004680522375583437,595,168,9,0,Noiseless learned-state expectation.
+layout_best_aer_error,layout_selection,7,1.5564229865757975,0.26876295849541043,0.30807904278353987,595,205,6,0,Best transpiler seed by Aer-observed integral error. selected seed_transpiler=2.
+layout_min_ecr_depth,layout_selection,7,1.7632121914929764,0.33565516466658574,0.33383231014726067,571,172,10,0,"Best transpiler seed by ECR count, then depth and size. selected seed_transpiler=0."
+zne_poly1,zne_proxy,7,1.6227825420824624,,,595,168,9,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+zne_poly2,zne_proxy,7,1.256748494264996,,,595,168,9,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+baseline_full_noise,baseline,8,1.701161850857484,0.33600032583526007,0.33359998043781103,611,172,15,0,No explicit mitigation; optimization-level-3 transpilation only.
+baseline_readout_mitigated,readout_mitigation,8,1.6998759255446254,0.3586156369568937,0.34473426879861635,611,172,15,0,Classical inverse assignment-matrix readout mitigation on the same noisy counts.
+ideal_exact,reference,8,0.00232409423525759,0.0034159502735625004,0.028257906258957927,611,172,15,0,Noiseless learned-state expectation.
+layout_best_aer_error,layout_selection,8,1.5089334979316336,0.2950684883581844,0.3168119765580304,621,172,19,0,Best transpiler seed by Aer-observed integral error. selected seed_transpiler=0.
+layout_min_ecr_depth,layout_selection,8,1.5089334979316336,0.2950684883581844,0.3168119765580304,621,172,19,0,"Best transpiler seed by ECR count, then depth and size. selected seed_transpiler=0."
+zne_poly1,zne_proxy,8,1.6197851138043768,,,611,172,15,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
+zne_poly2,zne_proxy,8,0.5864727010463477,,,611,172,15,0,Aer noise-scale polynomial extrapolation of the integral to zero noise.
