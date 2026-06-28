@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-06-28T16:23:09.734391</dc:date>
+    <dc:date>2026-06-29T04:14:19.850715</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -37,20 +37,12 @@ L 80.64 115.2
 z
 " style="fill: #ffffff"/>
    </g>
-   <g id="patch_3">
-    <path d="M 247.836172 341.315702 
-L 373.233301 341.315702 
-L 373.233301 115.2 
-L 247.836172 115.2 
-z
-" clip-path="url(#p9be6108455)" style="fill: #fff4c2; opacity: 0.35; stroke: #fff4c2; stroke-linejoin: miter"/>
-   </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <path d="M 101.539522 341.315702 
 L 101.539522 115.2 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
      </g>
      <g id="text_1">
       <!-- 3 -->
@@ -97,7 +89,7 @@ z
      <g id="line2d_2">
       <path d="M 185.137608 341.315702 
 L 185.137608 115.2 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
      </g>
      <g id="text_2">
       <!-- 4 -->
@@ -131,7 +123,7 @@ z
      <g id="line2d_3">
       <path d="M 268.735694 341.315702 
 L 268.735694 115.2 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
      </g>
      <g id="text_3">
       <!-- 5 -->
@@ -171,7 +163,7 @@ z
      <g id="line2d_4">
       <path d="M 352.33378 341.315702 
 L 352.33378 115.2 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
      </g>
      <g id="text_4">
       <!-- 6 -->
@@ -216,7 +208,7 @@ z
      <g id="line2d_5">
       <path d="M 435.931866 341.315702 
 L 435.931866 115.2 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
      </g>
      <g id="text_5">
       <!-- 7 -->
@@ -241,7 +233,7 @@ z
      <g id="line2d_6">
       <path d="M 519.529952 341.315702 
 L 519.529952 115.2 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #cccccc; stroke-linecap: round"/>
      </g>
      <g id="text_6">
       <!-- 8 -->
@@ -507,7 +499,7 @@ z
      <g id="line2d_7">
       <path d="M 80.64 337.825008 
 L 540.429474 337.825008 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_8">
       <!-- $\mathdefault{10^{-4}}$ -->
@@ -567,7 +559,7 @@ z
      <g id="line2d_8">
       <path d="M 80.64 287.962837 
 L 540.429474 287.962837 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_9">
       <!-- $\mathdefault{10^{-3}}$ -->
@@ -583,7 +575,7 @@ L 540.429474 287.962837
      <g id="line2d_9">
       <path d="M 80.64 238.100665 
 L 540.429474 238.100665 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_10">
       <!-- $\mathdefault{10^{-2}}$ -->
@@ -625,7 +617,7 @@ z
      <g id="line2d_10">
       <path d="M 80.64 188.238493 
 L 540.429474 188.238493 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_11">
       <!-- $\mathdefault{10^{-1}}$ -->
@@ -641,7 +633,7 @@ L 540.429474 188.238493
      <g id="line2d_11">
       <path d="M 80.64 138.376321 
 L 540.429474 138.376321 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_12">
       <!-- $\mathdefault{10^{0}}$ -->
@@ -863,22 +855,22 @@ L 268.735694 315.742545
 L 352.33378 331.037716 
 L 435.931866 255.849212 
 L 519.529952 269.70063 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke-dasharray: 2.2,3.63; stroke-dashoffset: 0; stroke: #1f2430; stroke-width: 2.2"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke-dasharray: 2.2,3.63; stroke-dashoffset: 0; stroke: #1f2430; stroke-width: 2.2"/>
     <defs>
-     <path id="m0e25e56c00" d="M 0 4.242641 
+     <path id="m3048364075" d="M 0 4.242641 
 L 4.242641 0 
 L 0 -4.242641 
 L -4.242641 0 
 z
 " style="stroke: #1f2430; stroke-linejoin: miter"/>
     </defs>
-    <g clip-path="url(#p9be6108455)">
-     <use xlink:href="#m0e25e56c00" x="101.539522" y="270.187586" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
-     <use xlink:href="#m0e25e56c00" x="185.137608" y="249.123627" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
-     <use xlink:href="#m0e25e56c00" x="268.735694" y="315.742545" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
-     <use xlink:href="#m0e25e56c00" x="352.33378" y="331.037716" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
-     <use xlink:href="#m0e25e56c00" x="435.931866" y="255.849212" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
-     <use xlink:href="#m0e25e56c00" x="519.529952" y="269.70063" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
+    <g clip-path="url(#pdf24f0fec1)">
+     <use xlink:href="#m3048364075" x="101.539522" y="270.187586" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
+     <use xlink:href="#m3048364075" x="185.137608" y="249.123627" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
+     <use xlink:href="#m3048364075" x="268.735694" y="315.742545" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
+     <use xlink:href="#m3048364075" x="352.33378" y="331.037716" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
+     <use xlink:href="#m3048364075" x="435.931866" y="255.849212" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
+     <use xlink:href="#m3048364075" x="519.529952" y="269.70063" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
     </g>
    </g>
    <g id="line2d_13">
@@ -888,9 +880,9 @@ L 268.735694 128.565693
 L 352.33378 127.101805 
 L 435.931866 127.473002 
 L 519.529952 126.870842 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #5477c4; stroke-width: 2.2; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #5477c4; stroke-width: 2.2; stroke-linecap: round"/>
     <defs>
-     <path id="m46fc511b8c" d="M 0 3 
+     <path id="mc2da281266" d="M 0 3 
 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
 C 2.683901 1.55874 3 0.795609 3 0 
 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
@@ -902,13 +894,13 @@ C -1.55874 2.683901 -0.795609 3 0 3
 z
 " style="stroke: #5477c4"/>
     </defs>
-    <g clip-path="url(#p9be6108455)">
-     <use xlink:href="#m46fc511b8c" x="101.539522" y="125.477986" style="fill: #5477c4; stroke: #5477c4"/>
-     <use xlink:href="#m46fc511b8c" x="185.137608" y="128.159046" style="fill: #5477c4; stroke: #5477c4"/>
-     <use xlink:href="#m46fc511b8c" x="268.735694" y="128.565693" style="fill: #5477c4; stroke: #5477c4"/>
-     <use xlink:href="#m46fc511b8c" x="352.33378" y="127.101805" style="fill: #5477c4; stroke: #5477c4"/>
-     <use xlink:href="#m46fc511b8c" x="435.931866" y="127.473002" style="fill: #5477c4; stroke: #5477c4"/>
-     <use xlink:href="#m46fc511b8c" x="519.529952" y="126.870842" style="fill: #5477c4; stroke: #5477c4"/>
+    <g clip-path="url(#pdf24f0fec1)">
+     <use xlink:href="#mc2da281266" x="101.539522" y="125.477986" style="fill: #5477c4; stroke: #5477c4"/>
+     <use xlink:href="#mc2da281266" x="185.137608" y="128.159046" style="fill: #5477c4; stroke: #5477c4"/>
+     <use xlink:href="#mc2da281266" x="268.735694" y="128.565693" style="fill: #5477c4; stroke: #5477c4"/>
+     <use xlink:href="#mc2da281266" x="352.33378" y="127.101805" style="fill: #5477c4; stroke: #5477c4"/>
+     <use xlink:href="#mc2da281266" x="435.931866" y="127.473002" style="fill: #5477c4; stroke: #5477c4"/>
+     <use xlink:href="#mc2da281266" x="519.529952" y="126.870842" style="fill: #5477c4; stroke: #5477c4"/>
     </g>
    </g>
    <g id="line2d_14">
@@ -918,9 +910,9 @@ L 268.735694 128.958413
 L 352.33378 127.065225 
 L 435.931866 127.187079 
 L 519.529952 126.887217 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #a3befa; stroke-width: 2.2; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #a3befa; stroke-width: 2.2; stroke-linecap: round"/>
     <defs>
-     <path id="m1e2bb93ffe" d="M 0 3 
+     <path id="m9c9ac6c436" d="M 0 3 
 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
 C 2.683901 1.55874 3 0.795609 3 0 
 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
@@ -932,13 +924,13 @@ C -1.55874 2.683901 -0.795609 3 0 3
 z
 " style="stroke: #a3befa"/>
     </defs>
-    <g clip-path="url(#p9be6108455)">
-     <use xlink:href="#m1e2bb93ffe" x="101.539522" y="125.547194" style="fill: #a3befa; stroke: #a3befa"/>
-     <use xlink:href="#m1e2bb93ffe" x="185.137608" y="128.095576" style="fill: #a3befa; stroke: #a3befa"/>
-     <use xlink:href="#m1e2bb93ffe" x="268.735694" y="128.958413" style="fill: #a3befa; stroke: #a3befa"/>
-     <use xlink:href="#m1e2bb93ffe" x="352.33378" y="127.065225" style="fill: #a3befa; stroke: #a3befa"/>
-     <use xlink:href="#m1e2bb93ffe" x="435.931866" y="127.187079" style="fill: #a3befa; stroke: #a3befa"/>
-     <use xlink:href="#m1e2bb93ffe" x="519.529952" y="126.887217" style="fill: #a3befa; stroke: #a3befa"/>
+    <g clip-path="url(#pdf24f0fec1)">
+     <use xlink:href="#m9c9ac6c436" x="101.539522" y="125.547194" style="fill: #a3befa; stroke: #a3befa"/>
+     <use xlink:href="#m9c9ac6c436" x="185.137608" y="128.095576" style="fill: #a3befa; stroke: #a3befa"/>
+     <use xlink:href="#m9c9ac6c436" x="268.735694" y="128.958413" style="fill: #a3befa; stroke: #a3befa"/>
+     <use xlink:href="#m9c9ac6c436" x="352.33378" y="127.065225" style="fill: #a3befa; stroke: #a3befa"/>
+     <use xlink:href="#m9c9ac6c436" x="435.931866" y="127.187079" style="fill: #a3befa; stroke: #a3befa"/>
+     <use xlink:href="#m9c9ac6c436" x="519.529952" y="126.887217" style="fill: #a3befa; stroke: #a3befa"/>
     </g>
    </g>
    <g id="line2d_15">
@@ -948,9 +940,9 @@ L 268.735694 128.46376
 L 352.33378 127.781378 
 L 435.931866 128.796419 
 L 519.529952 129.467441 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #cc6f47; stroke-width: 2.2; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #cc6f47; stroke-width: 2.2; stroke-linecap: round"/>
     <defs>
-     <path id="m7ae436c828" d="M 0 3 
+     <path id="m5dc9ef1389" d="M 0 3 
 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
 C 2.683901 1.55874 3 0.795609 3 0 
 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
@@ -962,13 +954,13 @@ C -1.55874 2.683901 -0.795609 3 0 3
 z
 " style="stroke: #cc6f47"/>
     </defs>
-    <g clip-path="url(#p9be6108455)">
-     <use xlink:href="#m7ae436c828" x="101.539522" y="127.228598" style="fill: #cc6f47; stroke: #cc6f47"/>
-     <use xlink:href="#m7ae436c828" x="185.137608" y="129.655282" style="fill: #cc6f47; stroke: #cc6f47"/>
-     <use xlink:href="#m7ae436c828" x="268.735694" y="128.46376" style="fill: #cc6f47; stroke: #cc6f47"/>
-     <use xlink:href="#m7ae436c828" x="352.33378" y="127.781378" style="fill: #cc6f47; stroke: #cc6f47"/>
-     <use xlink:href="#m7ae436c828" x="435.931866" y="128.796419" style="fill: #cc6f47; stroke: #cc6f47"/>
-     <use xlink:href="#m7ae436c828" x="519.529952" y="129.467441" style="fill: #cc6f47; stroke: #cc6f47"/>
+    <g clip-path="url(#pdf24f0fec1)">
+     <use xlink:href="#m5dc9ef1389" x="101.539522" y="127.228598" style="fill: #cc6f47; stroke: #cc6f47"/>
+     <use xlink:href="#m5dc9ef1389" x="185.137608" y="129.655282" style="fill: #cc6f47; stroke: #cc6f47"/>
+     <use xlink:href="#m5dc9ef1389" x="268.735694" y="128.46376" style="fill: #cc6f47; stroke: #cc6f47"/>
+     <use xlink:href="#m5dc9ef1389" x="352.33378" y="127.781378" style="fill: #cc6f47; stroke: #cc6f47"/>
+     <use xlink:href="#m5dc9ef1389" x="435.931866" y="128.796419" style="fill: #cc6f47; stroke: #cc6f47"/>
+     <use xlink:href="#m5dc9ef1389" x="519.529952" y="129.467441" style="fill: #cc6f47; stroke: #cc6f47"/>
     </g>
    </g>
    <g id="line2d_16">
@@ -978,9 +970,9 @@ L 268.735694 144.403941
 L 352.33378 138.366126 
 L 435.931866 133.427581 
 L 519.529952 149.931989 
-" clip-path="url(#p9be6108455)" style="fill: none; stroke: #71b436; stroke-width: 2.2; stroke-linecap: round"/>
+" clip-path="url(#pdf24f0fec1)" style="fill: none; stroke: #71b436; stroke-width: 2.2; stroke-linecap: round"/>
     <defs>
-     <path id="m6791a949d6" d="M 0 3 
+     <path id="mc04b426187" d="M 0 3 
 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
 C 2.683901 1.55874 3 0.795609 3 0 
 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
@@ -992,21 +984,21 @@ C -1.55874 2.683901 -0.795609 3 0 3
 z
 " style="stroke: #71b436"/>
     </defs>
-    <g clip-path="url(#p9be6108455)">
-     <use xlink:href="#m6791a949d6" x="101.539522" y="140.744473" style="fill: #71b436; stroke: #71b436"/>
-     <use xlink:href="#m6791a949d6" x="185.137608" y="133.322704" style="fill: #71b436; stroke: #71b436"/>
-     <use xlink:href="#m6791a949d6" x="268.735694" y="144.403941" style="fill: #71b436; stroke: #71b436"/>
-     <use xlink:href="#m6791a949d6" x="352.33378" y="138.366126" style="fill: #71b436; stroke: #71b436"/>
-     <use xlink:href="#m6791a949d6" x="435.931866" y="133.427581" style="fill: #71b436; stroke: #71b436"/>
-     <use xlink:href="#m6791a949d6" x="519.529952" y="149.931989" style="fill: #71b436; stroke: #71b436"/>
+    <g clip-path="url(#pdf24f0fec1)">
+     <use xlink:href="#mc04b426187" x="101.539522" y="140.744473" style="fill: #71b436; stroke: #71b436"/>
+     <use xlink:href="#mc04b426187" x="185.137608" y="133.322704" style="fill: #71b436; stroke: #71b436"/>
+     <use xlink:href="#mc04b426187" x="268.735694" y="144.403941" style="fill: #71b436; stroke: #71b436"/>
+     <use xlink:href="#mc04b426187" x="352.33378" y="138.366126" style="fill: #71b436; stroke: #71b436"/>
+     <use xlink:href="#mc04b426187" x="435.931866" y="133.427581" style="fill: #71b436; stroke: #71b436"/>
+     <use xlink:href="#mc04b426187" x="519.529952" y="149.931989" style="fill: #71b436; stroke: #71b436"/>
     </g>
    </g>
-   <g id="patch_4">
+   <g id="patch_3">
     <path d="M 80.64 341.315702 
 L 80.64 115.2 
 " style="fill: none; stroke: #d7dbe7; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="patch_5">
+   <g id="patch_4">
     <path d="M 80.64 341.315702 
 L 540.429474 341.315702 
 " style="fill: none; stroke: #d7dbe7; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
@@ -1401,7 +1393,7 @@ L 97.74 126.988594
 L 106.74 126.988594 
 " style="fill: none; stroke-dasharray: 2.2,3.63; stroke-dashoffset: 0; stroke: #1f2430; stroke-width: 2.2"/>
      <g>
-      <use xlink:href="#m0e25e56c00" x="97.74" y="126.988594" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
+      <use xlink:href="#m3048364075" x="97.74" y="126.988594" style="fill: #1f2430; stroke: #1f2430; stroke-linejoin: miter"/>
      </g>
     </g>
     <g id="text_15">
@@ -1455,7 +1447,7 @@ L 97.74 140.198906
 L 106.74 140.198906 
 " style="fill: none; stroke: #5477c4; stroke-width: 2.2; stroke-linecap: round"/>
      <g>
-      <use xlink:href="#m46fc511b8c" x="97.74" y="140.198906" style="fill: #5477c4; stroke: #5477c4"/>
+      <use xlink:href="#mc2da281266" x="97.74" y="140.198906" style="fill: #5477c4; stroke: #5477c4"/>
      </g>
     </g>
     <g id="text_16">
@@ -1522,7 +1514,7 @@ L 97.74 153.409219
 L 106.74 153.409219 
 " style="fill: none; stroke: #a3befa; stroke-width: 2.2; stroke-linecap: round"/>
      <g>
-      <use xlink:href="#m1e2bb93ffe" x="97.74" y="153.409219" style="fill: #a3befa; stroke: #a3befa"/>
+      <use xlink:href="#m9c9ac6c436" x="97.74" y="153.409219" style="fill: #a3befa; stroke: #a3befa"/>
      </g>
     </g>
     <g id="text_17">
@@ -1587,7 +1579,7 @@ L 198.81 126.988594
 L 207.81 126.988594 
 " style="fill: none; stroke: #cc6f47; stroke-width: 2.2; stroke-linecap: round"/>
      <g>
-      <use xlink:href="#m7ae436c828" x="198.81" y="126.988594" style="fill: #cc6f47; stroke: #cc6f47"/>
+      <use xlink:href="#m5dc9ef1389" x="198.81" y="126.988594" style="fill: #cc6f47; stroke: #cc6f47"/>
      </g>
     </g>
     <g id="text_18">
@@ -1640,7 +1632,7 @@ L 198.81 140.198906
 L 207.81 140.198906 
 " style="fill: none; stroke: #71b436; stroke-width: 2.2; stroke-linecap: round"/>
      <g>
-      <use xlink:href="#m6791a949d6" x="198.81" y="140.198906" style="fill: #71b436; stroke: #71b436"/>
+      <use xlink:href="#mc04b426187" x="198.81" y="140.198906" style="fill: #71b436; stroke: #71b436"/>
      </g>
     </g>
     <g id="text_19">
@@ -1728,7 +1720,7 @@ z
    </g>
   </g>
   <g id="axes_2">
-   <g id="patch_6">
+   <g id="patch_5">
     <path d="M 669.170526 341.315702 
 L 1128.96 341.315702 
 L 1128.96 115.2 
@@ -1843,7 +1835,7 @@ z
      <g id="line2d_22">
       <path d="M 669.170526 337.883366 
 L 1128.96 337.883366 
-" clip-path="url(#p79117391d0)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_26">
       <!-- $\mathdefault{10^{-4}}$ -->
@@ -1859,7 +1851,7 @@ L 1128.96 337.883366
      <g id="line2d_23">
       <path d="M 669.170526 287.592475 
 L 1128.96 287.592475 
-" clip-path="url(#p79117391d0)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_27">
       <!-- $\mathdefault{10^{-3}}$ -->
@@ -1875,7 +1867,7 @@ L 1128.96 287.592475
      <g id="line2d_24">
       <path d="M 669.170526 237.301583 
 L 1128.96 237.301583 
-" clip-path="url(#p79117391d0)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_28">
       <!-- $\mathdefault{10^{-2}}$ -->
@@ -1891,7 +1883,7 @@ L 1128.96 237.301583
      <g id="line2d_25">
       <path d="M 669.170526 187.010691 
 L 1128.96 187.010691 
-" clip-path="url(#p79117391d0)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_29">
       <!-- $\mathdefault{10^{-1}}$ -->
@@ -1907,7 +1899,7 @@ L 1128.96 187.010691
      <g id="line2d_26">
       <path d="M 669.170526 136.719799 
 L 1128.96 136.719799 
-" clip-path="url(#p79117391d0)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #e6e8f0; stroke-linecap: round"/>
      </g>
      <g id="text_30">
       <!-- $\mathdefault{10^{0}}$ -->
@@ -1972,101 +1964,109 @@ L 1128.96 136.719799
      </g>
     </g>
    </g>
-   <g id="patch_7">
+   <g id="patch_6">
     <path d="M 676.833684 50427.611533 
 L 707.486316 50427.611533 
 L 707.486316 126.431094 
 L 676.833684 126.431094 
 z
-" clip-path="url(#p79117391d0)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_8">
+   <g id="patch_7">
     <path d="M 753.465263 50427.611533 
 L 784.117895 50427.611533 
 L 784.117895 126.680935 
 L 753.465263 126.680935 
 z
-" clip-path="url(#p79117391d0)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_9">
+   <g id="patch_8">
     <path d="M 830.096842 50427.611533 
 L 860.749474 50427.611533 
 L 860.749474 315.611036 
 L 830.096842 315.611036 
 z
-" clip-path="url(#p79117391d0)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_10">
+   <g id="patch_9">
     <path d="M 906.728421 50427.611533 
 L 937.381053 50427.611533 
 L 937.381053 127.16593 
 L 906.728421 127.16593 
 z
-" clip-path="url(#p79117391d0)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_11">
+   <g id="patch_10">
     <path d="M 983.36 50427.611533 
 L 1014.012632 50427.611533 
 L 1014.012632 129.154185 
 L 983.36 129.154185 
 z
-" clip-path="url(#p79117391d0)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_12">
+   <g id="patch_11">
     <path d="M 1059.991579 50427.611533 
 L 1090.644211 50427.611533 
 L 1090.644211 140.098006 
 L 1059.991579 140.098006 
 z
-" clip-path="url(#p79117391d0)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_13">
+   <g id="patch_12">
     <path d="M 707.486316 50427.611533 
 L 738.138947 50427.611533 
 L 738.138947 125.555956 
 L 707.486316 125.555956 
 z
-" clip-path="url(#p79117391d0)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_14">
+   <g id="patch_13">
     <path d="M 784.117895 50427.611533 
 L 814.770526 50427.611533 
 L 814.770526 125.477986 
 L 784.117895 125.477986 
 z
-" clip-path="url(#p79117391d0)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_15">
+   <g id="patch_14">
     <path d="M 860.749474 50427.611533 
 L 891.402105 50427.611533 
 L 891.402105 331.037716 
 L 860.749474 331.037716 
 z
-" clip-path="url(#p79117391d0)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_16">
+   <g id="patch_15">
     <path d="M 937.381053 50427.611533 
 L 968.033684 50427.611533 
 L 968.033684 126.483109 
 L 937.381053 126.483109 
 z
-" clip-path="url(#p79117391d0)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_17">
+   <g id="patch_16">
     <path d="M 1014.012632 50427.611533 
 L 1044.665263 50427.611533 
 L 1044.665263 126.17309 
 L 1014.012632 126.17309 
 z
-" clip-path="url(#p79117391d0)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
-   <g id="patch_18">
+   <g id="patch_17">
     <path d="M 1090.644211 50427.611533 
 L 1121.296842 50427.611533 
 L 1121.296842 132.193681 
 L 1090.644211 132.193681 
 z
-" clip-path="url(#p79117391d0)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 707.486316 50427.611533 
+L 707.486316 50427.611533 
+L 707.486316 50427.611533 
+L 707.486316 50427.611533 
+z
+" clip-path="url(#pe82c71cfa2)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_19">
     <path d="M 707.486316 50427.611533 
@@ -2074,99 +2074,128 @@ L 707.486316 50427.611533
 L 707.486316 50427.611533 
 L 707.486316 50427.611533 
 z
-" clip-path="url(#p79117391d0)" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
-   </g>
-   <g id="patch_20">
-    <path d="M 707.486316 50427.611533 
-L 707.486316 50427.611533 
-L 707.486316 50427.611533 
-L 707.486316 50427.611533 
-z
-" clip-path="url(#p79117391d0)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#pe82c71cfa2)" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_27">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
+    <path clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
    </g>
    <g id="line2d_28">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
+    <path clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
    </g>
    <g id="line2d_29">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
+    <path clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
    </g>
    <g id="line2d_30">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
+    <path clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
    </g>
    <g id="line2d_31">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
+    <path clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
    </g>
    <g id="line2d_32">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
-   </g>
-   <g id="line2d_33">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
-   </g>
-   <g id="line2d_34">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
-   </g>
-   <g id="line2d_35">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
-   </g>
-   <g id="line2d_36">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
-   </g>
-   <g id="line2d_37">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
-   </g>
-   <g id="line2d_38">
-    <path clip-path="url(#p79117391d0)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"/>
-   </g>
-   <g id="patch_21">
-    <path d="M 669.170526 341.315702 
-L 669.170526 115.2 
-" style="fill: none; stroke: #d7dbe7; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="patch_22">
-    <path d="M 669.170526 341.315702 
-L 1128.96 341.315702 
-" style="fill: none; stroke: #d7dbe7; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="text_32">
-    <!-- B Focal n=5,6 error after mitigation -->
-    <g style="fill: #1f2430" transform="translate(669.170526 105.2) scale(0.13 -0.13)">
-     <defs>
-      <path id="DejaVuSans-Bold-42" d="M 2456 2859 
-Q 2741 2859 2887 2984 
-Q 3034 3109 3034 3353 
-Q 3034 3594 2887 3720 
-Q 2741 3847 2456 3847 
-L 1791 3847 
-L 1791 2859 
-L 2456 2859 
+    <path clip-path="url(#pe82c71cfa2)" style="fill: none; stroke: #424242; stroke-width: 2.25; stroke-linecap: round"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   id="legend_4">
+    <g id="text_58">
+     <!-- n -->
+     <g style="fill: #262626" transform="translate(689.881776 626.007656) scale(0.09 -0.09)">
+      <use xlink:href="#DejaVuSans-6e"/>
+     </g>
+    </g>
+    <g id="patch_40">
+     <path d="M 677.270526 639.217969 
+L 695.270526 639.217969 
+L 695.270526 632.917969 
+L 677.270526 632.917969 
 z
-M 2497 819 
-Q 2859 819 3042 972 
-Q 3225 1125 3225 1434 
-Q 3225 1738 3044 1889 
-Q 2863 2041 2497 2041 
-L 1791 2041 
-L 1791 819 
-L 2497 819 
+" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_59">
+     <!-- 5 -->
+     <g style="fill: #262626" transform="translate(702.470526 639.217969) scale(0.09 -0.09)">
+      <use xlink:href="#DejaVuSans-35"/>
+     </g>
+    </g>
+    <g id="patch_41">
+     <path d="M 677.270526 652.428281 
+L 695.270526 652.428281 
+L 695.270526 646.128281 
+L 677.270526 646.128281 
 z
-M 3616 2497 
-Q 4003 2384 4215 2081 
-Q 4428 1778 4428 1338 
-Q 4428 663 3972 331 
-Q 3516 0 2584 0 
-L 588 0 
-L 588 4666 
-L 2394 4666 
-Q 3366 4666 3802 4372 
-Q 4238 4078 4238 3431 
-Q 4238 3091 4078 2852 
-Q 3919 2613 3616 2497 
+" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_60">
+     <!-- 6 -->
+     <g style="fill: #262626" transform="translate(702.470526 652.428281) scale(0.09 -0.09)">
+      <use xlink:href="#DejaVuSans-36"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="text_61">
+   <!-- Aer mitigation probe shows partial recovery, with ZNE strongest -->
+   <g style="fill: #1f2430" transform="translate(80.64 36) scale(0.22 -0.22)">
+    <defs>
+     <path id="DejaVuSans-Bold-62" d="M 2400 722 
+Q 2759 722 2948 984 
+Q 3138 1247 3138 1747 
+Q 3138 2247 2948 2509 
+Q 2759 2772 2400 2772 
+Q 2041 2772 1848 2508 
+Q 1656 2244 1656 1747 
+Q 1656 1250 1848 986 
+Q 2041 722 2400 722 
+z
+M 1656 2988 
+Q 1888 3294 2169 3439 
+Q 2450 3584 2816 3584 
+Q 3463 3584 3878 3070 
+Q 4294 2556 4294 1747 
+Q 4294 938 3878 423 
+Q 3463 -91 2816 -91 
+Q 2450 -91 2169 54 
+Q 1888 200 1656 506 
+L 1656 0 
+L 538 0 
+L 538 4863 
+L 1656 4863 
+L 1656 2988 
 z
 " transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-46" d="M 588 4666 
+     <path id="DejaVuSans-Bold-76" d="M 97 3500 
+L 1216 3500 
+L 2088 1081 
+L 2956 3500 
+L 4078 3500 
+L 2700 0 
+L 1472 0 
+L 97 3500 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-Bold-5a" d="M 359 4666 
+L 4281 4666 
+L 4281 3938 
+L 1778 909 
+L 4353 909 
+L 4353 0 
+L 288 0 
+L 288 728 
+L 2791 3756 
+L 359 3756 
+L 359 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-Bold-4e" d="M 588 4666 
+L 1931 4666 
+L 3628 1466 
+L 3628 4666 
+L 4769 4666 
+L 4769 0 
+L 3425 0 
+L 1728 3200 
+L 1728 0 
+L 588 0 
+L 588 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-Bold-45" d="M 588 4666 
 L 3834 4666 
 L 3834 3756 
 L 1791 3756 
@@ -2174,533 +2203,772 @@ L 1791 2888
 L 3713 2888 
 L 3713 1978 
 L 1791 1978 
-L 1791 0 
-L 588 0 
-L 588 4666 
-z
-" transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-63" d="M 3366 3391 
-L 3366 2478 
-Q 3138 2634 2908 2709 
-Q 2678 2784 2431 2784 
-Q 1963 2784 1702 2511 
-Q 1441 2238 1441 1747 
-Q 1441 1256 1702 982 
-Q 1963 709 2431 709 
-Q 2694 709 2930 787 
-Q 3166 866 3366 1019 
-L 3366 103 
-Q 3103 6 2833 -42 
-Q 2563 -91 2291 -91 
-Q 1344 -91 809 395 
-Q 275 881 275 1747 
-Q 275 2613 809 3098 
-Q 1344 3584 2291 3584 
-Q 2566 3584 2833 3536 
-Q 3100 3488 3366 3391 
-z
-" transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-6c" d="M 538 4863 
-L 1656 4863 
-L 1656 0 
-L 538 0 
-L 538 4863 
-z
-" transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-35" d="M 678 4666 
-L 3669 4666 
-L 3669 3781 
-L 1638 3781 
-L 1638 3059 
-Q 1775 3097 1914 3117 
-Q 2053 3138 2203 3138 
-Q 3056 3138 3531 2711 
-Q 4006 2284 4006 1522 
-Q 4006 766 3489 337 
-Q 2972 -91 2053 -91 
-Q 1656 -91 1267 -14 
-Q 878 63 494 219 
-L 494 1166 
-Q 875 947 1217 837 
-Q 1559 728 1863 728 
-Q 2300 728 2551 942 
-Q 2803 1156 2803 1522 
-Q 2803 1891 2551 2103 
-Q 2300 2316 1863 2316 
-Q 1603 2316 1309 2248 
-Q 1016 2181 678 2041 
-L 678 4666 
-z
-" transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-2c" d="M 653 1209 
-L 1778 1209 
-L 1778 256 
-L 1006 -909 
-L 341 -909 
-L 653 256 
-L 653 1209 
-z
-" transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-36" d="M 2316 2303 
-Q 2000 2303 1842 2098 
-Q 1684 1894 1684 1484 
-Q 1684 1075 1842 870 
-Q 2000 666 2316 666 
-Q 2634 666 2792 870 
-Q 2950 1075 2950 1484 
-Q 2950 1894 2792 2098 
-Q 2634 2303 2316 2303 
-z
-M 3803 4544 
-L 3803 3681 
-Q 3506 3822 3243 3889 
-Q 2981 3956 2731 3956 
-Q 2194 3956 1894 3657 
-Q 1594 3359 1544 2772 
-Q 1750 2925 1990 3001 
-Q 2231 3078 2516 3078 
-Q 3231 3078 3670 2659 
-Q 4109 2241 4109 1563 
-Q 4109 813 3618 361 
-Q 3128 -91 2303 -91 
-Q 1394 -91 895 523 
-Q 397 1138 397 2266 
-Q 397 3422 980 4083 
-Q 1563 4744 2578 4744 
-Q 2900 4744 3203 4694 
-Q 3506 4644 3803 4544 
-z
-" transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-66" d="M 2841 4863 
-L 2841 4128 
-L 2222 4128 
-Q 1984 4128 1890 4042 
-Q 1797 3956 1797 3744 
-L 1797 3500 
-L 2753 3500 
-L 2753 2700 
-L 1797 2700 
-L 1797 0 
-L 678 0 
-L 678 2700 
-L 122 2700 
-L 122 3500 
-L 678 3500 
-L 678 3744 
-Q 678 4316 997 4589 
-Q 1316 4863 1984 4863 
-L 2841 4863 
-z
-" transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#DejaVuSans-Bold-42"/>
-     <use xlink:href="#DejaVuSans-Bold-20" transform="translate(76.220703 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-46" transform="translate(111.035156 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-6f" transform="translate(175.345703 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-63" transform="translate(244.046875 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-61" transform="translate(303.324219 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-6c" transform="translate(370.804688 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-20" transform="translate(405.082031 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-6e" transform="translate(439.896484 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-3d" transform="translate(511.087891 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-35" transform="translate(594.876953 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-2c" transform="translate(664.457031 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-36" transform="translate(702.445312 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-20" transform="translate(772.025391 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-65" transform="translate(806.839844 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-72" transform="translate(874.662109 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-72" transform="translate(923.978516 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-6f" transform="translate(973.294922 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-72" transform="translate(1041.996094 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-20" transform="translate(1091.3125 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-61" transform="translate(1126.126953 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-66" transform="translate(1193.607422 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-74" transform="translate(1237.113281 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-65" transform="translate(1284.916016 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-72" transform="translate(1352.738281 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-20" transform="translate(1402.054688 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-6d" transform="translate(1436.869141 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-69" transform="translate(1541.068359 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-74" transform="translate(1575.345703 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-69" transform="translate(1623.148438 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-67" transform="translate(1657.425781 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-61" transform="translate(1729.007812 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-74" transform="translate(1796.488281 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-69" transform="translate(1844.291016 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-6f" transform="translate(1878.568359 0)"/>
-     <use xlink:href="#DejaVuSans-Bold-6e" transform="translate(1947.269531 0)"/>
-    </g>
-   </g>
-   <g id="legend_2">
-    <g id="text_33">
-     <!-- n -->
-     <g style="fill: #262626" transform="translate(1102.545 130.138594) scale(0.09 -0.09)">
-      <use xlink:href="#DejaVuSans-6e"/>
-     </g>
-    </g>
-    <g id="patch_23">
-     <path d="M 1089.93375 143.348906 
-L 1107.93375 143.348906 
-L 1107.93375 137.048906 
-L 1089.93375 137.048906 
-z
-" style="fill: #627cb6; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
-    </g>
-    <g id="text_34">
-     <!-- 5 -->
-     <g style="fill: #262626" transform="translate(1115.13375 143.348906) scale(0.09 -0.09)">
-      <use xlink:href="#DejaVuSans-35"/>
-     </g>
-    </g>
-    <g id="patch_24">
-     <path d="M 1089.93375 156.559219 
-L 1107.93375 156.559219 
-L 1107.93375 150.259219 
-L 1089.93375 150.259219 
-z
-" style="fill: #b06397; stroke: #1f2430; stroke-width: 0.8; stroke-linejoin: miter"/>
-    </g>
-    <g id="text_35">
-     <!-- 6 -->
-     <g style="fill: #262626" transform="translate(1115.13375 156.559219) scale(0.09 -0.09)">
-      <use xlink:href="#DejaVuSans-36"/>
-     </g>
-    </g>
-   </g>
-  </g>
-  <g id="axes_3">
-   <g id="patch_25">
-    <path d="M 80.64 662.4 
-L 540.429474 662.4 
-L 540.429474 436.284298 
-L 80.64 436.284298 
-z
-" style="fill: #ffffff"/>
-   </g>
-   <g id="matplotlib.axis_5">
-    <g id="xtick_13">
-     <g id="text_36">
-      <!-- 5 -->
-      <g style="fill: #6f768a" transform="translate(184.415125 679.498438) scale(0.1 -0.1)">
-       <use xlink:href="#DejaVuSans-35"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_14">
-     <g id="text_37">
-      <!-- 6 -->
-      <g style="fill: #6f768a" transform="translate(430.291849 679.498438) scale(0.1 -0.1)">
-       <use xlink:href="#DejaVuSans-36"/>
-      </g>
-     </g>
-    </g>
-    <g id="text_38">
-     <!-- Data qubits -->
-     <g style="fill: #1f2430" transform="translate(278.636456 693.936406) scale(0.11 -0.11)">
-      <use xlink:href="#DejaVuSans-44"/>
-      <use xlink:href="#DejaVuSans-61" transform="translate(77.001953 0)"/>
-      <use xlink:href="#DejaVuSans-74" transform="translate(138.28125 0)"/>
-      <use xlink:href="#DejaVuSans-61" transform="translate(177.490234 0)"/>
-      <use xlink:href="#DejaVuSans-20" transform="translate(238.769531 0)"/>
-      <use xlink:href="#DejaVuSans-71" transform="translate(270.556641 0)"/>
-      <use xlink:href="#DejaVuSans-75" transform="translate(334.033203 0)"/>
-      <use xlink:href="#DejaVuSans-62" transform="translate(397.412109 0)"/>
-      <use xlink:href="#DejaVuSans-69" transform="translate(460.888672 0)"/>
-      <use xlink:href="#DejaVuSans-74" transform="translate(488.671875 0)"/>
-      <use xlink:href="#DejaVuSans-73" transform="translate(527.880859 0)"/>
-     </g>
-    </g>
-   </g>
-   <g id="matplotlib.axis_6">
-    <g id="ytick_79">
-     <g id="text_39">
-      <!-- $\mathdefault{1.55\times10^{0}}$ -->
-      <g style="fill: #262626" transform="translate(15.93 655.015152) scale(0.11 -0.11)">
-       <defs>
-        <path id="DejaVuSans-d7" d="M 4488 3438 
-L 3059 2003 
-L 4488 575 
-L 4116 197 
-L 2681 1631 
-L 1247 197 
-L 878 575 
-L 2303 2003 
-L 878 3438 
-L 1247 3816 
-L 2681 2381 
-L 4116 3816 
-L 4488 3438 
-z
-" transform="scale(0.015625)"/>
-       </defs>
-       <use xlink:href="#DejaVuSans-31" transform="translate(0 0.765625)"/>
-       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0.765625)"/>
-       <use xlink:href="#DejaVuSans-35" transform="translate(95.410156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-35" transform="translate(159.033203 0.765625)"/>
-       <use xlink:href="#DejaVuSans-d7" transform="translate(242.138672 0.765625)"/>
-       <use xlink:href="#DejaVuSans-31" transform="translate(345.410156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(409.033203 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(473.613281 39.046875) scale(0.7)"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_80">
-     <g id="text_40">
-      <!-- $\mathdefault{1.6\times10^{0}}$ -->
-      <g style="fill: #262626" transform="translate(22.86 605.697804) scale(0.11 -0.11)">
-       <use xlink:href="#DejaVuSans-31" transform="translate(0 0.765625)"/>
-       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0.765625)"/>
-       <use xlink:href="#DejaVuSans-36" transform="translate(95.410156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-d7" transform="translate(178.515625 0.765625)"/>
-       <use xlink:href="#DejaVuSans-31" transform="translate(281.787109 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(345.410156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(409.990234 39.046875) scale(0.7)"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_81">
-     <g id="text_41">
-      <!-- $\mathdefault{1.65\times10^{0}}$ -->
-      <g style="fill: #262626" transform="translate(15.93 557.898157) scale(0.11 -0.11)">
-       <use xlink:href="#DejaVuSans-31" transform="translate(0 0.765625)"/>
-       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0.765625)"/>
-       <use xlink:href="#DejaVuSans-36" transform="translate(95.410156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-35" transform="translate(159.033203 0.765625)"/>
-       <use xlink:href="#DejaVuSans-d7" transform="translate(242.138672 0.765625)"/>
-       <use xlink:href="#DejaVuSans-31" transform="translate(345.410156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(409.033203 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(473.613281 39.046875) scale(0.7)"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_82">
-     <g id="text_42">
-      <!-- $\mathdefault{1.7\times10^{0}}$ -->
-      <g style="fill: #262626" transform="translate(23.74 511.52558) scale(0.11 -0.11)">
-       <use xlink:href="#DejaVuSans-31" transform="translate(0 0.765625)"/>
-       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0.765625)"/>
-       <use xlink:href="#DejaVuSans-37" transform="translate(87.660156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-d7" transform="translate(170.765625 0.765625)"/>
-       <use xlink:href="#DejaVuSans-31" transform="translate(274.037109 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(337.660156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(402.240234 39.046875) scale(0.7)"/>
-      </g>
-     </g>
-    </g>
-    <g id="ytick_83">
-     <g id="text_43">
-      <!-- $\mathdefault{1.75\times10^{0}}$ -->
-      <g style="fill: #262626" transform="translate(16.7 466.497326) scale(0.11 -0.11)">
-       <use xlink:href="#DejaVuSans-31" transform="translate(0 0.765625)"/>
-       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0.765625)"/>
-       <use xlink:href="#DejaVuSans-37" transform="translate(87.660156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-35" transform="translate(151.283203 0.765625)"/>
-       <use xlink:href="#DejaVuSans-d7" transform="translate(234.388672 0.765625)"/>
-       <use xlink:href="#DejaVuSans-31" transform="translate(337.660156 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(401.283203 0.765625)"/>
-       <use xlink:href="#DejaVuSans-30" transform="translate(465.863281 39.046875) scale(0.7)"/>
-      </g>
-     </g>
-    </g>
-    <g id="text_44">
-     <!-- Absolute error -->
-     <g style="fill: #1f2430" transform="translate(9.642344 588.441133) rotate(-90) scale(0.11 -0.11)">
-      <use xlink:href="#DejaVuSans-41"/>
-      <use xlink:href="#DejaVuSans-62" transform="translate(68.408203 0)"/>
-      <use xlink:href="#DejaVuSans-73" transform="translate(131.884766 0)"/>
-      <use xlink:href="#DejaVuSans-6f" transform="translate(183.984375 0)"/>
-      <use xlink:href="#DejaVuSans-6c" transform="translate(245.166016 0)"/>
-      <use xlink:href="#DejaVuSans-75" transform="translate(272.949219 0)"/>
-      <use xlink:href="#DejaVuSans-74" transform="translate(336.328125 0)"/>
-      <use xlink:href="#DejaVuSans-65" transform="translate(375.537109 0)"/>
-      <use xlink:href="#DejaVuSans-20" transform="translate(437.060547 0)"/>
-      <use xlink:href="#DejaVuSans-65" transform="translate(468.847656 0)"/>
-      <use xlink:href="#DejaVuSans-72" transform="translate(530.371094 0)"/>
-      <use xlink:href="#DejaVuSans-72" transform="translate(569.734375 0)"/>
-      <use xlink:href="#DejaVuSans-6f" transform="translate(608.597656 0)"/>
-      <use xlink:href="#DejaVuSans-72" transform="translate(669.779297 0)"/>
-     </g>
-    </g>
-   </g>
-   <g id="LineCollection_1">
-    <path d="M 101.539522 599.859442 
-L 273.653228 599.859442 
-" clip-path="url(#p7fdf73a0f9)" style="fill: none; stroke: #5477c4; stroke-width: 2.4"/>
-   </g>
-   <g id="LineCollection_2">
-    <path d="M 347.416245 537.61846 
-L 519.529952 537.61846 
-" clip-path="url(#p7fdf73a0f9)" style="fill: none; stroke: #5477c4; stroke-width: 2.4"/>
-   </g>
-   <g id="patch_26">
-    <path d="M 80.64 662.4 
-L 80.64 436.284298 
-" style="fill: none; stroke: #d7dbe7; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="patch_27">
-    <path d="M 80.64 662.4 
-L 540.429474 662.4 
-" style="fill: none; stroke: #d7dbe7; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
-   <g id="PathCollection_1">
-    <defs>
-     <path id="C0_0_eb9fe7e471" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 -0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z
-"/>
-    </defs>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="156.905486" y="541.692924" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="184.428166" y="569.79766" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="154.732744" y="583.66536" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="187.085954" y="544.318089" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="186.875547" y="609.65457" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="180.947584" y="586.647553" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="236.093424" y="496.380393" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="178.09805" y="624.204917" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="145.176911" y="569.696258" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="171.981225" y="588.292222" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="157.433912" y="573.469157" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="189.406922" y="633.857901" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="222.507138" y="652.122014" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="177.085927" y="602.840217" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="158.602581" y="574.501842" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C0_0_eb9fe7e471" x="153.043454" y="627.580408" style="fill: #f0986e; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-   </g>
-   <g id="PathCollection_2">
-    <defs>
-     <path id="C1_0_7df6a650bd" d="M 0 3 
-C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
-C 2.683901 1.55874 3 0.795609 3 -0 
-C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
-C 1.55874 -2.683901 0.795609 -3 0 -3 
-C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
-C -2.683901 -1.55874 -3 -0.795609 -3 0 
-C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
-C -1.55874 2.683901 -0.795609 3 0 3 
-z
-"/>
-    </defs>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="391.498197" y="446.562284" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="463.36539" y="549.030399" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="476.753963" y="603.558797" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="418.348792" y="500.799725" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="410.078961" y="569.400051" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="458.493813" y="515.183989" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="428.626476" y="506.976584" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="392.802153" y="476.011328" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="478.098276" y="517.989286" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="445.990328" y="584.846444" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="467.194019" y="536.297454" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="480.664992" y="553.222986" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="459.448129" y="529.45771" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="408.767512" y="537.837726" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="482.291598" y="559.815642" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-    <g clip-path="url(#p7fdf73a0f9)">
-     <use xlink:href="#C1_0_7df6a650bd" x="398.984376" y="560.419841" style="fill: #f390ca; stroke: #1f2430; stroke-width: 0.5"/>
-    </g>
-   </g>
-   <g id="line2d_39"/>
-   <g id="line2d_40"/>
-   <g id="text_45">
-    <!-- C Layout seed sweep has limited headroom -->
-    <g style="fill: #1f2430" transform="translate(80.64 426.284298) scale(0.13 -0.13)">
-     <defs>
-      <path id="DejaVuSans-Bold-43" d="M 4288 256 
-Q 3956 84 3597 -3 
-Q 3238 -91 2847 -91 
-Q 1681 -91 1000 561 
-Q 319 1213 319 2328 
-Q 319 3447 1000 4098 
-Q 1681 4750 2847 4750 
-Q 3238 4750 3597 4662 
-Q 3956 4575 4288 4403 
-L 4288 3438 
-Q 3953 3666 3628 3772 
-Q 3303 3878 2944 3878 
-Q 2300 3878 1931 3465 
-Q 1563 3053 1563 2328 
-Q 1563 1606 1931 1193 
-Q 2300 781 2944 781 
-Q 3303 781 3628 887 
-Q 3953 994 4288 1222 
-L 4288 256 
-z
-" transform="scale(0.015625)"/>
-      <path id="DejaVuSans-Bold-4c" d="M 588 4666 
-L 1791 4666 
 L 1791 909 
 L 3903 909 
 L 3903 0 
 L 588 0 
 L 588 4666 
 z
-"
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#DejaVuSans-Bold-41"/>
+    <use xlink:href="#DejaVuSans-Bold-65" transform="translate(77.392578 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-72" transform="translate(145.214844 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-20" transform="translate(194.53125 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-6d" transform="translate(229.345703 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-69" transform="translate(333.544922 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-74" transform="translate(367.822266 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-69" transform="translate(415.625 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-67" transform="translate(449.902344 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-61" transform="translate(521.484375 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-74" transform="translate(588.964844 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-69" transform="translate(636.767578 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-6f" transform="translate(671.044922 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-6e" transform="translate(739.746094 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-20" transform="translate(810.9375 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-70" transform="translate(845.751953 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-72" transform="translate(917.333984 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-6f" transform="translate(966.650391 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-62" transform="translate(1035.351562 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-65" transform="translate(1106.933594 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-20" transform="translate(1174.755859 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-73" transform="translate(1209.570312 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-68" transform="translate(1269.091797 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-6f" transform="translate(1340.283203 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-77" transform="translate(1408.984375 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-73" transform="translate(1501.367188 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-20" transform="translate(1560.888672 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-70" transform="translate(1595.703125 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-61" transform="translate(1667.285156 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-72" transform="translate(1734.765625 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-74" transform="translate(1784.082031 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-69" transform="translate(1831.884766 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-61" transform="translate(1866.162109 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-6c" transform="translate(1933.642578 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-20" transform="translate(1967.919922 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-72" transform="translate(2002.734375 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-65" transform="translate(2052.050781 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-63" transform="translate(2119.873047 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-6f" transform="translate(2179.150391 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-76" transform="translate(2247.851562 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-65" transform="translate(2313.037109 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-72" transform="translate(2380.859375 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-79" transform="translate(2430.175781 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-2c" transform="translate(2487.611328 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-20" transform="translate(2525.599609 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-77" transform="translate(2560.414062 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-69" transform="translate(2652.796875 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-74" transform="translate(2687.074219 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-68" transform="translate(2734.876953 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-20" transform="translate(2806.068359 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-5a" transform="translate(2840.882812 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-4e" transform="translate(2913.392578 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-45" transform="translate(2997.083984 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-20" transform="translate(3065.394531 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-73" transform="translate(3100.208984 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-74" transform="translate(3159.730469 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-72" transform="translate(3207.533203 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-6f" transform="translate(3256.849609 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-6e" transform="translate(3325.550781 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-67" transform="translate(3396.742188 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-65" transform="translate(3468.324219 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-73" transform="translate(3536.146484 0)"/>
+    <use xlink:href="#DejaVuSans-Bold-74" transform="translate(3595.667969 0)"/>
+   </g>
+  </g>
+  <g id="text_62">
+   <!-- Yonsei-calibrated HN-MLP Chebyshev state-preparation circuits, 4096 shots. n=3-8 shows the trend; n=5,6 are used for detailed mitigation checks. -->
+   <g style="fill: #6f768a" transform="translate(80.64 61.2) scale(0.12 -0.12)">
+    <defs>
+     <path id="DejaVuSans-59" d="M -13 4666 
+L 666 4666 
+L 1959 2747 
+L 3244 4666 
+L 3922 4666 
+L 2272 2222 
+L 2272 0 
+L 1638 0 
+L 1638 2222 
+L -13 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-2d" d="M 313 2009 
+L 1997 2009 
+L 1997 1497 
+L 313 1497 
+L 313 2009 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-48" d="M 628 4666 
+L 1259 4666 
+L 1259 2753 
+L 3553 2753 
+L 3553 4666 
+L 4184 4666 
+L 4184 0 
+L 3553 0 
+L 3553 2222 
+L 1259 2222 
+L 1259 0 
+L 628 0 
+L 628 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-4d" d="M 628 4666 
+L 1569 4666 
+L 2759 1491 
+L 3956 4666 
+L 4897 4666 
+L 4897 0 
+L 4281 0 
+L 4281 4097 
+L 3078 897 
+L 2444 897 
+L 1241 4097 
+L 1241 0 
+L 628 0 
+L 628 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-50" d="M 1259 4147 
+L 1259 2394 
+L 2053 2394 
+Q 2494 2394 2734 2622 
+Q 2975 2850 2975 3272 
+Q 2975 3691 2734 3919 
+Q 2494 4147 2053 4147 
+L 1259 4147 
+z
+M 628 4666 
+L 2053 4666 
+Q 2838 4666 3239 4311 
+Q 3641 3956 3641 3272 
+Q 3641 2581 3239 2228 
+Q 2838 1875 2053 1875 
+L 1259 1875 
+L 1259 0 
+L 628 0 
+L 628 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-43" d="M 4122 4306 
+L 4122 3641 
+Q 3803 3938 3442 4084 
+Q 3081 4231 2675 4231 
+Q 1875 4231 1450 3742 
+Q 1025 3253 1025 2328 
+Q 1025 1406 1450 917 
+Q 1875 428 2675 428 
+Q 3081 428 3442 575 
+Q 3803 722 4122 1019 
+L 4122 359 
+Q 3791 134 3420 21 
+Q 3050 -91 2638 -91 
+Q 1578 -91 968 557 
+Q 359 1206 359 2328 
+Q 359 3453 968 4101 
+Q 1578 4750 2638 4750 
+Q 3056 4750 3426 4639 
+Q 3797 4528 4122 4306 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-68" d="M 3513 2113 
+L 3513 0 
+L 2938 0 
+L 2938 2094 
+Q 2938 2591 2744 2837 
+Q 2550 3084 2163 3084 
+Q 1697 3084 1428 2787 
+Q 1159 2491 1159 1978 
+L 1159 0 
+L 581 0 
+L 581 4863 
+L 1159 4863 
+L 1159 2956 
+Q 1366 3272 1645 3428 
+Q 1925 3584 2291 3584 
+Q 2894 3584 3203 3211 
+Q 3513 2838 3513 2113 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-76" d="M 191 3500 
+L 800 3500 
+L 1894 563 
+L 2988 3500 
+L 3597 3500 
+L 2284 0 
+L 1503 0 
+L 191 3500 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-70" d="M 1159 525 
+L 1159 -1331 
+L 581 -1331 
+L 581 3500 
+L 1159 3500 
+L 1159 2969 
+Q 1341 3281 1617 3432 
+Q 1894 3584 2278 3584 
+Q 2916 3584 3314 3078 
+Q 3713 2572 3713 1747 
+Q 3713 922 3314 415 
+Q 2916 -91 2278 -91 
+Q 1894 -91 1617 61 
+Q 1341 213 1159 525 
+z
+M 3116 1747 
+Q 3116 2381 2855 2742 
+Q 2594 3103 2138 3103 
+Q 1681 3103 1420 2742 
+Q 1159 2381 1159 1747 
+Q 1159 1113 1420 752 
+Q 1681 391 2138 391 
+Q 2594 391 2855 752 
+Q 3116 1113 3116 1747 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-2c" d="M 750 794 
+L 1409 794 
+L 1409 256 
+L 897 -744 
+L 494 -744 
+L 750 256 
+L 750 794 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-39" d="M 703 97 
+L 703 672 
+Q 941 559 1184 500 
+Q 1428 441 1663 441 
+Q 2288 441 2617 861 
+Q 2947 1281 2994 2138 
+Q 2813 1869 2534 1725 
+Q 2256 1581 1919 1581 
+Q 1219 1581 811 2004 
+Q 403 2428 403 3163 
+Q 403 3881 828 4315 
+Q 1253 4750 1959 4750 
+Q 2769 4750 3195 4129 
+Q 3622 3509 3622 2328 
+Q 3622 1225 3098 567 
+Q 2575 -91 1691 -91 
+Q 1453 -91 1209 -44 
+Q 966 3 703 97 
+z
+M 1959 2075 
+Q 2384 2075 2632 2365 
+Q 2881 2656 2881 3163 
+Q 2881 3666 2632 3958 
+Q 2384 4250 1959 4250 
+Q 1534 4250 1286 3958 
+Q 1038 3666 1038 3163 
+Q 1038 2656 1286 2365 
+Q 1534 2075 1959 2075 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-3d" d="M 678 2906 
+L 4684 2906 
+L 4684 2381 
+L 678 2381 
+L 678 2906 
+z
+M 678 1631 
+L 4684 1631 
+L 4684 1100 
+L 678 1100 
+L 678 1631 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-3b" d="M 750 3309 
+L 1409 3309 
+L 1409 2516 
+L 750 2516 
+L 750 3309 
+z
+M 750 794 
+L 1409 794 
+L 1409 256 
+L 897 -744 
+L 494 -744 
+L 750 256 
+L 750 794 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-66" d="M 2375 4863 
+L 2375 4384 
+L 1825 4384 
+Q 1516 4384 1395 4259 
+Q 1275 4134 1275 3809 
+L 1275 3500 
+L 2222 3500 
+L 2222 3053 
+L 1275 3053 
+L 1275 0 
+L 697 0 
+L 697 3053 
+L 147 3053 
+L 147 3500 
+L 697 3500 
+L 697 3744 
+Q 697 4328 969 4595 
+Q 1241 4863 1831 4863 
+L 2375 4863 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-6b" d="M 581 4863 
+L 1159 4863 
+L 1159 1991 
+L 2875 3500 
+L 3609 3500 
+L 1753 1863 
+L 3688 0 
+L 2938 0 
+L 1159 1709 
+L 1159 0 
+L 581 0 
+L 581 4863 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#DejaVuSans-59"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(47.833984 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(109.015625 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(172.394531 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(224.494141 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(286.017578 0)"/>
+    <use xlink:href="#DejaVuSans-2d" transform="translate(313.800781 0)"/>
+    <use xlink:href="#DejaVuSans-63" transform="translate(349.884766 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(404.865234 0)"/>
+    <use xlink:href="#DejaVuSans-6c" transform="translate(466.144531 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(493.927734 0)"/>
+    <use xlink:href="#DejaVuSans-62" transform="translate(521.710938 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(585.1875 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(626.300781 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(687.580078 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(726.789062 0)"/>
+    <use xlink:href="#DejaVuSans-64" transform="translate(788.3125 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(851.789062 0)"/>
+    <use xlink:href="#DejaVuSans-48" transform="translate(883.576172 0)"/>
+    <use xlink:href="#DejaVuSans-4e" transform="translate(958.771484 0)"/>
+    <use xlink:href="#DejaVuSans-2d" transform="translate(1033.576172 0)"/>
+    <use xlink:href="#DejaVuSans-4d" transform="translate(1069.660156 0)"/>
+    <use xlink:href="#DejaVuSans-4c" transform="translate(1155.939453 0)"/>
+    <use xlink:href="#DejaVuSans-50" transform="translate(1211.652344 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(1271.955078 0)"/>
+    <use xlink:href="#DejaVuSans-43" transform="translate(1303.742188 0)"/>
+    <use xlink:href="#DejaVuSans-68" transform="translate(1373.566406 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(1436.945312 0)"/>
+    <use xlink:href="#DejaVuSans-62" transform="translate(1498.46875 0)"/>
+    <use xlink:href="#DejaVuSans-79" transform="translate(1561.945312 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(1621.125 0)"/>
+    <use xlink:href="#DejaVuSans-68" transform="translate(1673.224609 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(1736.603516 0)"/>
+    <use xlink:href="#DejaVuSans-76" transform="translate(1798.126953 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(1857.306641 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(1889.09375 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(1941.193359 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(1980.402344 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(2041.681641 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(2080.890625 0)"/>
+    <use xlink:href="#DejaVuSans-2d" transform="translate(2142.414062 0)"/>
+    <use xlink:href="#DejaVuSans-70" transform="translate(2178.498047 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(2241.974609 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(2280.837891 0)"/>
+    <use xlink:href="#DejaVuSans-70" transform="translate(2342.361328 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(2405.837891 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(2467.117188 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(2508.230469 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(2569.509766 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(2608.71875 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(2636.501953 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(2697.683594 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(2761.0625 0)"/>
+    <use xlink:href="#DejaVuSans-63" transform="translate(2792.849609 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(2847.830078 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(2875.613281 0)"/>
+    <use xlink:href="#DejaVuSans-63" transform="translate(2914.476562 0)"/>
+    <use xlink:href="#DejaVuSans-75" transform="translate(2969.457031 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(3032.835938 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(3060.619141 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(3099.828125 0)"/>
+    <use xlink:href="#DejaVuSans-2c" transform="translate(3151.927734 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(3183.714844 0)"/>
+    <use xlink:href="#DejaVuSans-34" transform="translate(3215.501953 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(3279.125 0)"/>
+    <use xlink:href="#DejaVuSans-39" transform="translate(3342.748047 0)"/>
+    <use xlink:href="#DejaVuSans-36" transform="translate(3406.371094 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(3469.994141 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(3501.78125 0)"/>
+    <use xlink:href="#DejaVuSans-68" transform="translate(3553.880859 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(3617.259766 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(3678.441406 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(3717.650391 0)"/>
+    <use xlink:href="#DejaVuSans-2e" transform="translate(3769.75 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(3801.537109 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(3833.324219 0)"/>
+    <use xlink:href="#DejaVuSans-3d" transform="translate(3896.703125 0)"/>
+    <use xlink:href="#DejaVuSans-33" transform="translate(3980.492188 0)"/>
+    <use xlink:href="#DejaVuSans-2d" transform="translate(4044.115234 0)"/>
+    <use xlink:href="#DejaVuSans-38" transform="translate(4080.199219 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(4143.822266 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(4175.609375 0)"/>
+    <use xlink:href="#DejaVuSans-68" transform="translate(4227.708984 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(4291.087891 0)"/>
+    <use xlink:href="#DejaVuSans-77" transform="translate(4352.269531 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(4434.056641 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(4486.15625 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(4517.943359 0)"/>
+    <use xlink:href="#DejaVuSans-68" transform="translate(4557.152344 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(4620.53125 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(4682.054688 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(4713.841797 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(4753.050781 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(4791.914062 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(4853.4375 0)"/>
+    <use xlink:href="#DejaVuSans-64" transform="translate(4916.816406 0)"/>
+    <use xlink:href="#DejaVuSans-3b" transform="translate(4980.292969 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(5013.984375 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(5045.771484 0)"/>
+    <use xlink:href="#DejaVuSans-3d" transform="translate(5109.150391 0)"/>
+    <use xlink:href="#DejaVuSans-35" transform="translate(5192.939453 0)"/>
+    <use xlink:href="#DejaVuSans-2c" transform="translate(5256.5625 0)"/>
+    <use xlink:href="#DejaVuSans-36" transform="translate(5288.349609 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(5351.972656 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(5383.759766 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(5445.039062 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(5483.902344 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(5545.425781 0)"/>
+    <use xlink:href="#DejaVuSans-75" transform="translate(5577.212891 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(5640.591797 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(5692.691406 0)"/>
+    <use xlink:href="#DejaVuSans-64" transform="translate(5754.214844 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(5817.691406 0)"/>
+    <use xlink:href="#DejaVuSans-66" transform="translate(5849.478516 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(5884.683594 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(5945.865234 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(5986.978516 0)"/>
+    <use xlink:href="#DejaVuSans-64" transform="translate(6018.765625 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(6082.242188 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(6143.765625 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(6182.974609 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(6244.253906 0)"/>
+    <use xlink:href="#DejaVuSans-6c" transform="translate(6272.037109 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(6299.820312 0)"/>
+    <use xlink:href="#DejaVuSans-64" transform="translate(6361.34375 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(6424.820312 0)"/>
+    <use xlink:href="#DejaVuSans-6d" transform="translate(6456.607422 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(6554.019531 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(6581.802734 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(6621.011719 0)"/>
+    <use xlink:href="#DejaVuSans-67" transform="translate(6648.794922 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(6712.271484 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(6773.550781 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(6812.759766 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(6840.542969 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(6901.724609 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(6965.103516 0)"/>
+    <use xlink:href="#DejaVuSans-63" transform="translate(6996.890625 0)"/>
+    <use xlink:href="#DejaVuSans-68" transform="translate(7051.871094 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(7115.25 0)"/>
+    <use xlink:href="#DejaVuSans-63" transform="translate(7176.773438 0)"/>
+    <use xlink:href="#DejaVuSans-6b" transform="translate(7231.753906 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(7289.664062 0)"/>
+    <use xlink:href="#DejaVuSans-2e" transform="translate(7341.763672 0)"/>
+   </g>
+  </g>
+  <g id="text_63">
+   <!-- Source: yonsei_aer_mitigation_probe runs 20260628T071809Z, 20260628T071847Z, 20260628T071922Z. ZNE is an Aer noise-scaling proxy; no new real-backend mitigation job is included. -->
+   <g style="fill: #6f768a" transform="translate(80.64 702) scale(0.09 -0.09)">
+    <defs>
+     <path id="DejaVuSans-53" d="M 3425 4513 
+L 3425 3897 
+Q 3066 4069 2747 4153 
+Q 2428 4238 2131 4238 
+Q 1616 4238 1336 4038 
+Q 1056 3838 1056 3469 
+Q 1056 3159 1242 3001 
+Q 1428 2844 1947 2747 
+L 2328 2669 
+Q 3034 2534 3370 2195 
+Q 3706 1856 3706 1288 
+Q 3706 609 3251 259 
+Q 2797 -91 1919 -91 
+Q 1588 -91 1214 -16 
+Q 841 59 441 206 
+L 441 856 
+Q 825 641 1194 531 
+Q 1563 422 1919 422 
+Q 2459 422 2753 634 
+Q 3047 847 3047 1241 
+Q 3047 1584 2836 1778 
+Q 2625 1972 2144 2069 
+L 1759 2144 
+Q 1053 2284 737 2584 
+Q 422 2884 422 3419 
+Q 422 4038 858 4394 
+Q 1294 4750 2059 4750 
+Q 2388 4750 2728 4690 
+Q 3069 4631 3425 4513 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-3a" d="M 750 794 
+L 1409 794 
+L 1409 0 
+L 750 0 
+L 750 794 
+z
+M 750 3309 
+L 1409 3309 
+L 1409 2516 
+L 750 2516 
+L 750 3309 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-5f" d="M 3263 -1063 
+L 3263 -1509 
+L -63 -1509 
+L -63 -1063 
+L 3263 -1063 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-54" d="M -19 4666 
+L 3928 4666 
+L 3928 4134 
+L 2272 4134 
+L 2272 0 
+L 1638 0 
+L 1638 4134 
+L -19 4134 
+L -19 4666 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-78" d="M 3513 3500 
+L 2247 1797 
+L 3578 0 
+L 2900 0 
+L 1881 1375 
+L 863 0 
+L 184 0 
+L 1544 1831 
+L 300 3500 
+L 978 3500 
+L 1906 2253 
+L 2834 3500 
+L 3513 3500 
+z
+" transform="scale(0.015625)"/>
+     <path id="DejaVuSans-6a" d="M 603 3500 
+L 1178 3500 
+L 1178 -63 
+Q 1178 -731 923 -1031 
+Q 669 -1331 103 -1331 
+L -116 -1331 
+L -116 -844 
+L 38 -844 
+Q 366 -844 484 -692 
+Q 603 -541 603 -63 
+L 603 3500 
+z
+M 603 4863 
+L 1178 4863 
+L 1178 4134 
+L 603 4134 
+L 603 4863 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#DejaVuSans-53"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(63.476562 0)"/>
+    <use xlink:href="#DejaVuSans-75" transform="translate(124.658203 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(188.037109 0)"/>
+    <use xlink:href="#DejaVuSans-63" transform="translate(226.900391 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(281.880859 0)"/>
+    <use xlink:href="#DejaVuSans-3a" transform="translate(343.404297 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(377.095703 0)"/>
+    <use xlink:href="#DejaVuSans-79" transform="translate(408.882812 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(468.0625 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(529.244141 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(592.623047 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(644.722656 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(706.246094 0)"/>
+    <use xlink:href="#DejaVuSans-5f" transform="translate(734.029297 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(784.029297 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(845.308594 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(906.832031 0)"/>
+    <use xlink:href="#DejaVuSans-5f" transform="translate(947.945312 0)"/>
+    <use xlink:href="#DejaVuSans-6d" transform="translate(997.945312 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(1095.357422 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(1123.140625 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(1162.349609 0)"/>
+    <use xlink:href="#DejaVuSans-67" transform="translate(1190.132812 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(1253.609375 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(1314.888672 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(1354.097656 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(1381.880859 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(1443.0625 0)"/>
+    <use xlink:href="#DejaVuSans-5f" transform="translate(1506.441406 0)"/>
+    <use xlink:href="#DejaVuSans-70" transform="translate(1556.441406 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(1619.917969 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(1658.78125 0)"/>
+    <use xlink:href="#DejaVuSans-62" transform="translate(1719.962891 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(1783.439453 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(1844.962891 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(1876.75 0)"/>
+    <use xlink:href="#DejaVuSans-75" transform="translate(1917.863281 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(1981.242188 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(2044.621094 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(2096.720703 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(2128.507812 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(2192.130859 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(2255.753906 0)"/>
+    <use xlink:href="#DejaVuSans-36" transform="translate(2319.376953 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(2383 0)"/>
+    <use xlink:href="#DejaVuSans-36" transform="translate(2446.623047 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(2510.246094 0)"/>
+    <use xlink:href="#DejaVuSans-38" transform="translate(2573.869141 0)"/>
+    <use xlink:href="#DejaVuSans-54" transform="translate(2637.492188 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(2698.576172 0)"/>
+    <use xlink:href="#DejaVuSans-37" transform="translate(2762.199219 0)"/>
+    <use xlink:href="#DejaVuSans-31" transform="translate(2825.822266 0)"/>
+    <use xlink:href="#DejaVuSans-38" transform="translate(2889.445312 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(2953.068359 0)"/>
+    <use xlink:href="#DejaVuSans-39" transform="translate(3016.691406 0)"/>
+    <use xlink:href="#DejaVuSans-5a" transform="translate(3080.314453 0)"/>
+    <use xlink:href="#DejaVuSans-2c" transform="translate(3148.820312 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(3180.607422 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(3212.394531 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(3276.017578 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(3339.640625 0)"/>
+    <use xlink:href="#DejaVuSans-36" transform="translate(3403.263672 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(3466.886719 0)"/>
+    <use xlink:href="#DejaVuSans-36" transform="translate(3530.509766 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(3594.132812 0)"/>
+    <use xlink:href="#DejaVuSans-38" transform="translate(3657.755859 0)"/>
+    <use xlink:href="#DejaVuSans-54" transform="translate(3721.378906 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(3782.462891 0)"/>
+    <use xlink:href="#DejaVuSans-37" transform="translate(3846.085938 0)"/>
+    <use xlink:href="#DejaVuSans-31" transform="translate(3909.708984 0)"/>
+    <use xlink:href="#DejaVuSans-38" transform="translate(3973.332031 0)"/>
+    <use xlink:href="#DejaVuSans-34" transform="translate(4036.955078 0)"/>
+    <use xlink:href="#DejaVuSans-37" transform="translate(4100.578125 0)"/>
+    <use xlink:href="#DejaVuSans-5a" transform="translate(4164.201172 0)"/>
+    <use xlink:href="#DejaVuSans-2c" transform="translate(4232.707031 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(4264.494141 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(4296.28125 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(4359.904297 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(4423.527344 0)"/>
+    <use xlink:href="#DejaVuSans-36" transform="translate(4487.150391 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(4550.773438 0)"/>
+    <use xlink:href="#DejaVuSans-36" transform="translate(4614.396484 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(4678.019531 0)"/>
+    <use xlink:href="#DejaVuSans-38" transform="translate(4741.642578 0)"/>
+    <use xlink:href="#DejaVuSans-54" transform="translate(4805.265625 0)"/>
+    <use xlink:href="#DejaVuSans-30" transform="translate(4866.349609 0)"/>
+    <use xlink:href="#DejaVuSans-37" transform="translate(4929.972656 0)"/>
+    <use xlink:href="#DejaVuSans-31" transform="translate(4993.595703 0)"/>
+    <use xlink:href="#DejaVuSans-39" transform="translate(5057.21875 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(5120.841797 0)"/>
+    <use xlink:href="#DejaVuSans-32" transform="translate(5184.464844 0)"/>
+    <use xlink:href="#DejaVuSans-5a" transform="translate(5248.087891 0)"/>
+    <use xlink:href="#DejaVuSans-2e" transform="translate(5316.59375 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(5348.380859 0)"/>
+    <use xlink:href="#DejaVuSans-5a" transform="translate(5380.167969 0)"/>
+    <use xlink:href="#DejaVuSans-4e" transform="translate(5448.673828 0)"/>
+    <use xlink:href="#DejaVuSans-45" transform="translate(5523.478516 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(5586.662109 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(5618.449219 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(5646.232422 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(5698.332031 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(5730.119141 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(5791.398438 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(5854.777344 0)"/>
+    <use xlink:href="#DejaVuSans-41" transform="translate(5886.564453 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(5953.222656 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(6014.746094 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(6055.859375 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(6087.646484 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(6151.025391 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(6212.207031 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(6239.990234 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(6292.089844 0)"/>
+    <use xlink:href="#DejaVuSans-2d" transform="translate(6353.613281 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(6389.697266 0)"/>
+    <use xlink:href="#DejaVuSans-63" transform="translate(6441.796875 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(6496.777344 0)"/>
+    <use xlink:href="#DejaVuSans-6c" transform="translate(6558.056641 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(6585.839844 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(6613.623047 0)"/>
+    <use xlink:href="#DejaVuSans-67" transform="translate(6677.001953 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(6740.478516 0)"/>
+    <use xlink:href="#DejaVuSans-70" transform="translate(6772.265625 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(6835.742188 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(6874.605469 0)"/>
+    <use xlink:href="#DejaVuSans-78" transform="translate(6932.662109 0)"/>
+    <use xlink:href="#DejaVuSans-79" transform="translate(6991.841797 0)"/>
+    <use xlink:href="#DejaVuSans-3b" transform="translate(7051.021484 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(7084.712891 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(7116.5 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(7179.878906 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(7241.060547 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(7272.847656 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(7336.226562 0)"/>
+    <use xlink:href="#DejaVuSans-77" transform="translate(7397.75 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(7479.537109 0)"/>
+    <use xlink:href="#DejaVuSans-72" transform="translate(7511.324219 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(7550.1875 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(7611.710938 0)"/>
+    <use xlink:href="#DejaVuSans-6c" transform="translate(7672.990234 0)"/>
+    <use xlink:href="#DejaVuSans-2d" transform="translate(7700.773438 0)"/>
+    <use xlink:href="#DejaVuSans-62" transform="translate(7736.857422 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(7800.333984 0)"/>
+    <use xlink:href="#DejaVuSans-63" transform="translate(7861.613281 0)"/>
+    <use xlink:href="#DejaVuSans-6b" transform="translate(7916.59375 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(7970.878906 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(8032.402344 0)"/>
+    <use xlink:href="#DejaVuSans-64" transform="translate(8095.78125 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(8159.257812 0)"/>
+    <use xlink:href="#DejaVuSans-6d" transform="translate(8191.044922 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(8288.457031 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(8316.240234 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(8355.449219 0)"/>
+    <use xlink:href="#DejaVuSans-67" transform="translate(8383.232422 0)"/>
+    <use xlink:href="#DejaVuSans-61" transform="translate(8446.708984 0)"/>
+    <use xlink:href="#DejaVuSans-74" transform="translate(8507.988281 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(8547.197266 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(8574.980469 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(8636.162109 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(8699.541016 0)"/>
+    <use xlink:href="#DejaVuSans-6a" transform="translate(8731.328125 0)"/>
+    <use xlink:href="#DejaVuSans-6f" transform="translate(8759.111328 0)"/>
+    <use xlink:href="#DejaVuSans-62" transform="translate(8820.292969 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(8883.769531 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(8915.556641 0)"/>
+    <use xlink:href="#DejaVuSans-73" transform="translate(8943.339844 0)"/>
+    <use xlink:href="#DejaVuSans-20" transform="translate(8995.439453 0)"/>
+    <use xlink:href="#DejaVuSans-69" transform="translate(9027.226562 0)"/>
+    <use xlink:href="#DejaVuSans-6e" transform="translate(9055.009766 0)"/>
+    <use xlink:href="#DejaVuSans-63" transform="translate(9118.388672 0)"/>
+    <use xlink:href="#DejaVuSans-6c" transform="translate(9173.369141 0)"/>
+    <use xlink:href="#DejaVuSans-75" transform="translate(9201.152344 0)"/>
+    <use xlink:href="#DejaVuSans-64" transform="translate(9264.53125 0)"/>
+    <use xlink:href="#DejaVuSans-65" transform="translate(9328.007812 0)"/>
+    <use xlink:href="#DejaVuSans-64" transform="translate(9389.53125 0)"/>
+    <use xlink:href="#DejaVuSans-2e" transform="translate(9453.007812 0)"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pdf24f0fec1">
+   <rect x="80.64" y="115.2" width="459.789474" height="226.115702"/>
+  </clipPath>
+  <clipPath id="pe82c71cfa2">
+   <rect x="669.170526" y="115.2" width="459.789474" height="226.115702"/>
+  </clipPath>
+  <clipPath id="p24e190a67d">
+   <rect x="80.64" y="436.284298" width="459.789474" height="226.115702"/>
+  </clipPath>
+  <clipPath id="p84a3d99e30">
+   <rect x="669.170526" y="436.284298" width="459.789474" height="226.115702"/>
+  </clipPath>
+ </defs>
+</svg>
