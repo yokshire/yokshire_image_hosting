@@ -140,7 +140,7 @@
       "sha256": "10b748b76bedba1141b0c4fdcf94bf86fb192f76812c73727887c86ba3609a9e",
       "bytes": 113143,
       "synced_at": "2026-06-19T00:00:00+09:00",
-      "note": "Candidate figure for Notion paper section 4.5 cross_check review; illustrates fitted RMSE floor versus observed KL for q60 reps=8."
+      "note": "Candidate figure for Notion paper section 4.5 cross_check review; illustrates fitted RMSE floor versus observed KL for the 6-qubit first-order reps=8 case."
     },
     {
       "id": "cross_check_fig_4_11_2d_matched_pair_scatter",
@@ -419,7 +419,7 @@
       "sha256": "abf9adc1dfe3bfabd2875f450efc327a1614077cbd30c5dc3f86bc8846fb33bc",
       "bytes": 246040,
       "synced_at": "2026-06-26T18:07:05+09:00",
-      "note": "Superseded by fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1 after replacing the earlier q50 coarse-grained convergence panel with n=2..8 common-ansatz qubit scaling."
+      "note": "Superseded by fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1 after replacing the earlier 5-qubit first-order coarse-grained convergence panel with n=2..8 common-ansatz qubit scaling."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit",
@@ -813,7 +813,7 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_aggregate.csv",
         "experiments/matched_stateprep_reps/ansatz_readjustment_source_conditions.md"
       ],
-      "comparison_protocol": "Figure 4-a ansatz-only replacement for the matched 5-qubit q50 cos(q) reps sweep. qGAN and HN-MLP keep the same seeds, reps 1/2/4/8, 6000 iterations, and target distribution; only the state-preparation circuit family is replaced with H + TwoLocal(ry, rz; circular CX).",
+      "comparison_protocol": "Figure 4-a ansatz-only replacement for the matched 5-qubit first-order cos(q) reps sweep. qGAN and HN-MLP keep the same seeds, reps 1/2/4/8, 6000 iterations, and target distribution; only the state-preparation circuit family is replaced with H + TwoLocal(ry, rz; circular CX).",
       "note": "Superseded filename alias. The active Notion asset is fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2, which is the same rendered image under the manuscript-visible whisker naming."
     },
     {
@@ -832,7 +832,7 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_aggregate.csv",
         "experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py"
       ],
-      "comparison_protocol": "Current Notion Figure 4-a. Matched 5-qubit q50 cos(q) reps sweep for qGAN and HN-MLP under H + TwoLocal(ry, rz; circular CX), ten seeds, reps 1..8, 6000 training iterations, and min-max seed whiskers.",
+      "comparison_protocol": "Current Notion Figure 4-a. Matched 5-qubit first-order cos(q) reps sweep for qGAN and HN-MLP under H + TwoLocal(ry, rz; circular CX), ten seeds, reps 1..8, 6000 training iterations, and min-max seed whiskers.",
       "note": "Current manuscript Figure 4-a. This is the active filename used by the Notion page."
     },
     {
@@ -1048,7 +1048,7 @@
         "experiments/section4_method_selection/render_method_selection_summary.py",
         ".image_hosting_repo/figures/fig_4_6_method_selection_summary_v1_panel_data.csv"
       ],
-      "comparison_protocol": "Current Notion Figure 21. Aggregate method-selection summary comparing qGAN/HN-MLP loader stability, FFT/Chebyshev second-collision dose/profile MAE, and representative q55 profile on log scale.",
+      "comparison_protocol": "Current Notion Figure 21. Aggregate method-selection summary comparing qGAN/HN-MLP loader stability, FFT/Chebyshev second-collision dose/profile MAE, and representative 5+5-qubit profile on log scale.",
       "note": "Current manuscript Figure 21. MAE definitions are specified in the caption and panel data."
     },
     {

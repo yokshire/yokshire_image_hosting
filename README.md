@@ -25,7 +25,7 @@ the 5-qubit first-order target; manuscript-visible labels use `5-qubit`.
 | `fig_3_2a_depth_dose_benchmark_exact_q5` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | superseded | `figures/fig_3_2a_depth_dose_benchmark_exact_q5.png` |
 | `fig_3_2_depth_dose_benchmark_exact_q5_highres` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | superseded | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres.png` |
 | `fig_3_2_depth_dose_benchmark_exact_q5_highres_v2` | Figure 2 first-order Compton depth-dose benchmark from `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv`; manuscript-visible title uses 5-qubit exact loading | OK | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v2.png` |
-| `fig_3_2b_stateprep_kl_comparison` | mixed q5/q60 comparison draft | superseded | `figures/fig_3_2b_stateprep_kl_comparison.png` |
+| `fig_3_2b_stateprep_kl_comparison` | mixed 5-/6-qubit comparison draft | superseded | `figures/fig_3_2b_stateprep_kl_comparison.png` |
 | `fig_3_2b_stateprep_kl_comparison_q5` | earlier mixed qGAN/HN/initialize 5-qubit comparison | superseded | `figures/fig_3_2b_stateprep_kl_comparison_q5.png` |
 | `fig_3_2b_stateprep_matched_reps_q5` | Figure 4-a matched 5-qubit first-order q-space reps diagnostic from `experiments/matched_stateprep_reps/final_qgan_ansatz_runs/*/matched_reps_summary.csv`; `*/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy` | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5.png` |
 | `fig_3_2b_stateprep_matched_reps_q5_label_v2` | Figure 4-a cache-busting asset with the target/ansatz label box below the plot area | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png` |
