@@ -32,7 +32,8 @@ the 5-qubit first-order target; manuscript-visible labels use `5-qubit`.
 | `fig_3_2b_stateprep_matched_reps_q5_seed10` | Figure 4-a seed10 matched 5-qubit first-order q-space reps diagnostic with lower method label and reduced full-width info label | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png` |
 | `fig_3_2b_stateprep_matched_reps_q5_seed10_v2` | Figure 4-a seed10 matched 5-qubit first-order q-space reps diagnostic with a two-line full-width info label | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png` |
 | `fig_3_2b_stateprep_matched_reps_q5_seed10_v3` | Figure 4-a seed10 matched 5-qubit first-order q-space reps diagnostic with manuscript-visible 5-qubit labeling | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v3.png` |
-| `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1` | Figure 4-a same-condition ansatz-only replacement using H + TwoLocal(ry, rz; circular CX) | OK | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1.png` |
+| `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1` | Figure 4-a same-condition ansatz-only replacement using H + TwoLocal(ry, rz; circular CX); superseded filename alias | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1.png` |
+| `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2` | Current Notion Figure 4-a with ten-seed min-max whiskers and H + TwoLocal(ry, rz; circular CX) | OK | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit` | Figure 4-b Qiskit `mpl` rendering of the matched H + TwoLocal(rx, rz, ry; full CZ) reps-unit ansatz used for qGAN and HN-MLP | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit_upright_v3` | Figure 4-b cache-busting Qiskit `mpl` rendering with q0-to-q4 order preserved and no old in-image title/subtitle | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1` | Figure 4-b Qiskit `mpl` rendering of H + TwoLocal(ry, rz; circular CX) ansatz unit | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png` |
@@ -92,6 +93,11 @@ the 5-qubit first-order target; manuscript-visible labels use `5-qubit`.
 | `fig_4_4_2d_dose_mae_vs_reps` | `final_figure/qmci_qae_curated/trends/2d_dose_mae_vs_reps.png` | OK | `notion_github_hosted_figures/fig_4_4_2d_dose_mae_vs_reps.svg` |
 | `fig_4_5_2d_profile_mae_vs_reps` | `final_figure/qmci_qae_curated/trends/2d_profile_mae_vs_reps.png` | OK | `notion_github_hosted_figures/fig_4_5_2d_profile_mae_vs_reps.svg` |
 | `fig_4_6_2d_stateprep_kl_vs_reps` | `final_figure/qmci_qae_curated/trends/2d_stateprep_kl_vs_reps.png` | OK | `notion_github_hosted_figures/fig_4_6_2d_stateprep_kl_vs_reps.svg` |
+| `fig_4_6_method_selection_summary_v1` | `experiments/section4_method_selection/render_method_selection_summary.py`; `final_figure/method_support/fig_4_6_method_selection_summary_v1_panel_data.csv` | OK | `figures/fig_4_6_method_selection_summary_v1.png` |
+| `fig_4_6b_yonsei_hn_chebyshev_real_backend_v1` | `experiments/real_backend_yonsei/render_yonsei_backend_summary.py`; raw IBM Yonsei jobs | OK | `figures/fig_4_6b_yonsei_hn_chebyshev_real_backend_v1.png` |
+| `fig_4_6d_yonsei_noise_correction_recovery_v1` | `experiments/real_backend_yonsei/render_yonsei_noise_correction_recovery.py`; Yonsei-calibrated Aer correction sweep | OK | `figures/fig_4_6d_yonsei_noise_correction_recovery_v1.png` |
+| `fig_4_6e_yonsei_aer_mitigation_probe_v1` | `experiments/real_backend_yonsei/render_yonsei_mitigation_probe.py`; Aer mitigation probe | OK | `figures/fig_4_6e_yonsei_aer_mitigation_probe_v1.png` |
+| `fig_4_6f_yonsei_real_backend_mitigation_result_v1` | `experiments/real_backend_yonsei/render_yonsei_real_mitigation_result.py`; real IBM Yonsei mitigated job `d90csl6mvj5c73ej20hg` | OK | `figures/fig_4_6f_yonsei_real_backend_mitigation_result_v1.png` |
 | `fig_4_7_q44_chebyshev_best_dose` | `final_figure/qmci_qae_curated/2d_best_representatives/q44_chebyshev_best_dose_reps20.png` | OK | `notion_github_hosted_figures/fig_4_7_q44_chebyshev_best_dose.svg` |
 | `fig_4_7_q44_fft_best_dose` | `final_figure/qmci_qae_curated/2d_best_representatives/q44_fft_best_dose_reps20.png` | OK | `notion_github_hosted_figures/fig_4_7_q44_fft_best_dose.svg` |
 | `fig_4_7_q55_chebyshev_best_profile` | `final_figure/qmci_qae_curated/2d_best_representatives/q55_chebyshev_best_profile_z0p5_reps20.png` | OK | `notion_github_hosted_figures/fig_4_7_q55_chebyshev_best_profile.svg` |
@@ -131,7 +137,7 @@ paper figures until a human editor applies the corresponding page edit.
 | `cross_check_fig_4_4_1d_point_fft_scope` | `최종데이터/final_data_analysis/qmci_actual_all_reps/summaries/one_d_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_4_1d_point_fft_scope.png` |
 | `cross_check_fig_4_11_2d_matched_pair_scatter` | `final_figure/role_up/role_up_2d_matched_pair_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_11_2d_matched_pair_scatter.png` |
 | `cross_check_fig_4_12_figure19_missing_representatives` | `final_figure/qmci_qae_curated/2d_best_representatives/*` selected missing panels | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_12_figure19_missing_representatives.png` |
-| `cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev` | `final_figure/method_support/xcom_h2o_6mev/`; NIST XCOM H2O tabular data | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev_v1.png` |
+| `cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev` | `final_figure/method_support/xcom_h2o_6mev/`; NIST XCOM H2O tabular data | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev_v1.png` |
 
 ## Role Up Figures (2026-06-01)
 

@@ -216,6 +216,22 @@
       "note": "Superseded Figure 2-a asset. The accepted Figure 2 asset uses a high-resolution exact initialize D1(z) curve and no subfigure label."
     },
     {
+      "id": "fig_3_1_scattering_path_Dl_notation",
+      "status": "active",
+      "origin": "manual_geometry_notation_render",
+      "source_data": [
+        "final_figure/refer_pre_paper/notation_context/scattering_path_Dl_notation.jpg"
+      ],
+      "comparison_protocol": "Current Figure 1 notation figure for the multiple-scattering geometry and D_l path-length notation.",
+      "github_path": "figures/fig_3_1_scattering_path_Dl_notation.jpg",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_1_scattering_path_Dl_notation.jpg",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_1_scattering_path_Dl_notation.jpg",
+      "sha256": "ddc4f0b92bd6d79149451f9292bac569765b7300e3428a906ff61f11c06bcaec",
+      "bytes": 200820,
+      "synced_at": "2026-06-29T15:50:00+09:00",
+      "note": "Current manuscript Figure 1 as fetched from the Notion page."
+    },
+    {
       "id": "fig_3_2_depth_dose_benchmark_exact_q5_highres",
       "status": "superseded",
       "origin": "manual_regeneration",
@@ -598,7 +614,7 @@
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps_title_only",
-      "status": "superseded",
+      "status": "active",
       "origin": "manual_regeneration",
       "source_data": [
         "*/final_data_analysis/raw/2d/q66/cos_q/target_joint.npy",
@@ -611,7 +627,7 @@
       "sha256": "6ff8cd00d037fa9703fb125201fb5ecd8db5deb9bc7b8010a37248001c772283",
       "bytes": 227878,
       "synced_at": "2026-06-23T21:18:31+09:00",
-      "note": "Replaces the earlier 3D bar-style joint-probability figure and subsequent cached title/subtitle variants. Uses a title-only header while preserving panel labels and axes."
+      "note": "Current manuscript Figure 3 as fetched from the Notion page. Replaces the earlier 3D bar-style joint-probability figure and subsequent cached title/subtitle variants."
     },
     {
       "id": "cross_check_fig_3_5_qgan_qubit_kl_scope",
@@ -764,7 +780,7 @@
     },
     {
       "id": "cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev",
-      "status": "candidate",
+      "status": "active",
       "origin": "xcom_h2o_6mev",
       "source_data": [
         "final_figure/method_support/xcom_h2o_6mev/xcom_h2o_0p1_20mev_raw.html",
@@ -779,17 +795,17 @@
       "sha256": "b16307163306fa0d9b129142db8c5ac6242f6ba9bf497fb140fa2731d2b45225",
       "bytes": 269920,
       "synced_at": "2026-06-26T15:22:17+09:00",
-      "note": "Candidate asset only; Notion insertion requires separate approval. Validation passed: finite non-negative coefficients, 6.000000 MeV row exists, incoherent scattering is the largest listed partial coefficient at 6 MeV, and total attenuation with coherent scattering matches the rounded partial sum within tolerance. 6 MeV values in cm^2/g: coherent=1.564e-06, incoherent=0.02454, photoelectric=2.484e-07, pair_nuclear=0.002987, pair_electron=0.0001685, total_with_coherent=0.0277."
+      "note": "Current manuscript Figure X-1 as fetched from the Notion page. Validation passed: finite non-negative coefficients, 6.000000 MeV row exists, incoherent scattering is the largest listed partial coefficient at 6 MeV, and total attenuation with coherent scattering matches the rounded partial sum within tolerance. 6 MeV values in cm^2/g: coherent=1.564e-06, incoherent=0.02454, photoelectric=2.484e-07, pair_nuclear=0.002987, pair_electron=0.0001685, total_with_coherent=0.0277."
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1",
       "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_v1.png",
-      "sha256": "412f5b330702645f50c3d6cbc92a2ddd9433ccbc38209c7b043c87b80d3c97dc",
-      "bytes": 96142,
+      "sha256": "559f52b3d3aa0d62a9208fbeb0d552ecfce5cd8223abb901ce26d6901767cf67",
+      "bytes": 96172,
       "synced_at": "2026-06-26T20:07:40+09:00",
-      "status": "active",
+      "status": "superseded",
       "origin": "mainstream_ansatz_hadamard_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/hn/matched_reps_summary.csv",
@@ -798,7 +814,26 @@
         "experiments/matched_stateprep_reps/ansatz_readjustment_source_conditions.md"
       ],
       "comparison_protocol": "Figure 4-a ansatz-only replacement for the matched 5-qubit q50 cos(q) reps sweep. qGAN and HN-MLP keep the same seeds, reps 1/2/4/8, 6000 iterations, and target distribution; only the state-preparation circuit family is replaced with H + TwoLocal(ry, rz; circular CX).",
-      "note": "Active Figure 4-a replacement: same condition, ansatz replaced."
+      "note": "Superseded filename alias. The active Notion asset is fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2, which is the same rendered image under the manuscript-visible whisker naming."
+    },
+    {
+      "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2",
+      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2.png",
+      "sha256": "559f52b3d3aa0d62a9208fbeb0d552ecfce5cd8223abb901ce26d6901767cf67",
+      "bytes": 96172,
+      "synced_at": "2026-06-29T15:44:00+09:00",
+      "status": "active",
+      "origin": "mainstream_ansatz_hadamard_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/hn/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/qgan/matched_reps_summary.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_aggregate.csv",
+        "experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py"
+      ],
+      "comparison_protocol": "Current Notion Figure 4-a. Matched 5-qubit q50 cos(q) reps sweep for qGAN and HN-MLP under H + TwoLocal(ry, rz; circular CX), ten seeds, reps 1..8, 6000 training iterations, and min-max seed whiskers.",
+      "note": "Current manuscript Figure 4-a. This is the active filename used by the Notion page."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1",
@@ -907,6 +942,96 @@
       ],
       "comparison_protocol": "Figure 9 qubit-scaling replacement under a common RY/RZ circular-CX ansatz. Data qubits n=2..8 are evaluated for qGAN and HN-MLP at reps=8 using the corresponding target distribution for each n; panels show depth-dose reconstruction plus integral/error medians with ten-seed min-max ranges.",
       "note": "Active Figure 9 replacement: n=2..8 qubit scaling under common ansatz."
+    },
+    {
+      "id": "fig_4_6_method_selection_summary_v1",
+      "github_path": "figures/fig_4_6_method_selection_summary_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6_method_selection_summary_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6_method_selection_summary_v1.png",
+      "sha256": "224f9449b5044bfede38c855b56cdce189d233956f55a85fc37a648fb7df2bfc",
+      "bytes": 383970,
+      "synced_at": "2026-06-29T15:44:00+09:00",
+      "status": "active",
+      "origin": "section4_method_selection_summary",
+      "source_data": [
+        "experiments/section4_method_selection/render_method_selection_summary.py",
+        ".image_hosting_repo/figures/fig_4_6_method_selection_summary_v1_panel_data.csv"
+      ],
+      "comparison_protocol": "Current Notion Figure 21. Aggregate method-selection summary comparing qGAN/HN-MLP loader stability, FFT/Chebyshev second-collision dose/profile MAE, and representative q55 profile on log scale.",
+      "note": "Current manuscript Figure 21. MAE definitions are specified in the caption and panel data."
+    },
+    {
+      "id": "fig_4_6b_yonsei_hn_chebyshev_real_backend_v1",
+      "github_path": "figures/fig_4_6b_yonsei_hn_chebyshev_real_backend_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6b_yonsei_hn_chebyshev_real_backend_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6b_yonsei_hn_chebyshev_real_backend_v1.png",
+      "sha256": "280765b36056e0db802be6b62165703efdfcc7a8c7cb406cc96dc9be6fe0bbf6",
+      "bytes": 289849,
+      "synced_at": "2026-06-29T15:44:00+09:00",
+      "status": "active",
+      "origin": "yonsei_real_backend_validation",
+      "source_data": [
+        "experiments/real_backend_yonsei/render_yonsei_backend_summary.py",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs/20260627T173934Z_ibm_yonsei_hn_chebyshev_stateprep_submission.json",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs/20260627T174447Z_ibm_yonsei_hn_chebyshev_stateprep_submission.json",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs/20260627T180114Z_ibm_yonsei_hn_chebyshev_stateprep_submission.json"
+      ],
+      "comparison_protocol": "Current Notion Figure 22. IBM Yonsei state-preparation validation for HN-MLP Chebyshev reps=8 using the same H + TwoLocal(ry, rz; circular CX) ansatz as the manuscript state-preparation figures.",
+      "note": "Current manuscript Figure 22. Raw real-backend baseline, 4096 shots, optimization_level=3."
+    },
+    {
+      "id": "fig_4_6d_yonsei_noise_correction_recovery_v1",
+      "github_path": "figures/fig_4_6d_yonsei_noise_correction_recovery_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6d_yonsei_noise_correction_recovery_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6d_yonsei_noise_correction_recovery_v1.png",
+      "sha256": "18cedb09e1d25bcd9d49a2658a9671b7ad64c48bf48cb19321ebd16c8747a542",
+      "bytes": 406419,
+      "synced_at": "2026-06-29T15:44:00+09:00",
+      "status": "active",
+      "origin": "yonsei_aer_noise_correction_sweep",
+      "source_data": [
+        "experiments/real_backend_yonsei/render_yonsei_noise_correction_recovery.py",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_correction_sweep_20260628T061432Z_summary.csv"
+      ],
+      "comparison_protocol": "Current Notion Figure 23. Yonsei-calibrated Aer noise-correction sweep separating algorithmic state-preparation floor from calibrated hardware-noise floor.",
+      "note": "Current manuscript Figure 23. No focal n=5/6 highlighting in the hosted v1 figure."
+    },
+    {
+      "id": "fig_4_6e_yonsei_aer_mitigation_probe_v1",
+      "github_path": "figures/fig_4_6e_yonsei_aer_mitigation_probe_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6e_yonsei_aer_mitigation_probe_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6e_yonsei_aer_mitigation_probe_v1.png",
+      "sha256": "f0dba12ebac155e985e6e7b86c532fdefad5439db3bd149080dc54f8e3e1f31b",
+      "bytes": 400332,
+      "synced_at": "2026-06-29T15:44:00+09:00",
+      "status": "active",
+      "origin": "yonsei_aer_mitigation_probe",
+      "source_data": [
+        "experiments/real_backend_yonsei/render_yonsei_mitigation_probe.py",
+        "experiments/real_backend_yonsei/yonsei_aer_mitigation_probe.py",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_mitigation_probe_20260628T071922Z_summary.csv"
+      ],
+      "comparison_protocol": "Current Notion Figure 24. Aer mitigation probe comparing readout mitigation, layout seed selection, ZNE proxy, and dynamical-decoupling sanity checks for the Yonsei-calibrated circuit.",
+      "note": "Current manuscript Figure 24. Used as mitigation pre-analysis, not as a real-backend mitigation result."
+    },
+    {
+      "id": "fig_4_6f_yonsei_real_backend_mitigation_result_v1",
+      "github_path": "figures/fig_4_6f_yonsei_real_backend_mitigation_result_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6f_yonsei_real_backend_mitigation_result_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6f_yonsei_real_backend_mitigation_result_v1.png",
+      "sha256": "59d8642e6dea0adc0e69ea4eda329c69f5d04fc5dd91555abf4fad017c7e1e9b",
+      "bytes": 371597,
+      "synced_at": "2026-06-29T15:44:00+09:00",
+      "status": "active",
+      "origin": "yonsei_real_backend_mitigation_result",
+      "source_data": [
+        "experiments/real_backend_yonsei/render_yonsei_real_mitigation_result.py",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission.json",
+        ".image_hosting_repo/figures/yonsei_real_backend_mitigation_comparison_20260628.csv"
+      ],
+      "comparison_protocol": "Current Notion Figure 25. Real IBM Yonsei mitigation result using Runtime DD/twirling, layout-aware routing, and readout postprocessing for n=5,6 HN-MLP Chebyshev reps=8 circuits.",
+      "note": "Current manuscript Figure 25. Mitigated job id d90csl6mvj5c73ej20hg."
     }
   ],
   "notes": [
