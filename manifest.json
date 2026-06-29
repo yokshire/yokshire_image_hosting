@@ -839,7 +839,7 @@
       "sha256": "559f52b3d3aa0d62a9208fbeb0d552ecfce5cd8223abb901ce26d6901767cf67",
       "bytes": 96172,
       "synced_at": "2026-06-29T15:44:00+09:00",
-      "status": "active",
+      "status": "superseded",
       "origin": "mainstream_ansatz_hadamard_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/hn/matched_reps_summary.csv",
@@ -848,7 +848,25 @@
         "experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py"
       ],
       "comparison_protocol": "Current Notion Figure 4-a. Matched 5-qubit first-order cos(q) reps sweep for qGAN and HN-MLP under H + TwoLocal(ry, rz; circular CX), ten seeds, reps 1..8, 6000 training iterations, and min-max seed whiskers.",
-      "note": "Current manuscript Figure 4-a. This is the active filename used by the Notion page."
+      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3 after removing the redundant bottom condition label; caption carries target and protocol details."
+    },
+    {
+      "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3",
+      "status": "active",
+      "origin": "figure4a_bottom_label_removal_regeneration",
+      "source_data": [
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_aggregate.csv",
+        "*/final_data_analysis/raw/1d/q50/cos_q/target_probs.npy"
+      ],
+      "source_script": "experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py",
+      "github_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png",
+      "sha256": "b995a6ca0c785672fa61df0b3617a4a681ba175da389d335fdf0a6bbff80762b",
+      "bytes": 67545,
+      "synced_at": "2026-06-29T21:13:58+09:00",
+      "comparison_protocol": "Direct replacement for manuscript Figure 4-a. The plotted ten-seed median/min-max KL curves, axes, legend, qGAN/HN-MLP methods, reps 1..8, 6000 iterations, and H + TwoLocal(ry, rz; circular CX) ansatz are unchanged from v2; only the redundant bottom condition label was removed.",
+      "note": "Current manuscript Figure 4-a without the bottom condition label. Caption carries the target, ansatz, iteration, and seed details."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1",
