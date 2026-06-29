@@ -7,7 +7,7 @@ The currently rendered state-preparation diagnostic uses direct PNG assets for F
 | --- | --- | --- | --- |
 | `fig_3_1_scattering_path_Dl_notation` | `final_figure/refer_pre_paper/notation_context/scattering_path_Dl_notation.jpg` | OK | `notion_github_hosted_figures/fig_3_1_scattering_path_Dl_notation.svg` |
 | `fig_3_2_depth_dose_analytic_vs_mc` | `final_figure/refer_pre_paper/notation_context/depth_dose_Dz_analytic_vs_MC.jpg` | OK | `notion_github_hosted_figures/fig_3_2_depth_dose_analytic_vs_mc.svg` |
-| `fig_3_2_depth_dose_benchmark_exact_q5_highres` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv` | OK | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres.png` |
+| `fig_3_2_depth_dose_benchmark_exact_q5_highres_v3` | `*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv`; Figure 2 without in-plot title | OK | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v3.png` |
 | `fig_3_3_chebyshev_joint_probability_3d` | `final_figure/method_support/chebyshev_joint_probability_3d.png` | superseded | `notion_github_hosted_figures/fig_3_3_chebyshev_joint_probability_3d.svg` |
 | `fig_3_3_second_collision_joint_probability_maps` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps.png` | superseded | `figures/fig_3_3_second_collision_joint_probability_maps.png` |
 | `fig_3_3_second_collision_joint_probability_maps_title_only` | `final_figure/method_support/fig_3_3_second_collision_joint_probability_maps_title_only.png` | OK | `figures/fig_3_3_second_collision_joint_probability_maps_title_only.png` |

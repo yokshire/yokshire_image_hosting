@@ -247,7 +247,7 @@
     },
     {
       "id": "fig_3_2_depth_dose_benchmark_exact_q5_highres_v2",
-      "status": "active",
+      "status": "superseded",
       "origin": "manual_regeneration",
       "source_data": "*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv",
       "comparison_protocol": "Figure 2 first-order Compton depth-dose benchmark. Compares continuous analytic D1(z), Geant4-based sampled reference points, and a high-resolution exact initialize D1(z) curve generated on an 801-point z grid at the matched 5-qubit angular discretization.",
@@ -257,7 +257,22 @@
       "sha256": "8b21d298d27c1a1dc239baf10b713a0ab79e6df076d9b05b28094e60206b5d39",
       "bytes": 129934,
       "synced_at": "2026-06-26T18:07:05+09:00",
-      "note": "Active Figure 2 replacement. Manuscript-visible labels use 5-qubit exact loading while preserving the original source-data provenance."
+      "note": "Superseded by fig_3_2_depth_dose_benchmark_exact_q5_highres_v3 after removing the redundant in-plot title; caption carries the Figure 2 description."
+    },
+    {
+      "id": "fig_3_2_depth_dose_benchmark_exact_q5_highres_v3",
+      "status": "active",
+      "origin": "figure2_title_removal_regeneration",
+      "source_data": "*/final_data_analysis/observables/raw/1d/q50/theta/dose_curve.csv",
+      "source_script": "experiments/matched_stateprep_reps/render_figure_2ab_labels.py",
+      "github_path": "figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v3.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v3.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v3.png",
+      "sha256": "b64b5f6da0be197623ebf071a036f2f2e323d836e4a3951acbfe9e16371edd9c",
+      "bytes": 109625,
+      "synced_at": "2026-06-29T21:02:40+09:00",
+      "comparison_protocol": "Direct replacement for manuscript Figure 2. The plotted data, axes, legend, and 5-qubit annotation are unchanged from v2; only the redundant in-plot title was removed.",
+      "note": "Current Figure 2 replacement without the redundant in-plot title. Caption remains responsible for the figure title/description."
     },
     {
       "id": "fig_3_2b_stateprep_kl_comparison",
