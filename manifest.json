@@ -477,11 +477,11 @@
       "sha256": "4ad8e75c1b407b864a47402abff5dd5bbd00376233832131a197c156909363a1",
       "bytes": 403384,
       "synced_at": "2026-06-24T13:31:41+09:00",
-      "note": "Superseded by fig_3_5_matched_reps8_learning_histograms_seed10_v2 after verified removal of internal first-order data-tag wording from manuscript-visible labels."
+      "note": "Superseded by fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2. The intermediate seed10_v2 asset was removed because it used the pre-mainstream rx/rz/ry full-entanglement run."
     },
     {
       "id": "fig_3_5_matched_reps8_learning_histograms_seed10_v2",
-      "status": "superseded",
+      "status": "removed",
       "origin": "matched_retraining_seed10",
       "source_data": [
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/hn/matched_histories.csv",
@@ -491,13 +491,13 @@
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs_seed10/combined/matched_qgan_ansatz_summary.csv"
       ],
       "comparison_protocol": "Matched reps=8 diagnostic for the 5-qubit first-order full 32-bin cos(q) target. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
-      "github_path": "figures/fig_3_5_matched_reps8_learning_histograms_seed10_v2.png",
-      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_5_matched_reps8_learning_histograms_seed10_v2.png",
-      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_5_matched_reps8_learning_histograms_seed10_v2.png",
+      "github_path": null,
+      "canonical_url": null,
+      "github_raw_fallback_url": null,
       "sha256": "c01cf2df2c327a69e72237a9ec650d59ad26395ef733fa116da7e4d9847d91de",
       "bytes": 411820,
       "synced_at": "2026-06-26T18:07:05+09:00",
-      "note": "Superseded by fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1 after ansatz-only replacement under the same q-space q50, 5-qubit, reps=8, ten-seed condition."
+      "note": "Removed from hosting to prevent accidental manuscript use. This asset was generated from the pre-mainstream rx/rz/ry full-entanglement run, not the H + TwoLocal(ry, rz; circular CX) ansatz used in the real-backend workflow. Use fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2 instead."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms",
@@ -557,11 +557,11 @@
       "sha256": "927ba1d88787dcdccbe1d14845f4fe01de4f877b78f13cec659d5041717bebe7",
       "bytes": 450777,
       "synced_at": "2026-06-24T13:31:41+09:00",
-      "note": "Superseded by fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2 after verified removal of internal first-order data-tag wording from manuscript-visible labels."
+      "note": "Superseded by fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2. The intermediate seed10_v2 asset was removed because it used the pre-mainstream rx/rz/ry full-entanglement run."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2",
-      "status": "superseded",
+      "status": "removed",
       "origin": "matched_retraining_seed10",
       "source_data": [
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/hn/matched_histories.csv",
@@ -571,13 +571,13 @@
         "experiments/matched_stateprep_reps/final_theta_ansatz_runs_seed10/combined/matched_theta_reps8_summary.csv"
       ],
       "comparison_protocol": "Matched reps=8 diagnostic for the 5-qubit first-order theta-space target used by the Chebyshev representation. Panel (a) compares qGAN and HN-MLP KL learning traces over ten seeds; panels (b) and (c) preserve the selected seed histogram bars and overlay the ten-seed min-max range behind the bars.",
-      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2.png",
-      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2.png",
-      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_v2.png",
+      "github_path": null,
+      "canonical_url": null,
+      "github_raw_fallback_url": null,
       "sha256": "c7a054420a3ba0588c11c605c03053128d28a8d2fedf4192b9273f3cef51af48",
       "bytes": 451873,
       "synced_at": "2026-06-26T18:07:05+09:00",
-      "note": "Superseded by fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1 after ansatz-only replacement under the same theta-space q50, 5-qubit, reps=8, ten-seed condition."
+      "note": "Removed from hosting to prevent accidental manuscript use. This asset was generated from the pre-mainstream rx/rz/ry full-entanglement run, not the H + TwoLocal(ry, rz; circular CX) ansatz used in the real-backend workflow. Use fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2 instead."
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps",
@@ -598,7 +598,7 @@
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps_title_only",
-      "status": "active",
+      "status": "superseded",
       "origin": "manual_regeneration",
       "source_data": [
         "*/final_data_analysis/raw/2d/q66/cos_q/target_joint.npy",
@@ -833,7 +833,25 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_summary.csv"
       ],
       "comparison_protocol": "Figure 5 ansatz-only replacement for the q-space q50 reps=8 diagnostic. The qGAN/HN-MLP methods, 5-qubit target, 6000 iterations, and ten-seed range are preserved; the ansatz is H + TwoLocal(ry, rz; circular CX).",
-      "note": "Active Figure 5 replacement: same condition, ansatz replaced."
+      "note": "Superseded by fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2, which keeps the same ansatz family and shows the learning trace only to 3000 iterations."
+    },
+    {
+      "id": "fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2",
+      "github_path": "figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2.png",
+      "sha256": "a4dfced6445da2131312dc0df7ebadea80610b9be8aa78aabaa22ae7553dbb85",
+      "bytes": 312532,
+      "synced_at": "2026-06-29T14:56:04+09:00",
+      "status": "active",
+      "origin": "mainstream_ansatz_hadamard_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_histories.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_summary.csv"
+      ],
+      "comparison_protocol": "Current Figure 5 q-space q50 reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Current manuscript Figure 5. This is the only Figure 5 learning-trace asset that should be called from Notion."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1",
@@ -843,7 +861,7 @@
       "sha256": "ee33b849535d5c797f4fb8624c832c30c9a62185b440ba6a1c135b42e321bad5",
       "bytes": 389041,
       "synced_at": "2026-06-26T20:07:40+09:00",
-      "status": "active",
+      "status": "superseded",
       "origin": "mainstream_ansatz_hadamard_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_histories.csv",
@@ -851,7 +869,25 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_theta_reps8_summary.csv"
       ],
       "comparison_protocol": "Figure 6 ansatz-only replacement for the theta-space q50 reps=8 diagnostic. The qGAN/HN-MLP methods, 5-qubit target, 6000 iterations, and ten-seed range are preserved; the ansatz is H + TwoLocal(ry, rz; circular CX).",
-      "note": "Active Figure 6 replacement: same condition, ansatz replaced."
+      "note": "Superseded by fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2, which keeps the same ansatz family and shows the learning trace only to 3000 iterations."
+    },
+    {
+      "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2",
+      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v2.png",
+      "sha256": "557e2a66510964652989f67c9bd7cc72d541d4583b2f402c875a59bd9ece1a11",
+      "bytes": 349464,
+      "synced_at": "2026-06-29T14:56:05+09:00",
+      "status": "active",
+      "origin": "mainstream_ansatz_hadamard_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_histories.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_theta_reps8_summary.csv"
+      ],
+      "comparison_protocol": "Current Figure 6 theta-space q50 reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Current manuscript Figure 6. This is the only Figure 6 learning-trace asset that should be called from Notion."
     },
     {
       "id": "fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1",
