@@ -614,7 +614,7 @@
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps_title_only",
-      "status": "active",
+      "status": "superseded",
       "origin": "manual_regeneration",
       "source_data": [
         "*/final_data_analysis/raw/2d/q66/cos_q/target_joint.npy",
@@ -1012,8 +1012,27 @@
         "experiments/stateprep_qubit_scaling_figure9/results/figure9_integral_detail.csv",
         "experiments/stateprep_qubit_scaling_figure9/results/figure9_integral_summary.csv"
       ],
-      "comparison_protocol": "Figure 9 qubit-scaling replacement under a common RY/RZ circular-CX ansatz. Data qubits n=2..8 are evaluated for qGAN and HN-MLP at reps=8 using the corresponding target distribution for each n; panels show depth-dose reconstruction plus integral/error medians with ten-seed min-max ranges.",
-      "note": "Active Figure 9 replacement: n=2..8 qubit scaling under common ansatz."
+      "comparison_protocol": "Superseded Figure 9 qubit-scaling replacement under a common RY/RZ circular-CX ansatz. n=2..8 target distributions are evaluated for qGAN and HN-MLP at reps=8; panels show depth-dose reconstruction plus integral/error medians with ten-seed min-max ranges.",
+      "note": "Superseded by fig_3_9_stateprep_main_channel_qubit_scaling_1d_depthdose_reps8_v2 after clarifying that n is the state-encoding main-channel qubit count, not a QAE estimation register."
+    },
+    {
+      "id": "fig_3_9_stateprep_main_channel_qubit_scaling_1d_depthdose_reps8_v2",
+      "github_path": "figures/fig_3_9_stateprep_main_channel_qubit_scaling_1d_depthdose_reps8_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_9_stateprep_main_channel_qubit_scaling_1d_depthdose_reps8_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_9_stateprep_main_channel_qubit_scaling_1d_depthdose_reps8_v2.png",
+      "sha256": "9afeb258de02256f2ba468f511d02ede3bb428b284864b9a01afe6eddcf95930",
+      "bytes": 820344,
+      "synced_at": "2026-06-29T16:19:21+09:00",
+      "status": "active",
+      "origin": "stateprep_qubit_scaling_figure9",
+      "source_data": [
+        "experiments/stateprep_qubit_scaling_figure9/figure9_pipeline.py",
+        "experiments/stateprep_qubit_scaling_figure9/results/figure9_manifest.json",
+        "experiments/stateprep_qubit_scaling_figure9/results/figure9_integral_detail.csv",
+        "experiments/stateprep_qubit_scaling_figure9/results/figure9_integral_summary.csv"
+      ],
+      "comparison_protocol": "Current Figure 9 state-encoding main-channel qubit scaling under a common RY/RZ circular-CX ansatz. Main-channel qubits n=2..8 define 2^n angular bins for the state-preparation target; qGAN and HN-MLP are evaluated at reps=8 using the corresponding target distribution for each n. Panels show depth-dose reconstruction plus integral/error medians with ten-seed min-max ranges.",
+      "note": "Active Figure 9 replacement for the reviewer request about quadrature/state-encoding qubit scaling. The x-axis uses main-channel qubits n to avoid confusion with QAE estimation-register qubits."
     },
     {
       "id": "fig_4_6_method_selection_summary_v1",
