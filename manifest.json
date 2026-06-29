@@ -217,7 +217,7 @@
     },
     {
       "id": "fig_3_1_scattering_path_Dl_notation",
-      "status": "active",
+      "status": "superseded",
       "origin": "manual_geometry_notation_render",
       "source_data": [
         "final_figure/refer_pre_paper/notation_context/scattering_path_Dl_notation.jpg"
@@ -903,8 +903,26 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_distributions.csv",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_summary.csv"
       ],
+      "comparison_protocol": "Superseded Figure 5 q-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Superseded by fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4 after replacing the rounded zero-valued HN-MLP panel label with KL < 10^-4."
+    },
+    {
+      "id": "fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4",
+      "github_path": "figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png",
+      "sha256": "b0c2866f023a153b662625080c2948bac77da6a271487d92fedb383547d2ee6a",
+      "bytes": 317122,
+      "synced_at": "2026-06-29T16:06:35+09:00",
+      "status": "active",
+      "origin": "mainstream_ansatz_hadamard_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_histories.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_summary.csv"
+      ],
       "comparison_protocol": "Current Figure 5 q-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 5. Manuscript-visible labels use 5-qubit first-order wording; the internal data-layout tag remains only in internal provenance/source paths."
+      "note": "Current manuscript Figure 5. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1",
@@ -950,6 +968,24 @@
       "sha256": "c0c3efa8c995a5474e8f697d6064bf2aef519ec2c117a865438125bfac06fe58",
       "bytes": 351250,
       "synced_at": "2026-06-29T16:01:43+09:00",
+      "status": "superseded",
+      "origin": "mainstream_ansatz_hadamard_retraining",
+      "source_data": [
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_histories.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_distributions.csv",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_theta_reps8_summary.csv"
+      ],
+      "comparison_protocol": "Superseded Figure 6 theta-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Superseded by fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4 after replacing the rounded zero-valued HN-MLP panel label with KL < 10^-4."
+    },
+    {
+      "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4",
+      "github_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png",
+      "sha256": "61a01cb4cb093a2610881ad386aa29f36d8e0e0d6ad7414e467ebf89d2b2e181",
+      "bytes": 353369,
+      "synced_at": "2026-06-29T16:06:35+09:00",
       "status": "active",
       "origin": "mainstream_ansatz_hadamard_retraining",
       "source_data": [
@@ -958,7 +994,7 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_theta_reps8_summary.csv"
       ],
       "comparison_protocol": "Current Figure 6 theta-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 6. Manuscript-visible labels use 5-qubit first-order wording; the internal data-layout tag remains only in internal provenance/source paths."
+      "note": "Current manuscript Figure 6. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
     },
     {
       "id": "fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1",
