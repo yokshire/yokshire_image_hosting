@@ -44,12 +44,12 @@ The currently rendered state-preparation diagnostic uses direct PNG assets for F
 | `fig_3_11_qae_qmci_mode_estimator_decomposed` | Current Figure 10 QAE/QMCI mode-estimator gate-level decomposition | OK | `notion_github_hosted_figures/fig_3_11_qae_qmci_mode_estimator_decomposed.svg` |
 | `fig_3_12_fft_reconstruction_Gu` | Current Figure 11-a FFT reconstruction context for the first-order QMCI workflow | OK | `notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.svg` |
 | `fig_3_12_qae_vs_nonqae_std_loglog` | Current Figure 11-b QAE versus non-QAE estimator scaling context | OK | `notion_github_hosted_figures/fig_3_12_qae_vs_nonqae_std_loglog.svg` |
-| `fig_3_13_chebyshev_dose_heatmap_z0p5_x10` | Current Figure 12-a Chebyshev second-collision dose-map reconstruction panel | OK | `notion_github_hosted_figures/fig_3_13_chebyshev_dose_heatmap_z0p5_x10.svg` |
-| `fig_3_13_fft_dose_heatmap_z0p5_x10` | Current Figure 12-b FFT second-collision dose-map reconstruction panel | OK | `notion_github_hosted_figures/fig_3_13_fft_dose_heatmap_z0p5_x10.svg` |
-| `fig_3_13_chebyshev_profile_z0p5` | Current Figure 12-c Chebyshev profile reconstruction panel | OK | `notion_github_hosted_figures/fig_3_13_chebyshev_profile_z0p5.svg` |
-| `fig_3_13_fft_profile_z0p5` | Current Figure 12-d FFT profile reconstruction panel | OK | `notion_github_hosted_figures/fig_3_13_fft_profile_z0p5.svg` |
-| `fig_3_14_chebyshev_q60_dose` | Current Figure 13-a Chebyshev 1D dose reconstruction representative | OK | `notion_github_hosted_figures/fig_3_14_chebyshev_q60_dose.svg` |
-| `fig_3_14_fft_q60_dose` | Current Figure 13-b FFT 1D dose reconstruction representative | OK | `notion_github_hosted_figures/fig_3_14_fft_q60_dose.svg` |
+| `fig_3_13_chebyshev_dose_heatmap_z0p5_x10` | Current Figure 12-a Chebyshev second-collision exact-expectation dose-map reconstruction reference; not a QPE/QAE phase-register output | OK | `notion_github_hosted_figures/fig_3_13_chebyshev_dose_heatmap_z0p5_x10.svg` |
+| `fig_3_13_fft_dose_heatmap_z0p5_x10` | Current Figure 12-b FFT second-collision exact-expectation dose-map reconstruction reference; not a QPE/QAE phase-register output | OK | `notion_github_hosted_figures/fig_3_13_fft_dose_heatmap_z0p5_x10.svg` |
+| `fig_3_13_chebyshev_profile_z0p5` | Current Figure 12-c Chebyshev exact-expectation profile reconstruction reference; not a QPE/QAE phase-register output | OK | `notion_github_hosted_figures/fig_3_13_chebyshev_profile_z0p5.svg` |
+| `fig_3_13_fft_profile_z0p5` | Current Figure 12-d FFT exact-expectation profile reconstruction reference; not a QPE/QAE phase-register output | OK | `notion_github_hosted_figures/fig_3_13_fft_profile_z0p5.svg` |
+| `fig_3_14_chebyshev_q60_dose` | Current Figure 13-a Chebyshev 1D exact discrete/statevector dose reconstruction reference; not a QPE/QAE phase-register output | OK | `notion_github_hosted_figures/fig_3_14_chebyshev_q60_dose.svg` |
+| `fig_3_14_fft_q60_dose` | Current Figure 13-b FFT 1D exact discrete/statevector dose reconstruction reference; not a QPE/QAE phase-register output | OK | `notion_github_hosted_figures/fig_3_14_fft_q60_dose.svg` |
 | `fig_4_1_depth_dose_analytic_vs_mc` | `final_figure/refer_pre_paper/notation_context/depth_dose_Dz_analytic_vs_MC.jpg` | OK | `notion_github_hosted_figures/fig_4_1_depth_dose_analytic_vs_mc.svg` |
 | `fig_4_2_single_compton_D1_qmci` | `final_figure/refer_pre_paper/qae_fft_1d_context/single_compton_D1_qmci.png` | OK | `notion_github_hosted_figures/fig_4_2_single_compton_D1_qmci.svg` |
 | `fig_4_3_qae_vs_nonqae_std_loglog` | `final_figure/refer_pre_paper/qae_fft_1d_context/qae_vs_nonqae_std_loglog.png` | OK | `notion_github_hosted_figures/fig_4_3_qae_vs_nonqae_std_loglog.svg` |

@@ -217,7 +217,7 @@
     },
     {
       "id": "fig_3_1_scattering_path_Dl_notation",
-      "status": "superseded",
+      "status": "active",
       "origin": "manual_geometry_notation_render",
       "source_data": [
         "final_figure/refer_pre_paper/notation_context/scattering_path_Dl_notation.jpg"
@@ -614,7 +614,7 @@
     },
     {
       "id": "fig_3_3_second_collision_joint_probability_maps_title_only",
-      "status": "superseded",
+      "status": "active",
       "origin": "manual_regeneration",
       "source_data": [
         "*/final_data_analysis/raw/2d/q66/cos_q/target_joint.npy",
