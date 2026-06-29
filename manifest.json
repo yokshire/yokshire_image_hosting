@@ -1143,9 +1143,86 @@
       ],
       "comparison_protocol": "Current Figure 9 focused main-channel/state-preparation qubit diagnostic. The x-axis n defines 2^n angular bins in the prepared first-order theta-space target; it is not a QAE phase/evaluation-register sweep. Curves compare exact discrete target, HN-MLP, and qGAN first-order integral estimates against the analytic reference with ten-seed min-max ranges for learned loading.",
       "note": "Use this asset for the Kim Chaemin comment about quadrature/state-encoding qubit scaling. The result should be interpreted as state-preparation discretization and loading quality, not QAE estimator precision."
+    },
+    {
+      "id": "fig_qae_phase_shot_reconstruction_curves_v1",
+      "github_path": "figures/fig_qae_phase_shot_reconstruction_curves_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_qae_phase_shot_reconstruction_curves_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_qae_phase_shot_reconstruction_curves_v1.png",
+      "sha256": "596d7199d2978d17f45717a20e206193301a6857b9e97528cec77323229726e4",
+      "bytes": 398957,
+      "synced_at": "2026-06-29T17:00:10+09:00",
+      "status": "auxiliary",
+      "origin": "qae_grayzone_phase_shot_diagnostic",
+      "source_data": [
+        "experiments/qae_phase_shot_diagnostics_20260629/render_qae_phase_shot_diagnostics.py",
+        "experiments/qae_phase_shot_diagnostics_20260629/manifest.json",
+        "final_figure/method_support/qae_phase_shot_manifest.json",
+        "experiments/iqae_min_data_qubits_20260629/results/iqae_direct_observable_curves.csv"
+      ],
+      "comparison_protocol": "QPE-style phase-register sampling from exact observable amplitudes, using phase_qubits=[4,6,8,10], shots=[512,2048,8192], and 100 trials. This is an estimator-layer diagnostic, not a replacement label for existing exact reconstruction figures.",
+      "note": "Auxiliary QPE-style phase-register sampling diagnostic for Figures 9/12/13/20 grayzone closure. The exact curves remain discrete/statevector references; this asset adds phase-qubit and shot-count estimator behavior."
+    },
+    {
+      "id": "fig_qae_phase_shot_error_grid_v1",
+      "github_path": "figures/fig_qae_phase_shot_error_grid_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_qae_phase_shot_error_grid_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_qae_phase_shot_error_grid_v1.png",
+      "sha256": "5cd519e8bea480d475c206eb745b11e6fc6d747d7f87b2594d548e776ad88699",
+      "bytes": 290708,
+      "synced_at": "2026-06-29T17:00:10+09:00",
+      "status": "auxiliary",
+      "origin": "qae_grayzone_phase_shot_diagnostic",
+      "source_data": [
+        "experiments/qae_phase_shot_diagnostics_20260629/render_qae_phase_shot_diagnostics.py",
+        "experiments/qae_phase_shot_diagnostics_20260629/manifest.json",
+        "final_figure/method_support/qae_phase_shot_manifest.json",
+        "experiments/iqae_min_data_qubits_20260629/results/iqae_direct_observable_curves.csv"
+      ],
+      "comparison_protocol": "QPE-style phase-register sampling from exact observable amplitudes, using phase_qubits=[4,6,8,10], shots=[512,2048,8192], and 100 trials. This is an estimator-layer diagnostic, not a replacement label for existing exact reconstruction figures.",
+      "note": "Auxiliary HN-MLP phase-qubit/shot-count MAE grid against exact references for real-backend target selection."
+    },
+    {
+      "id": "qae_phase_shot_summary",
+      "github_path": "figures/qae_phase_shot_summary.csv",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/qae_phase_shot_summary.csv",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/qae_phase_shot_summary.csv",
+      "sha256": "1f534af83d7e8bc3d387a79480605401de1ef3847005bebad8e6cc2fec3847dd",
+      "bytes": 34330,
+      "synced_at": "2026-06-29T17:00:10+09:00",
+      "status": "auxiliary",
+      "origin": "qae_grayzone_phase_shot_diagnostic",
+      "source_data": [
+        "experiments/qae_phase_shot_diagnostics_20260629/render_qae_phase_shot_diagnostics.py",
+        "experiments/qae_phase_shot_diagnostics_20260629/manifest.json",
+        "final_figure/method_support/qae_phase_shot_manifest.json",
+        "experiments/iqae_min_data_qubits_20260629/results/iqae_direct_observable_curves.csv"
+      ],
+      "comparison_protocol": "QPE-style phase-register sampling from exact observable amplitudes, using phase_qubits=[4,6,8,10], shots=[512,2048,8192], and 100 trials. This is an estimator-layer diagnostic, not a replacement label for existing exact reconstruction figures.",
+      "note": "Summary table for phase qubits 4/6/8/10, shots 512/2048/8192, and 100 sampling trials per setting."
+    },
+    {
+      "id": "qae_phase_shot_detail",
+      "github_path": "figures/qae_phase_shot_detail.csv",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/qae_phase_shot_detail.csv",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/qae_phase_shot_detail.csv",
+      "sha256": "f7ec946f31cfc2b2337cc7b1c774f05f0feb1197f496a431d8528603d7e874fd",
+      "bytes": 33984827,
+      "synced_at": "2026-06-29T17:00:10+09:00",
+      "status": "auxiliary",
+      "origin": "qae_grayzone_phase_shot_diagnostic",
+      "source_data": [
+        "experiments/qae_phase_shot_diagnostics_20260629/render_qae_phase_shot_diagnostics.py",
+        "experiments/qae_phase_shot_diagnostics_20260629/manifest.json",
+        "final_figure/method_support/qae_phase_shot_manifest.json",
+        "experiments/iqae_min_data_qubits_20260629/results/iqae_direct_observable_curves.csv"
+      ],
+      "comparison_protocol": "QPE-style phase-register sampling from exact observable amplitudes, using phase_qubits=[4,6,8,10], shots=[512,2048,8192], and 100 trials. This is an estimator-layer diagnostic, not a replacement label for existing exact reconstruction figures.",
+      "note": "Trial-level support table for the QPE-style phase-register sampling diagnostic."
     }
   ],
   "notes": [
-    "`q50` is an internal data-layout compatibility tag for the 5-qubit first-order target; manuscript-visible labels use `5-qubit`."
+    "`q50` is an internal data-layout compatibility tag for the 5-qubit first-order target; manuscript-visible labels use `5-qubit`.",
+    "QAE grayzone note: existing exact dose/profile curves are discrete/statevector reconstruction references; QAE-style estimator claims should cite phase-qubit and shot-count diagnostics separately."
   ]
 }
