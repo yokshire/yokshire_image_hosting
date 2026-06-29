@@ -1004,7 +1004,7 @@
       "sha256": "cbdf8c3a3107d1131ba97426ec63bf5232def30778efd2f8892d2ebc5d3f22c0",
       "bytes": 855801,
       "synced_at": "2026-06-26T20:07:40+09:00",
-      "status": "active",
+      "status": "superseded",
       "origin": "stateprep_qubit_scaling_figure9",
       "source_data": [
         "experiments/stateprep_qubit_scaling_figure9/figure9_pipeline.py",
@@ -1023,7 +1023,7 @@
       "sha256": "9afeb258de02256f2ba468f511d02ede3bb428b284864b9a01afe6eddcf95930",
       "bytes": 820344,
       "synced_at": "2026-06-29T16:19:21+09:00",
-      "status": "active",
+      "status": "superseded",
       "origin": "stateprep_qubit_scaling_figure9",
       "source_data": [
         "experiments/stateprep_qubit_scaling_figure9/figure9_pipeline.py",
@@ -1032,7 +1032,7 @@
         "experiments/stateprep_qubit_scaling_figure9/results/figure9_integral_summary.csv"
       ],
       "comparison_protocol": "Current Figure 9 state-encoding main-channel qubit scaling under a common RY/RZ circular-CX ansatz. Main-channel qubits n=2..8 define 2^n angular bins for the state-preparation target; qGAN and HN-MLP are evaluated at reps=8 using the corresponding target distribution for each n. Panels show depth-dose reconstruction plus integral/error medians with ten-seed min-max ranges.",
-      "note": "Active Figure 9 replacement for the reviewer request about quadrature/state-encoding qubit scaling. The x-axis uses main-channel qubits n to avoid confusion with QAE estimation-register qubits."
+      "note": "Superseded by fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3, which directly isolates the main-channel state-preparation qubit sweep requested in the Figure 9 comment."
     },
     {
       "id": "fig_4_6_method_selection_summary_v1",
@@ -1123,6 +1123,26 @@
       ],
       "comparison_protocol": "Current Notion Figure 25. Real IBM Yonsei mitigation result using Runtime DD/twirling, layout-aware routing, and readout postprocessing for n=5,6 HN-MLP Chebyshev reps=8 circuits.",
       "note": "Current manuscript Figure 25. Mitigated job id d90csl6mvj5c73ej20hg."
+    },
+    {
+      "id": "fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3",
+      "github_path": "figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3.png",
+      "sha256": "a58a51496e9048f1adf98b6b1d2e93b2bc61c6dcc3b484e5a24b724acbc9df30",
+      "bytes": 234097,
+      "synced_at": "2026-06-29T16:30:55+09:00",
+      "status": "active",
+      "origin": "stateprep_qubit_scaling_figure9",
+      "source_data": [
+        "experiments/stateprep_qubit_scaling_figure9/render_main_channel_integral_convergence.py",
+        "experiments/stateprep_qubit_scaling_figure9/results_iter10000_v2/figure9_manifest.json",
+        "experiments/stateprep_qubit_scaling_figure9/results_iter10000_v2/figure9_integral_detail.csv",
+        "experiments/stateprep_qubit_scaling_figure9/results_iter10000_v2/figure9_integral_summary.csv",
+        "final_figure/method_support/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3_panel_data.csv"
+      ],
+      "comparison_protocol": "Current Figure 9 focused main-channel/state-preparation qubit diagnostic. The x-axis n defines 2^n angular bins in the prepared first-order theta-space target; it is not a QAE phase/evaluation-register sweep. Curves compare exact discrete target, HN-MLP, and qGAN first-order integral estimates against the analytic reference with ten-seed min-max ranges for learned loading.",
+      "note": "Use this asset for the Kim Chaemin comment about quadrature/state-encoding qubit scaling. The result should be interpreted as state-preparation discretization and loading quality, not QAE estimator precision."
     }
   ],
   "notes": [
