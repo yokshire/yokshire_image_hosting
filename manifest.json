@@ -825,7 +825,7 @@
       "sha256": "bd6482276994739e7dab85d77e0e08ec3660b7bfbba6deec8f37a5506a9f223a",
       "bytes": 364904,
       "synced_at": "2026-06-26T20:07:40+09:00",
-      "status": "active",
+      "status": "superseded",
       "origin": "mainstream_ansatz_hadamard_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_histories.csv",
