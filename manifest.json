@@ -1306,6 +1306,36 @@
       "synced_at": "2026-06-29T20:43:47+09:00",
       "comparison_protocol": "Introduction workflow schematic, not a numerical result figure. Shows the reduced Compton benchmark path from physical target to state loading, state preparation, basis/moment estimation, classical reconstruction, and dose outputs, with a separate reference/validation lane.",
       "note": "PNG preview for Introduction Figure X-2, generated from the editable SVG workflow schematic."
+    },
+    {
+      "id": "fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_png",
+      "status": "active",
+      "origin": "comment_requested_aer_rmse_regeneration",
+      "source_script": "experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v2.py",
+      "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_curves.csv",
+      "source_manifest": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_manifest.json",
+      "github_path": "figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2.png",
+      "sha256": "a92ef54728413846bfa338705a4ee4714109b9a3150fcc07a14dae2beaf15d51",
+      "bytes": 224470,
+      "synced_at": "2026-06-30T01:43:20+09:00",
+      "note": "Noiseless qiskit-aer RMSE-vs-effective-budget replacement for shot amplitude, QPE-QAE+MLE, and IQAE using the HN-MLP 5-qubit first-order Chebyshev target. q50 appears only in provenance as an internal compatibility tag."
+    },
+    {
+      "id": "fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_svg",
+      "status": "active",
+      "origin": "comment_requested_aer_rmse_regeneration",
+      "source_script": "experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v2.py",
+      "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_curves.csv",
+      "source_manifest": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_manifest.json",
+      "github_path": "figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2.svg",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2.svg",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2.svg",
+      "sha256": "2e9a79907e719a5af81a5e5e4d39f22a73b2cf671c9c08e872c4e7471ebcf537",
+      "bytes": 23284,
+      "synced_at": "2026-06-30T01:43:20+09:00",
+      "note": "Noiseless qiskit-aer RMSE-vs-effective-budget replacement for shot amplitude, QPE-QAE+MLE, and IQAE using the HN-MLP 5-qubit first-order Chebyshev target. q50 appears only in provenance as an internal compatibility tag."
     }
   ],
   "notes": [
