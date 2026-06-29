@@ -1239,6 +1239,40 @@
       ],
       "comparison_protocol": "QPE-style phase-register sampling from exact observable amplitudes, using phase_qubits=[4,6,8,10], shots=[512,2048,8192], and 100 trials. This is an estimator-layer diagnostic, not a replacement label for existing exact reconstruction figures.",
       "note": "Trial-level support table for the QPE-style phase-register sampling diagnostic."
+    },
+    {
+      "id": "fig_x2_qmci_workflow_intro_v1_svg",
+      "status": "active",
+      "origin": "intro_workflow_schematic_regeneration",
+      "source_data": [
+        "experiments/intro_workflow_figures/render_fig_x2_qmci_workflow_intro.py",
+        "final_figure/method_support/fig_x2_qmci_workflow_intro_v1.svg"
+      ],
+      "github_path": "figures/fig_x2_qmci_workflow_intro_v1.svg",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_x2_qmci_workflow_intro_v1.svg",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_x2_qmci_workflow_intro_v1.svg",
+      "sha256": "6666c2f1150a68900f1058724feeb5a40c11967aa1a7505faf9755316c1dcfd6",
+      "bytes": 13972,
+      "synced_at": "2026-06-29T20:43:47+09:00",
+      "comparison_protocol": "Introduction workflow schematic, not a numerical result figure. Shows the reduced Compton benchmark path from physical target to state loading, state preparation, basis/moment estimation, classical reconstruction, and dose outputs, with a separate reference/validation lane.",
+      "note": "Editable SVG source for Introduction Figure X-2, a compact QMCI workflow schematic for Compton dose reconstruction."
+    },
+    {
+      "id": "fig_x2_qmci_workflow_intro_v1_png",
+      "status": "active",
+      "origin": "intro_workflow_schematic_regeneration",
+      "source_data": [
+        "experiments/intro_workflow_figures/render_fig_x2_qmci_workflow_intro.py",
+        "final_figure/method_support/fig_x2_qmci_workflow_intro_v1.png"
+      ],
+      "github_path": "figures/fig_x2_qmci_workflow_intro_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_x2_qmci_workflow_intro_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_x2_qmci_workflow_intro_v1.png",
+      "sha256": "0fe25220ca17623dec01a7b52ddc266c4faf84c16b417b7147e51e0fe364a75f",
+      "bytes": 165670,
+      "synced_at": "2026-06-29T20:43:47+09:00",
+      "comparison_protocol": "Introduction workflow schematic, not a numerical result figure. Shows the reduced Compton benchmark path from physical target to state loading, state preparation, basis/moment estimation, classical reconstruction, and dose outputs, with a separate reference/validation lane.",
+      "note": "PNG preview for Introduction Figure X-2, generated from the editable SVG workflow schematic."
     }
   ],
   "notes": [

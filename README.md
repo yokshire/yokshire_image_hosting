@@ -150,6 +150,8 @@ paper figures until a human editor applies the corresponding page edit.
 | `cross_check_fig_4_11_2d_matched_pair_scatter` | `final_figure/role_up/role_up_2d_matched_pair_summary.csv` | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_11_2d_matched_pair_scatter.png` |
 | `cross_check_fig_4_12_figure19_missing_representatives` | `final_figure/qmci_qae_curated/2d_best_representatives/*` selected missing panels | candidate | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_4_12_figure19_missing_representatives.png` |
 | `cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev` | `final_figure/method_support/xcom_h2o_6mev/`; NIST XCOM H2O tabular data | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev_v1.png` |
+| `fig_x2_qmci_workflow_intro_v1_svg` | `experiments/intro_workflow_figures/render_fig_x2_qmci_workflow_intro.py`; `final_figure/method_support/fig_x2_qmci_workflow_intro_v1.svg` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/fig_x2_qmci_workflow_intro_v1.svg` |
+| `fig_x2_qmci_workflow_intro_v1_png` | `experiments/intro_workflow_figures/render_fig_x2_qmci_workflow_intro.py`; `final_figure/method_support/fig_x2_qmci_workflow_intro_v1.png` | OK | `https://yokshire.github.io/yokshire_image_hosting/figures/fig_x2_qmci_workflow_intro_v1.png` |
 
 ## Role Up Figures (2026-06-01)
 
