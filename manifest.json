@@ -1145,6 +1145,26 @@
       "note": "Use this asset for the Kim Chaemin comment about quadrature/state-encoding qubit scaling. The result should be interpreted as state-preparation discretization and loading quality, not QAE estimator precision."
     },
     {
+      "id": "fig_4_7_qae_iqae_yonsei_aer_qmci_v1",
+      "github_path": "figures/fig_4_7_qae_iqae_yonsei_aer_qmci_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_qae_iqae_yonsei_aer_qmci_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_7_qae_iqae_yonsei_aer_qmci_v1.png",
+      "sha256": "a94caa8a37a186d7c9f09289eb9c998bc272b6c45e0cc71a78b35c35885c3d0f",
+      "bytes": 741035,
+      "synced_at": "2026-06-29T17:26:37+09:00",
+      "status": "active",
+      "origin": "qae_iqae_yonsei_aer_qmci",
+      "source_data": [
+        "experiments/qae_iqae_yonsei_aer_qmci_20260629/run_qae_iqae_yonsei_aer_qmci.py",
+        "experiments/qae_iqae_yonsei_aer_qmci_20260629/results/manifest.json",
+        "experiments/qae_iqae_yonsei_aer_qmci_20260629/results/qae_iqae_yonsei_aer_qmci_curves.csv",
+        "experiments/qae_iqae_yonsei_aer_qmci_20260629/results/qae_iqae_yonsei_aer_qmci_metrics.csv",
+        "experiments/qae_iqae_yonsei_aer_qmci_20260629/results/qae_iqae_same_a_complexity.csv"
+      ],
+      "comparison_protocol": "QAE/IQAE estimator comparison target using the common trained state-preparation circuits with ibm_yonsei-calibrated Aer sampling, stateprep_shots=8192, estimator_shots=8192, QAE evaluation qubits m=8, and IQAE epsilon=0.01. This is distinct from the exact discrete/statevector reconstruction panels.",
+      "note": "Current hosted QAE/IQAE comparison target for the grayzone closure. Use it to discuss phase/evaluation-register and shot-count estimator behavior, while keeping Figure 12/13/20 exact reconstruction panels labeled as references."
+    },
+    {
       "id": "fig_qae_phase_shot_reconstruction_curves_v1",
       "github_path": "figures/fig_qae_phase_shot_reconstruction_curves_v1.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_qae_phase_shot_reconstruction_curves_v1.png",
