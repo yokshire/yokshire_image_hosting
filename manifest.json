@@ -760,7 +760,7 @@
     },
     {
       "id": "fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170",
-      "status": "active",
+      "status": "superseded",
       "origin": "geant4_depthdose_fig14",
       "source_data": [
         "experiments/geant4_depthdose_fig14/second_compton_geant4_fixed_lambda_500k_depth170_outputs/geant4_fixed_lambda_second_compton_depth_dose_6mev_water.csv",
@@ -773,7 +773,7 @@
       "sha256": "7856e283141e98cd2e4574745586d9af7779d7992670a2e016ba2c130c3de2a2",
       "bytes": 165890,
       "synced_at": "2026-06-25T13:40:00+09:00",
-      "note": "Current Figure 14-b asset using the same paper-wide plot style as Figure 14-a: no top title/subtitle and a bottom panel label. It shows the lambda_1=lambda_0 fixed-lambda Geant4 second-Compton benchmark against analytic D2(z)."
+      "note": "Superseded by v2 because the rendered image carried a manuscript-visible bottom figure caption; v2 leaves the caption to the Notion manuscript text block."
     },
     {
       "id": "fig_4_1c_second_compton_profile_z0p5_geant4_6mev_water_500k",
@@ -1563,6 +1563,23 @@
       "bytes": 102845,
       "synced_at": "2026-06-30T16:16:23+09:00",
       "note": "Current first-Compton Geant4 benchmark asset. The in-image figure caption was removed; manuscript-visible caption text is kept only in the Notion text block."
+    },
+    {
+      "id": "fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2",
+      "status": "active",
+      "origin": "geant4_depthdose_fig14",
+      "source_data": [
+        "experiments/geant4_depthdose_fig14/second_compton_geant4_fixed_lambda_500k_depth170_outputs/geant4_fixed_lambda_second_compton_depth_dose_6mev_water.csv",
+        "experiments/geant4_depthdose_fig14/second_compton_geant4_fixed_lambda_500k_depth170_outputs/metadata.json"
+      ],
+      "comparison_protocol": "Figure 13 second-Compton fixed-lambda benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active for the first Compton interaction, 500000 histories, lambda_1 forced to lambda_0=40.873208246386504 cm after the first Compton interaction, second Compton energy transfer sampled from Klein-Nishina at the post-first-collision energy, local deposition scored at the forced second-collision depth, and x-y laterally integrated into z bins. This matches the constant-lambda analytic D2(z) condition.",
+      "github_path": "figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
+      "sha256": "4d81737061eaa744458b55fb62f88e2e2989db79715d1afe7a8bc89429a60175",
+      "bytes": 173530,
+      "synced_at": "2026-06-30T16:24:22+09:00",
+      "note": "Current second-Compton fixed-lambda Geant4 benchmark asset. The in-image figure caption was removed; manuscript-visible caption text is kept only in the Notion text block."
     }
   ],
   "notes": [
@@ -1571,6 +1588,7 @@
     "Section 4 hardware revision note: fig_4_6g_yonsei_compact_backend_feasibility_v1 is the compact main-paper hardware feasibility candidate; detailed Yonsei noise-component and mitigation-probe figures should be treated as supplement/internal diagnostics unless explicitly promoted.",
     "Downstream reconstruction note: fig_3_14_q50 and fig_3_13_q55 filenames retain internal data-layout tags; manuscript-visible captions should use 5-qubit and 5+5 qubits.",
     "Figure cleanup note: fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2 and fig_4_6g_yonsei_compact_backend_feasibility_v2 remove manuscript-visible in-image titles; Figure 21 v2 also removes the bottom job-index/source line.",
-    "Figure cleanup note: fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3 removes the manuscript-visible in-image Figure 14 caption; Notion should use an empty image caption plus a separate Figure 12 text caption."
+    "Figure cleanup note: fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3 removes the manuscript-visible in-image Figure 14 caption; Notion should use an empty image caption plus a separate Figure 12 text caption.",
+    "Figure cleanup note: fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2 removes the manuscript-visible in-image Figure 14-b caption; Notion should use an empty image caption plus a separate Figure 13 text caption."
   ]
 }
