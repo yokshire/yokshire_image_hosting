@@ -743,7 +743,7 @@
     },
     {
       "id": "fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v2",
-      "status": "active",
+      "status": "superseded",
       "origin": "geant4_depthdose_fig14",
       "source_data": [
         "experiments/geant4_depthdose_fig14/first_compton_500k_depth170_outputs/geant4_first_compton_depth_dose_6mev_water.csv",
@@ -756,7 +756,7 @@
       "sha256": "4cac877d3968788638fd817ed8f7b95fbb2378af229e041ed545dd11cc07874a",
       "bytes": 124023,
       "synced_at": "2026-06-25T12:10:00+09:00",
-      "note": "Current Figure 14 asset using the paper-wide plot style: no top title/subtitle and a bottom panel label. It intentionally excludes the full step-energy scoring curve."
+      "note": "Superseded by v3 because the rendered image still carried a manuscript-visible bottom figure caption; v3 leaves the caption to the Notion manuscript text block."
     },
     {
       "id": "fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170",
@@ -1546,6 +1546,23 @@
       "media_type": "application/json",
       "synced_at": "2026-06-30T06:56:59.418333+00:00",
       "note": "Compact Section 4 hardware feasibility summary. The manuscript-visible image removes the figure-level title/subtitle and bottom job-index/source line; backend job provenance is retained in the manifest/source paths only."
+    },
+    {
+      "id": "fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3",
+      "status": "active",
+      "origin": "geant4_depthdose_fig14",
+      "source_data": [
+        "experiments/geant4_depthdose_fig14/first_compton_500k_depth170_outputs/geant4_first_compton_depth_dose_6mev_water.csv",
+        "experiments/geant4_depthdose_fig14/first_compton_500k_depth170_outputs/metadata.json"
+      ],
+      "comparison_protocol": "Figure 12 first-Compton local-deposition benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active, 500000 histories, primary gamma first Compton interaction only, E_pre - E_post scored at the interaction position, secondary tracks killed, and x-y laterally integrated into z bins. This matches the analytic D1(z) condition.",
+      "github_path": "figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3.png",
+      "sha256": "50d138396ecb503564e0e56745baffb5d13249421af64daa4839532e34e764e7",
+      "bytes": 102845,
+      "synced_at": "2026-06-30T16:16:23+09:00",
+      "note": "Current first-Compton Geant4 benchmark asset. The in-image figure caption was removed; manuscript-visible caption text is kept only in the Notion text block."
     }
   ],
   "notes": [
@@ -1553,6 +1570,7 @@
     "QAE grayzone note: existing exact dose/profile curves are discrete/statevector reconstruction references; QAE-style estimator claims should cite phase-qubit and shot-count diagnostics separately.",
     "Section 4 hardware revision note: fig_4_6g_yonsei_compact_backend_feasibility_v1 is the compact main-paper hardware feasibility candidate; detailed Yonsei noise-component and mitigation-probe figures should be treated as supplement/internal diagnostics unless explicitly promoted.",
     "Downstream reconstruction note: fig_3_14_q50 and fig_3_13_q55 filenames retain internal data-layout tags; manuscript-visible captions should use 5-qubit and 5+5 qubits.",
-    "Figure cleanup note: fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2 and fig_4_6g_yonsei_compact_backend_feasibility_v2 remove manuscript-visible in-image titles; Figure 21 v2 also removes the bottom job-index/source line."
+    "Figure cleanup note: fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2 and fig_4_6g_yonsei_compact_backend_feasibility_v2 remove manuscript-visible in-image titles; Figure 21 v2 also removes the bottom job-index/source line.",
+    "Figure cleanup note: fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3 removes the manuscript-visible in-image Figure 14 caption; Notion should use an empty image caption plus a separate Figure 12 text caption."
   ]
 }
