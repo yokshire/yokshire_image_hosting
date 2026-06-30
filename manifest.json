@@ -1339,7 +1339,7 @@
     },
     {
       "id": "fig_4_6g_yonsei_compact_backend_feasibility_v1_png",
-      "status": "active",
+      "status": "superseded",
       "origin": "section4_compact_hardware_revision",
       "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
       "source_data": [
@@ -1354,11 +1354,11 @@
       "bytes": 243167,
       "media_type": "image/png",
       "synced_at": "2026-06-30T05:46:54.787594+00:00",
-      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths."
+      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths. Superseded by v2, which removes the in-image title/subtitle and bottom job-index/source line while retaining provenance in the manifest."
     },
     {
       "id": "fig_4_6g_yonsei_compact_backend_feasibility_v1_svg",
-      "status": "active",
+      "status": "superseded",
       "origin": "section4_compact_hardware_revision",
       "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
       "source_data": [
@@ -1373,11 +1373,11 @@
       "bytes": 134397,
       "media_type": "image/svg+xml",
       "synced_at": "2026-06-30T05:46:54.787594+00:00",
-      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths."
+      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths. Superseded by v2, which removes the in-image title/subtitle and bottom job-index/source line while retaining provenance in the manifest."
     },
     {
       "id": "fig_4_6g_yonsei_compact_backend_feasibility_v1_panel_data",
-      "status": "active",
+      "status": "superseded",
       "origin": "section4_compact_hardware_revision",
       "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
       "source_data": [
@@ -1392,11 +1392,11 @@
       "bytes": 4074,
       "media_type": "text/csv",
       "synced_at": "2026-06-30T05:46:54.787594+00:00",
-      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths."
+      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths. Superseded by v2, which removes the in-image title/subtitle and bottom job-index/source line while retaining provenance in the manifest."
     },
     {
       "id": "fig_4_6g_yonsei_compact_backend_feasibility_v1_manifest",
-      "status": "active",
+      "status": "superseded",
       "origin": "section4_compact_hardware_revision",
       "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
       "source_data": [
@@ -1411,7 +1411,7 @@
       "bytes": 2654,
       "media_type": "application/json",
       "synced_at": "2026-06-30T05:46:54.787594+00:00",
-      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths."
+      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths. Superseded by v2, which removes the in-image title/subtitle and bottom job-index/source line while retaining provenance in the manifest."
     },
     {
       "id": "fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10",
@@ -1423,8 +1423,8 @@
         "experiments/stateprep_qmci_seed10/qmci_reconstruction_iter300/manifest.json"
       ],
       "comparison_protocol": "First-order 5-qubit state-preparation/basis propagation into D1(z) reconstruction. q50 is an internal filename/source-path tag; manuscript-visible labels use 5-qubit.",
-      "note": "Current downstream reconstruction candidate for Section 4 Figure 10/renumbered Figure 19. Visible image title uses 5-qubit.",
-      "status": "active",
+      "note": "Current downstream reconstruction candidate for Section 4 Figure 10/renumbered Figure 19. Visible image title uses 5-qubit. Superseded by v2, which removes the manuscript-visible in-image title and leaves the title text to the caption.",
+      "status": "superseded",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10.png",
       "sha256": "b3abc70465e06765a2c44256a3a895f526ff5666a1189cd3b46267a46a79da60",
@@ -1451,12 +1451,108 @@
       "bytes": 528340,
       "media_type": "image/png",
       "synced_at": "2026-06-30T05:55:35.666159+00:00"
+    },
+    {
+      "id": "fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2",
+      "github_path": "figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png",
+      "origin": "stateprep_qmci_seed10_downstream_reconstruction",
+      "source_script": "experiments/stateprep_qmci_seed10/render_figures_12_13_stateprep_qmci.py",
+      "source_data": [
+        "experiments/stateprep_qmci_seed10/qmci_reconstruction_iter300/figure13_1d_q50_seed10_qmci.csv",
+        "experiments/stateprep_qmci_seed10/qmci_reconstruction_iter300/manifest.json"
+      ],
+      "comparison_protocol": "First-order 5-qubit state-preparation/basis propagation into D1(z) reconstruction. q50 is an internal filename/source-path tag; manuscript-visible labels use 5-qubit.",
+      "note": "Replacement for Current Figure 10/renumbered Figure 19. The in-image title was removed; caption text should carry the 1D dose reconstruction description.",
+      "status": "active",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png",
+      "sha256": "6abcaa13d12d889117a68cbeb92160a307dce2854a6fb811d8984f95f2d32c1a",
+      "bytes": 210053,
+      "media_type": "image/png",
+      "synced_at": "2026-06-30T06:56:59.418333+00:00"
+    },
+    {
+      "id": "fig_4_6g_yonsei_compact_backend_feasibility_v2_png",
+      "status": "active",
+      "origin": "section4_compact_hardware_revision",
+      "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
+      "source_data": [
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission_results.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_decomposition_20260628T051052Z.csv"
+      ],
+      "github_path": "figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.png",
+      "sha256": "c8d9614fd246c054d1d39b8ebc86fe95704560f05842366b77fa6f60a5ddfcdb",
+      "bytes": 195652,
+      "media_type": "image/png",
+      "synced_at": "2026-06-30T06:56:59.418333+00:00",
+      "note": "Compact Section 4 hardware feasibility summary. The manuscript-visible image removes the figure-level title/subtitle and bottom job-index/source line; backend job provenance is retained in the manifest/source paths only."
+    },
+    {
+      "id": "fig_4_6g_yonsei_compact_backend_feasibility_v2_svg",
+      "status": "active",
+      "origin": "section4_compact_hardware_revision",
+      "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
+      "source_data": [
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission_results.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_decomposition_20260628T051052Z.csv"
+      ],
+      "github_path": "figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.svg",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.svg",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.svg",
+      "sha256": "b3f38986089c49068c58607dfcedfb60d2f52088c52696959c8abf2d7610fe96",
+      "bytes": 74186,
+      "media_type": "image/svg+xml",
+      "synced_at": "2026-06-30T06:56:59.418333+00:00",
+      "note": "Compact Section 4 hardware feasibility summary. The manuscript-visible image removes the figure-level title/subtitle and bottom job-index/source line; backend job provenance is retained in the manifest/source paths only."
+    },
+    {
+      "id": "fig_4_6g_yonsei_compact_backend_feasibility_v2_panel_data",
+      "status": "active",
+      "origin": "section4_compact_hardware_revision",
+      "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
+      "source_data": [
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission_results.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_decomposition_20260628T051052Z.csv"
+      ],
+      "github_path": "figures/fig_4_6g_yonsei_compact_backend_feasibility_v2_panel_data.csv",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6g_yonsei_compact_backend_feasibility_v2_panel_data.csv",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6g_yonsei_compact_backend_feasibility_v2_panel_data.csv",
+      "sha256": "22138cc70de1b8d03d18515f13b397e8b99e869ed61f168e6af6a26126f4e431",
+      "bytes": 4074,
+      "media_type": "text/csv",
+      "synced_at": "2026-06-30T06:56:59.418333+00:00",
+      "note": "Compact Section 4 hardware feasibility summary. The manuscript-visible image removes the figure-level title/subtitle and bottom job-index/source line; backend job provenance is retained in the manifest/source paths only."
+    },
+    {
+      "id": "fig_4_6g_yonsei_compact_backend_feasibility_v2_manifest",
+      "status": "active",
+      "origin": "section4_compact_hardware_revision",
+      "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
+      "source_data": [
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission_results.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_decomposition_20260628T051052Z.csv"
+      ],
+      "github_path": "figures/fig_4_6g_yonsei_compact_backend_feasibility_v2_manifest.json",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6g_yonsei_compact_backend_feasibility_v2_manifest.json",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6g_yonsei_compact_backend_feasibility_v2_manifest.json",
+      "sha256": "a25bec5c953569a5fecb15112a502b7dd6e9d243114a6fc8f9df9877ec849df1",
+      "bytes": 2654,
+      "media_type": "application/json",
+      "synced_at": "2026-06-30T06:56:59.418333+00:00",
+      "note": "Compact Section 4 hardware feasibility summary. The manuscript-visible image removes the figure-level title/subtitle and bottom job-index/source line; backend job provenance is retained in the manifest/source paths only."
     }
   ],
   "notes": [
     "`q50` is an internal data-layout compatibility tag for the 5-qubit first-order target; manuscript-visible labels use `5-qubit`.",
     "QAE grayzone note: existing exact dose/profile curves are discrete/statevector reconstruction references; QAE-style estimator claims should cite phase-qubit and shot-count diagnostics separately.",
     "Section 4 hardware revision note: fig_4_6g_yonsei_compact_backend_feasibility_v1 is the compact main-paper hardware feasibility candidate; detailed Yonsei noise-component and mitigation-probe figures should be treated as supplement/internal diagnostics unless explicitly promoted.",
-    "Downstream reconstruction note: fig_3_14_q50 and fig_3_13_q55 filenames retain internal data-layout tags; manuscript-visible captions should use 5-qubit and 5+5 qubits."
+    "Downstream reconstruction note: fig_3_14_q50 and fig_3_13_q55 filenames retain internal data-layout tags; manuscript-visible captions should use 5-qubit and 5+5 qubits.",
+    "Figure cleanup note: fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2 and fig_4_6g_yonsei_compact_backend_feasibility_v2 remove manuscript-visible in-image titles; Figure 21 v2 also removes the bottom job-index/source line."
   ]
 }

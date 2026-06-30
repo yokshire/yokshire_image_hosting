@@ -1,0 +1,23 @@
+source_kind,series,condition,job_id,backend,n,seed,shots,abs_error,tvd,kl,transpiled_depth,transpiled_size,ecr_count,label
+yonsei_calibrated_aer_proxy,full_yonsei_noise,full_yonsei_noise,,AerSimulator,2,0,4096,1.0841575479360168,0.0400323467185125,0.0038275095906569,21,37,3.0,Calibrated Aer
+yonsei_calibrated_aer_proxy,full_yonsei_noise,full_yonsei_noise,,AerSimulator,3,9,4096,1.5607594753559253,0.2237341567922219,0.1425779277844658,240,393,57.0,Calibrated Aer
+yonsei_calibrated_aer_proxy,full_yonsei_noise,full_yonsei_noise,,AerSimulator,4,9,4096,1.328521471414832,0.2380030465241224,0.1663021643347987,307,525,78.0,Calibrated Aer
+yonsei_calibrated_aer_proxy,full_yonsei_noise,full_yonsei_noise,,AerSimulator,5,5,4096,1.4124531537071163,0.2587462376900185,0.2022576150987903,360,715,112.0,Calibrated Aer
+yonsei_calibrated_aer_proxy,full_yonsei_noise,full_yonsei_noise,,AerSimulator,6,2,4096,1.5871158142615274,0.2785308058678688,0.2408939939828825,477,1030,164.0,Calibrated Aer
+statevector_exact_expectation,ideal_exact,ideal_exact,,AerSimulator,2,0,0,0.8548039664413905,4.368381308766933e-08,4.475341643149508e-15,21,37,3.0,Statevector floor
+statevector_exact_expectation,ideal_exact,ideal_exact,,AerSimulator,3,9,0,0.0022724152770052,1.4906539846579192e-07,5.402933929959518e-14,240,393,57.0,Statevector floor
+statevector_exact_expectation,ideal_exact,ideal_exact,,AerSimulator,4,9,0,0.0060107872239072,1.736502841965127e-07,1.1101627971415355e-13,307,525,78.0,Statevector floor
+statevector_exact_expectation,ideal_exact,ideal_exact,,AerSimulator,5,5,0,0.0002772490460003,3.122599486013065e-07,3.043038998548893e-13,360,715,112.0,Statevector floor
+statevector_exact_expectation,ideal_exact,ideal_exact,,AerSimulator,6,2,0,0.000136811018442,4.1227093921134233e-07,7.357936795787465e-13,477,1030,164.0,Statevector floor
+ibm_yonsei_real_backend_raw,raw_real_backend,raw_real_backend,d900llg6c68s73ahft4g,ibm_yonsei,2,0,4096,0.9726821190693996,0.0525220429863173,0.0088191693792451,21,37,,IBM Yonsei raw
+ibm_yonsei_real_backend_raw,raw_real_backend,raw_real_backend,d900llg6c68s73ahft4g,ibm_yonsei,3,9,4096,0.8024409838905102,0.1722713834379658,0.1171642567047556,237,394,,IBM Yonsei raw
+ibm_yonsei_real_backend_raw,raw_real_backend,raw_real_backend,d900llg6c68s73ahft4g,ibm_yonsei,4,9,4096,1.797690125068855,0.3292630729965993,0.3123340568290373,308,521,,IBM Yonsei raw
+ibm_yonsei_real_backend_raw,raw_real_backend,raw_real_backend,d900o3propqc738d5cj0,ibm_yonsei,5,5,4096,1.6351203676168398,0.3164111172895387,0.2705144728429144,359,766,,IBM Yonsei raw
+ibm_yonsei_real_backend_raw,raw_real_backend,raw_real_backend,d900vq8pknjs73a1ppv0,ibm_yonsei,6,2,4096,1.826970891990027,0.336947027985757,0.3298332686127009,495,1031,,IBM Yonsei raw
+ibm_yonsei_real_backend_dd_twirling_readout_postprocessed,runtime_mitigated_counts_readout_postprocessed,runtime_mitigated_counts_readout_postprocessed,d90csl6mvj5c73ej20hg,ibm_yonsei,5,5,4096,1.4207922465190892,0.2472363617158425,0.190241881924166,326,738,,Yonsei mitigated
+ibm_yonsei_real_backend_dd_twirling_readout_postprocessed,runtime_mitigated_counts_readout_postprocessed,runtime_mitigated_counts_readout_postprocessed,d90csl6mvj5c73ej20hg,ibm_yonsei,6,2,4096,1.6272027627339003,0.3085021234815025,0.270376061806708,428,924,,Yonsei mitigated
+shot_only_zero_noise_aer,shot_only,shot_only,,AerSimulator,2,0,4096,0.8880798866466373,0.0056085185935125,9.779497635746531e-05,21,37,3.0,Shot-only Aer
+shot_only_zero_noise_aer,shot_only,shot_only,,AerSimulator,3,9,4096,0.0278589512521891,0.0077487606433145,0.0003118168225661,240,393,57.0,Shot-only Aer
+shot_only_zero_noise_aer,shot_only,shot_only,,AerSimulator,4,9,4096,0.1318637012902508,0.020213444694897,0.0016227748821686,307,525,78.0,Shot-only Aer
+shot_only_zero_noise_aer,shot_only,shot_only,,AerSimulator,5,5,4096,0.1151098824207519,0.0360758372209273,0.0047697893210935,360,715,112.0,Shot-only Aer
+shot_only_zero_noise_aer,shot_only,shot_only,,AerSimulator,6,2,4096,0.007981490236621,0.0387859298086382,0.0065094978538771,477,1030,164.0,Shot-only Aer

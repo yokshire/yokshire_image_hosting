@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-06-30T06:55:40.861839+00:00",
+  "title": "Compact IBM Yonsei feasibility check",
+  "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
+  "input_data_paths": [
+    "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+    "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission_results.csv",
+    "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_decomposition_20260628T051052Z.csv",
+    "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs/20260627T173934Z_ibm_yonsei_hn_chebyshev_stateprep_submission.json",
+    "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs/20260627T174447Z_ibm_yonsei_hn_chebyshev_stateprep_submission.json",
+    "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs/20260627T180114Z_ibm_yonsei_hn_chebyshev_stateprep_submission.json",
+    "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission.json"
+  ],
+  "parameters": {
+    "backend": "ibm_yonsei",
+    "state_preparation": "HN-MLP Chebyshev reps=8",
+    "shots": 4096,
+    "n_values": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "panel_a_series": [
+      "statevector exact expectation floor",
+      "shot-only / zero-noise finite-shot Aer baseline",
+      "Yonsei-calibrated Aer proxy",
+      "IBM Yonsei real-backend raw",
+      "IBM Yonsei real-backend DD/twirling plus readout postprocess"
+    ],
+    "panel_b_metric": "TVD to target distribution",
+    "panel_c_metrics": [
+      "transpiled depth",
+      "ECR count"
+    ],
+    "calibrated_aer_note": "Noise is reconstructed as a Yonsei-calibrated Aer proxy; no single native Aer NoiseModel scale knob is implied."
+  },
+  "outputs": {
+    "png": "final_figure/method_support/fig_4_6g_yonsei_compact_backend_feasibility_v2.png",
+    "svg": "final_figure/method_support/fig_4_6g_yonsei_compact_backend_feasibility_v2.svg",
+    "panel_data": "final_figure/method_support/fig_4_6g_yonsei_compact_backend_feasibility_v2_panel_data.csv",
+    "manifest": "final_figure/method_support/fig_4_6g_yonsei_compact_backend_feasibility_v2_manifest.json"
+  },
+  "interpretation_limit": "This compact figure supports feasibility diagnostics only. It does not replace the state-preparation validity figures or downstream reconstruction figures."
+}
