@@ -1,7 +1,7 @@
 # Notion GitHub Hosted Figures
 
 These SVG files wrap the original local raster figures as UTF-8 text so they can be uploaded through the GitHub connector and served through raw.githubusercontent.com.
-The currently rendered state-preparation diagnostic uses direct PNG assets for Figure 6-b, Figure 7, and Figure 8. Older qGAN-only, HN-only, and joint-distribution diagnostic panels are kept only as legacy support assets.
+The currently rendered state-preparation diagnostic uses direct PNG assets for Figure 6-b, Figure 8, and Figure 9. Older qGAN-only, HN-only, and joint-distribution diagnostic panels are kept only as legacy support assets.
 
 | slug | source | status | upload path |
 | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ The currently rendered state-preparation diagnostic uses direct PNG assets for F
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence` | Matched 5-qubit first-order reps=8 qGAN/HN-MLP distributions coarse-grained by data-qubit resolution | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2` | Figure 9 two-panel qGAN/HN-MLP data-qubit convergence with target-midpoint baseline and ten-seed min-max error ranges | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3` | Figure 9 draft qGAN/HN-MLP data-qubit convergence using the superseded target-midpoint baseline | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3.png` |
-| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4` | Current Figure 9 original two-panel qGAN/HN-MLP data-qubit convergence with the checked continuous integral reference `I_ref=0.289768` and recomputed error panel | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4.png` |
+| `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4` | Superseded original two-panel qGAN/HN-MLP data-qubit convergence with the checked continuous integral reference `I_ref=0.289768` and recomputed error panel | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v4.png` |
 | `fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1` | Figure 9 n=2..8 qGAN/HN-MLP qubit scaling under common RY/RZ circular-CX ansatz | OK | `figures/fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1.png` |
 | `fig_3_9_basis_expansion_fft_chebyshev_k18_v1` | Section 3.4 basis-only Figure 9 replacement; compares Fourier/FFT and Chebyshev integrand representations at matched displayed truncation order K=18, with estimator convergence removed from this figure | OK | `figures/fig_3_9_basis_expansion_fft_chebyshev_k18_v1.png` |
 | `fig_3_9_qae_fft_data_qubit_convergence_v1` | Temporary QAE-cell-derived diagnostic; not used as the current Notion Figure 9 | superseded | `figures/fig_3_9_qae_fft_data_qubit_convergence_v1.png` |
@@ -39,10 +39,10 @@ The currently rendered state-preparation diagnostic uses direct PNG assets for F
 | `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | superseded | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |
 | `fig_3_6_hea_ryrz_circular_reps2_ansatz` | `final_figure/method_circuits/hea_ryrz_circular_reps2_ansatz.png` | legacy | `notion_github_hosted_figures/fig_3_6_hea_ryrz_circular_reps2_ansatz.svg` |
 | `fig_3_10_qae_qmci_mode_estimator_block` | `final_figure/method_circuits/qae_qmci_mode_estimator_block.png` | superseded | `notion_github_hosted_figures/fig_3_10_qae_qmci_mode_estimator_block.svg` |
-| `fig_3_10_qae_qmci_mode_estimator_block_v2` | Manual three-panel QMCI/QAE schematic draft; superseded because Figure 8 must use Qiskit `mpl` circuit rendering | superseded | `figures/fig_3_10_qae_qmci_mode_estimator_block_v2.png` |
-| `fig_3_10_qae_qmci_mode_estimator_block_v3` | Qiskit `mpl` Figure 8 draft before removing the basis block and restoring iQFT as a compact block | superseded | `figures/fig_3_10_qae_qmci_mode_estimator_block_v3.png` |
-| `fig_3_10_qae_qmci_mode_estimator_block_v4` | Qiskit `mpl` Figure 8 draft with compact plain-text internal labels | superseded | `figures/fig_3_10_qae_qmci_mode_estimator_block_v4.png` |
-| `fig_3_10_qae_qmci_mode_estimator_block_v5` | Current Figure 8 Qiskit `mpl` rendering with mathtext labels for $R_y(g_k)$, $S_\chi$, $A^\dagger$, $S_0$, controlled $Q^k$, $\chi=1$, and iQFT | OK | `figures/fig_3_10_qae_qmci_mode_estimator_block_v5.png` |
+| `fig_3_10_qae_qmci_mode_estimator_block_v2` | Manual three-panel QMCI/QAE schematic draft; superseded because Figure 7 must use Qiskit `mpl` circuit rendering | superseded | `figures/fig_3_10_qae_qmci_mode_estimator_block_v2.png` |
+| `fig_3_10_qae_qmci_mode_estimator_block_v3` | Qiskit `mpl` Figure 7 draft before removing the basis block and restoring iQFT as a compact block | superseded | `figures/fig_3_10_qae_qmci_mode_estimator_block_v3.png` |
+| `fig_3_10_qae_qmci_mode_estimator_block_v4` | Qiskit `mpl` Figure 7 draft with compact plain-text internal labels | superseded | `figures/fig_3_10_qae_qmci_mode_estimator_block_v4.png` |
+| `fig_3_10_qae_qmci_mode_estimator_block_v5` | Current Figure 7 Qiskit `mpl` rendering with mathtext labels for $R_y(g_k)$, $S_\chi$, $A^\dagger$, $S_0$, controlled $Q^k$, $\chi=1$, and iQFT | OK | `figures/fig_3_10_qae_qmci_mode_estimator_block_v5.png` |
 | `fig_3_11_qae_qmci_mode_estimator_decomposed` | Current Figure 10 QAE/QMCI mode-estimator gate-level decomposition | OK | `notion_github_hosted_figures/fig_3_11_qae_qmci_mode_estimator_decomposed.svg` |
 | `fig_3_12_fft_reconstruction_Gu` | Current Figure 11-a FFT reconstruction context for the first-order QMCI workflow | OK | `notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.svg` |
 | `fig_3_12_qae_vs_nonqae_std_loglog` | Current Figure 11-b QAE versus non-QAE estimator scaling context | OK | `notion_github_hosted_figures/fig_3_12_qae_vs_nonqae_std_loglog.svg` |

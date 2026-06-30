@@ -971,8 +971,8 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_distributions.csv",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_summary.csv"
       ],
-      "comparison_protocol": "Current Figure 5 q-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 5. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
+      "comparison_protocol": "Current Figure 8 q-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Current manuscript Figure 8. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1",
@@ -1043,8 +1043,8 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_distributions.csv",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_theta_reps8_summary.csv"
       ],
-      "comparison_protocol": "Current Figure 6 theta-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 6. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
+      "comparison_protocol": "Current Figure 9 theta-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Current manuscript Figure 9. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
     },
     {
       "id": "fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1",
