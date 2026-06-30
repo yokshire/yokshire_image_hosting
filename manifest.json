@@ -1178,6 +1178,23 @@
       "note": "Use this asset for the Kim Chaemin comment about quadrature/state-encoding qubit scaling. The result should be interpreted as state-preparation discretization and loading quality, not QAE estimator precision."
     },
     {
+      "id": "fig_3_9_basis_expansion_fft_chebyshev_k18_v1",
+      "github_path": "figures/fig_3_9_basis_expansion_fft_chebyshev_k18_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_9_basis_expansion_fft_chebyshev_k18_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_9_basis_expansion_fft_chebyshev_k18_v1.png",
+      "sha256": "90101c3bd914c6c5d764fe9d5ed8b597ef86e55749aa82b51e57dd694ba6efd2",
+      "bytes": 184197,
+      "synced_at": "2026-06-30T17:01:24+09:00",
+      "status": "active",
+      "origin": "section3_basis_expansion_composite",
+      "source_data": [
+        "notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.png",
+        "notion_github_hosted_figures/fig_3_12_chebyshev_reconstruction_Gq.png"
+      ],
+      "comparison_protocol": "Section 3.4 basis-only Figure 9 replacement. The figure compares Fourier/FFT and Chebyshev representations of the transformed first-order integrand at matched displayed truncation order K=18.",
+      "note": "Estimator-level QAE/non-QAE convergence is intentionally removed from this figure and should be handled with the Section 4.9/Figure 14 estimator-level RMSE diagnostic."
+    },
+    {
       "id": "fig_4_7_qae_iqae_yonsei_aer_qmci_v1",
       "github_path": "figures/fig_4_7_qae_iqae_yonsei_aer_qmci_v1.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_qae_iqae_yonsei_aer_qmci_v1.png",
