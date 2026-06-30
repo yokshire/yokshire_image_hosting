@@ -444,7 +444,7 @@
         "experiments/matched_stateprep_reps/render_figure_2c_ansatz.py",
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/combined/fig_3_2c_matched_stateprep_ansatz_unit.png"
       ],
-      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 4-a matched 5-qubit first-order state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 4-a repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
+      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the former matched 5-qubit first-order state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); the reps sweep repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
       "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit.png",
@@ -461,7 +461,7 @@
         "experiments/matched_stateprep_reps/render_figure_2c_ansatz.py",
         "experiments/matched_stateprep_reps/final_qgan_ansatz_runs/combined/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png"
       ],
-      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the Figure 4-a matched 5-qubit first-order state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); Figure 4-a repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
+      "comparison_protocol": "Qiskit mpl rendering of the reps=1 unit ansatz used in the former matched 5-qubit first-order state-preparation experiment. Both qGAN and HN-MLP use H + TwoLocal(rx, rz, ry; full CZ); the reps sweep repeats this unit for reps 1, 2, 4, and 8 while changing the parameter source.",
       "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png",
@@ -828,8 +828,8 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_aggregate.csv",
         "experiments/matched_stateprep_reps/ansatz_readjustment_source_conditions.md"
       ],
-      "comparison_protocol": "Figure 4-a ansatz-only replacement for the matched 5-qubit first-order cos(q) reps sweep. qGAN and HN-MLP keep the same seeds, reps 1/2/4/8, 6000 iterations, and target distribution; only the state-preparation circuit family is replaced with H + TwoLocal(ry, rz; circular CX).",
-      "note": "Superseded filename alias. The active Notion asset is fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2, which is the same rendered image under the manuscript-visible whisker naming."
+      "comparison_protocol": "Superseded ansatz-only replacement for the matched 5-qubit first-order cos(q) reps sweep. qGAN and HN-MLP keep the same seeds, reps 1/2/4/8, 6000 iterations, and target distribution; only the state-preparation circuit family is replaced with H + TwoLocal(ry, rz; circular CX).",
+      "note": "Superseded filename alias in the removed old Figure 4-a/reps-sweep lineage."
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v2",
@@ -847,12 +847,12 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_aggregate.csv",
         "experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py"
       ],
-      "comparison_protocol": "Current Notion Figure 4-a. Matched 5-qubit first-order cos(q) reps sweep for qGAN and HN-MLP under H + TwoLocal(ry, rz; circular CX), ten seeds, reps 1..8, 6000 training iterations, and min-max seed whiskers.",
-      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3 after removing the redundant bottom condition label; caption carries target and protocol details."
+      "comparison_protocol": "Superseded Figure 13 lineage asset. Matched 5-qubit first-order cos(q) reps sweep for qGAN and HN-MLP under H + TwoLocal(ry, rz; circular CX), ten seeds, reps 1..8, 6000 training iterations, and min-max seed whiskers.",
+      "note": "Superseded by fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3 during the old Figure 4-a/reps-sweep lineage; the lineage is no longer in the current manuscript sequence."
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3",
-      "status": "active",
+      "status": "removed",
       "origin": "figure4a_bottom_label_removal_regeneration",
       "source_data": [
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_aggregate.csv",
@@ -865,8 +865,8 @@
       "sha256": "b995a6ca0c785672fa61df0b3617a4a681ba175da389d335fdf0a6bbff80762b",
       "bytes": 67545,
       "synced_at": "2026-06-29T21:13:58+09:00",
-      "comparison_protocol": "Current Figure 13 state-preparation reps diagnostic. The plotted ten-seed median/min-max KL curves, axes, legend, qGAN/HN-MLP methods, reps 1..8, 6000 iterations, and H + TwoLocal(ry, rz; circular CX) ansatz are unchanged from v2; only the redundant bottom condition label was removed.",
-      "note": "Current manuscript Figure 13 without the bottom condition label. Caption carries the target, ansatz, iteration, and seed details."
+      "comparison_protocol": "Removed old Figure 4-a/reps-sweep diagnostic. The plotted ten-seed median/min-max KL curves, axes, legend, qGAN/HN-MLP methods, reps 1..8, 6000 iterations, and H + TwoLocal(ry, rz; circular CX) ansatz are retained only for provenance.",
+      "note": "Removed from the current manuscript sequence because it duplicated the later state-preparation diagnostics."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1",
@@ -971,8 +971,8 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_distributions.csv",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_summary.csv"
       ],
-      "comparison_protocol": "Current Figure 14 q-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 14. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
+      "comparison_protocol": "Current Figure 13 q-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Current manuscript Figure 13. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1",
@@ -1043,8 +1043,8 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_distributions.csv",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_theta_reps8_summary.csv"
       ],
-      "comparison_protocol": "Current Figure 15 theta-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 15. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
+      "comparison_protocol": "Current Figure 14 theta-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Current manuscript Figure 14. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
     },
     {
       "id": "fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1",
@@ -1119,7 +1119,7 @@
         "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs/20260627T180114Z_ibm_yonsei_hn_chebyshev_stateprep_submission.json"
       ],
       "comparison_protocol": "Auxiliary IBM Yonsei state-preparation validation for HN-MLP Chebyshev reps=8 using the same H + TwoLocal(ry, rz; circular CX) ansatz as the manuscript state-preparation figures.",
-      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 18."
+      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 16."
     },
     {
       "id": "fig_4_6d_yonsei_noise_correction_recovery_v1",
@@ -1136,7 +1136,7 @@
         "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_correction_sweep_20260628T061432Z_summary.csv"
       ],
       "comparison_protocol": "Auxiliary Yonsei-calibrated Aer noise-correction sweep separating algorithmic state-preparation floor from calibrated hardware-noise floor.",
-      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 18."
+      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 16."
     },
     {
       "id": "fig_4_6e_yonsei_aer_mitigation_probe_v1",
@@ -1154,7 +1154,7 @@
         "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_mitigation_probe_20260628T071922Z_summary.csv"
       ],
       "comparison_protocol": "Auxiliary Aer mitigation probe comparing readout mitigation, layout seed selection, ZNE proxy, and dynamical-decoupling sanity checks for the Yonsei-calibrated circuit.",
-      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 18."
+      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 16."
     },
     {
       "id": "fig_4_6f_yonsei_real_backend_mitigation_result_v1",
@@ -1172,7 +1172,7 @@
         ".image_hosting_repo/figures/yonsei_real_backend_mitigation_comparison_20260628.csv"
       ],
       "comparison_protocol": "Auxiliary real IBM Yonsei mitigation result using Runtime DD/twirling, layout-aware routing, and readout postprocessing for n=5,6 HN-MLP Chebyshev reps=8 circuits.",
-      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 18. Mitigated job id d90csl6mvj5c73ej20hg."
+      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 16. Mitigated job id d90csl6mvj5c73ej20hg."
     },
     {
       "id": "fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3",
@@ -1191,7 +1191,7 @@
         "experiments/stateprep_qubit_scaling_figure9/results_iter10000_v2/figure9_integral_summary.csv",
         "final_figure/method_support/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3_panel_data.csv"
       ],
-      "comparison_protocol": "Current Figure 16 focused main-channel/state-preparation qubit diagnostic. The x-axis n defines 2^n angular bins in the prepared first-order theta-space target; it is not a QAE phase/evaluation-register sweep. Curves compare exact discrete target, HN-MLP, and qGAN first-order integral estimates against the analytic reference with ten-seed min-max ranges for learned loading.",
+      "comparison_protocol": "Current Figure 15 focused main-channel/state-preparation qubit diagnostic. The x-axis n defines 2^n angular bins in the prepared first-order theta-space target; it is not a QAE phase/evaluation-register sweep. Curves compare exact discrete target, HN-MLP, and qGAN first-order integral estimates against the analytic reference with ten-seed min-max ranges for learned loading.",
       "note": "Use this asset for the Kim Chaemin comment about quadrature/state-encoding qubit scaling. The result should be interpreted as state-preparation discretization and loading quality, not QAE estimator precision."
     },
     {
@@ -1209,7 +1209,7 @@
         "notion_github_hosted_figures/fig_3_12_chebyshev_reconstruction_Gq.png"
       ],
       "comparison_protocol": "Superseded composite Section 3.4 basis-only representation. The current manuscript uses separate Figure 8-a and Figure 8-b panels instead of this composite.",
-      "note": "The former estimator-level QAE/non-QAE standalone plot was removed from the manuscript body; the HN-MLP Chebyshev estimator comparison is carried by current Figure 18."
+      "note": "The former estimator-level QAE/non-QAE standalone plot was removed from the manuscript body; the HN-MLP Chebyshev estimator comparison is carried by current Figure 17."
     },
     {
       "id": "fig_3_12_fft_reconstruction_Gu",
@@ -1258,7 +1258,7 @@
         "final_figure/refer_pre_paper/qae_fft_1d_context/qae_vs_nonqae_std_loglog.png"
       ],
       "comparison_protocol": "Removed estimator-level QAE versus non-QAE convergence scaling context. The manuscript now uses the matched HN-MLP Chebyshev RMSE diagnostic instead.",
-      "note": "Removed from the manuscript body because the actual HN-MLP Chebyshev estimator comparison is carried by current Figure 18."
+      "note": "Removed from the manuscript body because the actual HN-MLP Chebyshev estimator comparison is carried by current Figure 17."
     },
     {
       "id": "fig_4_7_qae_iqae_yonsei_aer_qmci_v1",
@@ -1732,7 +1732,7 @@
       "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_curves.csv",
       "source_manifest": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_manifest.json",
       "synced_at": "2026-06-30T19:48:00+09:00",
-      "note": "Current Figure 18 diagnostic on a common matched sample/oracle-call budget grid from 1024 to 65536 using the HN-MLP 5-qubit first-order Chebyshev target. Slopes are -0.49 for direct shot amplitude, -1.07 for QPE-QAE+MLE, and -1.07 for IQAE. The visible Chebyshev mode label uses mode l = 1. q50 appears only in provenance as an internal compatibility tag; manuscript-visible labels use 5-qubit.",
+      "note": "Current Figure 17 diagnostic on a common matched sample/oracle-call budget grid from 1024 to 65536 using the HN-MLP 5-qubit first-order Chebyshev target. Slopes are -0.49 for direct shot amplitude, -1.07 for QPE-QAE+MLE, and -1.07 for IQAE. The visible Chebyshev mode label uses mode l = 1. q50 appears only in provenance as an internal compatibility tag; manuscript-visible labels use 5-qubit.",
       "github_path": "figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png",
@@ -1747,7 +1747,7 @@
       "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_curves.csv",
       "source_manifest": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_manifest.json",
       "synced_at": "2026-06-30T19:48:00+09:00",
-      "note": "Current Figure 18 diagnostic on a common matched sample/oracle-call budget grid from 1024 to 65536 using the HN-MLP 5-qubit first-order Chebyshev target. Slopes are -0.49 for direct shot amplitude, -1.07 for QPE-QAE+MLE, and -1.07 for IQAE. The visible Chebyshev mode label uses mode l = 1. q50 appears only in provenance as an internal compatibility tag; manuscript-visible labels use 5-qubit.",
+      "note": "Current Figure 17 diagnostic on a common matched sample/oracle-call budget grid from 1024 to 65536 using the HN-MLP 5-qubit first-order Chebyshev target. Slopes are -0.49 for direct shot amplitude, -1.07 for QPE-QAE+MLE, and -1.07 for IQAE. The visible Chebyshev mode label uses mode l = 1. q50 appears only in provenance as an internal compatibility tag; manuscript-visible labels use 5-qubit.",
       "github_path": "figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.svg",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.svg",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.svg",
