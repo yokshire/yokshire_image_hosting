@@ -1326,7 +1326,7 @@
     },
     {
       "id": "fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_png",
-      "status": "active",
+      "status": "superseded",
       "origin": "comment_requested_aer_rmse_regeneration",
       "source_script": "experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v2.py",
       "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_curves.csv",
@@ -1337,11 +1337,11 @@
       "sha256": "a92ef54728413846bfa338705a4ee4714109b9a3150fcc07a14dae2beaf15d51",
       "bytes": 224470,
       "synced_at": "2026-06-30T01:43:20+09:00",
-      "note": "Noiseless qiskit-aer RMSE-vs-effective-budget replacement for shot amplitude, QPE-QAE+MLE, and IQAE using the HN-MLP 5-qubit first-order Chebyshev target. q50 appears only in provenance as an internal compatibility tag."
+      "note": "Noiseless qiskit-aer RMSE-vs-effective-budget replacement for shot amplitude, QPE-QAE+MLE, and IQAE using the HN-MLP 5-qubit first-order Chebyshev target. q50 appears only in provenance as an internal compatibility tag. Superseded by v3 because the original IQAE epsilon/shot budget range did not expose the multi-round high-Grover-power regime; v3 restores the noiseless IQAE slope to about -0.81."
     },
     {
       "id": "fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_svg",
-      "status": "active",
+      "status": "superseded",
       "origin": "comment_requested_aer_rmse_regeneration",
       "source_script": "experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v2.py",
       "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v2_curves.csv",
@@ -1352,7 +1352,37 @@
       "sha256": "2e9a79907e719a5af81a5e5e4d39f22a73b2cf671c9c08e872c4e7471ebcf537",
       "bytes": 23284,
       "synced_at": "2026-06-30T01:43:20+09:00",
-      "note": "Noiseless qiskit-aer RMSE-vs-effective-budget replacement for shot amplitude, QPE-QAE+MLE, and IQAE using the HN-MLP 5-qubit first-order Chebyshev target. q50 appears only in provenance as an internal compatibility tag."
+      "note": "Noiseless qiskit-aer RMSE-vs-effective-budget replacement for shot amplitude, QPE-QAE+MLE, and IQAE using the HN-MLP 5-qubit first-order Chebyshev target. q50 appears only in provenance as an internal compatibility tag. Superseded by v3 because the original IQAE epsilon/shot budget range did not expose the multi-round high-Grover-power regime; v3 restores the noiseless IQAE slope to about -0.81."
+    },
+    {
+      "id": "fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3_png",
+      "status": "active",
+      "origin": "comment_requested_aer_rmse_regeneration_iqae_fixed",
+      "source_script": "experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v3.py",
+      "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3_curves.csv",
+      "source_manifest": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3_manifest.json",
+      "synced_at": "2026-06-30T17:31:40+09:00",
+      "note": "Noiseless qiskit-aer RMSE-vs-effective-budget replacement for shot amplitude, QPE-QAE+MLE, and IQAE using the HN-MLP 5-qubit first-order Chebyshev target. The v3 run uses real local qiskit-aer 0.17.2 / qiskit-algorithms 0.4.0 execution, extends IQAE to epsilon_target=0.005 with 512 shots per circuit, and records an IQAE slope of -0.805. q50 appears only in provenance as an internal compatibility tag.",
+      "github_path": "figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3.png",
+      "sha256": "fd45b129b92d936fed5edb43e03323dc7f54adaad872347a4969780bbfde2741",
+      "bytes": 239835
+    },
+    {
+      "id": "fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3_svg",
+      "status": "active",
+      "origin": "comment_requested_aer_rmse_regeneration_iqae_fixed",
+      "source_script": "experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v3.py",
+      "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3_curves.csv",
+      "source_manifest": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3_manifest.json",
+      "synced_at": "2026-06-30T17:31:40+09:00",
+      "note": "Noiseless qiskit-aer RMSE-vs-effective-budget replacement for shot amplitude, QPE-QAE+MLE, and IQAE using the HN-MLP 5-qubit first-order Chebyshev target. The v3 run uses real local qiskit-aer 0.17.2 / qiskit-algorithms 0.4.0 execution, extends IQAE to epsilon_target=0.005 with 512 shots per circuit, and records an IQAE slope of -0.805. q50 appears only in provenance as an internal compatibility tag.",
+      "github_path": "figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3.svg",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3.svg",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v3.svg",
+      "sha256": "55ffc92b1870391513b433099f04bb1669534c691feec44ec6bf8521caec942e",
+      "bytes": 25576
     },
     {
       "id": "fig_4_6g_yonsei_compact_backend_feasibility_v1_png",
