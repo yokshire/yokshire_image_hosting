@@ -13,29 +13,34 @@ Notion page:
 
 | Figure | Asset id | Hosted path | Local source or renderer |
 | --- | --- | --- | --- |
-| Figure X-1 | `cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev` | `figures/cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev_v1.png` | `final_figure/method_support/xcom_h2o_6mev/generate_xcom_h2o_interaction_coefficients.py` |
-| Figure 1 | `fig_3_1_scattering_path_Dl_notation` | `figures/fig_3_1_scattering_path_Dl_notation.jpg` | manual geometry notation render |
-| Figure 3 | `fig_3_3_second_collision_joint_probability_maps_title_only` | `figures/fig_3_3_second_collision_joint_probability_maps_title_only.png` | `experiments/render_figure_3_joint_probability_maps.py` |
-| Figure 4-a | `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3` | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
-| Figure 4-b | `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1` | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
-| Figure 5 | `fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | `figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
-| Figure 6 | `fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
-| Figure 9 | `fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3` | `figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3.png` | `experiments/stateprep_qubit_scaling_figure9/render_main_channel_integral_convergence.py` |
-| Figure 21 | `fig_4_6_method_selection_summary_v1` | `figures/fig_4_6_method_selection_summary_v1.png` | `experiments/section4_method_selection/render_method_selection_summary.py` |
-| Figure 22 | `fig_4_6b_yonsei_hn_chebyshev_real_backend_v1` | `figures/fig_4_6b_yonsei_hn_chebyshev_real_backend_v1.png` | `experiments/real_backend_yonsei/render_yonsei_backend_summary.py` |
-| Figure 23 | `fig_4_6d_yonsei_noise_correction_recovery_v1` | `figures/fig_4_6d_yonsei_noise_correction_recovery_v1.png` | `experiments/real_backend_yonsei/render_yonsei_noise_correction_recovery.py` |
-| Figure 24 | `fig_4_6e_yonsei_aer_mitigation_probe_v1` | `figures/fig_4_6e_yonsei_aer_mitigation_probe_v1.png` | `experiments/real_backend_yonsei/render_yonsei_mitigation_probe.py` |
-| Figure 25 | `fig_4_6f_yonsei_real_backend_mitigation_result_v1` | `figures/fig_4_6f_yonsei_real_backend_mitigation_result_v1.png` | `experiments/real_backend_yonsei/render_yonsei_real_mitigation_result.py` |
+| Figure 1 | `cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev` | `figures/cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev_v1.png` | `final_figure/method_support/xcom_h2o_6mev/generate_xcom_h2o_interaction_coefficients.py` |
+| Figure 2 | `fig_x2_qmci_workflow_intro_v1` | `figures/fig_x2_qmci_workflow_intro_v1.png` | workflow schematic SVG/PNG render |
+| Figure 3 | `fig_3_1_scattering_path_Dl_notation` | `figures/fig_3_1_scattering_path_Dl_notation.jpg` | manual geometry notation render |
+| Figure 4 | `fig_3_2_depth_dose_benchmark_exact_q5_highres_v3` | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v3.png` | `experiments/matched_stateprep_reps/render_figure_2ab_labels.py` |
+| Figure 5 | `fig_3_3_second_collision_joint_probability_maps_title_only` | `figures/fig_3_3_second_collision_joint_probability_maps_title_only.png` | `experiments/render_figure_3_joint_probability_maps.py` |
+| Figure 6-a | `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3` | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
+| Figure 6-b | `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1` | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
+| Figure 7 | `fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | `figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
+| Figure 8 | `fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
+| Figure 9 | `fig_3_10_qae_qmci_mode_estimator_block_v5` | `figures/fig_3_10_qae_qmci_mode_estimator_block_v5.png` | Qiskit `mpl` circuit rendering |
+| Figure 10 | `fig_3_9_basis_expansion_fft_chebyshev_k18_v1` | `figures/fig_3_9_basis_expansion_fft_chebyshev_k18_v1.png` | basis expansion renderer |
+| Figure 11 | `fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2` | `figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png` | `experiments/stateprep_qmci_seed10/render_figures_12_13_stateprep_qmci.py` |
+| Figure 12 | `fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2` | `figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2.png` | `experiments/stateprep_qmci_seed10/render_figure_13_q55_dose_profile.py` |
+| Figure 13 | `fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3` | `figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3.png` | `experiments/geant4_depthdose_fig14/run_geant4_first_compton_depthdose.py` |
+| Figure 14 | `fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2` | `figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png` | `experiments/geant4_depthdose_fig14/run_geant4_second_compton_fixed_lambda_depthdose.py` |
+| Figure 15 | `fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3` | `figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3.png` | `experiments/stateprep_qubit_scaling_figure9/render_main_channel_integral_convergence.py` |
+| Figure 16 | `fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5` | `figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png` | `experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v5.py` |
+| Figure 17 | `fig_4_6g_yonsei_compact_backend_feasibility_v2` | `figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.png` | `experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py` |
 
-Figure 4-a through Figure 6 use the manuscript-current state-preparation ansatz:
+Figure 6-a through Figure 8 use the manuscript-current state-preparation ansatz:
 
 - initialization: Hadamard
 - ansatz: `TwoLocal(ry, rz)`
 - entanglement: circular `cx`
 - seeds: `0..9`
-- Figure 5 and Figure 6 learning traces are rendered only through iteration 3000.
+- Figure 7 and Figure 8 learning traces are rendered only through iteration 3000.
 
-Figure 22 through Figure 25 must remain consistent with the same H + TwoLocal(ry, rz; circular CX), reps=8 HN-MLP Chebyshev state-preparation circuit. Raw Yonsei validation uses 4096 shots and jobs `d900llg6c68s73ahft4g`, `d900o3propqc738d5cj0`, `d900vq8pknjs73a1ppv0`; the real mitigated run uses job `d90csl6mvj5c73ej20hg`.
+Figure 17 must remain consistent with the same H + TwoLocal(ry, rz; circular CX), reps=8 HN-MLP Chebyshev state-preparation circuit. Raw Yonsei validation uses 4096 shots and jobs `d900llg6c68s73ahft4g`, `d900o3propqc738d5cj0`, `d900vq8pknjs73a1ppv0`; the real mitigated run uses job `d90csl6mvj5c73ej20hg`.
 
 ## Do Not Use
 
@@ -49,11 +54,12 @@ Figure 22 through Figure 25 must remain consistent with the same H + TwoLocal(ry
 
 ## Reconciliation Notes
 
-- Figure 2 is currently fetched from Notion as `fig_3_2_depth_dose_benchmark_exact_q5_highres.png`, while `manifest.json` marks `fig_3_2_depth_dose_benchmark_exact_q5_highres_v2.png` as the active replacement. Resolve this deliberately before treating Figure 2 as provenance-clean.
+- Figure captions in the active Notion page were renumbered on 2026-06-30 so the manuscript-visible sequence runs Figure 1 through Figure 17 without duplicate Figure 14/18/21 references.
+- `q50` and `q55` remain internal filename/source-path tags only. Manuscript-visible text uses 5-qubit and 5+5 qubits.
 
 ## Update Rules
 
-1. Regenerate current Figure 4-a through Figure 6 with:
+1. Regenerate current Figure 6-a through Figure 8 with:
 
    ```powershell
    python experiments\matched_stateprep_reps\render_mainstream_ansatz_figures.py
