@@ -1,7 +1,7 @@
 # Notion GitHub Hosted Figures
 
 These SVG files wrap the original local raster figures as UTF-8 text so they can be uploaded through the GitHub connector and served through raw.githubusercontent.com.
-The currently rendered state-preparation circuit diagnostic uses direct PNG assets for Figure 6-a and Figure 6-b. Section 3.4 basis and estimator panels use Figure 8-a, Figure 8-b, and Figure 9. Older qGAN-only, HN-only, and joint-distribution diagnostic panels are kept only as legacy support assets.
+The currently rendered state-preparation diagnostics use direct PNG assets for Figure 6, Figure 14, and Figure 15. Section 3.4 basis and estimator panels use Figure 8-a, Figure 8-b, and Figure 9. Older qGAN-only, HN-only, and joint-distribution diagnostic panels are kept only as legacy support assets.
 
 | slug | source | status | upload path |
 | --- | --- | --- | --- |
@@ -15,11 +15,11 @@ The currently rendered state-preparation circuit diagnostic uses direct PNG asse
 | `fig_3_2b_stateprep_matched_reps_q5_label_v2` | Figure 4-a cache-busting asset with label box below the plot area | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_label_v2.png` |
 | `fig_3_2b_stateprep_matched_reps_q5_seed10` | Figure 4-a seed10 matched 5-qubit first-order reps diagnostic with lower method label and reduced full-width info label | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10.png` |
 | `fig_3_2b_stateprep_matched_reps_q5_seed10_v2` | Figure 4-a seed10 matched 5-qubit first-order reps diagnostic with a two-line full-width info label | superseded | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_v2.png` |
-| `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3` | Current Figure 4-a same-condition ansatz-only replacement without bottom condition label | OK | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png` |
+| `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3` | Current Figure 14 same-condition state-preparation reps diagnostic without bottom condition label | OK | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit` | Figure 4-b Qiskit `mpl` rendering of the common H + TwoLocal reps-unit ansatz | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit_upright_v3` | Figure 4-b cache-busting Qiskit `mpl` rendering with no old in-image title/subtitle | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1` | Superseded Figure 6-b Qiskit `mpl` rendering with old nested internal labels | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png` |
-| `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2` | Figure 6-b Qiskit `mpl` rendering of H + TwoLocal(ry, rz; circular CX) ansatz unit with single-figure (a)/(b) internal labels | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png` |
+| `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2` | Current Figure 6 Qiskit `mpl` rendering of H + TwoLocal(ry, rz; circular CX) ansatz unit with single-figure (a)/(b) internal labels | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence` | Matched 5-qubit first-order reps=8 qGAN/HN-MLP distributions coarse-grained by data-qubit resolution | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2` | Figure 9 two-panel qGAN/HN-MLP data-qubit convergence with target-midpoint baseline and ten-seed min-max error ranges | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3` | Figure 9 draft qGAN/HN-MLP data-qubit convergence using the superseded target-midpoint baseline | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3.png` |
@@ -29,7 +29,8 @@ The currently rendered state-preparation circuit diagnostic uses direct PNG asse
 | `fig_3_9_qae_fft_data_qubit_convergence_v1` | Temporary QAE-cell-derived diagnostic; not used as the current Notion Figure 9 | superseded | `figures/fig_3_9_qae_fft_data_qubit_convergence_v1.png` |
 | `fig_3_5_matched_reps8_learning_histograms` | Figure 5 matched reps=8 qGAN/HN-MLP KL learning trace and target-distribution histogram diagnostic | superseded | `figures/fig_3_5_matched_reps8_learning_histograms.png` |
 | `fig_3_5_matched_reps8_learning_histograms_seed10` | Figure 5 seed10 matched reps=8 qGAN/HN-MLP learning and histogram diagnostic with selected seed bars plus 10-seed range | superseded | `figures/fig_3_5_matched_reps8_learning_histograms_seed10.png` |
-| `fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1` | Figure 5 same-condition q-space reps=8 ansatz-only replacement using H + TwoLocal(ry, rz; circular CX) | OK | `figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png` |
+| `fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1` | Superseded q-space reps=8 ansatz-only replacement using H + TwoLocal(ry, rz; circular CX) | superseded | `figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png` |
+| `fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | Current Figure 15 q-space reps=8 state-preparation diagnostic for the 5-qubit first-order target with HN-MLP panel reporting KL < 10^-4 | OK | `figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` |
 | `fig_3_6_theta_matched_reps8_learning_histograms` | Figure 6 matched reps=8 qGAN/HN-MLP KL learning trace and theta-target histogram diagnostic for Chebyshev loading | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms.png` |
 | `fig_3_6_theta_matched_reps8_learning_histograms_legend_v2` | Figure 6 cache-busting asset with lower-panel labels moved out of the histogram plots | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png` |
 | `fig_3_6_theta_matched_reps8_learning_histograms_seed10` | Figure 6 seed10 theta-space matched reps=8 diagnostic with selected seed bars plus 10-seed range | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png` |

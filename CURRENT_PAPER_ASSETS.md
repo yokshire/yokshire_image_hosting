@@ -18,8 +18,7 @@ Notion page:
 | Figure 3 | `fig_3_1_scattering_path_Dl_notation` | `figures/fig_3_1_scattering_path_Dl_notation.jpg` | manual geometry notation render |
 | Figure 4 | `fig_3_2_depth_dose_benchmark_exact_q5_highres_v3` | `figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v3.png` | `experiments/matched_stateprep_reps/render_figure_2ab_labels.py` |
 | Figure 5 | `fig_3_3_second_collision_joint_probability_maps_title_only` | `figures/fig_3_3_second_collision_joint_probability_maps_title_only.png` | `experiments/render_figure_3_joint_probability_maps.py` |
-| Figure 6-a | `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3` | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
-| Figure 6-b | `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2` | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
+| Figure 6 | `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2` | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
 | Figure 7 | `fig_3_10_qae_qmci_mode_estimator_block_v5` | `figures/fig_3_10_qae_qmci_mode_estimator_block_v5.png` | Qiskit `mpl` circuit rendering |
 | Figure 8-a | `fig_3_12_fft_reconstruction_Gu` | `figures/fig_3_12_fft_reconstruction_Gu.png` | `final_figure/refer_pre_paper/qae_fft_1d_context/fft_reconstruction_Gu.png` |
 | Figure 8-b | `fig_3_12_chebyshev_reconstruction_Gq` | `figures/fig_3_12_chebyshev_reconstruction_Gq.png` | `notion_github_hosted_figures/fig_3_12_chebyshev_reconstruction_Gq.png` |
@@ -28,18 +27,20 @@ Notion page:
 | Figure 11 | `fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2` | `figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png` | `experiments/geant4_depthdose_fig14/run_geant4_second_compton_fixed_lambda_depthdose.py` |
 | Figure 12 | `fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2` | `figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png` | `experiments/stateprep_qmci_seed10/render_figures_12_13_stateprep_qmci.py` |
 | Figure 13 | `fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2` | `figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2.png` | `experiments/stateprep_qmci_seed10/render_figure_13_q55_dose_profile.py` |
-| Figure 15 | `fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3` | `figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3.png` | `experiments/stateprep_qubit_scaling_figure9/render_main_channel_integral_convergence.py` |
-| Figure 16 | `fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5` | `figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png` | `experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v5.py` |
-| Figure 17 | `fig_4_6g_yonsei_compact_backend_feasibility_v2` | `figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.png` | `experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py` |
+| Figure 14 | `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3` | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
+| Figure 15 | `fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | `figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
+| Figure 16 | `fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3` | `figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3.png` | `experiments/stateprep_qubit_scaling_figure9/render_main_channel_integral_convergence.py` |
+| Figure 17 | `fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5` | `figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png` | `experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v5.py` |
+| Figure 18 | `fig_4_6g_yonsei_compact_backend_feasibility_v2` | `figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.png` | `experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py` |
 
-Figure 6-a and Figure 6-b use the manuscript-current state-preparation ansatz:
+Figure 6, Figure 14, and Figure 15 use the manuscript-current state-preparation ansatz:
 
 - initialization: Hadamard
 - ansatz: `TwoLocal(ry, rz)`
 - entanglement: circular `cx`
 - seeds: `0..9`
 
-Figure 17 must remain consistent with the same H + TwoLocal(ry, rz; circular CX), reps=8 HN-MLP Chebyshev state-preparation circuit. Raw Yonsei validation uses 4096 shots and jobs `d900llg6c68s73ahft4g`, `d900o3propqc738d5cj0`, `d900vq8pknjs73a1ppv0`; the real mitigated run uses job `d90csl6mvj5c73ej20hg`.
+Figure 18 must remain consistent with the same H + TwoLocal(ry, rz; circular CX), reps=8 HN-MLP Chebyshev state-preparation circuit. Raw Yonsei validation uses 4096 shots and jobs `d900llg6c68s73ahft4g`, `d900o3propqc738d5cj0`, `d900vq8pknjs73a1ppv0`; the real mitigated run uses job `d90csl6mvj5c73ej20hg`.
 
 ## Do Not Use
 
@@ -53,12 +54,12 @@ Figure 17 must remain consistent with the same H + TwoLocal(ry, rz; circular CX)
 
 ## Reconciliation Notes
 
-- Figure captions in the active Notion page were renumbered on 2026-06-30 so the manuscript-visible sequence runs Figure 1 through Figure 17 without duplicate Figure 14/18/21 references.
+- Figure captions in the active Notion page were renumbered on 2026-06-30 so the manuscript-visible sequence runs Figure 1 through Figure 18 without duplicate Figure 14/18/21 references.
 - `q50` and `q55` remain internal filename/source-path tags only. Manuscript-visible text uses 5-qubit and 5+5 qubits.
 
 ## Update Rules
 
-1. Regenerate current Figure 6-a and Figure 6-b with:
+1. Regenerate current Figure 6, Figure 14, and Figure 15 with:
 
    ```powershell
    python experiments\matched_stateprep_reps\render_mainstream_ansatz_figures.py
