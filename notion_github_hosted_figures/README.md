@@ -1,7 +1,7 @@
 # Notion GitHub Hosted Figures
 
 These SVG files wrap the original local raster figures as UTF-8 text so they can be uploaded through the GitHub connector and served through raw.githubusercontent.com.
-The currently rendered state-preparation diagnostic uses direct PNG assets for Figure 4-a, Figure 4-b, and Figure 5. Older qGAN-only, HN-only, and joint-distribution diagnostic panels are kept only as legacy support assets.
+The currently rendered state-preparation diagnostic uses direct PNG assets for Figure 6-b, Figure 7, and Figure 8. Older qGAN-only, HN-only, and joint-distribution diagnostic panels are kept only as legacy support assets.
 
 | slug | source | status | upload path |
 | --- | --- | --- | --- |
@@ -18,7 +18,8 @@ The currently rendered state-preparation diagnostic uses direct PNG assets for F
 | `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3` | Current Figure 4-a same-condition ansatz-only replacement without bottom condition label | OK | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit` | Figure 4-b Qiskit `mpl` rendering of the common H + TwoLocal reps-unit ansatz | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit.png` |
 | `fig_3_2c_matched_stateprep_ansatz_unit_upright_v3` | Figure 4-b cache-busting Qiskit `mpl` rendering with no old in-image title/subtitle | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit_upright_v3.png` |
-| `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1` | Figure 4-b Qiskit `mpl` rendering of H + TwoLocal(ry, rz; circular CX) ansatz unit | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png` |
+| `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1` | Superseded Figure 6-b Qiskit `mpl` rendering with old nested internal labels | superseded | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png` |
+| `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2` | Figure 6-b Qiskit `mpl` rendering of H + TwoLocal(ry, rz; circular CX) ansatz unit with single-figure (a)/(b) internal labels | OK | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence` | Matched 5-qubit first-order reps=8 qGAN/HN-MLP distributions coarse-grained by data-qubit resolution | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2` | Figure 9 two-panel qGAN/HN-MLP data-qubit convergence with target-midpoint baseline and ten-seed min-max error ranges | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v2.png` |
 | `fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3` | Figure 9 draft qGAN/HN-MLP data-qubit convergence using the superseded target-midpoint baseline | superseded | `figures/fig_3_2d_qgan_hn_mlp_qubit_integral_convergence_v3.png` |

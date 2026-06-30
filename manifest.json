@@ -876,14 +876,31 @@
       "sha256": "94ce63784b78b97dfd9dc342d8406877439a80660f9f2b6b6dd72734edcdef20",
       "bytes": 148761,
       "synced_at": "2026-06-26T20:07:40+09:00",
-      "status": "active",
+      "status": "superseded",
       "origin": "qiskit_mpl_rendering",
       "source_data": [
         "experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1.png"
       ],
-      "comparison_protocol": "Figure 4-b Qiskit mpl rendering of the shared reps=1 ansatz unit. Both qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), with only the parameter source differing between direct qGAN optimization and HN-MLP generated parameters.",
-      "note": "Active Figure 4-b replacement: Qiskit mpl circuit for the new ansatz family."
+      "comparison_protocol": "Superseded Figure 6 ansatz-unit Qiskit mpl rendering of the shared reps=1 ansatz unit. Both qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), with only the parameter source differing between direct qGAN optimization and HN-MLP generated parameters.",
+      "note": "Superseded by v2 because the internal panel labels still used old nested notation after the manuscript figure sequence was renumbered."
+    },
+    {
+      "id": "fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2",
+      "github_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png",
+      "sha256": "92deae053353776ef11464958a0d61364ffaa73b2fc3e313909f6fb797e8da12",
+      "bytes": 148273,
+      "synced_at": "2026-06-30T20:25:08+09:00",
+      "status": "active",
+      "origin": "qiskit_mpl_rendering",
+      "source_data": [
+        "experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py",
+        "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png"
+      ],
+      "comparison_protocol": "Current Figure 6 ansatz-unit Qiskit mpl rendering of the shared reps=1 ansatz unit. Both qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), with only the parameter source differing between direct qGAN optimization and HN-MLP generated parameters.",
+      "note": "Replaces old nested internal labels with single-figure panel labels (a) qGAN and (b) HN-MLP."
     },
     {
       "id": "fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1",
