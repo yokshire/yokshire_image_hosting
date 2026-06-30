@@ -31,8 +31,8 @@ Notion page:
 | Figure 15 | `fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | `figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
 | Figure 16 | `fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
 | Figure 17 | `fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3` | `figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3.png` | `experiments/stateprep_qubit_scaling_figure9/render_main_channel_integral_convergence.py` |
-| Figure 18 | `fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5` | `figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png` | `experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v5.py` |
-| Figure 19 | `fig_4_6g_yonsei_compact_backend_feasibility_v2` | `figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.png` | `experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py` |
+| Figure 18 | `fig_4_6g_yonsei_compact_backend_feasibility_v2` | `figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.png` | `experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py` |
+| Figure 19 | `fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5` | `figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png` | `experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v5.py` |
 
 Figure 6, Figure 14, Figure 15, and Figure 16 use the manuscript-current state-preparation ansatz:
 
@@ -41,7 +41,7 @@ Figure 6, Figure 14, Figure 15, and Figure 16 use the manuscript-current state-p
 - entanglement: circular `cx`
 - seeds: `0..9`
 
-Figure 19 must remain consistent with the same H + TwoLocal(ry, rz; circular CX), reps=8 HN-MLP Chebyshev state-preparation circuit. Raw Yonsei validation uses 4096 shots and jobs `d900llg6c68s73ahft4g`, `d900o3propqc738d5cj0`, `d900vq8pknjs73a1ppv0`; the real mitigated run uses job `d90csl6mvj5c73ej20hg`.
+Figure 18 must remain consistent with the same H + TwoLocal(ry, rz; circular CX), reps=8 HN-MLP Chebyshev state-preparation circuit. Raw Yonsei validation uses 4096 shots and jobs `d900llg6c68s73ahft4g`, `d900o3propqc738d5cj0`, `d900vq8pknjs73a1ppv0`; the real mitigated run uses job `d90csl6mvj5c73ej20hg`.
 
 ## Do Not Use
 
