@@ -1,7 +1,7 @@
 # Notion GitHub Hosted Figures
 
 These SVG files wrap the original local raster figures as UTF-8 text so they can be uploaded through the GitHub connector and served through raw.githubusercontent.com.
-The currently rendered state-preparation diagnostics use direct PNG assets for Figure 6, Figure 14, and Figure 15. Section 3.4 basis and estimator panels use Figure 8-a, Figure 8-b, and Figure 9. Older qGAN-only, HN-only, and joint-distribution diagnostic panels are kept only as legacy support assets.
+The currently rendered state-preparation diagnostics use direct PNG assets for Figure 6, Figure 14, Figure 15, and Figure 16. Section 3.4 basis and estimator panels use Figure 8-a, Figure 8-b, and Figure 9. Older qGAN-only, HN-only, and joint-distribution diagnostic panels are kept only as legacy support assets.
 
 | slug | source | status | upload path |
 | --- | --- | --- | --- |
@@ -34,7 +34,8 @@ The currently rendered state-preparation diagnostics use direct PNG assets for F
 | `fig_3_6_theta_matched_reps8_learning_histograms` | Figure 6 matched reps=8 qGAN/HN-MLP KL learning trace and theta-target histogram diagnostic for Chebyshev loading | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms.png` |
 | `fig_3_6_theta_matched_reps8_learning_histograms_legend_v2` | Figure 6 cache-busting asset with lower-panel labels moved out of the histogram plots | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms_legend_v2.png` |
 | `fig_3_6_theta_matched_reps8_learning_histograms_seed10` | Figure 6 seed10 theta-space matched reps=8 diagnostic with selected seed bars plus 10-seed range | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10.png` |
-| `fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1` | Figure 6 same-condition theta-space reps=8 ansatz-only replacement using H + TwoLocal(ry, rz; circular CX) | OK | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png` |
+| `fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1` | Superseded theta-space reps=8 ansatz-only replacement using H + TwoLocal(ry, rz; circular CX) | superseded | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1.png` |
+| `fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | Current Figure 16 theta-space reps=8 state-preparation diagnostic for the 5-qubit first-order Chebyshev target with HN-MLP panel reporting KL < 10^-4 | OK | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` |
 | `fig_3_4_qgan_twolocal_ansatz` | `final_figure/qgan_baseline/qgan_twolocal_ansatz.png` | legacy | `notion_github_hosted_figures/fig_3_4_qgan_twolocal_ansatz.svg` |
 | `fig_3_5_qgan_training_history_q5` | `final_figure/qgan_baseline/training_history/q5_R1.png` | superseded | `notion_github_hosted_figures/fig_3_5_qgan_training_history_q5.svg` |
 | `fig_3_5_qgan_learned_distribution_q5` | `final_figure/qgan_baseline/learned_distributions/q5_KL_0p1601.png` | superseded | `notion_github_hosted_figures/fig_3_5_qgan_learned_distribution_q5.svg` |
