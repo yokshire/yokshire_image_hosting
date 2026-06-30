@@ -21,9 +21,9 @@ Notion page:
 | Figure 6-a | `fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3` | `figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
 | Figure 6-b | `fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2` | `figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
 | Figure 7 | `fig_3_10_qae_qmci_mode_estimator_block_v5` | `figures/fig_3_10_qae_qmci_mode_estimator_block_v5.png` | Qiskit `mpl` circuit rendering |
-| Figure 8 | `fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | `figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
-| Figure 9 | `fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4` | `figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png` | `experiments/matched_stateprep_reps/render_mainstream_ansatz_figures.py` |
-| Figure 10 | `fig_3_9_basis_expansion_fft_chebyshev_k18_v1` | `figures/fig_3_9_basis_expansion_fft_chebyshev_k18_v1.png` | basis expansion renderer |
+| Figure 8-a | `fig_3_12_fft_reconstruction_Gu` | `figures/fig_3_12_fft_reconstruction_Gu.png` | `final_figure/refer_pre_paper/qae_fft_1d_context/fft_reconstruction_Gu.png` |
+| Figure 8-b | `fig_3_12_chebyshev_reconstruction_Gq` | `figures/fig_3_12_chebyshev_reconstruction_Gq.png` | `notion_github_hosted_figures/fig_3_12_chebyshev_reconstruction_Gq.png` |
+| Figure 9 | `fig_3_12_qae_vs_nonqae_std_loglog` | `figures/fig_3_12_qae_vs_nonqae_std_loglog.png` | `final_figure/refer_pre_paper/qae_fft_1d_context/qae_vs_nonqae_std_loglog.png` |
 | Figure 11 | `fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2` | `figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png` | `experiments/stateprep_qmci_seed10/render_figures_12_13_stateprep_qmci.py` |
 | Figure 12 | `fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2` | `figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2.png` | `experiments/stateprep_qmci_seed10/render_figure_13_q55_dose_profile.py` |
 | Figure 13 | `fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3` | `figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3.png` | `experiments/geant4_depthdose_fig14/run_geant4_first_compton_depthdose.py` |
@@ -32,13 +32,12 @@ Notion page:
 | Figure 16 | `fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5` | `figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png` | `experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v5.py` |
 | Figure 17 | `fig_4_6g_yonsei_compact_backend_feasibility_v2` | `figures/fig_4_6g_yonsei_compact_backend_feasibility_v2.png` | `experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py` |
 
-Figure 6-a, Figure 6-b, Figure 8, and Figure 9 use the manuscript-current state-preparation ansatz:
+Figure 6-a and Figure 6-b use the manuscript-current state-preparation ansatz:
 
 - initialization: Hadamard
 - ansatz: `TwoLocal(ry, rz)`
 - entanglement: circular `cx`
 - seeds: `0..9`
-- Figure 8 and Figure 9 learning traces are rendered only through iteration 3000.
 
 Figure 17 must remain consistent with the same H + TwoLocal(ry, rz; circular CX), reps=8 HN-MLP Chebyshev state-preparation circuit. Raw Yonsei validation uses 4096 shots and jobs `d900llg6c68s73ahft4g`, `d900o3propqc738d5cj0`, `d900vq8pknjs73a1ppv0`; the real mitigated run uses job `d90csl6mvj5c73ej20hg`.
 
@@ -59,7 +58,7 @@ Figure 17 must remain consistent with the same H + TwoLocal(ry, rz; circular CX)
 
 ## Update Rules
 
-1. Regenerate current Figure 6-a, Figure 6-b, Figure 8, and Figure 9 with:
+1. Regenerate current Figure 6-a and Figure 6-b with:
 
    ```powershell
    python experiments\matched_stateprep_reps\render_mainstream_ansatz_figures.py

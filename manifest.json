@@ -964,15 +964,15 @@
       "sha256": "b0c2866f023a153b662625080c2948bac77da6a271487d92fedb383547d2ee6a",
       "bytes": 317122,
       "synced_at": "2026-06-29T16:06:35+09:00",
-      "status": "active",
+      "status": "superseded",
       "origin": "mainstream_ansatz_hadamard_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_histories.csv",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_distributions.csv",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_summary.csv"
       ],
-      "comparison_protocol": "Current Figure 8 q-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 8. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
+      "comparison_protocol": "Superseded q-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Retained for provenance only. The current Figure 8-a/8-b entries are the Fourier/FFT and Chebyshev basis-reconstruction panels."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1",
@@ -1036,15 +1036,15 @@
       "sha256": "61a01cb4cb093a2610881ad386aa29f36d8e0e0d6ad7414e467ebf89d2b2e181",
       "bytes": 353369,
       "synced_at": "2026-06-29T16:06:35+09:00",
-      "status": "active",
+      "status": "superseded",
       "origin": "mainstream_ansatz_hadamard_retraining",
       "source_data": [
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_histories.csv",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_distributions.csv",
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_theta_reps8_summary.csv"
       ],
-      "comparison_protocol": "Current Figure 9 theta-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 9. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
+      "comparison_protocol": "Superseded theta-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
+      "note": "Retained for provenance only. The current Figure 9 entry is the estimator-level QAE versus non-QAE convergence panel."
     },
     {
       "id": "fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1",
@@ -1208,8 +1208,57 @@
         "notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.png",
         "notion_github_hosted_figures/fig_3_12_chebyshev_reconstruction_Gq.png"
       ],
-      "comparison_protocol": "Current Figure 10 Section 3.4 basis-only representation. The figure compares Fourier/FFT and Chebyshev representations of the transformed first-order integrand at matched displayed truncation order K=18.",
-      "note": "Estimator-level QAE/non-QAE convergence is intentionally removed from this figure and is handled with the Section 4.9/Figure 16 estimator-level RMSE diagnostic."
+      "comparison_protocol": "Superseded composite Section 3.4 basis-only representation. The current manuscript uses separate Figure 8-a and Figure 8-b panels instead of this composite.",
+      "note": "Estimator-level QAE/non-QAE convergence is handled separately as current Figure 9."
+    },
+    {
+      "id": "fig_3_12_fft_reconstruction_Gu",
+      "github_path": "figures/fig_3_12_fft_reconstruction_Gu.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_12_fft_reconstruction_Gu.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_12_fft_reconstruction_Gu.png",
+      "sha256": "174a401d36b78017bf8aa18ab1e77750396e85be87647fa86c682009a7d0d816",
+      "bytes": 84629,
+      "synced_at": "2026-06-30T20:42:00+09:00",
+      "status": "active",
+      "origin": "section3_basis_expansion_panel",
+      "source_data": [
+        "notion_github_hosted_figures/fig_3_12_fft_reconstruction_Gu.png"
+      ],
+      "comparison_protocol": "Current Figure 8-a Fourier/FFT reconstruction of the period-4 even-extended transformed integrand for the first-order QMCI workflow.",
+      "note": "Numbered as Figure 8-a in the manuscript."
+    },
+    {
+      "id": "fig_3_12_chebyshev_reconstruction_Gq",
+      "github_path": "figures/fig_3_12_chebyshev_reconstruction_Gq.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_12_chebyshev_reconstruction_Gq.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_12_chebyshev_reconstruction_Gq.png",
+      "sha256": "db0fca2c709b77b739e7857fa5c59869f261309e8828c761d4d3931f0babe21d",
+      "bytes": 80054,
+      "synced_at": "2026-06-30T20:42:00+09:00",
+      "status": "active",
+      "origin": "section3_basis_expansion_panel",
+      "source_data": [
+        "notion_github_hosted_figures/fig_3_12_chebyshev_reconstruction_Gq.png"
+      ],
+      "comparison_protocol": "Current Figure 8-b Chebyshev reconstruction of the q=cos(theta)-space integrand for the first-order QMCI workflow.",
+      "note": "Numbered as Figure 8-b in the manuscript."
+    },
+    {
+      "id": "fig_3_12_qae_vs_nonqae_std_loglog",
+      "github_path": "figures/fig_3_12_qae_vs_nonqae_std_loglog.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_12_qae_vs_nonqae_std_loglog.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_12_qae_vs_nonqae_std_loglog.png",
+      "sha256": "ee68df76716273976fb6cb8fbaffba0be6453ca8d639f3b08e1cdd31f4ebf9a9",
+      "bytes": 33114,
+      "synced_at": "2026-06-30T20:42:00+09:00",
+      "status": "active",
+      "origin": "section3_estimator_scaling_context",
+      "source_data": [
+        "notion_github_hosted_figures/fig_3_12_qae_vs_nonqae_std_loglog.svg",
+        "final_figure/refer_pre_paper/qae_fft_1d_context/qae_vs_nonqae_std_loglog.png"
+      ],
+      "comparison_protocol": "Current Figure 9 estimator-level QAE versus non-QAE convergence scaling context.",
+      "note": "This is the Section 3 estimator-level scaling context; the separate Section 4.9 RMSE diagnostic remains Figure 16."
     },
     {
       "id": "fig_4_7_qae_iqae_yonsei_aer_qmci_v1",
