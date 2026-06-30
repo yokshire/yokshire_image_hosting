@@ -1536,7 +1536,7 @@
         "experiments/stateprep_qmci_seed10/qmci_reconstruction_iter300/manifest.json"
       ],
       "comparison_protocol": "First-order 5-qubit state-preparation/basis propagation into D1(z) reconstruction. q50 is an internal filename/source-path tag; manuscript-visible labels use 5-qubit.",
-      "note": "Superseded downstream reconstruction candidate for current Figure 11. Visible image title uses 5-qubit. Superseded by v2, which removes the manuscript-visible in-image title and leaves the title text to the caption.",
+      "note": "Superseded downstream reconstruction candidate for current Figure 12. Visible image title uses 5-qubit. Superseded by v2, which removes the manuscript-visible in-image title and leaves the title text to the caption.",
       "status": "superseded",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10.png",
@@ -1556,7 +1556,7 @@
         "experiments/stateprep_qmci_seed10/qmci_reconstruction_iter300/figure13_q55_dose_profile_manifest.json"
       ],
       "comparison_protocol": "Second-collision 5+5-qubit joint-target propagation into D2(z) and fixed-depth rho2(r; z/lambda0=0.5). q55 is an internal filename/source-path tag; manuscript-visible labels use 5+5 qubits.",
-      "note": "Current Figure 12 downstream reconstruction candidate for second-collision depth-dose and fixed-depth radial profile.",
+      "note": "Current Figure 13 downstream reconstruction candidate for second-collision depth-dose and fixed-depth radial profile.",
       "status": "active",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2.png",
@@ -1575,7 +1575,7 @@
         "experiments/stateprep_qmci_seed10/qmci_reconstruction_iter300/manifest.json"
       ],
       "comparison_protocol": "First-order 5-qubit state-preparation/basis propagation into D1(z) reconstruction. q50 is an internal filename/source-path tag; manuscript-visible labels use 5-qubit.",
-      "note": "Current Figure 11 replacement. The in-image title was removed; caption text should carry the 1D dose reconstruction description.",
+      "note": "Current Figure 12 replacement. The in-image title was removed; caption text should carry the 1D dose reconstruction description.",
       "status": "active",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png",
@@ -1668,7 +1668,7 @@
         "experiments/geant4_depthdose_fig14/first_compton_500k_depth170_outputs/geant4_first_compton_depth_dose_6mev_water.csv",
         "experiments/geant4_depthdose_fig14/first_compton_500k_depth170_outputs/metadata.json"
       ],
-      "comparison_protocol": "Figure 13 first-Compton local-deposition benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active, 500000 histories, primary gamma first Compton interaction only, E_pre - E_post scored at the interaction position, secondary tracks killed, and x-y laterally integrated into z bins. This matches the analytic D1(z) condition.",
+      "comparison_protocol": "Figure 10 first-Compton local-deposition benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active, 500000 histories, primary gamma first Compton interaction only, E_pre - E_post scored at the interaction position, secondary tracks killed, and x-y laterally integrated into z bins. This matches the analytic D1(z) condition.",
       "github_path": "figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3.png",
@@ -1685,7 +1685,7 @@
         "experiments/geant4_depthdose_fig14/second_compton_geant4_fixed_lambda_500k_depth170_outputs/geant4_fixed_lambda_second_compton_depth_dose_6mev_water.csv",
         "experiments/geant4_depthdose_fig14/second_compton_geant4_fixed_lambda_500k_depth170_outputs/metadata.json"
       ],
-      "comparison_protocol": "Figure 14 second-Compton fixed-lambda benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active for the first Compton interaction, 500000 histories, lambda_1 forced to lambda_0=40.873208246386504 cm after the first Compton interaction, second Compton energy transfer sampled from Klein-Nishina at the post-first-collision energy, local deposition scored at the forced second-collision depth, and x-y laterally integrated into z bins. This matches the constant-lambda analytic D2(z) condition.",
+      "comparison_protocol": "Figure 11 second-Compton fixed-lambda benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active for the first Compton interaction, 500000 histories, lambda_1 forced to lambda_0=40.873208246386504 cm after the first Compton interaction, second Compton energy transfer sampled from Klein-Nishina at the post-first-collision energy, local deposition scored at the forced second-collision depth, and x-y laterally integrated into z bins. This matches the constant-lambda analytic D2(z) condition.",
       "github_path": "figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
@@ -1761,7 +1761,7 @@
     "Section 4 hardware revision note: fig_4_6g_yonsei_compact_backend_feasibility_v1 is the compact main-paper hardware feasibility candidate; detailed Yonsei noise-component and mitigation-probe figures should be treated as supplement/internal diagnostics unless explicitly promoted.",
     "Downstream reconstruction note: fig_3_14_q50 and fig_3_13_q55 filenames retain internal data-layout tags; manuscript-visible captions should use 5-qubit and 5+5 qubits.",
     "Figure cleanup note: fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2 and fig_4_6g_yonsei_compact_backend_feasibility_v2 remove manuscript-visible in-image titles; compact Figure 17 v2 also removes the bottom job-index/source line.",
-    "Figure cleanup note: fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3 removes the manuscript-visible in-image caption; Notion should use an empty image caption plus a separate Figure 13 text caption.",
-    "Figure cleanup note: fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2 removes the manuscript-visible in-image caption; Notion should use an empty image caption plus a separate Figure 14 text caption."
+    "Figure cleanup note: fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3 removes the manuscript-visible in-image caption; Notion should use an empty image caption plus a separate Figure 10 text caption.",
+    "Figure cleanup note: fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2 removes the manuscript-visible in-image caption; Notion should use an empty image caption plus a separate Figure 11 text caption."
   ]
 }
