@@ -1336,10 +1336,87 @@
       "bytes": 23284,
       "synced_at": "2026-06-30T01:43:20+09:00",
       "note": "Noiseless qiskit-aer RMSE-vs-effective-budget replacement for shot amplitude, QPE-QAE+MLE, and IQAE using the HN-MLP 5-qubit first-order Chebyshev target. q50 appears only in provenance as an internal compatibility tag."
+    },
+    {
+      "id": "fig_4_6g_yonsei_compact_backend_feasibility_v1_png",
+      "status": "active",
+      "origin": "section4_compact_hardware_revision",
+      "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
+      "source_data": [
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission_results.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_decomposition_20260628T051052Z.csv"
+      ],
+      "github_path": "figures/fig_4_6g_yonsei_compact_backend_feasibility_v1.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6g_yonsei_compact_backend_feasibility_v1.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6g_yonsei_compact_backend_feasibility_v1.png",
+      "sha256": "239d2a8225c7ea1cba22faf793cbba275bb17a851660797b39fe9c2158608997",
+      "bytes": 243167,
+      "media_type": "image/png",
+      "synced_at": "2026-06-30T05:46:54.787594+00:00",
+      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths."
+    },
+    {
+      "id": "fig_4_6g_yonsei_compact_backend_feasibility_v1_svg",
+      "status": "active",
+      "origin": "section4_compact_hardware_revision",
+      "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
+      "source_data": [
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission_results.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_decomposition_20260628T051052Z.csv"
+      ],
+      "github_path": "figures/fig_4_6g_yonsei_compact_backend_feasibility_v1.svg",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6g_yonsei_compact_backend_feasibility_v1.svg",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6g_yonsei_compact_backend_feasibility_v1.svg",
+      "sha256": "df7b8668c79b48c135a8178ef684f660b09e29caab493e162eaf76746bbc4f03",
+      "bytes": 134397,
+      "media_type": "image/svg+xml",
+      "synced_at": "2026-06-30T05:46:54.787594+00:00",
+      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths."
+    },
+    {
+      "id": "fig_4_6g_yonsei_compact_backend_feasibility_v1_panel_data",
+      "status": "active",
+      "origin": "section4_compact_hardware_revision",
+      "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
+      "source_data": [
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission_results.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_decomposition_20260628T051052Z.csv"
+      ],
+      "github_path": "figures/fig_4_6g_yonsei_compact_backend_feasibility_v1_panel_data.csv",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6g_yonsei_compact_backend_feasibility_v1_panel_data.csv",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6g_yonsei_compact_backend_feasibility_v1_panel_data.csv",
+      "sha256": "22138cc70de1b8d03d18515f13b397e8b99e869ed61f168e6af6a26126f4e431",
+      "bytes": 4074,
+      "media_type": "text/csv",
+      "synced_at": "2026-06-30T05:46:54.787594+00:00",
+      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths."
+    },
+    {
+      "id": "fig_4_6g_yonsei_compact_backend_feasibility_v1_manifest",
+      "status": "active",
+      "origin": "section4_compact_hardware_revision",
+      "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
+      "source_data": [
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results/hn_chebyshev_yonsei_real_backend_summary_current.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/results_mitigated/20260628T073340Z_ibm_yonsei_hn_chebyshev_runtime_dd_twirling_layout_best_submission_results.csv",
+        "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_decomposition_20260628T051052Z.csv"
+      ],
+      "github_path": "figures/fig_4_6g_yonsei_compact_backend_feasibility_v1_manifest.json",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_6g_yonsei_compact_backend_feasibility_v1_manifest.json",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_6g_yonsei_compact_backend_feasibility_v1_manifest.json",
+      "sha256": "aa88efdb55653f697b545670d28d25f1254c7de00d867ee4b0834bc63d70ea9c",
+      "bytes": 2654,
+      "media_type": "application/json",
+      "synced_at": "2026-06-30T05:46:54.787594+00:00",
+      "note": "Compact Section 4 hardware feasibility summary: statevector floor, shot-only Aer, Yonsei-calibrated Aer proxy, IBM Yonsei raw, and IBM Yonsei mitigated/readout-postprocessed results. q50 remains only in provenance if present in source paths."
     }
   ],
   "notes": [
     "`q50` is an internal data-layout compatibility tag for the 5-qubit first-order target; manuscript-visible labels use `5-qubit`.",
-    "QAE grayzone note: existing exact dose/profile curves are discrete/statevector reconstruction references; QAE-style estimator claims should cite phase-qubit and shot-count diagnostics separately."
+    "QAE grayzone note: existing exact dose/profile curves are discrete/statevector reconstruction references; QAE-style estimator claims should cite phase-qubit and shot-count diagnostics separately.",
+    "Section 4 hardware revision note: fig_4_6g_yonsei_compact_backend_feasibility_v1 is the compact main-paper hardware feasibility candidate; detailed Yonsei noise-component and mitigation-probe figures should be treated as supplement/internal diagnostics unless explicitly promoted."
   ]
 }
