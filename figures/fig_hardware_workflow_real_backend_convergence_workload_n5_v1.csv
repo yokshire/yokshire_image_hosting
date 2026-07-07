@@ -1,0 +1,5 @@
+backend,source,representative_file,representative_iqae_rounds,representative_max_depth,representative_max_ecr,required_shot_levels,required_repeats_per_shot,estimated_runtime_jobs_for_full_sweep,shot_levels,note
+ibm_berlin,real_mitigated,iqae_chebyshev_k1_n2_8_runtime_merged_latest.csv,2,20479,0,5,10,100,512;1024;2048;4096;8192,Estimate from completed n=5 Runtime IQAE row; real-backend repeated convergence sweep was not executed.
+ibm_berlin,real_raw,iqae_chebyshev_k1_n2_8_runtime_merged_latest.csv,2,19317,0,5,10,100,512;1024;2048;4096;8192,Estimate from completed n=5 Runtime IQAE row; real-backend repeated convergence sweep was not executed.
+ibm_yonsei,real_mitigated,iqae_chebyshev_k1_n2_8_runtime_merged_latest.csv,2,20222,6752,5,10,100,512;1024;2048;4096;8192,Estimate from completed n=5 Runtime IQAE row; real-backend repeated convergence sweep was not executed.
+ibm_yonsei,real_raw,iqae_chebyshev_k1_n2_8_runtime_merged_latest.csv,2,38962,12916,5,10,100,512;1024;2048;4096;8192,Estimate from completed n=5 Runtime IQAE row; real-backend repeated convergence sweep was not executed.
