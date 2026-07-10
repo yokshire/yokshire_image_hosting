@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "source": "Notion page image sync",
+  "current_paper_manifest": "paper_v04_manifest.json",
   "delivery": {
     "canonical_base_url": "https://yokshire.github.io/yokshire_image_hosting/figures/",
     "github_raw_fallback_base_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/"
@@ -852,7 +853,7 @@
     },
     {
       "id": "fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3",
-      "status": "removed",
+      "status": "active",
       "origin": "figure4a_bottom_label_removal_regeneration",
       "source_data": [
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_aggregate.csv",
@@ -865,8 +866,8 @@
       "sha256": "b995a6ca0c785672fa61df0b3617a4a681ba175da389d335fdf0a6bbff80762b",
       "bytes": 67545,
       "synced_at": "2026-06-29T21:13:58+09:00",
-      "comparison_protocol": "Removed old Figure 4-a/reps-sweep diagnostic. The plotted ten-seed median/min-max KL curves, axes, legend, qGAN/HN-MLP methods, reps 1..8, 6000 iterations, and H + TwoLocal(ry, rz; circular CX) ansatz are retained only for provenance.",
-      "note": "Removed from the current manuscript sequence because it duplicated the later state-preparation diagnostics."
+      "comparison_protocol": "Current Figure 12 matched reps-sweep diagnostic. The plotted ten-seed median/min-max KL curves compare qGAN and HN-MLP loading quality over reps 1..8 under 6000 iterations and the H + TwoLocal(ry, rz; circular CX) ansatz.",
+      "note": "Current manuscript v04 Figure 12 state-preparation diagnostic for the 5-qubit first-collision q-space loading target."
     },
     {
       "id": "fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v1",
@@ -972,7 +973,7 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_qspace_seed10/combined/matched_qgan_ansatz_summary.csv"
       ],
       "comparison_protocol": "Current Figure 13 q-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 13. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
+      "note": "Current manuscript v04 Figure 13. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
     },
     {
       "id": "fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_v1",
@@ -1044,7 +1045,7 @@
         "experiments/matched_stateprep_reps/mainstream_ansatz_hadamard_theta_seed10/combined/matched_theta_reps8_summary.csv"
       ],
       "comparison_protocol": "Current Figure 14 theta-space 5-qubit first-order reps=8 diagnostic. qGAN and HN-MLP use H + TwoLocal(ry, rz; circular CX), hadamard initialization, ten seeds, and the learning trace is shown to 3000 iterations.",
-      "note": "Current manuscript Figure 14. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
+      "note": "Current manuscript v04 Figure 14. The HN-MLP panel reports KL < 10^-4 for the near-zero state-preparation mismatch instead of using a rounded zero-valued label."
     },
     {
       "id": "fig_3_9_stateprep_qubit_scaling_1d_depthdose_reps8_v1",
@@ -1119,7 +1120,7 @@
         "experiments/real_backend_yonsei/hn_chebyshev_stateprep/jobs/20260627T180114Z_ibm_yonsei_hn_chebyshev_stateprep_submission.json"
       ],
       "comparison_protocol": "Auxiliary IBM Yonsei state-preparation validation for HN-MLP Chebyshev reps=8 using the same H + TwoLocal(ry, rz; circular CX) ansatz as the manuscript state-preparation figures.",
-      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 16."
+      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 17."
     },
     {
       "id": "fig_4_6d_yonsei_noise_correction_recovery_v1",
@@ -1136,7 +1137,7 @@
         "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_noise_correction_sweep_20260628T061432Z_summary.csv"
       ],
       "comparison_protocol": "Auxiliary Yonsei-calibrated Aer noise-correction sweep separating algorithmic state-preparation floor from calibrated hardware-noise floor.",
-      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 16."
+      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 17."
     },
     {
       "id": "fig_4_6e_yonsei_aer_mitigation_probe_v1",
@@ -1154,7 +1155,7 @@
         "experiments/real_backend_yonsei/hn_chebyshev_stateprep/noise_decomposition/yonsei_aer_mitigation_probe_20260628T071922Z_summary.csv"
       ],
       "comparison_protocol": "Auxiliary Aer mitigation probe comparing readout mitigation, layout seed selection, ZNE proxy, and dynamical-decoupling sanity checks for the Yonsei-calibrated circuit.",
-      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 16."
+      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 17."
     },
     {
       "id": "fig_4_6f_yonsei_real_backend_mitigation_result_v1",
@@ -1172,7 +1173,7 @@
         ".image_hosting_repo/figures/yonsei_real_backend_mitigation_comparison_20260628.csv"
       ],
       "comparison_protocol": "Auxiliary real IBM Yonsei mitigation result using Runtime DD/twirling, layout-aware routing, and readout postprocessing for n=5,6 HN-MLP Chebyshev reps=8 circuits.",
-      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 16. Mitigated job id d90csl6mvj5c73ej20hg."
+      "note": "Detailed backend diagnostic retained for provenance; compact manuscript content is carried by current Figure 17. Mitigated job id d90csl6mvj5c73ej20hg."
     },
     {
       "id": "fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3",
@@ -1209,7 +1210,7 @@
         "notion_github_hosted_figures/fig_3_12_chebyshev_reconstruction_Gq.png"
       ],
       "comparison_protocol": "Superseded composite Section 3.4 basis-only representation. The current manuscript uses separate Figure 8-a and Figure 8-b panels instead of this composite.",
-      "note": "The former estimator-level QAE/non-QAE standalone plot was removed from the manuscript body; the HN-MLP Chebyshev estimator comparison is carried by current Figure 17."
+      "note": "The former estimator-level QAE/non-QAE standalone plot was removed from the manuscript body; the HN-MLP Chebyshev estimator comparison is carried by current Figure 18."
     },
     {
       "id": "fig_3_12_fft_reconstruction_Gu",
@@ -1258,7 +1259,7 @@
         "final_figure/refer_pre_paper/qae_fft_1d_context/qae_vs_nonqae_std_loglog.png"
       ],
       "comparison_protocol": "Removed estimator-level QAE versus non-QAE convergence scaling context. The manuscript now uses the matched HN-MLP Chebyshev RMSE diagnostic instead.",
-      "note": "Removed from the manuscript body because the actual HN-MLP Chebyshev estimator comparison is carried by current Figure 17."
+      "note": "Removed from the manuscript body because the actual HN-MLP Chebyshev estimator comparison is carried by current Figure 18."
     },
     {
       "id": "fig_4_7_qae_iqae_yonsei_aer_qmci_v1",
@@ -1556,8 +1557,8 @@
         "experiments/stateprep_qmci_seed10/qmci_reconstruction_iter300/figure13_q55_dose_profile_manifest.json"
       ],
       "comparison_protocol": "Second-collision 5+5-qubit joint-target propagation into D2(z) and fixed-depth rho2(r; z/lambda0=0.5). q55 is an internal filename/source-path tag; manuscript-visible labels use 5+5 qubits.",
-      "note": "Current Figure 12 downstream reconstruction candidate for second-collision depth-dose and fixed-depth radial profile.",
-      "status": "active",
+      "note": "Superseded in QMCI manuscript v04 by the selected seed-0 checkpoint from the 5000-update two-dimensional run.",
+      "status": "superseded",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed10_v2.png",
       "sha256": "8f991f294fe8d5af608300226985dadfc82139f0d1cc27bd8e9ffdcaabcef2f1",
@@ -1575,7 +1576,7 @@
         "experiments/stateprep_qmci_seed10/qmci_reconstruction_iter300/manifest.json"
       ],
       "comparison_protocol": "First-order 5-qubit state-preparation/basis propagation into D1(z) reconstruction. q50 is an internal filename/source-path tag; manuscript-visible labels use 5-qubit.",
-      "note": "Current Figure 11 replacement. The in-image title was removed; caption text should carry the 1D dose reconstruction description.",
+      "note": "Current Figure 10 in QMCI manuscript v04. The in-image title was removed; caption text carries the 1D dose-reconstruction description.",
       "status": "active",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png",
@@ -1586,7 +1587,7 @@
     },
     {
       "id": "fig_4_6g_yonsei_compact_backend_feasibility_v2_png",
-      "status": "active",
+      "status": "superseded",
       "origin": "section4_compact_hardware_revision",
       "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
       "source_data": [
@@ -1605,7 +1606,7 @@
     },
     {
       "id": "fig_4_6g_yonsei_compact_backend_feasibility_v2_svg",
-      "status": "active",
+      "status": "superseded",
       "origin": "section4_compact_hardware_revision",
       "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
       "source_data": [
@@ -1624,7 +1625,7 @@
     },
     {
       "id": "fig_4_6g_yonsei_compact_backend_feasibility_v2_panel_data",
-      "status": "active",
+      "status": "superseded",
       "origin": "section4_compact_hardware_revision",
       "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
       "source_data": [
@@ -1643,7 +1644,7 @@
     },
     {
       "id": "fig_4_6g_yonsei_compact_backend_feasibility_v2_manifest",
-      "status": "active",
+      "status": "superseded",
       "origin": "section4_compact_hardware_revision",
       "source_script": "experiments/real_backend_yonsei/render_yonsei_compact_backend_feasibility.py",
       "source_data": [
@@ -1685,7 +1686,7 @@
         "experiments/geant4_depthdose_fig14/second_compton_geant4_fixed_lambda_500k_depth170_outputs/geant4_fixed_lambda_second_compton_depth_dose_6mev_water.csv",
         "experiments/geant4_depthdose_fig14/second_compton_geant4_fixed_lambda_500k_depth170_outputs/metadata.json"
       ],
-      "comparison_protocol": "Figure 10 second-Compton fixed-lambda benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active for the first Compton interaction, 500000 histories, lambda_1 forced to lambda_0=40.873208246386504 cm after the first Compton interaction, second Compton energy transfer sampled from Klein-Nishina at the post-first-collision energy, local deposition scored at the forced second-collision depth, and x-y laterally integrated into z bins. This matches the constant-lambda analytic D2(z) condition.",
+      "comparison_protocol": "Current Figure 9-b second-Compton fixed-lambda benchmark generated from Geant4 11.04.p01: 6 MeV gamma pencil beam in G4_WATER, G4EmLivermorePhysics with only gamma compt active for the first Compton interaction, 500000 histories, lambda_1 forced to lambda_0=40.873208246386504 cm after the first Compton interaction, second Compton energy transfer sampled from Klein-Nishina at the post-first-collision energy, local deposition scored at the forced second-collision depth, and x-y laterally integrated into z bins. This matches the constant-lambda analytic D2(z) condition.",
       "github_path": "figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
@@ -1726,13 +1727,13 @@
     },
     {
       "id": "fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_png",
-      "status": "active",
+      "status": "superseded",
       "origin": "notation_alignment_matched_budget_rmse_regeneration",
       "source_script": "experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v5.py",
       "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_curves.csv",
       "source_manifest": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_manifest.json",
       "synced_at": "2026-06-30T19:48:00+09:00",
-      "note": "Current Figure 17 diagnostic on a common matched sample/oracle-call budget grid from 1024 to 65536 using the HN-MLP 5-qubit first-order Chebyshev target. Slopes are -0.49 for direct shot amplitude, -1.07 for QPE-QAE+MLE, and -1.07 for IQAE. The visible Chebyshev mode label uses mode l = 1. q50 appears only in provenance as an internal compatibility tag; manuscript-visible labels use 5-qubit.",
+      "note": "Superseded ideal estimator-scaling branch. It is retained for provenance but is not part of the QMCI manuscript v04 figure sequence.",
       "github_path": "figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.png",
@@ -1741,27 +1742,90 @@
     },
     {
       "id": "fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_svg",
-      "status": "active",
+      "status": "superseded",
       "origin": "notation_alignment_matched_budget_rmse_regeneration",
       "source_script": "experiments/qae_rmse_three_methods_20260629/run_hn_chebyshev_qae_rmse_three_methods_v5.py",
       "source_data": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_curves.csv",
       "source_manifest": "experiments/qae_rmse_three_methods_20260629/results/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5_manifest.json",
       "synced_at": "2026-06-30T19:48:00+09:00",
-      "note": "Current Figure 17 diagnostic on a common matched sample/oracle-call budget grid from 1024 to 65536 using the HN-MLP 5-qubit first-order Chebyshev target. Slopes are -0.49 for direct shot amplitude, -1.07 for QPE-QAE+MLE, and -1.07 for IQAE. The visible Chebyshev mode label uses mode l = 1. q50 appears only in provenance as an internal compatibility tag; manuscript-visible labels use 5-qubit.",
+      "note": "Superseded ideal estimator-scaling branch. It is retained for provenance but is not part of the QMCI manuscript v04 figure sequence.",
       "github_path": "figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.svg",
       "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.svg",
       "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_4_7_hn_chebyshev_qae_rmse_three_methods_v5.svg",
       "sha256": "f17fb469924de79e94d402cc0c7050bb8e8227955711b031a8b0e6d4b28fc208",
       "bytes": 23961
+    },
+    {
+      "id": "fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed0_iter5000_v4",
+      "status": "active",
+      "origin": "qmci_manuscript_v04_selected_checkpoint",
+      "source_package": "exports/QMCI_manuscript_v04",
+      "source_data": [
+        "exports/QMCI_manuscript_v04/data/q55_selected_checkpoint_manifest_v4.json",
+        "exports/QMCI_manuscript_v04/data/q55_selected_checkpoint_metrics_v1.csv"
+      ],
+      "comparison_protocol": "Current Figure 11 selected 5+5-qubit two-dimensional checkpoint: H initialization, Rx/Rz/Ry rotations, full entanglement, reps=8, 270 parameters, seed 0, selected from 5000-update qGAN and HN-MLP runs. The figure is not a seed-range result.",
+      "github_path": "figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed0_iter5000_v4.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed0_iter5000_v4.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed0_iter5000_v4.png",
+      "sha256": "c176d9815e7e3307134a31f28bb4cc3da7b0f41ff8c2438bca8a098248e56ce4",
+      "bytes": 474756,
+      "media_type": "image/png",
+      "synced_at": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "fig_backend_stateprep_metrics_n2_8_v1_paper",
+      "status": "active",
+      "origin": "qmci_manuscript_v04_backend_revision",
+      "source_package": "exports/QMCI_manuscript_v04",
+      "source_data": "exports/QMCI_manuscript_v04/data/backend_stateprep_probability_metrics_n2_8_v1.csv",
+      "comparison_protocol": "Current Figure 16 distribution-level backend diagnostic for independently trained reps=8 HN-MLP Chebyshev loaders over n=2..8. Statevector and 262144-shot noiseless Aer are numerical baselines; calibrated Aer and Runtime results cover IBM Yonsei and IBM Berlin. Mitigated points form an availability-limited envelope rather than a uniform protocol.",
+      "github_path": "figures/fig_backend_stateprep_metrics_n2_8_v1_paper.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_backend_stateprep_metrics_n2_8_v1_paper.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_backend_stateprep_metrics_n2_8_v1_paper.png",
+      "sha256": "a3b2b04d8752ad346df6f650f10ab9e773fd9fc5286f8e3868fa017676e2947d",
+      "bytes": 256506,
+      "media_type": "image/png",
+      "synced_at": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "fig_backend_iqae_k1_convergence_n5_v1_paper",
+      "status": "active",
+      "origin": "qmci_manuscript_v04_backend_revision",
+      "source_package": "exports/QMCI_manuscript_v04",
+      "source_data": "exports/QMCI_manuscript_v04/data/backend_iqae_k1_convergence_n5_v1.csv",
+      "comparison_protocol": "Current Figure 17 full-circuit IQAE convergence diagnostic for the first Chebyshev mode at n=5 and epsilon=0.005. Shot settings 512..8192 are compared with learned-statevector references across ideal Aer, calibrated-noise Aer, IBM Yonsei, and IBM Berlin.",
+      "github_path": "figures/fig_backend_iqae_k1_convergence_n5_v1_paper.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_backend_iqae_k1_convergence_n5_v1_paper.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_backend_iqae_k1_convergence_n5_v1_paper.png",
+      "sha256": "f18eec25b24b2fb83666d077b24fe73c38b855e812133371b34e68e8c3fd36a4",
+      "bytes": 173710,
+      "media_type": "image/png",
+      "synced_at": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "fig_backend_ecr_scaling_collision_v1_paper",
+      "status": "active",
+      "origin": "qmci_manuscript_v04_backend_revision",
+      "source_package": "exports/QMCI_manuscript_v04",
+      "source_data": "exports/QMCI_manuscript_v04/data/backend_ecr_scaling_collision_v1.csv",
+      "comparison_protocol": "Current Figure 18 controlled depolarizing gate-error attribution. The ECR component is scaled while calibrated SX/X depolarizing errors remain fixed; first-collision depth dose, second-collision depth dose, radial profile, and encoding KL are evaluated. Readout, relaxation, and coherent errors are excluded.",
+      "github_path": "figures/fig_backend_ecr_scaling_collision_v1_paper.png",
+      "canonical_url": "https://yokshire.github.io/yokshire_image_hosting/figures/fig_backend_ecr_scaling_collision_v1_paper.png",
+      "github_raw_fallback_url": "https://github.com/yokshire/yokshire_image_hosting/raw/main/figures/fig_backend_ecr_scaling_collision_v1_paper.png",
+      "sha256": "e82efff096468001f033b73837566a2465347b53ea01f6578f31611751ede7f4",
+      "bytes": 345138,
+      "media_type": "image/png",
+      "synced_at": "2026-07-10T00:00:00+09:00"
     }
   ],
   "notes": [
     "`q50` is an internal data-layout compatibility tag for the 5-qubit first-order target; manuscript-visible labels use `5-qubit`.",
     "QAE grayzone note: existing exact dose/profile curves are discrete/statevector reconstruction references; QAE-style estimator claims should cite phase-qubit and shot-count diagnostics separately.",
-    "Section 4 hardware revision note: fig_4_6g_yonsei_compact_backend_feasibility_v1 is the compact main-paper hardware feasibility candidate; detailed Yonsei noise-component and mitigation-probe figures should be treated as supplement/internal diagnostics unless explicitly promoted.",
+    "QMCI manuscript v04 hardware branch: distribution-level backend state preparation, full-circuit IQAE convergence, and controlled ECR attribution are Figures 16--18. The older compact-Yonsei and ideal estimator-scaling figures are historical.",
     "Downstream reconstruction note: fig_3_14_q50 and fig_3_13_q55 filenames retain internal data-layout tags; manuscript-visible captions should use 5-qubit and 5+5 qubits.",
-    "Figure cleanup note: fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2 and fig_4_6g_yonsei_compact_backend_feasibility_v2 remove manuscript-visible in-image titles; compact Figure 18 v2 also removes the bottom job-index/source line.",
-    "Figure cleanup note: fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3 removes the manuscript-visible in-image caption; Notion should use an empty image caption plus a separate Figure 10 text caption.",
-    "Figure cleanup note: fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2 removes the manuscript-visible in-image caption; Notion should use an empty image caption plus a separate Figure 11 text caption."
+    "Figure cleanup note: fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2 removes the manuscript-visible in-image title; caption text remains external to the image.",
+    "Figure 9 combines the first- and fixed-lambda second-Compton Geant4 assets as panels a and b under one caption.",
+    "The authoritative current-paper mapping, including TeX and hosted hashes, is paper_v04_manifest.json."
   ]
 }

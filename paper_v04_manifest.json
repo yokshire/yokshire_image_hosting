@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "paper_version": "QMCI_manuscript_v04",
+  "notion_page_id": "3524c48e-4da3-81b5-8d22-c7d73ae6e455",
+  "canonical_base_url": "https://yokshire.github.io/yokshire_image_hosting/figures/",
+  "reconciled_at": "2026-07-10T00:00:00+09:00",
+  "mapping_rule": "Hosted files without the _rgb suffix are pixel-equivalent source assets; the _rgb files in the TeX package are RGB-normalized copies.",
+  "figures": [
+    {
+      "figure": 1,
+      "label": "fig:xcom",
+      "assets": [
+        {
+          "tex_file": "figures/cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev_v1_latex_plain.png",
+          "tex_sha256": "2ddc4ba3dc938720e0f95212fc301868f4d97b63d643035bdcfc725875ff0410",
+          "hosted_path": "figures/cross_check_fig_intro_xcom_h2o_interaction_coefficients_6mev_v1.png",
+          "hosted_sha256": "b16307163306fa0d9b129142db8c5ac6242f6ba9bf497fb140fa2731d2b45225",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 2,
+      "label": "fig:workflow",
+      "assets": [
+        {
+          "tex_file": "figures/fig_x2_qmci_workflow_intro_v1_rgb.png",
+          "tex_sha256": "8bc6c7b94ba5f20e373a62052c814683b33cd955cf0c3e4f73905a7d84d0c91c",
+          "hosted_path": "figures/fig_x2_qmci_workflow_intro_v1.png",
+          "hosted_sha256": "0fe25220ca17623dec01a7b52ddc266c4faf84c16b417b7147e51e0fe364a75f",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 3,
+      "label": "fig:geometry",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_1_scattering_path_Dl_notation.jpg",
+          "tex_sha256": "ddc4f0b92bd6d79149451f9292bac569765b7300e3428a906ff61f11c06bcaec",
+          "hosted_path": "figures/fig_3_1_scattering_path_Dl_notation.jpg",
+          "hosted_sha256": "ddc4f0b92bd6d79149451f9292bac569765b7300e3428a906ff61f11c06bcaec",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 4,
+      "label": "fig:d1exact",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v3_rgb.png",
+          "tex_sha256": "11c14d90f0feff615159bf6e25db578eca284c80d8520124f01a4a27135a3f73",
+          "hosted_path": "figures/fig_3_2_depth_dose_benchmark_exact_q5_highres_v3.png",
+          "hosted_sha256": "b64b5f6da0be197623ebf071a036f2f2e323d836e4a3951acbfe9e16371edd9c",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 5,
+      "label": "fig:jointtarget",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_3_second_collision_joint_probability_maps_title_only_rgb.png",
+          "tex_sha256": "4f1f6c2dde1acdf22335a0153ddcae6d0189c049a8567b43a5d8f764cef9c3d3",
+          "hosted_path": "figures/fig_3_3_second_collision_joint_probability_maps_title_only.png",
+          "hosted_sha256": "6ff8cd00d037fa9703fb125201fb5ecd8db5deb9bc7b8010a37248001c772283",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 6,
+      "label": "fig:ansatz",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png",
+          "tex_sha256": "92deae053353776ef11464958a0d61364ffaa73b2fc3e313909f6fb797e8da12",
+          "hosted_path": "figures/fig_3_2c_matched_stateprep_ansatz_unit_ryrz_cx_hinit_v2.png",
+          "hosted_sha256": "92deae053353776ef11464958a0d61364ffaa73b2fc3e313909f6fb797e8da12",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 7,
+      "label": "fig:qae",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_10_qae_qmci_mode_estimator_block_v5_rgb.png",
+          "tex_sha256": "82da8336430c915ce8a8dab8acef8f13dd30e2e42827feb76d27630eba174cbd",
+          "hosted_path": "figures/fig_3_10_qae_qmci_mode_estimator_block_v5.png",
+          "hosted_sha256": "a2fe2298cf104339beadc94035ebfb8e74a38428238d63f740bd805856986eeb",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 8,
+      "label": "fig:basis",
+      "assets": [
+        {
+          "panel": "a",
+          "tex_file": "figures/fig_3_12_fft_reconstruction_Gu_rgb.png",
+          "tex_sha256": "637a33e0706b670c2167ecd33cd63566baff8fa9643e7fbc347f3dd095901f58",
+          "hosted_path": "figures/fig_3_12_fft_reconstruction_Gu.png",
+          "hosted_sha256": "174a401d36b78017bf8aa18ab1e77750396e85be87647fa86c682009a7d0d816",
+          "pixel_equivalent": true
+        },
+        {
+          "panel": "b",
+          "tex_file": "figures/fig_3_12_chebyshev_reconstruction_Gq_rgb.png",
+          "tex_sha256": "0753c3570d6703475f1f8f6dd87bc9b97befbae006fa6276a13ed00603ec680e",
+          "hosted_path": "figures/fig_3_12_chebyshev_reconstruction_Gq.png",
+          "hosted_sha256": "db0fca2c709b77b739e7857fa5c59869f261309e8828c761d4d3931f0babe21d",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 9,
+      "label": "fig:g4bench",
+      "assets": [
+        {
+          "panel": "a",
+          "tex_file": "figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3_rgb.png",
+          "tex_sha256": "80d5f9a962e3720bf566b39c16282c54ad1fb8251d55f77241faab6a17cb2919",
+          "hosted_path": "figures/fig_4_1_first_compton_local_deposition_geant4_6mev_water_500k_depth170_v3.png",
+          "hosted_sha256": "50d138396ecb503564e0e56745baffb5d13249421af64daa4839532e34e764e7",
+          "pixel_equivalent": true
+        },
+        {
+          "panel": "b",
+          "tex_file": "figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2_rgb.png",
+          "tex_sha256": "2c812afcbd30ab677b77c923ea9f82e13af794524b96d2fbcc7fc035b0586e5a",
+          "hosted_path": "figures/fig_4_1b_second_compton_fixed_lambda_geant4_6mev_water_500k_depth170_v2.png",
+          "hosted_sha256": "4d81737061eaa744458b55fb62f88e2e2989db79715d1afe7a8bc89429a60175",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 10,
+      "label": "fig:d1recon",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2_rgb.png",
+          "tex_sha256": "fc486ccc2d48ad6e71f1aee499da33a35d9e0d74ddcf8fef93fef6f5ea17496d",
+          "hosted_path": "figures/fig_3_14_q50_stateprep_fft_chebyshev_dose_seed10_v2.png",
+          "hosted_sha256": "6abcaa13d12d889117a68cbeb92160a307dce2854a6fb811d8984f95f2d32c1a",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 11,
+      "label": "fig:d2profile",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed0_iter5000_v4_rgb.png",
+          "tex_sha256": "c176d9815e7e3307134a31f28bb4cc3da7b0f41ff8c2438bca8a098248e56ce4",
+          "hosted_path": "figures/fig_3_13_q55_stateprep_fft_chebyshev_dose_profile_seed0_iter5000_v4.png",
+          "hosted_sha256": "c176d9815e7e3307134a31f28bb4cc3da7b0f41ff8c2438bca8a098248e56ce4",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 12,
+      "label": "fig:repsdiag",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3_rgb.png",
+          "tex_sha256": "a214a2a79234bb2ecdf11cecadd6ea9b9f8c81432d8c10e901fe698b8b0cab17",
+          "hosted_path": "figures/fig_3_2b_stateprep_matched_reps_q5_seed10_ryrz_cx_hinit_whisker_v3.png",
+          "hosted_sha256": "b995a6ca0c785672fa61df0b3617a4a681ba175da389d335fdf0a6bbff80762b",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 13,
+      "label": "fig:qspacehist",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4_rgb.png",
+          "tex_sha256": "59e6d512d1d24789fbe4ddc527d6efadb1297b409b09457097f4517936b759b3",
+          "hosted_path": "figures/fig_3_5_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png",
+          "hosted_sha256": "b0c2866f023a153b662625080c2948bac77da6a271487d92fedb383547d2ee6a",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 14,
+      "label": "fig:thetaspacehist",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4_rgb.png",
+          "tex_sha256": "3cefe3335c6e1c43392dd9d6959dd48457859d14ae8a31fb06e46f9dd246f4b6",
+          "hosted_path": "figures/fig_3_6_theta_matched_reps8_learning_histograms_seed10_ryrz_cx_hinit_trace3000_v4.png",
+          "hosted_sha256": "61a01cb4cb093a2610881ad386aa29f36d8e0e0d6ad7414e467ebf89d2b2e181",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 15,
+      "label": "fig:mainchannel",
+      "assets": [
+        {
+          "tex_file": "figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3_rgb.png",
+          "tex_sha256": "043650f1c1b8f8e6fd9ce115d0e4d3479336760d0e6ce9209cabf3d86754a0e5",
+          "hosted_path": "figures/fig_3_9_stateprep_main_channel_integral_convergence_reps8_iter10000_v3.png",
+          "hosted_sha256": "a58a51496e9048f1adf98b6b1d2e93b2bc61c6dcc3b484e5a24b724acbc9df30",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 16,
+      "label": "fig:backendstateprep",
+      "assets": [
+        {
+          "tex_file": "figures/fig_backend_stateprep_metrics_n2_8_v1_paper.png",
+          "tex_sha256": "a3b2b04d8752ad346df6f650f10ab9e773fd9fc5286f8e3868fa017676e2947d",
+          "hosted_path": "figures/fig_backend_stateprep_metrics_n2_8_v1_paper.png",
+          "hosted_sha256": "a3b2b04d8752ad346df6f650f10ab9e773fd9fc5286f8e3868fa017676e2947d",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 17,
+      "label": "fig:iqaeconvergence",
+      "assets": [
+        {
+          "tex_file": "figures/fig_backend_iqae_k1_convergence_n5_v1_paper.png",
+          "tex_sha256": "f18eec25b24b2fb83666d077b24fe73c38b855e812133371b34e68e8c3fd36a4",
+          "hosted_path": "figures/fig_backend_iqae_k1_convergence_n5_v1_paper.png",
+          "hosted_sha256": "f18eec25b24b2fb83666d077b24fe73c38b855e812133371b34e68e8c3fd36a4",
+          "pixel_equivalent": true
+        }
+      ]
+    },
+    {
+      "figure": 18,
+      "label": "fig:ecrscaling",
+      "assets": [
+        {
+          "tex_file": "figures/fig_backend_ecr_scaling_collision_v1_paper.png",
+          "tex_sha256": "e82efff096468001f033b73837566a2465347b53ea01f6578f31611751ede7f4",
+          "hosted_path": "figures/fig_backend_ecr_scaling_collision_v1_paper.png",
+          "hosted_sha256": "e82efff096468001f033b73837566a2465347b53ea01f6578f31611751ede7f4",
+          "pixel_equivalent": true
+        }
+      ]
+    }
+  ]
+}
