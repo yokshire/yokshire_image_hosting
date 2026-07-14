@@ -1,0 +1,160 @@
+name: NQ Policy Audit
+
+on:
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - 'nq_policy_artifact/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+      - name: Fetch and extract current official rules
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf nq_policy_artifact
+          mkdir -p nq_policy_artifact
+          python -m pip install --disable-pip-version-check requests beautifulsoup4 python-docx pypdf
+          cat > /tmp/fetch_nq_policy.py <<'PY'
+          import requests, re, hashlib, io, json, os
+          from bs4 import BeautifulSoup
+          from docx import Document
+          from pypdf import PdfReader
+          from urllib.parse import urljoin, urlparse
+
+          BASE='https://nq-hackathon.co.kr/'
+          OUT='nq_policy_artifact'
+          os.makedirs(OUT, exist_ok=True)
+          S=requests.Session()
+          S.headers.update({'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36','Accept':'*/*'})
+          records=[]
+
+          def clean_name(url, fallback):
+              name=urlparse(url).path.rsplit('/',1)[-1] or fallback
+              return re.sub(r'[^A-Za-z0-9._-]+','_',name)
+
+          def fetch(url, name=None):
+              try:
+                  r=S.get(url,timeout=60,allow_redirects=True)
+                  b=r.content
+                  rec={'requested_url':url,'final_url':r.url,'status':r.status_code,'content_type':r.headers.get('content-type'),'last_modified':r.headers.get('last-modified'),'etag':r.headers.get('etag'),'content_disposition':r.headers.get('content-disposition'),'size':len(b),'sha256':hashlib.sha256(b).hexdigest()}
+                  records.append(rec)
+                  print('FETCH '+json.dumps(rec,ensure_ascii=False),flush=True)
+                  if name and r.ok:
+                      open(os.path.join(OUT,name),'wb').write(b)
+                  return r
+              except Exception as e:
+                  records.append({'requested_url':url,'error':repr(e)})
+                  print('FETCH_ERROR '+url+' '+repr(e),flush=True)
+                  return None
+
+          home=fetch(BASE,'homepage.html')
+          if home is None or not home.ok:
+              raise SystemExit('official homepage fetch failed')
+
+          soup=BeautifulSoup(home.text,'html.parser')
+          discovered=[]
+          docs={
+              urljoin(BASE,'problem/first-challenge-problem-policy.docx'),
+              urljoin(BASE,'tutorial/1st-challenge-tutorial_KR.pdf'),
+          }
+          assets=[]
+          for tag,attr in [('a','href'),('script','src'),('link','href'),('form','action'),('iframe','src')]:
+              for el in soup.find_all(tag):
+                  v=el.get(attr)
+                  if not v: continue
+                  u=urljoin(home.url,v)
+                  discovered.append({'tag':tag,'attr':attr,'url':u})
+                  low=u.lower()
+                  if any(ext in low for ext in ('.docx','.pdf','.zip','.csv','.xlsx','.json')):
+                      docs.add(u)
+                  if urlparse(u).netloc==urlparse(BASE).netloc and ('.js' in low or low.endswith('.css')):
+                      assets.append(u)
+          open(os.path.join(OUT,'discovered_urls.json'),'w',encoding='utf-8').write(json.dumps(discovered,ensure_ascii=False,indent=2))
+
+          terms=['규정','업데이트','변경','전처리','직접 인코딩','classifier.qasm','weights.json','balanced','qubit','depth','measurement','submission','parameter','feature','label','lookup','kernel','.docx','.pdf']
+          url_re=re.compile(r'''(?:https?://[^\s"'<>\\]+|/[A-Za-z0-9_./?&=%+~:@-]+\.(?:docx|pdf|zip|csv|xlsx|json)(?:\?[^\s"'<>\\]*)?)''',re.I)
+          scan=[]
+          for idx,u in enumerate(dict.fromkeys(assets)):
+              r=fetch(u,f'asset_{idx:03d}.txt')
+              if r is None or not r.ok: continue
+              txt=r.text
+              found=sorted(set(url_re.findall(txt)))
+              hits=[t for t in terms if t.lower() in txt.lower()]
+              contexts=[]
+              low=txt.lower()
+              for t in hits:
+                  p=low.find(t.lower())
+                  if p>=0: contexts.append({'term':t,'context':txt[max(0,p-600):p+1800]})
+              if found or hits:
+                  scan.append({'asset':u,'found':found,'hits':hits,'contexts':contexts})
+              for v in found:
+                  full=urljoin(r.url,v)
+                  if urlparse(full).netloc==urlparse(BASE).netloc:
+                      docs.add(full)
+          open(os.path.join(OUT,'asset_scan.json'),'w',encoding='utf-8').write(json.dumps(scan,ensure_ascii=False,indent=2))
+
+          extracted=[]
+          for idx,u in enumerate(sorted(docs)):
+              name=f'doc_{idx:03d}_{clean_name(u,str(idx))}'
+              r=fetch(u,name)
+              if r is None or not r.ok: continue
+              b=r.content
+              low=(r.url+' '+str(r.headers.get('content-type'))).lower()
+              if b[:2]==b'PK' and ('.docx' in low or 'wordprocessingml' in low):
+                  doc=Document(io.BytesIO(b)); lines=[]
+                  for p in doc.paragraphs:
+                      s=' '.join(p.text.split())
+                      if s: lines.append(s)
+                  for ti,t in enumerate(doc.tables,1):
+                      lines.append(f'--- TABLE {ti} ---')
+                      for ri,row in enumerate(t.rows,1):
+                          lines.append(f'T{ti}R{ri}: '+' || '.join(' '.join(c.text.split()) for c in row.cells))
+                  text='\n'.join(f'L{i:04d}: {s}' for i,s in enumerate(lines,1))+'\n'
+                  open(os.path.join(OUT,name+'.txt'),'w',encoding='utf-8').write(text)
+                  extracted.append({'url':r.url,'kind':'docx','file':name,'text_file':name+'.txt','line_count':len(lines)})
+                  print('DOCX_TEXT_BEGIN '+r.url); print(text); print('DOCX_TEXT_END '+r.url)
+              elif b[:4]==b'%PDF' or 'application/pdf' in low:
+                  try:
+                      reader=PdfReader(io.BytesIO(b)); parts=[]
+                      for pageno,page in enumerate(reader.pages,1):
+                          parts.append(f'--- PAGE {pageno} ---\n'+(page.extract_text() or ''))
+                      text='\n'.join(parts)
+                      open(os.path.join(OUT,name+'.txt'),'w',encoding='utf-8').write(text)
+                      extracted.append({'url':r.url,'kind':'pdf','file':name,'text_file':name+'.txt','page_count':len(reader.pages)})
+                      print('PDF_TEXT_BEGIN '+r.url); print(text[:60000]); print('PDF_TEXT_END '+r.url)
+                  except Exception as e:
+                      extracted.append({'url':r.url,'kind':'pdf','file':name,'parse_error':repr(e)})
+
+          open(os.path.join(OUT,'fetch_manifest.json'),'w',encoding='utf-8').write(json.dumps({'records':records,'extracted':extracted},ensure_ascii=False,indent=2))
+          PY
+          python /tmp/fetch_nq_policy.py
+      - name: Commit audit snapshot to temporary branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add nq_policy_artifact
+          if git diff --cached --quiet; then
+            echo 'No audit changes to commit.'
+          else
+            git commit -m '[skip ci] Snapshot current NQ policy materials 2026-07-14'
+            git push origin HEAD:${{ github.head_ref || github.ref_name }}
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nq-policy-audit-20260714
+          path: nq_policy_artifact/
+          retention-days: 3
