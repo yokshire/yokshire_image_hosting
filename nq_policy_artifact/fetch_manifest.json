@@ -1,0 +1,115 @@
+{
+  "records": [
+    {
+      "requested_url": "https://nq-hackathon.co.kr/",
+      "final_url": "https://nq-hackathon.co.kr/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "last_modified": "Tue, 14 Jul 2026 05:42:52 GMT",
+      "etag": "W/\"226-19f5f264760\"",
+      "content_disposition": null,
+      "size": 550,
+      "sha256": "d85458913ae9b12187cd7183e5142712a3e7932b730acebc38c37438462dcade"
+    },
+    {
+      "requested_url": "https://nq-hackathon.co.kr/assets/index-gRAJApq7.js",
+      "final_url": "https://nq-hackathon.co.kr/assets/index-gRAJApq7.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=UTF-8",
+      "last_modified": "Tue, 14 Jul 2026 05:42:52 GMT",
+      "etag": "W/\"37b78-19f5f264760\"",
+      "content_disposition": null,
+      "size": 228216,
+      "sha256": "d3cab719642416dc465eea7d74b6955e3d0fd71142556d9e01818b1c7dc61f5d"
+    },
+    {
+      "requested_url": "https://nq-hackathon.co.kr/assets/index-SgRmI3pb.css",
+      "final_url": "https://nq-hackathon.co.kr/assets/index-SgRmI3pb.css",
+      "status": 200,
+      "content_type": "text/css; charset=UTF-8",
+      "last_modified": "Tue, 14 Jul 2026 05:42:52 GMT",
+      "etag": "W/\"91b2-19f5f264760\"",
+      "content_disposition": null,
+      "size": 37298,
+      "sha256": "7fbf18454ddfe9381ba7f3f1fac425d45782d9e3d4ab5a925c3926f28d58f791"
+    },
+    {
+      "requested_url": "https://nq-hackathon.co.kr/api/admin/participants.csv",
+      "final_url": "https://nq-hackathon.co.kr/api/admin/participants.csv",
+      "status": 401,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "etag": "W/\"20-J8JgIm6TFN22JJxTBw3FYylr59o\"",
+      "content_disposition": null,
+      "size": 32,
+      "sha256": "77e10352f0a553adf06a4db985802a8eb5aaba9e491af46a692e16b868da5374"
+    },
+    {
+      "requested_url": "https://nq-hackathon.co.kr/api/admin/submissions.csv",
+      "final_url": "https://nq-hackathon.co.kr/api/admin/submissions.csv",
+      "status": 401,
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "etag": "W/\"20-J8JgIm6TFN22JJxTBw3FYylr59o\"",
+      "content_disposition": null,
+      "size": 32,
+      "sha256": "77e10352f0a553adf06a4db985802a8eb5aaba9e491af46a692e16b868da5374"
+    },
+    {
+      "requested_url": "https://nq-hackathon.co.kr/problem/first-challenge-problem-policy.docx",
+      "final_url": "https://nq-hackathon.co.kr/problem/first-challenge-problem-policy.docx",
+      "status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "last_modified": "Tue, 14 Jul 2026 05:42:52 GMT",
+      "etag": "W/\"39c23-19f5f264760\"",
+      "content_disposition": null,
+      "size": 236579,
+      "sha256": "e414ccac872a3df64bbc7f9177a2fadab6854b5f7b2fafcef37963e7b40a1b84"
+    },
+    {
+      "requested_url": "https://nq-hackathon.co.kr/tutorial/1st-challenge-tutorial_EN.pdf",
+      "final_url": "https://nq-hackathon.co.kr/tutorial/1st-challenge-tutorial_EN.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "last_modified": "Tue, 14 Jul 2026 05:41:52 GMT",
+      "etag": "W/\"2761da-19f5f255d00\"",
+      "content_disposition": null,
+      "size": 2580954,
+      "sha256": "9b016a022edaa25394b3270f75b1ac3ac88d1a0319b600d11e39388e7fc9dd74"
+    },
+    {
+      "requested_url": "https://nq-hackathon.co.kr/tutorial/1st-challenge-tutorial_KR.pdf",
+      "final_url": "https://nq-hackathon.co.kr/tutorial/1st-challenge-tutorial_KR.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "last_modified": "Tue, 14 Jul 2026 05:41:52 GMT",
+      "etag": "W/\"26c5d9-19f5f255d00\"",
+      "content_disposition": null,
+      "size": 2541017,
+      "sha256": "8a9da244c63e054c6456c2d4d3ad29896283b9be9500b8033b8ee3029e32cb81"
+    }
+  ],
+  "extracted": [
+    {
+      "url": "https://nq-hackathon.co.kr/problem/first-challenge-problem-policy.docx",
+      "kind": "docx",
+      "file": "doc_002_first-challenge-problem-policy.docx",
+      "text_file": "doc_002_first-challenge-problem-policy.docx.txt",
+      "line_count": 64
+    },
+    {
+      "url": "https://nq-hackathon.co.kr/tutorial/1st-challenge-tutorial_EN.pdf",
+      "kind": "pdf",
+      "file": "doc_003_1st-challenge-tutorial_EN.pdf",
+      "text_file": "doc_003_1st-challenge-tutorial_EN.pdf.txt",
+      "page_count": 9
+    },
+    {
+      "url": "https://nq-hackathon.co.kr/tutorial/1st-challenge-tutorial_KR.pdf",
+      "kind": "pdf",
+      "file": "doc_004_1st-challenge-tutorial_KR.pdf",
+      "text_file": "doc_004_1st-challenge-tutorial_KR.pdf.txt",
+      "page_count": 9
+    }
+  ]
+}

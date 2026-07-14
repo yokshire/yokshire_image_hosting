@@ -1,0 +1,418 @@
+--- PAGE 1 ---
+A Tutorial Example for:
+T
+he 
+3rd Global Quantum AI 
+Competition
+1st
+ Challenge
+Disclaimer: If an image is owned by NORMA, it is explicitly indicated so. All
+images are used for instructional purposes only.
+--- PAGE 2 ---
+Why QML?
+Prelude
+--- PAGE 3 ---
+QML & 
+Finance
+: 
+A 
+Real
+-
+World 
+Classification 
+Example
+•
+ Increase in financial data usage & no. of data
+-
+based firms
+•
+ Finance 
+is 
+a 
+representative 
+field 
+of 
+real
+-
+world 
+tabular 
+data
+.
+Payment 
+histories
+, 
+transaction 
+records
+, and 
+customer 
+behavior
+often 
+contain 
+complex 
+hidden 
+patterns
+.
+•
+ C
+redit 
+rating 
+is 
+a 
+useful 
+reference 
+case
+for 
+understanding 
+QML
+-
+based 
+binary 
+classification
+.
+Domestic no. of data
+-
+related financial firms
+▪
+ Reference Use Case
+▪
+ QML 
+research 
+with 
+financial 
+data
+▪
+ Credit 
+rating 
+/ 
+payment
+-
+delay 
+prediction 
+using 
+VQC
+▪
+ Practical 
+example 
+for 
+QML 
+on 
+real
+-
+world 
+tabular 
+data
+▪
+ Quantum Machine Learning (QML)
+•
+ Encodes 
+classical 
+data 
+into 
+quantum 
+circuits
+.
+•
+ Learns 
+complex
+, 
+nonlinear 
+patterns 
+through 
+quantum 
+operations
+.
+•
+ Can 
+be 
+applied 
+to 
+classification 
+tasks 
+such 
+as
+normal
+/
+abnormal 
+activity 
+or 
+delayed
+/
+non
+-
+delayed 
+payment
+.
+Normal 
+activity
+Abnormal 
+activity
+Source : Goldman Sachs, Amazon Web Services, Caltech, Imperial College London (2023)
+금융부문
+양자
+AI 
+공동연구
+협력
+모델
+7
+69
+82
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+2020 2021 2022
+Source: Financial Supervisory Service, 2023
+Domestic no. of data
+-
+related financial firms
+--- PAGE 4 ---
+Why QML?
+-
+ QML provides a new way to model hidden patterns in tabular data
+-
+ Quantum circuits can be used as a practical tool for binary classification
+Classical
+Real
+-
+world 
+tabular 
+data 
+often 
+contains 
+hidden 
+nonlinear 
+patterns
+.
+Classical 
+models 
+may 
+require 
+complex 
+feature 
+mapping
+to 
+separate 
+such 
+data 
+effectively
+.
+Quantum
+QML encodes classical input data into quantum states.
+Using a limited number of qubits, quantum circuits can 
+represent data in a high
+-
+dimensional Hilbert space.
+Through rotations and entanglement, quantum circuits can 
+learn decision boundaries for binary classification tasks.
+X. Wang et al., "Towards understanding the power of quantum kernels in the NISQ era," 
+Quantum
+5
+, 531 (2021).
+--- PAGE 5 ---
+Credit
+ Rating
+ with
+ VQC
+ s
+A Worked Example of Binary Classification with QML
+--- PAGE 6 ---
+The
+ Capabilities of QML
+Abbas, A., Sutter, D., 
+Zoufal
+, C.
+et al.
+“
+The 
+power of quantum neural 
+networks
+”
+.
+Nat 
+Comput
+Sci
+ 1, 403
+–
+409 (2021).
+Effective Dimension
+Effective dimension describes how much of a model’s capacity is 
+actually used
+for learning. 
+It is different from simply counting the number of parameters.
+In some studies, quantum neural networks show high effective dimension even with a relatively small number of 
+trainable parameters.
+This suggests that a compact quantum circuit may still express non
+-
+trivial decision boundaries.
+For real
+-
+world tabular data, such as survey responses or credit
+-
+rating records, a small quantum circuit can be 
+used as a meaningful baseline model.
+Convergence Performance
+A quantum circuit is trained through an iterative hybrid process.
+First, the input data is encoded into the quantum circuit. Then, the circuit is measured to produce a prediction.
+After that, a classical optimizer updates the trainable angles to reduce the loss.
+The loss curve shows how the model gradually improves over training iterations.
+For beginners, the key point is simple: A quantum circuit can be trained in a familiar machine
+-
+learning workflow 
+–
+ prediction, loss calculation, parameter update, and evaluation.
+
+--- PAGE 7 ---
+The Workflow
+QML
+-
+Based Credit 
+Rating
+Payment History Data
+Binary Classification: 
+Predict Delinquent Credit Card Payments
+Input Data Processing
+Encoding
+ Feature 
+Scaling
+ Missing Value
+Processing
+Quantum Emulator
+Variational Quantum Classifier
+Trainable quantum circuit
+--- PAGE 8 ---
+QML 
+⟶ 
+ Variational Quantum Classifier (VQC)
+→ VQC provides a practical workflow for binary classification on real-world tabular data
+→ Input data is encoded into a quantum circuit, optimized through training, and converted into a class prediction by measurement
+•
+ A
+ VQC
+ is
+ a
+ quantum
+machine
+learning
+model
+for
+ binary
+ classification
+.
+•
+ It
+ consists
+of
+ two
+ main
+parts
+:
+a
+ data
+ encoding
+circuit
+and
+ a
+ trainable
+variational
+circuit
+.
+•
+ The
+ encoding
+circuit
+maps
+classical
+input
+ data
+ into
+ a
+ quantum
+state,
+and
+ the
+ variational
+circuit
+learns
+trainable
+decision
+boundaries
+.
+•
+ The
+ prediction
+value
+ is
+ produced
+by
+ measuring
+the
+ Z
+ observable
+of
+ a
+ chosen
+qubit(s)
+•
+ The
+ circuit
+is
+ optimized
+through
+ a
+ hybrid
+ workflow
+:
+ quantum
+circuit
+execution
++
+ classical
+parameter
+ update
+.
+•
+ In
+ this
+ reference
+case,
+the
+ VQC
+ is
+ used
+ to
+ classify
+whether
+ a
+ customer
+is
+ likely
+ to
+ be
+ late
+ for
+ a
+ payment
+ or
+ not
+.
+VQC quantum circuit
+--- PAGE 9 ---
+Example Results
+Confusion matrix & visualisation of predicted/actual data
+ROC curve & KS statistic
+Accuracy
+91.9%
+AUC
+ 0.96
+K
+-
+S statistic
+ 85.4%
+NORMA Quantum AI Team
+NORMA Quantum AI Team

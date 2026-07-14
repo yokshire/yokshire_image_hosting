@@ -1,0 +1,17 @@
+[
+  {
+    "tag": "script",
+    "attr": "src",
+    "url": "https://nq-hackathon.co.kr/assets/index-gRAJApq7.js"
+  },
+  {
+    "tag": "link",
+    "attr": "href",
+    "url": "https://nq-hackathon.co.kr/favicon.png"
+  },
+  {
+    "tag": "link",
+    "attr": "href",
+    "url": "https://nq-hackathon.co.kr/assets/index-SgRmI3pb.css"
+  }
+]

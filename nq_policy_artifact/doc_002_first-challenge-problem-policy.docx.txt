@@ -1,0 +1,64 @@
+L0001: The 1st Challenge
+L0002: Data
+L0003: Results from a social survey of a certain populace (processed to be fit for the competition)
+L0004: Objective
+L0005: Build a quantum circuit that classifies the data into two underlying classes.
+L0006: Equipment
+L0007: A 1st Challenge lab dataset consisting of:
+L0008: A training set, which you can use to train your quantum circuit.
+L0009: A public test set, which you can freely use to test your trained circuit.
+L0010: Constraints
+L0011: Submissions must follow the constraints below:
+L0012: Maximum number of qubits: 8
+L0013: Maximum circuit depth / number of layers: 50
+L0014: Maximum two-qubit gate count: 80
+L0015: Allowed gates: X, Y, Z, H, S, T, RX, RY, RZ, CX, CZ
+L0016: Allowed measurement scheme: 1-qubit measurement
+L0017: Allowed shots: up to 1024 shots
+L0018: The training data must be encoded directly to the quantum circuit with no pre-processing.
+L0019: Data augmentation is not allowed.
+L0020: Training must be done exclusively with the training set. No portion of the public test set may be used for training.
+L0021: Leaderboard
+L0022: The leaderboard server will implement your quantum circuit and classify a private, server-side test dataset. This private test dataset is not available to participants. Ranking is determined by the following metrics, in order of priority:
+L0023: Priority 1: Balanced accuracy –
+L0024: Higher balanced accuracy higher ranking
+L0025: (This is the foremost metric. Up to the second decimal digit.)
+L0026: Priority 2: Circuit depth – the no. of layers in your quantum circuit.
+L0027: Lower circuit depth higher ranking
+L0028: (This acts as a tiebreaker if balanced accuracy is identical.)
+L0029: Priority 3: Number of two-qubit gates – the no. of two-qubit gates in your circuit.
+L0030: Fewer two-qubit gates higher ranking
+L0031: (This acts as a tiebreaker if the above two metrics still result in a tie.)
+L0032: Priority 4: Submission time – the time when you made your submission.
+L0033: Earlier submission time higher ranking
+L0034: (This acts as a tiebreaker if all other metrics still result in a tie.)
+L0035: Evaluation
+L0036: Evaluation will proceed as follows:
+L0037: A shortlist based on the final version of the leaderboard as of the 1st Challenge deadline is compiled.
+L0038: The shortlisted teams are requested to share their source code and other information with the organizers.
+L0039: The organizers use the shared code and information to replicate the team’s leaderboard results and check compliance with the rules.
+L0040: A team is disqualified from the shortlist and the competition if:
+L0041: The organizers fail to replicate the leaderboard results with the shared materials, or
+L0042: A submission is not compliant with the competition rules and constraints.
+L0043: If a team is disqualified, the next highest ranked team on the leaderboard is included in the shortlist.
+L0044: Results replication and compliance checks are repeated until the shortlist consists of only compliant teams.
+L0045: The teams on the final shortlist (valid top 10% of submissions, minimum 10%) advance to the 2nd Challenge.
+L0046: Submission Format
+L0047: You will submit the following on the Submission page:
+L0048: classifier.qasm: Quantum circuit architecture in the OpenQASM 3.0 format.
+L0049: The circuit must contain symbolic parameter placeholders.
+L0050: Parameter names must follow the format: theta_0, theta_1, theta_2, ….
+L0051: weights.json: Trained parameter values in the JSON format.
+L0052: The evaluation server will inject these values into the submitted circuit.
+L0053: Direct input on submission page:
+L0054: Index of the measured qubit.
+L0055: A comment on how the training data was encoded into the circuit.
+L0056: Submission Limit (Daily)
+L0057: Each team may submit up to 3 submissions per day (KST, UTC+9) on the leaderboard.
+L0058: Code of Conduct & IP
+L0059: Participants must submit original work. Plagiarism or unauthorized copying of other teams’ solutions is strictly prohibited.
+L0060: Sharing or attempting to reconstruct the test data is not allowed.
+L0061: By joining, participants agree that anonymized results and circuits may be used for:
+L0062: Research publications
+L0063: Educational materials
+L0064: Future tutorial examples (Specific IP and licensing terms will be clarified in the official rules.)
